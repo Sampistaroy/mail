@@ -1,0 +1,7 @@
+/etc/default/proftpd
+/etc/ftpusers
+/etc/init.d/proftpd
+/etc/logrotate.d/proftpd-basic
+/etc/pam.d/proftpd
+/etc/proftpd/blacklist.dat
+/etc/proftpd/dhparams.pem

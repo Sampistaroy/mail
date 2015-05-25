@@ -1,0 +1,8 @@
+# <file system>	<mount point>	<type>	<options>	<dump>	<pass>
+/dev/sda2	/	ext4	errors=remount-ro,relatime	0	1
+/dev/sda3	/home	ext4	defaults,relatime	1	2
+/dev/sda4	swap	swap	defaults	0	0
+proc		/proc	proc	defaults		0	0
+sysfs		/sys	sysfs	defaults		0	0
+tmpfs		/dev/shm	tmpfs	defaults	0	0
+devpts		/dev/pts	devpts	defaults	0	0

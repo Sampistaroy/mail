@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libmemcachedutil2
+/usr/share/doc
+/usr/share/doc/libmemcachedutil2
+/usr/share/doc/libmemcachedutil2/changelog.Debian.gz
+/usr/share/doc/libmemcachedutil2/copyright
+/usr/share/doc/libmemcachedutil2/changelog.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+/usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2

@@ -1,0 +1,28 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+true > /etc/motd
+if [ -e /etc/lsb-release ]
+then
+	. /etc/lsb-release
+	[ -n "${DISTRIB_DESCRIPTION}" ] && echo "${DISTRIB_DESCRIPTION}" > /etc/motd 
+fi
+uname -a >> /etc/motd
+echo >> /etc/motd
+echo "server    : `cat /root/.mdg 2>/dev/null`" >> /etc/motd
+echo "ip        : `cat /etc/network/interfaces | grep "address" | head -n 1 | cut -f 2 -d " "`"  >> /etc/motd
+echo "hostname  : `hostname`" >> /etc/motd
+echo >> /etc/motd
+/bin/cp /etc/motd /etc/issue
+
+exit 0

@@ -1,0 +1,3 @@
+/etc/logcheck/ignore.d.server/hddtemp
+/etc/hddtemp.db
+/etc/init.d/hddtemp

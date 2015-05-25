@@ -1,0 +1,9 @@
+2015-05-24 21:29:44.402134|INFO    |VirtualServer |  1| listening on 0.0.0.0:9987
+2015-05-24 21:29:44.403529|INFO    |VirtualServer |  1| client 'server'(id:0) added privilege key for servergroup 'Server Admin'(id:6)
+2015-05-24 21:29:44.403688|WARNING |VirtualServer |  1| --------------------------------------------------------
+2015-05-24 21:29:44.403805|WARNING |VirtualServer |  1| ServerAdmin privilege key created, please use the line below
+2015-05-24 21:29:44.403918|WARNING |VirtualServer |  1| token=+LLOsFWIdxlEcevhw0eRJivgQtNpk+fqGRY2R7VZ
+2015-05-24 21:29:44.404030|WARNING |VirtualServer |  1| --------------------------------------------------------
+2015-05-24 21:30:03.586735|INFO    |VirtualServer |  1| client (id:2) was added to servergroup 'Server Admin'(id:6) by client 'server'(id:0)
+2015-05-24 21:30:03.593762|INFO    |VirtualServer |  1| client 'sampistaroy'(id:2) used privilege key '+LLOsFWIdxlEcevhw0eRJivgQtNpk+fqGRY2R7VZ' and was added to servergroup 'Server Admin'(id:6)
+2015-05-24 21:31:15.149301|INFO    |VirtualServerBase|  1| stopped

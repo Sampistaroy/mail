@@ -1,0 +1,40 @@
+#!/bin/sh
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+. ${libdir}/grub/grub-mkconfig_lib
+
+OS="Debian 8 Jessie"
+
+LINUX_ROOT_DEVICE=${GRUB_DEVICE}
+
+linux=`ls -1 -t /boot/bzImage*64* 2>/dev/null | head -n1`
+if [[ -n "${linux}" ]]; then
+        echo "Found linux image: $linux" >&2
+        basename=`basename $linux`
+        dirname=`dirname $linux`
+        rel_dirname=`make_system_path_relative_to_its_root $dirname`
+        version=`echo $basename | sed -e "s,^[^0-9]*-,,g"`
+        alt_version=`echo $version | sed -e "s,\.old$,,g"`
+        linux_root_device_thisversion="${LINUX_ROOT_DEVICE}"
+        initrd="${rel_dirname}/initrd.img-${version}"
+
+
+        cat << EOF
+menuentry "${OS}, OVH kernel ${version}" {
+EOF
+        prepare_grub_to_access_device ${GRUB_DEVICE_BOOT} | sed -e "s/^/\t/"
+        cat << EOF
+        linux   ${rel_dirname}/${basename} root=${linux_root_device_thisversion} ro ${GRUB_CMDLINE_LINUX} ${GRUB_CMDLINE_LINUX_DEFAULT}
+EOF
+        if test -e "/boot/initrd.img-${version}" ; then
+                cat << EOF
+        initrd  ${initrd}
+EOF
+        fi
+        cat << EOF
+}
+EOF
+
+fi

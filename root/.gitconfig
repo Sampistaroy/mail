@@ -1,0 +1,13 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[user]
+	name = SAmpiiero
+	email = aeronsamp@hotmail.com
+
+[alias]
+        ci = commit
+        co = checkout
+        st = status
+        br = branch

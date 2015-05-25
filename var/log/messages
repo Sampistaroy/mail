@@ -1,0 +1,8 @@
+May 24 06:25:05 ns331245 rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="4362" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+May 24 06:26:16 ns331245 rsyslogd0: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
+May 24 06:26:16 ns331245 rsyslogd-2359: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
+May 24 06:36:10 ns331245 rsyslogd-2007: action 'action 17' suspended, next retry is Sun May 24 06:36:40 2015 [try http://www.rsyslog.com/e/2007 ]
+May 25 06:25:04 ns331245 rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="4362" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+May 25 06:26:02 ns331245 rsyslogd0: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
+May 25 06:26:02 ns331245 rsyslogd-2359: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
+May 25 06:38:32 ns331245 rsyslogd-2007: action 'action 17' suspended, next retry is Mon May 25 06:39:02 2015 [try http://www.rsyslog.com/e/2007 ]

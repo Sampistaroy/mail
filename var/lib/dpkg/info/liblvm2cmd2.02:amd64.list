@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/liblvm2cmd2.02
+/usr/share/doc/liblvm2cmd2.02/changelog.Debian.gz
+/usr/share/doc/liblvm2cmd2.02/changelog.gz
+/usr/share/doc/liblvm2cmd2.02/copyright
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/liblvm2cmd.so.2.02

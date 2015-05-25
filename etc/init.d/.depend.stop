@@ -1,0 +1,13 @@
+TARGETS = mysql ipmievd irqbalance hddtemp mdadm smartmontools apache2 proftpd urandom bind9 sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot mdadm-raid mdadm-waitidle halt reboot
+bind9: apache2 proftpd
+sendsigs: apache2 mysql bind9 ipmievd irqbalance proftpd hddtemp mdadm
+rsyslog: apache2 mysql bind9 ipmievd irqbalance proftpd sendsigs hddtemp mdadm smartmontools
+umountnfs.sh: apache2 mysql sendsigs bind9 ipmievd irqbalance proftpd rsyslog hddtemp
+hwclock.sh: mysql rsyslog
+networking: apache2 mysql bind9 proftpd hddtemp umountnfs.sh
+umountfs: apache2 mysql bind9 ipmievd irqbalance proftpd hwclock.sh urandom hddtemp networking umountnfs.sh mdadm
+umountroot: umountfs
+mdadm-raid: umountfs mdadm
+mdadm-waitidle: umountroot
+halt: umountroot mdadm-waitidle
+reboot: umountroot mdadm-waitidle

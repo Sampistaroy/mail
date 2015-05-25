@@ -1,0 +1,11 @@
+# This is a shell script fraction
+
+#
+# To enable ipmievd set ENABLED="true" for sysvinit (ignored by systemd)
+#
+ENABLED="false"
+
+
+# Options to the daemon ipmievd(8).
+#
+IPMIEVD_OPTIONS="open daemon"

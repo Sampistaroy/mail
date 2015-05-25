@@ -1,0 +1,103 @@
+Package: clamav
+Binary: clamav-base, clamav-docs, clamav-dbg, clamav, libclamav-dev, libclamav6, clamav-daemon, clamdscan, clamav-testfiles, clamav-freshclam, clamav-milter
+Version: 0.98.7+dfsg-0+deb8u1
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Stephen Gran <sgran@debian.org>, Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>
+Build-Depends: automake, bc, check, debhelper (>= 8.9.7), dh-autoreconf, dh-systemd, electric-fence, libbz2-dev, libcurl4-openssl-dev, libjson-c-dev | libjson0-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses5-dev, libssl-dev, libsystemd-dev [linux-any], libtommath-dev, libxml2-dev, llvm-dev [i386 amd64 powerpc kfreebsd-amd64 kfreebsd-i386], perl, pkg-config, po-debconf, python, zlib1g-dev
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 9e1841fabc2a0c773d738a48eef42ffa 3103 clamav_0.98.7+dfsg-0+deb8u1.dsc
+ 7a012088d4389bd3ac2ac35442b98d37 8322932 clamav_0.98.7+dfsg.orig.tar.xz
+ 3e6e3b0aa9469b01afd2df00032d4ffb 242188 clamav_0.98.7+dfsg-0+deb8u1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-clamav/clamav.git
+Vcs-Git: git://anonscm.debian.org/pkg-clamav/clamav.git
+Checksums-Sha1:
+ 4f8a3473c07d8a867a3d40a78acfc53ae0383ced 3103 clamav_0.98.7+dfsg-0+deb8u1.dsc
+ d00df0b36ca5ef72518e891e5cb2bdf7ffbf9b9c 8322932 clamav_0.98.7+dfsg.orig.tar.xz
+ db1cdda13f1f6b30dd051f31809a4277a9efcd6b 242188 clamav_0.98.7+dfsg-0+deb8u1.debian.tar.xz
+Checksums-Sha256:
+ 82d2f957ea83a7dd8f4f16140098b99ffe4724acc514daa0f852250590fcad2e 3103 clamav_0.98.7+dfsg-0+deb8u1.dsc
+ 3a153ccdde90702dc175bd251784b66f09431b517da4ca8c99407ecd3e295fa5 8322932 clamav_0.98.7+dfsg.orig.tar.xz
+ aa6c16cfcdf6d8eac26348926e493524360aa5abaf3eeaf9d9e0b8c67949e3d1 242188 clamav_0.98.7+dfsg-0+deb8u1.debian.tar.xz
+Homepage: http://www.clamav.net/
+Package-List: 
+ clamav deb utils optional arch=any
+ clamav-base deb utils optional arch=all
+ clamav-daemon deb utils optional arch=any
+ clamav-dbg deb debug extra arch=any
+ clamav-docs deb doc optional arch=all
+ clamav-freshclam deb utils optional arch=any
+ clamav-milter deb utils extra arch=any
+ clamav-testfiles deb utils optional arch=all
+ clamdscan deb utils optional arch=any
+ libclamav-dev deb libdevel optional arch=any
+ libclamav6 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/clamav
+Priority: source
+Section: utils
+
+Package: libdatetime-timezone-perl
+Binary: libdatetime-timezone-perl
+Version: 1:1.75-2+2015d
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Krzysztof Krzyżaniak (eloy) <eloy@debian.org>, gregor herrmann <gregoa@debian.org>, Jonathan Yu <jawnsy@cpan.org>, Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl, libclass-load-perl, libclass-singleton-perl, libdatetime-perl, liblist-allutils-perl, libparams-validate-perl, libtest-fatal-perl, libtest-output-perl, libtest-requires-perl, libtest-taint-perl
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 672fff3c5765e0acc7835a81ad183c89 2611 libdatetime-timezone-perl_1.75-2+2015d.dsc
+ b43030a38d74cd3993ba803da21fbc80 888615 libdatetime-timezone-perl_1.75.orig.tar.gz
+ d52a1d03d6b1516902ea407ea251bd72 63608 libdatetime-timezone-perl_1.75-2+2015d.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libdatetime-timezone-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libdatetime-timezone-perl.git
+Checksums-Sha1:
+ c3c0489e7dd1a4197db59ad9d209e63da1321c81 2611 libdatetime-timezone-perl_1.75-2+2015d.dsc
+ 9b51fd924d1fcf4b0187bfc30146fbf7398302d5 888615 libdatetime-timezone-perl_1.75.orig.tar.gz
+ e1f10e0779a84dfe7db711ca2840a89296d2f494 63608 libdatetime-timezone-perl_1.75-2+2015d.debian.tar.xz
+Checksums-Sha256:
+ 33d490b99724cb0358cca84cb81414ce5d5bd1ec268621611f2f283e22699b21 2611 libdatetime-timezone-perl_1.75-2+2015d.dsc
+ 8ea1282f1ab348766e9a81b46dac6e764375e319f442c24e030d14beb03a6e73 888615 libdatetime-timezone-perl_1.75.orig.tar.gz
+ 57a1de29bac073f90aab13ed3536f5094111f8695febaa62208ae9d63c23eeb0 63608 libdatetime-timezone-perl_1.75-2+2015d.debian.tar.xz
+Homepage: http://datetime.perl.org/
+Package-List: 
+ libdatetime-timezone-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdatetime-timezone-perl
+Priority: source
+Section: perl
+
+Package: tzdata
+Binary: tzdata, tzdata-java
+Version: 2015d-0+deb8u1
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>, Adam Conrad <adconrad@0c3.net>
+Build-Depends: debhelper (>= 5.0.0)
+Build-Depends-Indep: po-debconf, default-jre-headless, rdfind, symlinks
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 3fd8f961b3750fe4863cc935e6819e01 1969 tzdata_2015d-0+deb8u1.dsc
+ b595bdc4474b8fc1a15cffc67c66025b 296131 tzdata_2015d.orig.tar.gz
+ 63217bf1bf134788b4709bd701aafb86 100692 tzdata_2015d-0+deb8u1.debian.tar.xz
+Checksums-Sha1:
+ c9a59106b98af5cd30b0b82939de2d9a964b9a78 1969 tzdata_2015d-0+deb8u1.dsc
+ a0ac599e3b8c87d70382b065878223860ac0f7d6 296131 tzdata_2015d.orig.tar.gz
+ c8f5fb6dbcf47bb211f153db42f1aebfebbd3055 100692 tzdata_2015d-0+deb8u1.debian.tar.xz
+Checksums-Sha256:
+ 8773dc82ea1e9f9a3e8302dad638a8c4f5afe38e5c1489ebcac20f4ea9a38905 1969 tzdata_2015d-0+deb8u1.dsc
+ 8b9f5008277f09e251e97dba7813f56168d691115bda90ade4638d72f296d531 296131 tzdata_2015d.orig.tar.gz
+ 16942656612be9895743368504f066cf7ea526b0de59a5c4299463947b3f5e71 100692 tzdata_2015d-0+deb8u1.debian.tar.xz
+Homepage: http://www.iana.org/time-zones
+Package-List: 
+ tzdata deb localization required arch=all
+ tzdata-java deb java optional arch=all
+Directory: pool/main/t/tzdata
+Priority: source
+Section: localization
+

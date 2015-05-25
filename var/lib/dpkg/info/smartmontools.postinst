@@ -1,0 +1,56 @@
+#!/bin/sh
+set -e
+
+# Remove shutdown and reboot links; this init script does not need them.
+if dpkg --compare-versions "$2" lt "5.38+svn2879-1"; then
+	if [ -e /etc/rc0.d/K20smartmontools ]; then
+		rm -f /etc/rc0.d/K20smartmontools
+	fi
+	if [ -e /etc/rc6.d/K20smartmontools ]; then
+		rm -f /etc/rc6.d/K20smartmontools
+	fi
+fi
+
+dpkg-maintscript-helper rm_conffile \
+	/etc/init.d/smartd 6.1+svn3812-1~ smartmontools -- "$@" 
+
+# Automatically added by dh_systemd_enable
+# This will only remove masks created by d-s-h on package removal.
+deb-systemd-helper unmask smartd.service >/dev/null || true
+
+# was-enabled defaults to true, so new installations run enable.
+if deb-systemd-helper --quiet was-enabled smartd.service; then
+	# Enables the unit on first installation, creates new
+	# symlinks on upgrades if the unit file has changed.
+	deb-systemd-helper enable smartd.service >/dev/null || true
+else
+	# Update the statefile to add new symlinks (if any), which need to be
+	# cleaned up on purge. Also remove old symlinks.
+	deb-systemd-helper update-state smartd.service >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/smartmontools" ]; then
+	update-rc.d smartmontools start 20 2 3 4 5 . stop 20 1 . >/dev/null
+	invoke-rc.d smartmontools start || exit $?
+fi
+# End automatically added section
+# Automatically added by dh_systemd_enable
+# This will only remove masks created by d-s-h on package removal.
+deb-systemd-helper unmask smartd.service >/dev/null || true
+
+# was-enabled defaults to true, so new installations run enable.
+if deb-systemd-helper --quiet was-enabled smartd.service; then
+	# Enables the unit on first installation, creates new
+	# symlinks on upgrades if the unit file has changed.
+	deb-systemd-helper enable smartd.service >/dev/null || true
+else
+	# Update the statefile to add new symlinks (if any), which need to be
+	# cleaned up on purge. Also remove old symlinks.
+	deb-systemd-helper update-state smartd.service >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/smartd_warning.sh 6.3+svn4002-2~ -- "$@"
+# End automatically added section
+

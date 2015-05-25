@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+if [ -x "/usr/sbin/invoke-rc.d" ]; then
+    invoke-rc.d proftpd stop || true
+else 
+	if [ -x "/etc/init.d/proftpd" ]; then
+		/etc/init.d/proftpd stop || true
+	fi
+fi
+
+

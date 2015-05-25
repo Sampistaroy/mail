@@ -1,0 +1,5 @@
+f805f584fb912d6ac02f586b52791f9b  usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+f805e13a2dff79c4e5454e31d58452df  usr/share/doc/libmemcachedutil2/changelog.Debian.gz
+83fab763a32d353b6f6861183d9a7e98  usr/share/doc/libmemcachedutil2/changelog.gz
+07b6542eb0e940104040ab87a7027a31  usr/share/doc/libmemcachedutil2/copyright
+7cecb1fb5c93e894074bed90dcd7a610  usr/share/lintian/overrides/libmemcachedutil2

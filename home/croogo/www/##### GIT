@@ -1,0 +1,15 @@
+##### GIT
+
+##### AUTORISATION
+
+##### AGENDA
+a mettre en place avec la possibilité d'ajouter des creneaux.
+
+
+##### GESTION DES ADHERENTS
+De base une personne qui utilise le site est un : visiteur.
+Si il créé un compte et qui se connecte cest un : $user, connecté(authentifié).
+Se membre aura plusieurs zones avec sa structure pour la gérer. Une des zones gère
+les adhérents. Les adhérents ne sont pas des personnes connectées(mais peuvent le devenir).
+
+**** Il faut créer cette interface adhérent.

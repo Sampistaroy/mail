@@ -1,0 +1,12 @@
+851dd413de3cfe69a31f47f5c382b673  lib/systemd/system/ipmievd.service
+1cacbd956393edfcffc87f7ccde56c02  usr/bin/ipmitool
+ba651347c28376e9621311f32bf31a78  usr/lib/modules-load.d/ipmievd.conf
+54cb20e14601b4a066175d6a5950cf73  usr/sbin/ipmievd
+f5777cdbcb5750f6709fcd4629bc5f2c  usr/share/doc/ipmitool/AUTHORS
+241f3011bbc97fe46f4f35266434a294  usr/share/doc/ipmitool/README.gz
+979b85431d71afc11bd7bc2aa4d930bc  usr/share/doc/ipmitool/changelog.Debian.gz
+61389b987330d6ea711f9d4c501a5088  usr/share/doc/ipmitool/changelog.gz
+06a55be23882e85b7cf5a6e12c8a4a29  usr/share/doc/ipmitool/copyright
+20f94f37dd16c4a771cdbd49332eaf87  usr/share/ipmitool/oem_ibm_sel_map
+6138f33d710b9584dea6b2f7dfa1aa7b  usr/share/man/man1/ipmitool.1.gz
+19b1aa880b566259d22bca1fa1afa30e  usr/share/man/man8/ipmievd.8.gz

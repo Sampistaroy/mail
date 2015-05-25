@@ -1,0 +1,9 @@
+#!/bin/sh
+# This script sets up the IPv6 connectivity by setting the default route.
+# Matching entries in /etc/network/interfaces might not work when the boot
+# process is parallelized, because eth0 is not up
+# quickly enough.
+sleep 5
+/sbin/ip -family inet6 route add 2001:41D0:A:F2ff:ff:ff:ff:ff dev eth0
+/sbin/ip -family inet6 route add default via 2001:41D0:A:F2ff:ff:ff:ff:ff
+exit 0

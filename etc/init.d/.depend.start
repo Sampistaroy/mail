@@ -1,0 +1,19 @@
+TARGETS = rsyslog killprocs motd bind9 mysql ipmievd irqbalance hddtemp mdadm smartmontools ntp ssh acpid apache2 proftpd bootlogs rsync cron single rc.local rmnologin
+INTERACTIVE = apache2
+bind9: rsyslog
+mysql: rsyslog
+ipmievd: rsyslog
+irqbalance: rsyslog
+hddtemp: rsyslog
+mdadm: rsyslog
+smartmontools: rsyslog
+ntp: rsyslog
+ssh: rsyslog
+acpid: rsyslog
+apache2: rsyslog bind9
+proftpd: rsyslog bind9
+rsync: rsyslog bind9
+cron: rsyslog bind9
+single: killprocs bootlogs motd
+rc.local: apache2 rsyslog bind9 mysql ipmievd irqbalance proftpd hddtemp mdadm smartmontools bootlogs motd ntp ssh rsync cron acpid
+rmnologin: apache2 rsyslog bind9 mysql ipmievd irqbalance proftpd hddtemp mdadm smartmontools bootlogs motd ntp ssh rsync cron acpid

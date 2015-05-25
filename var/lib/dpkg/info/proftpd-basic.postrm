@@ -1,0 +1,30 @@
+#!/bin/sh 
+
+set -e
+
+if [ "$1" = "disappear" -o "$1" = "remove" ]
+then
+    if [ -x /usr/sbin/update-inetd ]
+    then
+        update-inetd --disable ftp
+    fi
+fi
+
+if [ "$1" = "purge" ]
+then
+    rm -rf /etc/proftpd 
+    rm -rf /var/log/proftpd
+    rm -f /etc/logrotate.d/proftpd-basic
+    userdel --remove --force proftpd || true
+    userdel ftp || true
+    update-rc.d proftpd remove >/dev/null || exit $?
+fi
+
+# Automatically added by dh_installdebconf
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section
+
+

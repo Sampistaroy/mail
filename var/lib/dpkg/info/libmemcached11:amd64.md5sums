@@ -1,0 +1,10 @@
+1c68b5865b65aeda8697c7e8c5292f57  usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
+60d60327f5a919a0c64f5d28d346288f  usr/share/doc/libmemcached11/AUTHORS
+b75c2179a2ee2daafdbb4e410ea6d641  usr/share/doc/libmemcached11/NEWS.gz
+7601330a09e770f0931ca8f579a5a0f6  usr/share/doc/libmemcached11/README
+25722e3a23b43b1dd89dacfbe89204ec  usr/share/doc/libmemcached11/THANKS
+377ddb7875bb0c92c67289287803eacd  usr/share/doc/libmemcached11/TODO
+f805e13a2dff79c4e5454e31d58452df  usr/share/doc/libmemcached11/changelog.Debian.gz
+83fab763a32d353b6f6861183d9a7e98  usr/share/doc/libmemcached11/changelog.gz
+07b6542eb0e940104040ab87a7027a31  usr/share/doc/libmemcached11/copyright
+9d1a34d00a6e245bb5b25829fbea976d  usr/share/lintian/overrides/libmemcached11

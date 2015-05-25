@@ -1,0 +1,595 @@
+May 20 22:54:48 stock rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="3794" x-info="http://www.rsyslog.com"] start
+May 20 22:54:48 stock kernel: Initializing cgroup subsys cpuset
+May 20 22:54:48 stock kernel: Initializing cgroup subsys cpu
+May 20 22:54:48 stock kernel: Initializing cgroup subsys cpuacct
+May 20 22:54:48 stock kernel: Linux version 3.14.32-xxxx-grs-ipv6-64 (kernel@kernel.ovh.net) (gcc version 4.7.2 (Debian 4.7.2-5) ) #1 SMP Sat Feb 7 11:35:27 CET 2015
+May 20 22:54:48 stock kernel: Command line: BOOT_IMAGE=/boot/bzImage-3.14.32-xxxx-grs-ipv6-64 root=/dev/sda2 ro
+May 20 22:54:48 stock kernel: Disabled fast string operations
+May 20 22:54:48 stock kernel: e820: BIOS-provided physical RAM map:
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000008efff] usable
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x000000000008f000-0x000000000008ffff] reserved
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x0000000000090000-0x000000000009e7ff] usable
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x000000000009e800-0x000000000009ffff] reserved
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000cee94fff] usable
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000cee95000-0x00000000ceebefff] reserved
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000ceebf000-0x00000000ceee3fff] usable
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000ceee4000-0x00000000cefbefff] ACPI NVS
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000cefbf000-0x00000000cefeefff] usable
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000cefef000-0x00000000ceffefff] ACPI data
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000cefff000-0x00000000ceffffff] usable
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000cf000000-0x00000000cfffffff] reserved
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000e0000000-0x00000000e3ffffff] reserved
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x00000000ffe00000-0x00000000ffffffff] reserved
+May 20 22:54:48 stock kernel: BIOS-e820: [mem 0x0000000100000000-0x000000012fffffff] usable
+May 20 22:54:48 stock kernel: NX (Execute Disable) protection: active
+May 20 22:54:48 stock kernel: SMBIOS 2.7 present.
+May 20 22:54:48 stock kernel: No AGP bridge found
+May 20 22:54:48 stock kernel: e820: last_pfn = 0x130000 max_arch_pfn = 0x400000000
+May 20 22:54:48 stock kernel: x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+May 20 22:54:48 stock kernel: e820: last_pfn = 0xcf000 max_arch_pfn = 0x400000000
+May 20 22:54:48 stock kernel: found SMP MP-table at [mem 0x000fbe30-0x000fbe3f] mapped at [ffff8800000fbe30]
+May 20 22:54:48 stock kernel: init_memory_mapping: [mem 0x00000000-0x000fffff]
+May 20 22:54:48 stock kernel: init_memory_mapping: [mem 0x12fe00000-0x12fffffff]
+May 20 22:54:48 stock kernel: init_memory_mapping: [mem 0x12c000000-0x12fdfffff]
+May 20 22:54:48 stock kernel: init_memory_mapping: [mem 0x100000000-0x12bffffff]
+May 20 22:54:48 stock kernel: init_memory_mapping: [mem 0x00100000-0xcee94fff]
+May 20 22:54:48 stock kernel: init_memory_mapping: [mem 0xceebf000-0xceee3fff]
+May 20 22:54:48 stock kernel: init_memory_mapping: [mem 0xcefbf000-0xcefeefff]
+May 20 22:54:48 stock kernel: init_memory_mapping: [mem 0xcefff000-0xceffffff]
+May 20 22:54:48 stock kernel: ACPI: RSDP 00000000000f2390 000024 (v02 INTEL )
+May 20 22:54:48 stock kernel: ACPI: XSDT 00000000ceffe120 000064 (v01 INTEL  DN2800MT 000000AA      01000013)
+May 20 22:54:48 stock kernel: ACPI: FACP 00000000ceff6000 0000F4 (v03 INTEL  DN2800MT 000000AA MSFT 0100000D)
+May 20 22:54:48 stock kernel: ACPI BIOS Warning (bug): 32/64X length mismatch in FADT/Pm1aEventBlock: 32/16 (20131218/tbfadt-603)
+May 20 22:54:48 stock kernel: ACPI BIOS Warning (bug): 32/64X length mismatch in FADT/PmTimerBlock: 32/24 (20131218/tbfadt-603)
+May 20 22:54:48 stock kernel: ACPI BIOS Warning (bug): Invalid length for FADT/Pm1aEventBlock: 16, using default 32 (20131218/tbfadt-684)
+May 20 22:54:48 stock kernel: ACPI BIOS Warning (bug): Invalid length for FADT/PmTimerBlock: 24, using default 32 (20131218/tbfadt-684)
+May 20 22:54:48 stock kernel: ACPI: DSDT 00000000ceff8000 005CBA (v02 INTEL  DN2800MT 000000AA MSFT 0100000D)
+May 20 22:54:48 stock kernel: ACPI: FACS 00000000cef85000 000040
+May 20 22:54:48 stock kernel: ACPI: SSDT 00000000ceff7000 00043E (v01 INTEL  DN2800MT 000000AA MSFT 0100000D)
+May 20 22:54:48 stock kernel: ACPI: APIC 00000000ceff5000 000084 (v02 INTEL  DN2800MT 000000AA MSFT 0100000D)
+May 20 22:54:48 stock kernel: ACPI: MCFG 00000000ceff4000 00003C (v01 INTEL  DN2800MT 000000AA MSFT 0100000D)
+May 20 22:54:48 stock kernel: ACPI: HPET 00000000ceff3000 000038 (v01 INTEL  DN2800MT 000000AA MSFT 0100000D)
+May 20 22:54:48 stock kernel: ACPI: SSDT 00000000ceff1000 000655 (v01  PmRef    CpuPm 00003000 INTL 20061109)
+May 20 22:54:48 stock kernel: ACPI: SSDT 00000000ceff0000 000259 (v01  PmRef  Cpu0Tst 00003000 INTL 20061109)
+May 20 22:54:48 stock kernel: ACPI: SSDT 00000000cefef000 00020F (v01  PmRef    ApTst 00003000 INTL 20061109)
+May 20 22:54:48 stock kernel: No NUMA configuration found
+May 20 22:54:48 stock kernel: Faking a node at [mem 0x0000000000000000-0x000000012fffffff]
+May 20 22:54:48 stock kernel: Initmem setup node 0 [mem 0x00000000-0x12fffffff]
+May 20 22:54:48 stock kernel:  NODE_DATA [mem 0x12fff9000-0x12fffcfff]
+May 20 22:54:48 stock kernel: Zone ranges:
+May 20 22:54:48 stock kernel:  DMA      [mem 0x00001000-0x00ffffff]
+May 20 22:54:48 stock kernel:  DMA32    [mem 0x01000000-0xffffffff]
+May 20 22:54:48 stock kernel:  Normal   [mem 0x100000000-0x12fffffff]
+May 20 22:54:48 stock kernel: Movable zone start for each node
+May 20 22:54:48 stock kernel: Early memory node ranges
+May 20 22:54:48 stock kernel:  node   0: [mem 0x00001000-0x0008efff]
+May 20 22:54:48 stock kernel:  node   0: [mem 0x00090000-0x0009dfff]
+May 20 22:54:48 stock kernel:  node   0: [mem 0x00100000-0xcee94fff]
+May 20 22:54:48 stock kernel:  node   0: [mem 0xceebf000-0xceee3fff]
+May 20 22:54:48 stock kernel:  node   0: [mem 0xcefbf000-0xcefeefff]
+May 20 22:54:48 stock kernel:  node   0: [mem 0xcefff000-0xceffffff]
+May 20 22:54:48 stock kernel:  node   0: [mem 0x100000000-0x12fffffff]
+May 20 22:54:48 stock kernel: ACPI: PM-Timer IO Port: 0x408
+May 20 22:54:48 stock kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x00] enabled)
+May 20 22:54:48 stock kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x01] enabled)
+May 20 22:54:48 stock kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x02] enabled)
+May 20 22:54:48 stock kernel: ACPI: LAPIC (acpi_id[0x04] lapic_id[0x03] enabled)
+May 20 22:54:48 stock kernel: ACPI: LAPIC_NMI (acpi_id[0x01] high level lint[0x1])
+May 20 22:54:48 stock kernel: ACPI: LAPIC_NMI (acpi_id[0x02] high level lint[0x1])
+May 20 22:54:48 stock kernel: ACPI: LAPIC_NMI (acpi_id[0x03] high level lint[0x1])
+May 20 22:54:48 stock kernel: ACPI: LAPIC_NMI (acpi_id[0x04] high level lint[0x1])
+May 20 22:54:48 stock kernel: ACPI: IOAPIC (id[0x08] address[0xfec00000] gsi_base[0])
+May 20 22:54:48 stock kernel: IOAPIC[0]: apic_id 8, version 32, address 0xfec00000, GSI 0-23
+May 20 22:54:48 stock kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+May 20 22:54:48 stock kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+May 20 22:54:48 stock kernel: Using ACPI (MADT) for SMP configuration information
+May 20 22:54:48 stock kernel: ACPI: HPET id: 0x8086a201 base: 0xfed00000
+May 20 22:54:48 stock kernel: smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+May 20 22:54:48 stock kernel: e820: [mem 0xe4000000-0xffdfffff] available for PCI devices
+May 20 22:54:48 stock kernel: setup_percpu: NR_CPUS:96 nr_cpumask_bits:96 nr_cpu_ids:4 nr_node_ids:1
+May 20 22:54:48 stock kernel: PERCPU: Embedded 20 pages/cpu @ffff88012fc00000 s59136 r0 d22784 u524288
+May 20 22:54:48 stock kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 1027766
+May 20 22:54:48 stock kernel: Policy zone: Normal
+May 20 22:54:48 stock kernel: Kernel command line: BOOT_IMAGE=/boot/bzImage-3.14.32-xxxx-grs-ipv6-64 root=/dev/sda2 ro
+May 20 22:54:48 stock kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+May 20 22:54:48 stock kernel: Checking aperture...
+May 20 22:54:48 stock kernel: No AGP bridge found
+May 20 22:54:48 stock kernel: Memory: 4019708K/4176412K available (15168K kernel code, 1736K rwdata, 5008K rodata, 1052K init, 1352K bss, 156704K reserved)
+May 20 22:54:48 stock kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+May 20 22:54:48 stock kernel: Hierarchical RCU implementation.
+May 20 22:54:48 stock kernel: 	RCU restricting CPUs from NR_CPUS=96 to nr_cpu_ids=4.
+May 20 22:54:48 stock kernel: RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+May 20 22:54:48 stock kernel: NR_IRQS:6400 nr_irqs:712 16
+May 20 22:54:48 stock kernel: Console: colour VGA+ 80x25
+May 20 22:54:48 stock kernel: console [tty0] enabled
+May 20 22:54:48 stock kernel: allocated 16777216 bytes of page_cgroup
+May 20 22:54:48 stock kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+May 20 22:54:48 stock kernel: tsc: Fast TSC calibration using PIT
+May 20 22:54:48 stock kernel: tsc: Detected 1866.668 MHz processor
+May 20 22:54:48 stock kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 3733.33 BogoMIPS (lpj=7466672)
+May 20 22:54:48 stock kernel: pid_max: default: 32768 minimum: 501
+May 20 22:54:48 stock kernel: ACPI: Core revision 20131218
+May 20 22:54:48 stock kernel: ACPI: All ACPI Tables successfully acquired
+May 20 22:54:48 stock kernel: Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+May 20 22:54:48 stock kernel: Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+May 20 22:54:48 stock kernel: Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+May 20 22:54:48 stock kernel: Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+May 20 22:54:48 stock kernel: Initializing cgroup subsys memory
+May 20 22:54:48 stock kernel: Initializing cgroup subsys devices
+May 20 22:54:48 stock kernel: Initializing cgroup subsys freezer
+May 20 22:54:48 stock kernel: Initializing cgroup subsys net_cls
+May 20 22:54:48 stock kernel: Initializing cgroup subsys blkio
+May 20 22:54:48 stock kernel: Initializing cgroup subsys net_prio
+May 20 22:54:48 stock kernel: Disabled fast string operations
+May 20 22:54:48 stock kernel: CPU: Physical Processor ID: 0
+May 20 22:54:48 stock kernel: CPU: Processor Core ID: 0
+May 20 22:54:48 stock kernel: mce: CPU supports 5 MCE banks
+May 20 22:54:48 stock kernel: CPU0: Thermal monitoring enabled (TM2)
+May 20 22:54:48 stock kernel: Last level iTLB entries: 4KB 32, 2MB 0, 4MB 0
+May 20 22:54:48 stock kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 8, 1GB 0
+May 20 22:54:48 stock kernel: tlb_flushall_shift: 6
+May 20 22:54:48 stock kernel: Freeing SMP alternatives memory: 52K (ffffffff82679000 - ffffffff82686000)
+May 20 22:54:48 stock kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+May 20 22:54:48 stock kernel: smpboot: CPU0: Intel(R) Atom(TM) CPU N2800   @ 1.86GHz (fam: 06, model: 36, stepping: 01)
+May 20 22:54:48 stock kernel: Performance Events: PEBS fmt0+, 8-deep LBR, Atom events, Intel PMU driver.
+May 20 22:54:48 stock kernel: ... version:                3
+May 20 22:54:48 stock kernel: ... bit width:              40
+May 20 22:54:48 stock kernel: ... generic registers:      2
+May 20 22:54:48 stock kernel: ... value mask:             000000ffffffffff
+May 20 22:54:48 stock kernel: ... max period:             000000007fffffff
+May 20 22:54:48 stock kernel: ... fixed-purpose events:   3
+May 20 22:54:48 stock kernel: ... event mask:             0000000700000003
+May 20 22:54:48 stock kernel: x86: Booting SMP configuration:
+May 20 22:54:48 stock kernel: .... node  #0, CPUs:      #1
+May 20 22:54:48 stock kernel: Disabled fast string operations
+May 20 22:54:48 stock kernel: #2<6>Disabled fast string operations
+May 20 22:54:48 stock kernel: #3
+May 20 22:54:48 stock kernel: Disabled fast string operations
+May 20 22:54:48 stock kernel: x86: Booted up 1 node, 4 CPUs
+May 20 22:54:48 stock kernel: smpboot: Total of 4 processors activated (14933.34 BogoMIPS)
+May 20 22:54:48 stock kernel: devtmpfs: initialized
+May 20 22:54:48 stock kernel: xor: measuring software checksum speed
+May 20 22:54:48 stock kernel:   prefetch64-sse:  6214.000 MB/sec
+May 20 22:54:48 stock kernel:   generic_sse:  5606.000 MB/sec
+May 20 22:54:48 stock kernel: xor: using function: prefetch64-sse (6214.000 MB/sec)
+May 20 22:54:48 stock kernel: pinctrl core: initialized pinctrl subsystem
+May 20 22:54:48 stock kernel: NET: Registered protocol family 16
+May 20 22:54:48 stock kernel: cpuidle: using governor ladder
+May 20 22:54:48 stock kernel: cpuidle: using governor menu
+May 20 22:54:48 stock kernel: ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+May 20 22:54:48 stock kernel: ACPI: bus type PCI registered
+May 20 22:54:48 stock kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+May 20 22:54:48 stock kernel: dca service started, version 1.12.1
+May 20 22:54:48 stock kernel: PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xe0000000-0xe3ffffff] (base 0xe0000000)
+May 20 22:54:48 stock kernel: PCI: MMCONFIG at [mem 0xe0000000-0xe3ffffff] reserved in E820
+May 20 22:54:48 stock kernel: PCI: Using configuration type 1 for base access
+May 20 22:54:48 stock kernel: bio: create slab <bio-0> at 0
+May 20 22:54:48 stock kernel: raid6: sse2x1     154 MB/s
+May 20 22:54:48 stock kernel: raid6: sse2x2     285 MB/s
+May 20 22:54:48 stock kernel: raid6: sse2x4     466 MB/s
+May 20 22:54:48 stock kernel: raid6: using algorithm sse2x4 (466 MB/s)
+May 20 22:54:48 stock kernel: raid6: using ssse3x2 recovery algorithm
+May 20 22:54:48 stock kernel: ACPI: Added _OSI(Module Device)
+May 20 22:54:48 stock kernel: ACPI: Added _OSI(Processor Device)
+May 20 22:54:48 stock kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+May 20 22:54:48 stock kernel: ACPI: Added _OSI(Processor Aggregator Device)
+May 20 22:54:48 stock kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May 20 22:54:48 stock kernel: [Firmware Bug]: ACPI: BIOS _OSI(Linux) query ignored
+May 20 22:54:48 stock kernel: ACPI: SSDT 00000000ceebec18 0002A7 (v01  PmRef  Cpu0Ist 00003000 INTL 20061109)
+May 20 22:54:48 stock kernel: ACPI: Dynamic OEM Table Load:
+May 20 22:54:48 stock kernel: ACPI: SSDT            (nil) 0002A7 (v01  PmRef  Cpu0Ist 00003000 INTL 20061109)
+May 20 22:54:48 stock kernel: ACPI: SSDT 00000000ceebde18 0001CF (v01  PmRef    ApIst 00003000 INTL 20061109)
+May 20 22:54:48 stock kernel: ACPI: Dynamic OEM Table Load:
+May 20 22:54:48 stock kernel: ACPI: SSDT            (nil) 0001CF (v01  PmRef    ApIst 00003000 INTL 20061109)
+May 20 22:54:48 stock kernel: ACPI: Interpreter enabled
+May 20 22:54:48 stock kernel: ACPI: (supports S0 S5)
+May 20 22:54:48 stock kernel: ACPI: Using IOAPIC for interrupt routing
+May 20 22:54:48 stock kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+May 20 22:54:48 stock kernel: ACPI: No dock devices found.
+May 20 22:54:48 stock kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+May 20 22:54:48 stock kernel: acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+May 20 22:54:48 stock kernel: acpi PNP0A08:00: _OSC failed (AE_ERROR); disabling ASPM
+May 20 22:54:48 stock kernel: acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-3f] only partially covers this bridge
+May 20 22:54:48 stock kernel: PCI host bridge to bus 0000:00
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [mem 0x000c0000-0x000dffff]
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [mem 0x000e0000-0x000effff]
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [mem 0x000f0000-0x000fffff]
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [mem 0xcf800000-0xcfffffff]
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [mem 0xd0000000-0xfebfffff]
+May 20 22:54:48 stock kernel: pci_bus 0000:00: root bus resource [mem 0xfed40000-0xfed44fff]
+May 20 22:54:48 stock kernel: pci 0000:00:1f.0: [Firmware Bug]: TigerPoint LPC.BM_STS cleared
+May 20 22:54:48 stock kernel: pci 0000:00:1c.0: PCI bridge to [bus 01]
+May 20 22:54:48 stock kernel: pci 0000:00:1e.0: PCI bridge to [bus 02] (subtractive decode)
+May 20 22:54:48 stock kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 1 3 4 5 6 7 10 12 14 15) *11
+May 20 22:54:48 stock kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 1 3 4 5 6 7 11 12 14 15) *0, disabled.
+May 20 22:54:48 stock kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 1 3 4 5 6 7 10 12 14 15) *11
+May 20 22:54:48 stock kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 1 3 4 5 6 7 11 12 14 15) *10
+May 20 22:54:48 stock kernel: ACPI: PCI Interrupt Link [LNKE] (IRQs 1 3 4 5 6 7 10 12 14 15) *0, disabled.
+May 20 22:54:48 stock kernel: ACPI: PCI Interrupt Link [LNKF] (IRQs 1 3 4 5 6 7 11 12 14 15) *0, disabled.
+May 20 22:54:48 stock kernel: ACPI: PCI Interrupt Link [LNKG] (IRQs 1 3 4 5 6 7 10 12 14 15) *0, disabled.
+May 20 22:54:48 stock kernel: ACPI: PCI Interrupt Link [LNKH] (IRQs 1 3 4 5 6 7 11 12 14 15) *9
+May 20 22:54:48 stock kernel: ACPI: Enabled 7 GPEs in block 00 to 1F
+May 20 22:54:48 stock kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+May 20 22:54:48 stock kernel: vgaarb: loaded
+May 20 22:54:48 stock kernel: vgaarb: bridge control possible 0000:00:02.0
+May 20 22:54:48 stock kernel: SCSI subsystem initialized
+May 20 22:54:48 stock kernel: ACPI: bus type USB registered
+May 20 22:54:48 stock kernel: usbcore: registered new interface driver usbfs
+May 20 22:54:48 stock kernel: usbcore: registered new interface driver hub
+May 20 22:54:48 stock kernel: usbcore: registered new device driver usb
+May 20 22:54:48 stock kernel: pps_core: LinuxPPS API ver. 1 registered
+May 20 22:54:48 stock kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+May 20 22:54:48 stock kernel: PTP clock support registered
+May 20 22:54:48 stock kernel: EDAC MC: Ver: 3.0.0
+May 20 22:54:48 stock kernel: wmi: Mapper loaded
+May 20 22:54:48 stock kernel: PCI: Using ACPI for IRQ routing
+May 20 22:54:48 stock kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+May 20 22:54:48 stock kernel: hpet0: 3 comparators, 64-bit 14.318180 MHz counter
+May 20 22:54:48 stock kernel: Switched to clocksource hpet
+May 20 22:54:48 stock kernel: FS-Cache: Loaded
+May 20 22:54:48 stock kernel: CacheFiles: Loaded
+May 20 22:54:48 stock kernel: pnp: PnP ACPI init
+May 20 22:54:48 stock kernel: ACPI: bus type PNP registered
+May 20 22:54:48 stock kernel: system 00:02: [mem 0xfed00000-0xfed003ff] has been reserved
+May 20 22:54:48 stock kernel: system 00:04: [io  0x0680-0x069f] has been reserved
+May 20 22:54:48 stock kernel: system 00:04: [io  0x1000-0x100f] has been reserved
+May 20 22:54:48 stock kernel: system 00:04: [io  0xffff] has been reserved
+May 20 22:54:48 stock kernel: system 00:04: [io  0xffff] has been reserved
+May 20 22:54:48 stock kernel: system 00:04: [io  0x0400-0x047f] could not be reserved
+May 20 22:54:48 stock kernel: system 00:04: [io  0x0500-0x057f] has been reserved
+May 20 22:54:48 stock kernel: system 00:04: [io  0x0600-0x061f] has been reserved
+May 20 22:54:48 stock kernel: system 00:05: [io  0x06a0-0x06af] has been reserved
+May 20 22:54:48 stock kernel: system 00:05: [io  0x06b0-0x06ff] has been reserved
+May 20 22:54:48 stock kernel: system 00:0a: [mem 0xfed1c000-0xfed1ffff] has been reserved
+May 20 22:54:48 stock kernel: system 00:0a: [mem 0x00000000-0x00003fff] could not be reserved
+May 20 22:54:48 stock kernel: system 00:0a: [mem 0x00000000-0x00000fff] could not be reserved
+May 20 22:54:48 stock kernel: system 00:0a: [mem 0x00000000-0x00000fff] could not be reserved
+May 20 22:54:48 stock kernel: system 00:0a: [mem 0xfed45000-0xfed8ffff] has been reserved
+May 20 22:54:48 stock kernel: pnp: PnP ACPI: found 11 devices
+May 20 22:54:48 stock kernel: ACPI: bus type PNP unregistered
+May 20 22:54:48 stock kernel: pci 0000:00:1c.0: BAR 15: assigned [mem 0xd0700000-0xd08fffff 64bit pref]
+May 20 22:54:48 stock kernel: pci 0000:00:1c.0: PCI bridge to [bus 01]
+May 20 22:54:48 stock kernel: pci 0000:00:1c.0:   bridge window [io  0x2000-0x2fff]
+May 20 22:54:48 stock kernel: pci 0000:00:1c.0:   bridge window [mem 0xd0000000-0xd04fffff]
+May 20 22:54:48 stock kernel: pci 0000:00:1c.0:   bridge window [mem 0xd0700000-0xd08fffff 64bit pref]
+May 20 22:54:48 stock kernel: pci 0000:00:1e.0: PCI bridge to [bus 02]
+May 20 22:54:48 stock kernel: NET: Registered protocol family 2
+May 20 22:54:48 stock kernel: TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+May 20 22:54:48 stock kernel: TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+May 20 22:54:48 stock kernel: TCP: Hash tables configured (established 32768 bind 32768)
+May 20 22:54:48 stock kernel: TCP: reno registered
+May 20 22:54:48 stock kernel: UDP hash table entries: 2048 (order: 4, 65536 bytes)
+May 20 22:54:48 stock kernel: UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+May 20 22:54:48 stock kernel: NET: Registered protocol family 1
+May 20 22:54:48 stock kernel: RPC: Registered named UNIX socket transport module.
+May 20 22:54:48 stock kernel: RPC: Registered udp transport module.
+May 20 22:54:48 stock kernel: RPC: Registered tcp transport module.
+May 20 22:54:48 stock kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+May 20 22:54:48 stock kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+May 20 22:54:48 stock kernel: software IO TLB [mem 0xcae95000-0xcee95000] (64MB) mapped at [ffff8800cae95000-ffff8800cee94fff]
+May 20 22:54:48 stock kernel: has_svm: not amd
+May 20 22:54:48 stock kernel: microcode: CPU0 sig=0x30661, pf=0x8, revision=0x10d
+May 20 22:54:48 stock kernel: microcode: CPU1 sig=0x30661, pf=0x8, revision=0x10d
+May 20 22:54:48 stock kernel: microcode: CPU2 sig=0x30661, pf=0x8, revision=0x10d
+May 20 22:54:48 stock kernel: microcode: CPU3 sig=0x30661, pf=0x8, revision=0x10d
+May 20 22:54:48 stock kernel: microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+May 20 22:54:48 stock kernel: twofish-x86_64-3way: performance on this CPU would be suboptimal: disabling twofish-x86_64-3way.
+May 20 22:54:48 stock kernel: sha1_ssse3: Using SSSE3 optimized SHA-1 implementation
+May 20 22:54:48 stock kernel: AVX instructions are not detected.
+May 20 22:54:48 stock kernel: AVX instructions are not detected.
+May 20 22:54:48 stock kernel: AVX instructions are not detected.
+May 20 22:54:48 stock kernel: AVX instructions are not detected.
+May 20 22:54:48 stock kernel: futex hash table entries: 1024 (order: 4, 65536 bytes)
+May 20 22:54:48 stock kernel: bounce pool size: 64 pages
+May 20 22:54:48 stock kernel: VFS: Disk quotas dquot_6.5.2
+May 20 22:54:48 stock kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May 20 22:54:48 stock kernel: DLM installed
+May 20 22:54:48 stock kernel: FS-Cache: Netfs 'nfs' registered for caching
+May 20 22:54:48 stock kernel: NFS: Registering the id_resolver key type
+May 20 22:54:48 stock kernel: Key type id_resolver registered
+May 20 22:54:48 stock kernel: Key type id_legacy registered
+May 20 22:54:48 stock kernel: nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+May 20 22:54:48 stock kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+May 20 22:54:48 stock kernel: Key type cifs.spnego registered
+May 20 22:54:48 stock kernel: NTFS driver 2.1.30 [Flags: R/W].
+May 20 22:54:48 stock kernel: ROMFS MTD (C) 2007 Red Hat, Inc.
+May 20 22:54:48 stock kernel: fuse init (API version 7.22)
+May 20 22:54:48 stock kernel: JFS: nTxBlock = 8192, nTxLock = 65536
+May 20 22:54:48 stock kernel: SGI XFS with ACLs, security attributes, large block/inode numbers, no debug enabled
+May 20 22:54:48 stock kernel: ocfs2: Registered cluster interface o2cb
+May 20 22:54:48 stock kernel: ocfs2: Registered cluster interface user
+May 20 22:54:48 stock kernel: OCFS2 User DLM kernel interface loaded
+May 20 22:54:48 stock kernel: GFS2 installed
+May 20 22:54:48 stock kernel: FS-Cache: Netfs 'ceph' registered for caching
+May 20 22:54:48 stock kernel: ceph: loaded (mds proto 32)
+May 20 22:54:48 stock kernel: msgmni has been set to 7851
+May 20 22:54:48 stock kernel: async_tx: api initialized (async)
+May 20 22:54:48 stock kernel: Key type asymmetric registered
+May 20 22:54:48 stock kernel: Asymmetric key parser 'x509' registered
+May 20 22:54:48 stock kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+May 20 22:54:48 stock kernel: io scheduler noop registered
+May 20 22:54:48 stock kernel: io scheduler deadline registered (default)
+May 20 22:54:48 stock kernel: io scheduler cfq registered
+May 20 22:54:48 stock kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+May 20 22:54:48 stock kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+May 20 22:54:48 stock kernel: ipmi message handler version 39.2
+May 20 22:54:48 stock kernel: GHES: HEST is not enabled!
+May 20 22:54:48 stock kernel: ioatdma: Intel(R) QuickData Technology Driver 4.00
+May 20 22:54:48 stock kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+May 20 22:54:48 stock kernel: 00:08: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+May 20 22:54:48 stock kernel: 00:09: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+May 20 22:54:48 stock kernel: Linux agpgart interface v0.103
+May 20 22:54:48 stock kernel: brd: module loaded
+May 20 22:54:48 stock kernel: loop: module loaded
+May 20 22:54:48 stock kernel: nbd: registered device at major 43
+May 20 22:54:48 stock kernel: drbd: initialized. Version: 8.4.3 (api:1/proto:86-101)
+May 20 22:54:48 stock kernel: drbd: built-in
+May 20 22:54:48 stock kernel: drbd: registered as block device major 147
+May 20 22:54:48 stock kernel: rbd: loaded
+May 20 22:54:48 stock kernel: Uniform Multi-Platform E-IDE driver
+May 20 22:54:48 stock kernel: ide_generic: please use "probe_mask=0x3f" module parameter for probing all legacy ISA IDE ports
+May 20 22:54:48 stock kernel: ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+May 20 22:54:48 stock kernel: tsc: Refined TSC clocksource calibration: 1866.666 MHz
+May 20 22:54:48 stock kernel: ide1 at 0x170-0x177,0x376 on irq 15
+May 20 22:54:48 stock kernel: ide-gd driver 1.18
+May 20 22:54:48 stock kernel: Loading iSCSI transport class v2.0-870.
+May 20 22:54:48 stock kernel: iscsi: registered transport (tcp)
+May 20 22:54:48 stock kernel: megaraid cmm: 2.20.2.7 (Release Date: Sun Jul 16 00:01:03 EST 2006)
+May 20 22:54:48 stock kernel: megaraid: 2.20.5.1 (Release Date: Thu Nov 16 15:32:35 EST 2006)
+May 20 22:54:48 stock kernel: megasas: 06.700.06.00-rc1 Sat. Aug. 31 17:00:00 PDT 2013
+May 20 22:54:48 stock kernel: mpt2sas version 16.100.00.00 loaded
+May 20 22:54:48 stock kernel: mpt3sas version 02.100.00.00 loaded
+May 20 22:54:48 stock kernel: 3ware Storage Controller device driver for Linux v1.26.02.003.
+May 20 22:54:48 stock kernel: 3ware 9000 Storage Controller device driver for Linux v2.26.02.014.
+May 20 22:54:48 stock kernel: VMware PVSCSI driver - version 1.0.2.0-k
+May 20 22:54:48 stock kernel: ahci 0000:00:1f.2: SSS flag set, parallel bus scan disabled
+May 20 22:54:48 stock kernel: ahci 0000:00:1f.2: AHCI 0001.0100 32 slots 4 ports 3 Gbps 0x3 impl SATA mode
+May 20 22:54:48 stock kernel: ahci 0000:00:1f.2: flags: 64bit ncq stag pm led clo pio slum part 
+May 20 22:54:48 stock kernel: scsi0 : ahci
+May 20 22:54:48 stock kernel: scsi1 : ahci
+May 20 22:54:48 stock kernel: scsi2 : ahci
+May 20 22:54:48 stock kernel: scsi3 : ahci
+May 20 22:54:48 stock kernel: ata1: SATA max UDMA/133 abar m1024@0xd0600000 port 0xd0600100 irq 41
+May 20 22:54:48 stock kernel: ata2: SATA max UDMA/133 abar m1024@0xd0600000 port 0xd0600180 irq 41
+May 20 22:54:48 stock kernel: ata3: DUMMY
+May 20 22:54:48 stock kernel: ata4: DUMMY
+May 20 22:54:48 stock kernel: slram: not enough parameters.
+May 20 22:54:48 stock kernel: bonding: Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011)
+May 20 22:54:48 stock kernel: tun: Universal TUN/TAP device driver, 1.6
+May 20 22:54:48 stock kernel: tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+May 20 22:54:48 stock kernel: pcnet32: pcnet32.c:v1.35 21.Apr.2008 tsbogend@alpha.franken.de
+May 20 22:54:48 stock kernel: bnx2x: Broadcom NetXtreme II 5771x/578xx 10/20-Gigabit Ethernet Driver bnx2x 1.78.17-0 (2013/04/11)
+May 20 22:54:48 stock kernel: e100: Intel(R) PRO/100 Network Driver, 3.5.24-k2-NAPI
+May 20 22:54:48 stock kernel: e100: Copyright(c) 1999-2006 Intel Corporation
+May 20 22:54:48 stock kernel: e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+May 20 22:54:48 stock kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+May 20 22:54:48 stock kernel: e1000e: Intel(R) PRO/1000 Network Driver - 2.3.2-k
+May 20 22:54:48 stock kernel: e1000e: Copyright(c) 1999 - 2013 Intel Corporation.
+May 20 22:54:48 stock kernel: e1000e 0000:01:00.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+May 20 22:54:48 stock kernel: e1000e 0000:01:00.0 eth0: registered PHC clock
+May 20 22:54:48 stock kernel: e1000e 0000:01:00.0 eth0: (PCI Express:2.5GT/s:Width x1) 00:22:4d:ae:51:2b
+May 20 22:54:48 stock kernel: e1000e 0000:01:00.0 eth0: Intel(R) PRO/1000 Network Connection
+May 20 22:54:48 stock kernel: e1000e 0000:01:00.0 eth0: MAC: 3, PHY: 8, PBA No: FFFFFF-0FF
+May 20 22:54:48 stock kernel: igb: Intel(R) Gigabit Ethernet Network Driver - version 5.0.5-k
+May 20 22:54:48 stock kernel: igb: Copyright (c) 2007-2013 Intel Corporation.
+May 20 22:54:48 stock kernel: igbvf: Intel(R) Gigabit Virtual Function Network Driver - version 2.0.2-k
+May 20 22:54:48 stock kernel: igbvf: Copyright (c) 2009 - 2012 Intel Corporation.
+May 20 22:54:48 stock kernel: ixgbe: Intel(R) 10 Gigabit PCI Express Network Driver - version 3.19.1-k
+May 20 22:54:48 stock kernel: ixgbe: Copyright (c) 1999-2013 Intel Corporation.
+May 20 22:54:48 stock kernel: i40e: Intel(R) Ethernet Connection XL710 Network Driver - version 0.3.30-k
+May 20 22:54:48 stock kernel: i40e: Copyright (c) 2013 - 2014 Intel Corporation.
+May 20 22:54:48 stock kernel: ixgb: Intel(R) PRO/10GbE Network Driver - version 1.0.135-k2-NAPI
+May 20 22:54:48 stock kernel: ixgb: Copyright (c) 1999-2008 Intel Corporation.
+May 20 22:54:48 stock kernel: sky2: driver version 1.30
+May 20 22:54:48 stock kernel: QLogic/NetXen Network Driver v4.0.82
+May 20 22:54:48 stock kernel: PPP generic driver version 2.4.2
+May 20 22:54:48 stock kernel: PPP BSD Compression module registered
+May 20 22:54:48 stock kernel: PPP Deflate Compression module registered
+May 20 22:54:48 stock kernel: PPP MPPE Compression module registered
+May 20 22:54:48 stock kernel: NET: Registered protocol family 24
+May 20 22:54:48 stock kernel: VMware vmxnet3 virtual NIC driver - version 1.2.0.0-k-NAPI
+May 20 22:54:48 stock kernel: Fusion MPT base driver 3.04.20
+May 20 22:54:48 stock kernel: Copyright (c) 1999-2008 LSI Corporation
+May 20 22:54:48 stock kernel: Fusion MPT SPI Host driver 3.04.20
+May 20 22:54:48 stock kernel: Fusion MPT FC Host driver 3.04.20
+May 20 22:54:48 stock kernel: Fusion MPT SAS Host driver 3.04.20
+May 20 22:54:48 stock kernel: Fusion MPT misc device (ioctl) driver 3.04.20
+May 20 22:54:48 stock kernel: mptctl: Registered with Fusion MPT base driver
+May 20 22:54:48 stock kernel: mptctl: /dev/mptctl @ (major,minor=10,220)
+May 20 22:54:48 stock kernel: VFIO - User Level meta-driver version: 0.3
+May 20 22:54:48 stock kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+May 20 22:54:48 stock kernel: ehci-pci: EHCI PCI platform driver
+May 20 22:54:48 stock kernel: ehci-pci 0000:00:1d.7: EHCI Host Controller
+May 20 22:54:48 stock kernel: ehci-pci 0000:00:1d.7: new USB bus registered, assigned bus number 1
+May 20 22:54:48 stock kernel: ehci-pci 0000:00:1d.7: debug port 1
+May 20 22:54:48 stock kernel: ehci-pci 0000:00:1d.7: irq 23, io mem 0xd0600400
+May 20 22:54:48 stock kernel: ehci-pci 0000:00:1d.7: USB 2.0 started, EHCI 1.00
+May 20 22:54:48 stock kernel: ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+May 20 22:54:48 stock kernel: ata1.00: ATA-8: HGST HUS724020ALA640, MF6OAA70, max UDMA/133
+May 20 22:54:48 stock kernel: ata1.00: 3907029168 sectors, multi 16: LBA48 NCQ (depth 31/32), AA
+May 20 22:54:48 stock kernel: ata1.00: configured for UDMA/133
+May 20 22:54:48 stock kernel: hub 1-0:1.0: USB hub found
+May 20 22:54:48 stock kernel: hub 1-0:1.0: 8 ports detected
+May 20 22:54:48 stock kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+May 20 22:54:48 stock kernel: ohci-pci: OHCI PCI platform driver
+May 20 22:54:48 stock kernel: uhci_hcd: USB Universal Host Controller Interface driver
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.0: UHCI Host Controller
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 2
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.0: irq 23, io base 0x000030a0
+May 20 22:54:48 stock kernel: Switched to clocksource tsc
+May 20 22:54:48 stock kernel: usb 1-8: new high-speed USB device number 2 using ehci-pci
+May 20 22:54:48 stock kernel: hub 1-8:1.0: USB hub found
+May 20 22:54:48 stock kernel: hub 1-8:1.0: 4 ports detected
+May 20 22:54:48 stock kernel: hub 2-0:1.0: USB hub found
+May 20 22:54:48 stock kernel: hub 2-0:1.0: 2 ports detected
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.1: UHCI Host Controller
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.1: new USB bus registered, assigned bus number 3
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.1: irq 19, io base 0x00003080
+May 20 22:54:48 stock kernel: hub 3-0:1.0: USB hub found
+May 20 22:54:48 stock kernel: hub 3-0:1.0: 2 ports detected
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.2: UHCI Host Controller
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.2: new USB bus registered, assigned bus number 4
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.2: irq 18, io base 0x00003060
+May 20 22:54:48 stock kernel: floppy0: no floppy controllers found
+May 20 22:54:48 stock kernel: work still pending
+May 20 22:54:48 stock kernel: scsi 0:0:0:0: Direct-Access     ATA      HGST HUS724020AL MF6O PQ: 0 ANSI: 5
+May 20 22:54:48 stock kernel: sd 0:0:0:0: [sda] 3907029168 512-byte logical blocks: (2.00 TB/1.81 TiB)
+May 20 22:54:48 stock kernel: sd 0:0:0:0: [sda] Write Protect is off
+May 20 22:54:48 stock kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+May 20 22:54:48 stock kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+May 20 22:54:48 stock kernel: sda: sda1 sda2 sda3 sda4
+May 20 22:54:48 stock kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+May 20 22:54:48 stock kernel: hub 4-0:1.0: USB hub found
+May 20 22:54:48 stock kernel: hub 4-0:1.0: 2 ports detected
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.3: UHCI Host Controller
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.3: new USB bus registered, assigned bus number 5
+May 20 22:54:48 stock kernel: uhci_hcd 0000:00:1d.3: irq 16, io base 0x00003040
+May 20 22:54:48 stock kernel: ata2: SATA link down (SStatus 0 SControl 300)
+May 20 22:54:48 stock kernel: hub 5-0:1.0: USB hub found
+May 20 22:54:48 stock kernel: hub 5-0:1.0: 2 ports detected
+May 20 22:54:48 stock kernel: usbcore: registered new interface driver cdc_acm
+May 20 22:54:48 stock kernel: cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+May 20 22:54:48 stock kernel: usbcore: registered new interface driver usb-storage
+May 20 22:54:48 stock kernel: usbcore: registered new interface driver usbserial
+May 20 22:54:48 stock kernel: usbcore: registered new interface driver usbserial_generic
+May 20 22:54:48 stock kernel: usbserial: USB Serial support registered for generic
+May 20 22:54:48 stock kernel: usbcore: registered new interface driver pl2303
+May 20 22:54:48 stock kernel: usbserial: USB Serial support registered for pl2303
+May 20 22:54:48 stock kernel: i8042: PNP: No PS/2 controller found. Probing ports directly.
+May 20 22:54:48 stock kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+May 20 22:54:48 stock kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+May 20 22:54:48 stock kernel: mousedev: PS/2 mouse device common for all mice
+May 20 22:54:48 stock kernel: rtc_cmos 00:06: RTC can wake from S4
+May 20 22:54:48 stock kernel: rtc_cmos 00:06: rtc core: registered rtc_cmos as rtc0
+May 20 22:54:48 stock kernel: rtc_cmos 00:06: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+May 20 22:54:48 stock kernel: w83627ehf: Found W83627DHG-P chip at 0x290
+May 20 22:54:48 stock kernel: softdog: Software Watchdog Timer: 0.08 initialized. soft_noboot=0 soft_margin=60 sec soft_panic=0 (nowayout=0)
+May 20 22:54:48 stock kernel: md: linear personality registered for level -1
+May 20 22:54:48 stock kernel: md: raid0 personality registered for level 0
+May 20 22:54:48 stock kernel: md: raid1 personality registered for level 1
+May 20 22:54:48 stock kernel: md: raid10 personality registered for level 10
+May 20 22:54:48 stock kernel: md: raid6 personality registered for level 6
+May 20 22:54:48 stock kernel: md: raid5 personality registered for level 5
+May 20 22:54:48 stock kernel: md: raid4 personality registered for level 4
+May 20 22:54:48 stock kernel: md: multipath personality registered for level -4
+May 20 22:54:48 stock kernel: md: faulty personality registered for level -5
+May 20 22:54:48 stock kernel: device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+May 20 22:54:48 stock kernel: device-mapper: multipath: version 1.6.0 loaded
+May 20 22:54:48 stock kernel: device-mapper: multipath round-robin: version 1.0.0 loaded
+May 20 22:54:48 stock kernel: device-mapper: multipath queue-length: version 0.1.0 loaded
+May 20 22:54:48 stock kernel: device-mapper: multipath service-time: version 0.2.0 loaded
+May 20 22:54:48 stock kernel: device-mapper: raid: Loading target version 1.5.2
+May 20 22:54:48 stock kernel: device-mapper: cache-policy-mq: version 1.2.0 loaded
+May 20 22:54:48 stock kernel: device-mapper: cache cleaner: version 1.0.0 loaded
+May 20 22:54:48 stock kernel: AMD64 EDAC driver v3.4.0
+May 20 22:54:48 stock kernel: No iBFT detected.
+May 20 22:54:48 stock kernel: usbcore: registered new interface driver usbhid
+May 20 22:54:48 stock kernel: usbhid: USB HID core driver
+May 20 22:54:48 stock kernel: Netfilter messages via NETLINK v0.30.
+May 20 22:54:48 stock kernel: nfnl_acct: registering with nfnetlink.
+May 20 22:54:48 stock kernel: nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+May 20 22:54:48 stock kernel: ctnetlink v0.93: registering with nfnetlink.
+May 20 22:54:48 stock kernel: nf_tables: (c) 2007-2009 Patrick McHardy <kaber@trash.net>
+May 20 22:54:48 stock kernel: nf_tables_compat: (c) 2012 Pablo Neira Ayuso <pablo@netfilter.org>
+May 20 22:54:48 stock kernel: xt_time: kernel timezone is -0000
+May 20 22:54:48 stock kernel: ip_set: protocol 6
+May 20 22:54:48 stock kernel: ipip: IPv4 over IPv4 tunneling driver
+May 20 22:54:48 stock kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+May 20 22:54:48 stock kernel: ipt_CLUSTERIP: ClusterIP Version 0.8 loaded successfully
+May 20 22:54:48 stock kernel: arp_tables: (C) 2002 David S. Miller
+May 20 22:54:48 stock kernel: TCP: bic registered
+May 20 22:54:48 stock kernel: TCP: cubic registered
+May 20 22:54:48 stock kernel: TCP: westwood registered
+May 20 22:54:48 stock kernel: TCP: highspeed registered
+May 20 22:54:48 stock kernel: TCP: hybla registered
+May 20 22:54:48 stock kernel: TCP: htcp registered
+May 20 22:54:48 stock kernel: TCP: vegas registered
+May 20 22:54:48 stock kernel: TCP: veno registered
+May 20 22:54:48 stock kernel: TCP: scalable registered
+May 20 22:54:48 stock kernel: TCP: lp registered
+May 20 22:54:48 stock kernel: TCP: yeah registered
+May 20 22:54:48 stock kernel: TCP: illinois registered
+May 20 22:54:48 stock kernel: Initializing XFRM netlink socket
+May 20 22:54:48 stock kernel: NET: Registered protocol family 10
+May 20 22:54:48 stock kernel: ip6_tables: (C) 2000-2006 Netfilter Core Team
+May 20 22:54:48 stock kernel: sit: IPv6 over IPv4 tunneling driver
+May 20 22:54:48 stock kernel: NET: Registered protocol family 17
+May 20 22:54:48 stock kernel: NET: Registered protocol family 15
+May 20 22:54:48 stock kernel: Bridge firewalling registered
+May 20 22:54:48 stock kernel: l2tp_core: L2TP core driver, V2.0
+May 20 22:54:48 stock kernel: l2tp_ppp: PPPoL2TP kernel driver, V2.0
+May 20 22:54:48 stock kernel: l2tp_ip: L2TP IP encapsulation support (L2TPv3)
+May 20 22:54:48 stock kernel: l2tp_netlink: L2TP netlink interface
+May 20 22:54:48 stock kernel: l2tp_eth: L2TP ethernet pseudowire support (L2TPv3)
+May 20 22:54:48 stock kernel: l2tp_ip6: L2TP IP encapsulation support for IPv6 (L2TPv3)
+May 20 22:54:48 stock kernel: 8021q: 802.1Q VLAN Support v1.8
+May 20 22:54:48 stock kernel: sctp: Hash tables configured (established 65536 bind 65536)
+May 20 22:54:48 stock kernel: Key type dns_resolver registered
+May 20 22:54:48 stock kernel: Key type ceph registered
+May 20 22:54:48 stock kernel: libceph: loaded (mon/osd proto 15/24)
+May 20 22:54:48 stock kernel: openvswitch: Open vSwitch switching datapath
+May 20 22:54:48 stock kernel: registered taskstats version 1
+May 20 22:54:48 stock kernel: bio: create slab <bio-1> at 1
+May 20 22:54:48 stock kernel: Btrfs loaded
+May 20 22:54:48 stock kernel: console [netcon0] enabled
+May 20 22:54:48 stock kernel: netconsole: network logging started
+May 20 22:54:48 stock kernel: rtc_cmos 00:06: setting system clock to 2015-05-20 20:54:27 UTC (1432155267)
+May 20 22:54:48 stock kernel: md: Waiting for all devices to be available before autodetect
+May 20 22:54:48 stock kernel: md: If you don't use raid, use raid=noautodetect
+May 20 22:54:48 stock kernel: md: Autodetecting RAID arrays.
+May 20 22:54:48 stock kernel: md: Scanned 0 and added 0 devices.
+May 20 22:54:48 stock kernel: md: autorun ...
+May 20 22:54:48 stock kernel: md: ... autorun DONE.
+May 20 22:54:48 stock kernel: EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+May 20 22:54:48 stock kernel: VFS: Mounted root (ext4 filesystem) readonly on device 8:2.
+May 20 22:54:48 stock kernel: devtmpfs: mounted
+May 20 22:54:48 stock kernel: Freeing unused kernel memory: 1052K (ffffffff82572000 - ffffffff82679000)
+May 20 22:54:48 stock kernel: random: systemd urandom read with 49 bits of entropy available
+May 20 22:54:48 stock kernel: random: nonblocking pool is initialized
+May 20 22:54:48 stock kernel: Adding 523260k swap on /dev/sda4.  Priority:-1 extents:1 across:523260k 
+May 20 22:54:48 stock kernel: EXT4-fs (sda2): re-mounted. Opts: errors=remount-ro
+May 20 22:54:48 stock kernel: EXT4-fs (sda3): mounted filesystem with ordered data mode. Opts: (null)
+May 20 22:54:48 stock kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+May 20 22:54:48 stock kernel: 8021q: adding VLAN 0 to HW filter on device eth0
+May 20 22:54:48 stock kernel: e1000e: eth0 NIC Link is Up 100 Mbps Full Duplex, Flow Control: None
+May 20 22:54:48 stock kernel: e1000e 0000:01:00.0 eth0: 10/100 speed: disabling TSO
+May 20 22:54:48 stock kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+May 20 22:54:48 stock rsyslogd-2007: action 'action 17' suspended, next retry is Wed May 20 22:55:18 2015 [try http://www.rsyslog.com/e/2007 ]
+May 20 22:57:54 stock kernel: nf_conntrack: automatic helper assignment is deprecated and it will be removed soon. Use the iptables CT target to attach helpers instead.
+May 20 22:58:01 stock rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="3794" x-info="http://www.rsyslog.com"] exiting on signal 15.
+May 20 22:58:02 ns331245 rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="4362" x-info="http://www.rsyslog.com"] start
+May 21 00:21:01 ns331245 rsyslogd-2007: action 'action 17' suspended, next retry is Thu May 21 00:21:31 2015 [try http://www.rsyslog.com/e/2007 ]
+May 21 00:47:46 ns331245 kernel: grep: The scan_unevictable_pages sysctl/node-interface has been disabled for lack of a legitimate use case.  If you have one, please send an email to linux-mm@kvack.org.
+May 22 06:25:04 ns331245 rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="4362" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+May 22 06:25:27 ns331245 rsyslogd0: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
+May 22 06:25:27 ns331245 rsyslogd-2359: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
+May 22 06:35:08 ns331245 rsyslogd-2007: action 'action 17' suspended, next retry is Fri May 22 06:35:38 2015 [try http://www.rsyslog.com/e/2007 ]
+May 23 06:25:04 ns331245 rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="4362" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+May 23 06:26:01 ns331245 rsyslogd0: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/0 ]
+May 23 06:26:01 ns331245 rsyslogd-2359: action 'action 17' resumed (module 'builtin:ompipe') [try http://www.rsyslog.com/e/2359 ]
+May 23 07:57:13 ns331245 rsyslogd-2007: action 'action 17' suspended, next retry is Sat May 23 07:57:43 2015 [try http://www.rsyslog.com/e/2007 ]
+May 24 02:10:19 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:14567) attached to via ptrace by /usr/bin/strace[strace:14565] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:16:21 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:14927) attached to via ptrace by /usr/bin/strace[strace:14925] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:16:44 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:14936) attached to via ptrace by /usr/bin/strace[strace:14934] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:16:44 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:14937) attached to via ptrace by /usr/bin/strace[strace:14934] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:20:23 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:15178) attached to via ptrace by /usr/bin/strace[strace:15174] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:20:23 ns331245 kernel: grsec: From 81.242.143.240: process /usr/sbin/apache2(apache2:13611) attached to via ptrace by /usr/bin/strace[strace:15174] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:21:31 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:15242) attached to via ptrace by /usr/bin/strace[strace:15240] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:22:41 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:15308) attached to via ptrace by /usr/bin/strace[strace:15304] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:22:41 ns331245 kernel: grsec: From 81.242.143.240: process /usr/sbin/apache2(apache2:13611) attached to via ptrace by /usr/bin/strace[strace:15304] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:36:12 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:16132) attached to via ptrace by /usr/bin/strace[strace:16128] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 02:36:12 ns331245 kernel: grsec: From 81.242.143.240: process /usr/sbin/apache2(apache2:13611) attached to via ptrace by /usr/bin/strace[strace:16128] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 03:37:48 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:20396) attached to via ptrace by /usr/bin/strace[strace:20392] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 03:45:19 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:20884) attached to via ptrace by /usr/bin/strace[strace:20880] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 03:45:38 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:20894) attached to via ptrace by /usr/bin/strace[strace:20890] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 03:45:38 ns331245 kernel: grsec: From 81.242.143.240: process /usr/sbin/apache2(apache2:20374) attached to via ptrace by /usr/bin/strace[strace:20890] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 03:51:54 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:21325) attached to via ptrace by /usr/bin/strace[strace:21321] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 03:51:54 ns331245 kernel: grsec: From 81.242.143.240: process /usr/sbin/apache2(apache2:21302) attached to via ptrace by /usr/bin/strace[strace:21321] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 04:41:16 ns331245 kernel: grsec: From 81.242.143.240: process /usr/bin/strace(strace:24855) attached to via ptrace by /usr/bin/strace[strace:24851] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 04:41:16 ns331245 kernel: grsec: From 81.242.143.240: process /usr/sbin/apache2(apache2:21302) attached to via ptrace by /usr/bin/strace[strace:24851] uid/euid:0/0 gid/egid:0/0, parent /bin/bash[bash:21422] uid/euid:0/0 gid/egid:0/0
+May 24 06:25:05 ns331245 rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="4362" x-info="http://www.rsyslog.com"] rsyslogd was HUPed

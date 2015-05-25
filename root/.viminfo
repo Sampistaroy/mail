@@ -1,0 +1,512 @@
+# Ce fichier viminfo a été généré par Vim 7.4.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche  :
+~MSle0~/openssl
+
+# Dernières chaînes de substitution :
+$
+
+# Historique ligne de commande (chronologie décroissante) :
+:wq
+:q
+:q!
+:w
+:yy 
+:___<?php
+
+# Historique chaîne de recherche (chronologie décroissante) :
+?/etc/php5/cli/php.ini
+?/openssl
+? \<LogLevel\>
+?/<Di
+? \<www\>
+?/expose_php
+?/ServerToken
+?/ServerTokens
+?/ServerTokens Prod
+?/Error
+?/include
+?/inclu
+?/includ
+?/ErrorLo
+? \<Do\>
+?/<D
+?/rewrite
+?/chmod_enable
+?/local_enable=
+?/chroot_local_user=
+?/chown_uploads
+?/anonymous_enable
+?/ServerT
+?/server
+?/Public
+?/public
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Registres :
+"0	CHAR	0
+	m
+"1	LINE	0
+		ServerName .example.com
+"2	LINE	0
+		ServerName .example.com
+""-	CHAR	0
+	#
+
+# Marques dans le fichier :
+'0  21  4  /.gitignore
+'1  1  0  /.gitignore
+'2  1  5  /home/sampistaroy/gitest/samp/boby/index.phpppp
+'3  1  4  /home/sampistaroy/gitest/samp/boby/index.php
+'4  1  4  /home/sampistaroy/gitest/samp/index.php
+'5  13  18  ~/.gitconfig
+'6  17  100  /etc/hosts
+'7  15  31  /etc/apache2/sites-available/croogomulti.conf
+'8  1940  1  /etc/php5/cli/php.ini
+'9  18  60  /etc/hosts
+
+# Liste de sauts (le plus récent en premier) :
+-'  21  4  /.gitignore
+-'  1  0  /.gitignore
+-'  1  5  /home/sampistaroy/gitest/samp/boby/index.phpppp
+-'  1  4  /home/sampistaroy/gitest/samp/boby/index.php
+-'  1  4  /home/sampistaroy/gitest/samp/index.php
+-'  13  18  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  17  100  /etc/hosts
+-'  1  0  /etc/hosts
+-'  15  31  /etc/apache2/sites-available/croogomulti.conf
+-'  1  0  /etc/apache2/sites-available/croogomulti.conf
+-'  1940  1  /etc/php5/cli/php.ini
+-'  43  0  /etc/php5/cli/php.ini
+-'  1  0  /etc/php5/cli/php.ini
+-'  18  60  /etc/hosts
+-'  1  0  /etc/apache2/sites-available/croogo.conf
+-'  22  0  /etc/apache2/sites-available/croogo.conf
+-'  10  0  /etc/apache2/sites-available/doc.conf
+-'  1  0  /etc/apache2/sites-available/doc.conf
+-'  9  0  /etc/apache2/sites-available/doc.conf
+-'  13  0  /etc/apache2/sites-available/doc.conf
+-'  12  0  /etc/apache2/sites-available/doc.conf
+-'  7  0  /etc/apache2/sites-available/doc.conf
+-'  156  12  /etc/apache2/apache2.conf
+-'  29  0  /etc/apache2/apache2.conf
+-'  1  0  /etc/apache2/apache2.conf
+-'  9  0  /etc/apache2/sites-available/www.conf
+-'  1  0  /etc/apache2/sites-available/www.conf
+-'  5  18  /etc/apache2/sites-available/www.conf
+-'  2  20  /etc/apache2/sites-available/www.conf
+-'  1  0  /usr/lib/apache2/modules/mod_rewrite.so
+-'  2  84  /etc/apache2/mods-available/rewrite.load
+-'  1  0  /etc/apache2/mods-available/rewrite.load
+-'  37  0  /etc/apache2/apache2.conf
+-'  4  28  /etc/apache2/sites-available/www.conf
+-'  6  44  /etc/apache2/sites-available/www.conf
+-'  14  0  /etc/apache2/sites-available/www.conf
+-'  7  24  /etc/apache2/sites-available/www.conf
+-'  34  0  /etc/proftpd/proftpd.conf
+-'  1  0  /etc/proftpd/proftpd.conf
+-'  30  0  /etc/vsftpd.conf
+-'  2  13  /etc/vsftpd.conf
+-'  1  0  /etc/vsftpd.conf
+-'  115  0  /etc/vsftpd.conf
+-'  66  1  /etc/vsftpd.conf
+-'  26  18  /etc/vsftpd.conf
+-'  53  0  /etc/apache2/apache2.conf
+-'  1  0  /etc/httpd/conf/httpd.conf
+-'  95  26  /etc/apache2/apache2.conf
+-'  151  0  /etc/apache2/apache2.conf
+-'  118  6  /etc/apache2/apache2.conf
+-'  83  0  /etc/apache2/apache2.conf
+-'  1  0  /etc/apache2/conf.d/security
+-'  2  0  /etc/apache2/sites-available/doc.conf
+-'  1  0  /etc/apache2/mods-available/php5.conf
+-'  16  0  /etc/apache2/sites-available/www.conf
+-'  84  0  /etc/apache2/apache2.conf
+-'  137  0  /etc/apache2/mods-available
+-'  8  0  /etc/apache2/conf-available
+-'  1  0  /home/ovh/.profile
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /home/ovh/.profile
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /home/ovh/.profile
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /home/ovh/.profile
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  8  0  /etc/apache2/conf-available
+-'  1  0  /home/ovh/.profile
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /home/ovh/.profile
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /home/ovh/.profile
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /home/ovh/.profile
+-'  143  0  /usr/share/doc/apache2/README.Debian.gz
+-'  1  0  /usr/share/doc/apache2/README.Debian.gz
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> /.gitignore
+	"	21	4
+	^	21	5
+	.	1	4
+	+	18	3
+	+	18	0
+	+	17	0
+	+	16	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	1	47
+	+	1	47
+	+	1	47
+	+	4	0
+	+	3	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	12	0
+	+	22	0
+	+	5	0
+	+	21	0
+	+	18	3
+	+	17	3
+	+	16	3
+	+	15	3
+	+	14	4
+	+	13	3
+	+	11	4
+	+	10	3
+	+	9	3
+	+	8	5
+	+	7	10
+	+	6	5
+	+	5	3
+	+	3	3
+	+	2	4
+	+	1	3
+	+	18	4
+	+	17	4
+	+	16	4
+	+	15	4
+	+	14	5
+	+	13	4
+	+	11	5
+	+	10	4
+	+	9	4
+	+	8	6
+	+	7	11
+	+	6	6
+	+	5	4
+	+	3	4
+	+	2	5
+	+	1	4
+
+> /home/sampistaroy/gitest/samp/boby/index.phpppp
+	"	1	5
+	^	1	6
+	.	1	5
+	+	1	5
+
+> /home/sampistaroy/gitest/samp/boby/index.php
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> /home/sampistaroy/gitest/samp/index.php
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/.gitconfig
+	"	13	18
+	^	13	19
+	.	13	0
+	+	13	0
+
+> /etc/hosts
+	"	17	100
+	^	17	101
+	.	17	100
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	1
+	+	36	56
+	+	36	56
+	+	37	60
+	+	1	2
+	+	19	61
+	+	3	0
+	+	17	0
+	+	18	0
+	+	17	100
+
+> /etc/apache2/sites-available/croogomulti.conf
+	"	15	31
+	^	15	32
+	.	6	31
+	+	2	30
+	+	3	22
+	+	6	31
+
+> /etc/php5/cli/php.ini
+	"	1940	1
+
+> /etc/apache2/sites-available/croogo.conf
+	"	1	0
+	^	22	0
+	.	6	26
+	+	2	25
+	+	3	17
+	+	6	26
+
+> /etc/apache2/sites-available/doc.conf
+	"	10	0
+	^	10	1
+	.	10	0
+	+	2	0
+	+	8	1
+	+	12	27
+	+	13	1
+	+	13	0
+	+	2	23
+	+	7	0
+	+	12	1
+	+	13	1
+	+	14	1
+	+	13	1
+	+	9	0
+	+	10	0
+	+	9	0
+	+	10	0
+
+> /etc/apache2/apache2.conf
+	"	156	12
+	^	156	13
+	.	156	13
+	+	53	15
+	+	53	0
+	+	154	15
+	+	155	17
+	+	156	13
+
+> /etc/apache2/sites-available/www.conf
+	"	12	0
+	^	12	25
+	.	12	0
+	+	1	18
+	+	29	1
+	+	29	26
+	+	41	0
+	+	42	0
+	+	30	20
+	+	29	27
+	+	30	0
+	+	38	0
+	+	29	0
+	+	30	28
+	+	32	0
+	+	36	0
+	+	32	27
+	+	33	8
+	+	33	0
+	+	33	0
+	+	33	0
+	+	33	0
+	+	29	27
+	+	32	28
+	+	29	26
+	+	32	28
+	+	33	44
+	+	31	21
+	+	32	28
+	+	31	28
+	+	32	21
+	+	29	20
+	+	32	21
+	+	29	22
+	+	32	23
+	+	32	0
+	+	32	0
+	+	33	0
+	+	34	8
+	+	35	8
+	+	36	0
+	+	34	25
+	+	28	21
+	+	28	11
+	+	28	25
+	+	27	0
+	+	27	31
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	29	0
+	+	19	44
+	+	6	43
+	+	6	35
+	+	9	21
+	+	8	25
+	+	9	0
+	+	10	0
+	+	6	13
+	+	2	20
+	+	3	14
+	+	6	21
+	+	2	22
+	+	6	23
+	+	24	30
+	+	8	0
+	+	12	28
+	+	12	28
+	+	16	0
+	+	17	0
+	+	7	1
+	+	12	0
+	+	15	0
+	+	7	23
+	+	13	0
+	+	23	6
+	+	13	20
+	+	7	18
+	+	9	24
+	+	8	16
+	+	7	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	12	0
+
+> /usr/lib/apache2/modules/mod_rewrite.so
+	"	1	0
+
+> /etc/apache2/mods-available/rewrite.load
+	"	1	0
+	^	2	85
+	.	2	46
+	+	2	46
+
+> /etc/apache2/mods-available/mod_rewrite
+	"	1	0
+
+> /var/log/apache2/error.log.2.gz
+	"	5	2
+	.	123	0
+	+	123	0
+	+	123	0
+	+	123	0
+
+> /var/log/apache2/error.log.1
+	"	1	0
+	.	67	0
+	+	67	0
+
+> /var/log/apache2/error.log
+	"	2	0
+	^	6	2
+	.	6	1
+	+	101	104
+	+	6	1
+
+> /etc/apache2/conf-available/security.conf
+	"	11	0
+	^	26	17
+	.	26	16
+	+	26	16
+
+> /var/log/apache2/error.log.2
+	"	1	0
+
+> /etc/apache2/envvars
+	"	1	0
+
+> /etc/apache2/sites-enabled/www.conf
+	"	6	36
+
+> /etc/proftpd/proftpd.conf
+	"	34	0
+	.	34	0
+	+	34	0
+
+> /etc/vsftpd.conf
+	"	30	0
+	^	2	14
+	.	2	0
+	+	26	18
+	+	1	0
+	+	115	0
+	+	2	0
+
+> /etc/httpd/conf/httpd.conf
+	"	1	0
+
+> /etc/apache2/conf.d/security
+	"	1	0
+
+> /etc/apache2/mods-enabled/userdir.conf
+	"	2	0
+
+> /etc/apache2/mods-available/php5.conf
+	"	1	0
+
+> /home/ovh/.profile
+	"	1	0
+
+> /usr/share/doc/apache2/README.Debian.gz
+	"	143	0
+	.	445	0
+	+	445	0

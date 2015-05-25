@@ -1,0 +1,18 @@
+# Do not remove the following line, or various programs
+# that require network functionality will fail.
+127.0.0.1 localhost.localdomain localhost
+37.187.121.118       	ns331245.ip-37-187-121.eu	ns331245
+2001:41D0:A:F276::1	ns331245.ip-37-187-121.eu	ns331245
+
+# The following lines are desirable for IPv6 capable hosts
+#(added automatically by netbase upgrade)
+
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+
+127.0.0.1 assolive.com www.assolive.com doc.assolive.com croogo.assolive.com croogomulti.assolive.com
+37.187.121.118 assolive.com www.assolive.com doc.assolive.com

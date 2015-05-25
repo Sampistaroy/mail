@@ -1,0 +1,16 @@
+granting access to database phpmyadmin for phpmyadmin@localhost: success.
+verifying access for phpmyadmin@localhost: success.
+creating database phpmyadmin: success.
+verifying database phpmyadmin exists: success.
+populating database via sql...  done.
+dbconfig-common: dumping mysql database phpmyadmin to /var/tmp/phpmyadmin.phpmyadmin.2015-05-22-02.01.mysql.gJUJH8.
+dbconfig-common: dropping mysql database phpmyadmin.
+dropping database phpmyadmin: success.
+verifying database phpmyadmin was dropped: success.
+dbconfig-common: revoking privileges for user phpmyadmin on phpmyadmin.
+revoking access to database phpmyadmin from phpmyadmin@localhost: success.
+granting access to database phpmyadmin for phpmyadmin@localhost: success.
+verifying access for phpmyadmin@localhost: success.
+creating database phpmyadmin: success.
+verifying database phpmyadmin exists: success.
+populating database via sql...  done.

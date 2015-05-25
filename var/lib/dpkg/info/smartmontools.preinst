@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+dpkg-maintscript-helper rm_conffile \
+        /etc/init.d/smartd 6.1+svn3812-1~ smartmontools -- "$@"
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/smartd_warning.sh 6.3+svn4002-2~ -- "$@"
+# End automatically added section
+
+

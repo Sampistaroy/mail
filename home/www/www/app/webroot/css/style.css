@@ -1,0 +1,56 @@
+.col-xs-6, .col-xs-3, .col-xs-10, .col-xs-2, .col-xs-7, .col-xs-12, .col-xs-4, .col-xs-8, .col-xs-9 {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 5px;
+  border: 5px solid #fff;
+  -moz-box-shadow: 8px 8px 12px #aaa; 
+  -webkit-box-shadow: 8px 8px 12px #aaa; 
+  box-shadow: 8px 8px 12px #555;
+  border-radius: 3px;
+}
+.col-md-6, .col-md-12, .col-md-4, .col-md-8 {
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-bottom: 5px;
+  border: 5px solid #fff;
+  -moz-box-shadow: 8px 8px 12px #aaa; 
+  -webkit-box-shadow: 8px 8px 12px #aaa; 
+  box-shadow: 8px 8px 12px #555;
+  border-radius: 3px;
+}
+.jumbotron, .navbar{
+	
+  -moz-box-shadow: 8px 8px 12px #aaa; 
+  -webkit-box-shadow: 8px 8px 12px #aaa; 
+  box-shadow: 8px 8px 12px #555; 
+}
+.thumbnail{
+	background-color: rgba(0,0,0, 0);
+  border: 0px none;
+
+}
+.deco{
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 5px;
+  border: 5px solid #fff;
+  -moz-box-shadow: 8px 8px 12px #aaa; 
+  -webkit-box-shadow: 8px 8px 12px #aaa; 
+  box-shadow: 8px 8px 12px #555;
+  border-radius: 3px;
+}
+.deco-sous-titre{
+  background-color: rgba(200, 255, 200, 1);
+  color:rgba(12, 134, 20, 0.9);
+}
+.deco-sous-titre h4{
+  background-color: rgba(200, 255, 200, 1);
+  color:rgba(12, 134, 20, 0.9);
+}
+.calendar-day-number{
+    border: 1px solid;
+    border-color: lightgrey;
+}
+.btn-black{
+  background-color: rgba(0,0,0,0);
+  background-image:none;
+  border-left:solid 1px;
+  border-right:solid 1px;
+}
