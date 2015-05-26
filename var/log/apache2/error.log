@@ -259,3 +259,31 @@
 [Tue May 26 16:49:16.657306 2015] [authz_core:debug] [pid 23242] mod_authz_core.c(809): [client 66.249.64.236:58191] AH01626: authorization result of Require all granted: granted, referer: http://assolive.com/admin/users/users/login
 [Tue May 26 16:49:16.657355 2015] [authz_core:debug] [pid 23242] mod_authz_core.c(809): [client 66.249.64.236:58191] AH01626: authorization result of <RequireAny>: granted, referer: http://assolive.com/admin/users/users/login
 [Tue May 26 16:49:16.701246 2015] [deflate:debug] [pid 23242] mod_deflate.c(855): [client 66.249.64.236:58191] AH01384: Zlib: Compressed 20009 to 4445 : URL /app/webroot/index.php, referer: http://assolive.com/admin/users/users/login
+[Tue May 26 17:40:53.737511 2015] [authz_core:debug] [pid 24637] mod_authz_core.c(809): [client 192.99.150.120:40403] AH01626: authorization result of Require all granted: granted
+[Tue May 26 17:40:53.737633 2015] [authz_core:debug] [pid 24637] mod_authz_core.c(809): [client 192.99.150.120:40403] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 17:40:53.738367 2015] [authz_core:debug] [pid 24637] mod_authz_core.c(809): [client 192.99.150.120:40403] AH01626: authorization result of Require all granted: granted
+[Tue May 26 17:40:53.738429 2015] [authz_core:debug] [pid 24637] mod_authz_core.c(809): [client 192.99.150.120:40403] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 17:40:53.739499 2015] [authz_core:debug] [pid 24637] mod_authz_core.c(809): [client 192.99.150.120:40403] AH01626: authorization result of Require all granted: granted
+[Tue May 26 17:40:53.739581 2015] [authz_core:debug] [pid 24637] mod_authz_core.c(809): [client 192.99.150.120:40403] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 17:40:54.164220 2015] [deflate:debug] [pid 24637] mod_deflate.c(855): [client 192.99.150.120:40403] AH01384: Zlib: Compressed 5901 to 2067 : URL /app/webroot/index.php
+[Tue May 26 17:49:23.343964 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of Require all granted: granted
+[Tue May 26 17:49:23.344090 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 17:49:23.344969 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of Require all granted: granted
+[Tue May 26 17:49:23.345041 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 17:49:23.345319 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of Require all granted: granted
+[Tue May 26 17:49:23.345373 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 17:49:24.063813 2015] [deflate:debug] [pid 23308] mod_deflate.c(855): [client 66.249.64.241:39319] AH01384: Zlib: Compressed 5418 to 1901 : URL /app/webroot/index.php
+[Tue May 26 17:49:25.926659 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of Require all granted: granted
+[Tue May 26 17:49:25.926780 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 17:49:25.927602 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of Require all granted: granted
+[Tue May 26 17:49:25.927668 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 17:49:25.927961 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of Require all granted: granted
+[Tue May 26 17:49:25.928016 2015] [authz_core:debug] [pid 23308] mod_authz_core.c(809): [client 66.249.64.241:39319] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 17:49:26.253840 2015] [deflate:debug] [pid 23308] mod_deflate.c(855): [client 66.249.64.241:39319] AH01384: Zlib: Compressed 5944 to 2081 : URL /app/webroot/index.php
+[Tue May 26 18:15:04.029367 2015] [authz_core:debug] [pid 23244] mod_authz_core.c(809): [client 66.249.64.236:64543] AH01626: authorization result of Require all granted: granted
+[Tue May 26 18:15:04.029488 2015] [authz_core:debug] [pid 23244] mod_authz_core.c(809): [client 66.249.64.236:64543] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 18:15:04.030453 2015] [authz_core:debug] [pid 23244] mod_authz_core.c(809): [client 66.249.64.236:64543] AH01626: authorization result of Require all granted: granted
+[Tue May 26 18:15:04.030528 2015] [authz_core:debug] [pid 23244] mod_authz_core.c(809): [client 66.249.64.236:64543] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 18:15:04.031020 2015] [authz_core:debug] [pid 23244] mod_authz_core.c(809): [client 66.249.64.236:64543] AH01626: authorization result of Require all granted: granted
+[Tue May 26 18:15:04.031086 2015] [authz_core:debug] [pid 23244] mod_authz_core.c(809): [client 66.249.64.236:64543] AH01626: authorization result of <RequireAny>: granted
+[Tue May 26 18:15:04.498130 2015] [deflate:debug] [pid 23244] mod_deflate.c(855): [client 66.249.64.236:64543] AH01384: Zlib: Compressed 6771 to 2155 : URL /app/webroot/index.php
