@@ -221,3 +221,26 @@ May 25 22:53:32 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3
 May 25 23:08:29 ns331245 named[4406]: success resolving 'dns9.hichina.com/A' (in 'hichina.com'?) after reducing the advertised EDNS UDP packet size to 512 octets
 May 25 23:10:25 ns331245 systemd[1]: Starting Cleanup of Temporary Directories...
 May 25 23:10:25 ns331245 systemd[1]: Started Cleanup of Temporary Directories.
+May 26 02:08:49 ns331245 named[4406]: success resolving 'dns9.hichina.com/A' (in 'hichina.com'?) after reducing the advertised EDNS UDP packet size to 512 octets
+May 26 02:08:49 ns331245 named[4406]: success resolving 'dns10.hichina.com/A' (in 'hichina.com'?) after reducing the advertised EDNS UDP packet size to 512 octets
+May 26 02:08:51 ns331245 named[4406]: success resolving 'ns1.lntele.com.cn/A' (in 'lntele.com.cn'?) after reducing the advertised EDNS UDP packet size to 512 octets
+May 26 04:24:52 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 222 to 230
+May 26 04:54:52 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 230 to 222
+May 26 06:25:04 ns331245 systemd[1]: Reloading LSB: Apache2 web server.
+May 26 06:25:04 ns331245 apache2[23203]: Reloading web server: apache2.
+May 26 06:25:04 ns331245 systemd[1]: Reloaded LSB: Apache2 web server.
+May 26 10:24:52 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 222 to 214
+May 26 11:54:51 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 214 to 206
+May 26 13:24:51 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Prefailure Attribute: 2 Throughput_Performance changed from 137 to 136
+May 26 13:33:52 ns331245 named[4406]: success resolving 'ns.jxncptt.net.cn/A' (in 'jxncptt.net.cn'?) after reducing the advertised EDNS UDP packet size to 512 octets
+May 26 13:33:52 ns331245 named[4406]: lame server resolving '116.111.87.218.in-addr.arpa' (in '87.218.in-addr.arpa'?): 202.101.224.68#53
+May 26 13:33:52 ns331245 named[4406]: lame server resolving '116.111.87.218.in-addr.arpa' (in '87.218.in-addr.arpa'?): 202.101.226.68#53
+May 26 13:44:01 ns331245 named[4406]: lame server resolving '116.111.87.218.in-addr.arpa' (in '87.218.in-addr.arpa'?): 202.101.226.68#53
+May 26 13:44:01 ns331245 named[4406]: lame server resolving '116.111.87.218.in-addr.arpa' (in '87.218.in-addr.arpa'?): 202.101.224.68#53
+May 26 13:54:03 ns331245 named[4406]: lame server resolving '116.111.87.218.in-addr.arpa' (in '87.218.in-addr.arpa'?): 202.101.226.68#53
+May 26 13:54:03 ns331245 named[4406]: lame server resolving '116.111.87.218.in-addr.arpa' (in '87.218.in-addr.arpa'?): 202.101.224.68#53
+May 26 13:54:51 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Prefailure Attribute: 8 Seek_Time_Performance changed from 140 to 145
+May 26 14:04:07 ns331245 named[4406]: lame server resolving '116.111.87.218.in-addr.arpa' (in '87.218.in-addr.arpa'?): 202.101.226.68#53
+May 26 14:04:07 ns331245 named[4406]: lame server resolving '116.111.87.218.in-addr.arpa' (in '87.218.in-addr.arpa'?): 202.101.224.68#53
+May 26 14:54:51 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 206 to 200
+May 26 16:54:51 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 200 to 193

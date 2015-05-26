@@ -486,3 +486,35 @@ Package: libmemcachedutil2
 Architecture: amd64
 Auto-Installed: 1
 
+Package: patch
+Architecture: amd64
+Auto-Installed: 1
+
+Package: librtmp1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libssh2-1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ca-certificates
+Architecture: amd64
+Auto-Installed: 1
+
+Package: git-man
+Architecture: amd64
+Auto-Installed: 1
+
+Package: git
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcurl3-gnutls
+Architecture: amd64
+Auto-Installed: 1
+

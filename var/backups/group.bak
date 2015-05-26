@@ -56,3 +56,5 @@ ntp:x:113:
 croogo:x:1003:
 teamspeakserver:x:1004:
 croogomulti:x:1005:
+cdcasso:x:1006:
+utempter:x:114:

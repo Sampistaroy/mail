@@ -66,18 +66,21 @@ $
 	#
 
 # Marques dans le fichier :
-'0  21  4  /.gitignore
-'1  1  0  /.gitignore
-'2  1  5  /home/sampistaroy/gitest/samp/boby/index.phpppp
-'3  1  4  /home/sampistaroy/gitest/samp/boby/index.php
-'4  1  4  /home/sampistaroy/gitest/samp/index.php
-'5  13  18  ~/.gitconfig
-'6  17  100  /etc/hosts
-'7  15  31  /etc/apache2/sites-available/croogomulti.conf
-'8  1940  1  /etc/php5/cli/php.ini
-'9  18  60  /etc/hosts
+'0  22  36  ~/.bashrc
+'1  1  0  /fichier_propre
+'2  21  4  /.gitignore
+'3  1  0  /.gitignore
+'4  1  5  /home/sampistaroy/gitest/samp/boby/index.phpppp
+'5  1  4  /home/sampistaroy/gitest/samp/boby/index.php
+'6  1  4  /home/sampistaroy/gitest/samp/index.php
+'7  13  18  ~/.gitconfig
+'8  17  100  /etc/hosts
+'9  15  31  /etc/apache2/sites-available/croogomulti.conf
 
 # Liste de sauts (le plus récent en premier) :
+-'  22  36  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  /fichier_propre
 -'  21  4  /.gitignore
 -'  1  0  /.gitignore
 -'  1  5  /home/sampistaroy/gitest/samp/boby/index.phpppp
@@ -174,10 +177,18 @@ $
 -'  143  0  /usr/share/doc/apache2/README.Debian.gz
 -'  1  0  /usr/share/doc/apache2/README.Debian.gz
 -'  1  0  /home/ovh/.profile
--'  143  0  /usr/share/doc/apache2/README.Debian.gz
--'  1  0  /usr/share/doc/apache2/README.Debian.gz
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/.bashrc
+	"	22	36
+	^	22	37
+	.	22	36
+	+	37	0
+	+	22	36
+
+> /fichier_propre
+	"	1	0
 
 > /.gitignore
 	"	21	4

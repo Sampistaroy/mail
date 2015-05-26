@@ -1,31 +1,3 @@
-stat("/home/www/www/app/webroot/app/webroot/app/webroot/", 0x780298cd7870) = -1 ENOENT (No su                                                                                                                  ch file or directory)
-lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www/app", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot/app", 0x780298cd7870) = -1 ENOENT (No such file or directory                                                                                                                  )
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x75d091457000
-stat("/home/www/www/app/webroot/app/webroot/app/webroot/app/webroot/", 0x780298cd77f0) = -1 E                                                                                                                  NOENT (No such file or directory)
-lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www/app", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot/app", 0x780298cd77f0) = -1 ENOENT (No such file or directory                                                                                                                  )
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x75d091455000
-stat("/home/www/www/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/", 0x780298cd                                                                                                                  7770) = -1 ENOENT (No such file or directory)
-lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www/app", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot/app", 0x780298cd7770) = -1 ENOENT (No such file or directory                                                                                                                  )
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x75d091453000
-stat("/home/www/www/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/"                                                                                                                  , 0x780298cd76f0) = -1 ENOENT (No such file or directory)
-lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
 lstat("/home/www/www/app", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
 lstat("/home/www/www/app/webroot", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
 lstat("/home/www/www/app/webroot/app", 0x780298cd76f0) = -1 ENOENT (No such file or directory                                                                                                                  )
@@ -498,3 +470,31 @@ ls -ln
 find / -name php.ini
 vi /etc/php5/cli/php.ini
 su croogo
+su croogomulti
+script
+Script started, file is typescript
+col -bx <typescript >fichier_propre
+vim fichier_propre
+sh -i 2>&1 | tee typescript
+git status
+ls
+rm fichier_propre 
+rm typescript 
+git status
+vi ~/.bashrc 
+clear
+git status
+/usr/share/doc/etckeeper/README.gz
+cat /usr/share/doc/xterm/ctlseqs.txt.gz
+chown croogomulti *
+ls
+cd Config/
+ls -l
+chown croogomulti *
+ls -l
+chown www-data settings.json
+adduser cdcasso
+su www
+rm -rf *
+ls
+su croogomulti

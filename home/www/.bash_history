@@ -22,3 +22,6 @@ chmod -R 777 *
 cd ../..
 chmod -R 777 *
 su root
+su cdcasso
+su cdcasso
+su root

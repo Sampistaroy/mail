@@ -49,6 +49,33 @@ Description: Tools to test the reachability of network hosts
  This package includes a ping6 utility which supports IPv6 network
  connections.
 
+Package: libxi6
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 152
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxi (2:1.7.4-1)
+Version: 2:1.7.4-1+b2
+Config-Version: 2:1.7.4-1+b2
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), libxext6
+Pre-Depends: multiarch-support
+Description: X11 Input extension library
+ libXi provides an X Window System client interface to the XINPUT
+ extension to the X protocol.
+ .
+ The Input extension allows setup and configuration of multiple input devices,
+ and will soon allow hotplugging of input devices; to be added and removed on
+ the fly.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXi
+
 Package: libedit2
 Status: install ok installed
 Priority: standard
@@ -292,6 +319,61 @@ Description: Apache Portable Runtime Library
  that provides a predictable and consistent interface to underlying
  platform-specific implementations.
 Homepage: http://apr.apache.org/
+
+Package: libxaw7
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 504
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxaw (2:1.0.12-2)
+Version: 2:1.0.12-2+b1
+Config-Version: 2:1.0.12-2+b1
+Depends: libc6 (>= 2.15), libx11-6, libxext6, libxmu6, libxpm4, libxt6
+Pre-Depends: multiarch-support
+Description: X11 Athena Widget library
+ libXaw7 provides the second version of Xaw, the Athena Widgets toolkit,
+ which is largely used by legacy X applications.  This version is the
+ most common version, as version 6 is considered deprecated, and version
+ 8, which adds Xprint support, is unsupported and not widely used.
+ In general, use of a more modern toolkit such as GTK+ is recommended.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXaw
+
+Package: libxcb-present0
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 19
+Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxcb (1.10-3)
+Version: 1.10-3+b1
+Config-Version: 1.10-3+b1
+Depends: libc6 (>= 2.4), libxcb1
+Pre-Depends: multiarch-support
+Description: X C Binding, present extension
+ This package contains the library files needed to run software using
+ libxcb-present, the present extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+Homepage: http://xcb.freedesktop.org
 
 Package: libaudit1
 Status: install ok installed
@@ -566,6 +648,112 @@ Description: System call tracer
  isolation, sanity checking and attempting to capture race conditions.
 Homepage: http://sourceforge.net/projects/strace/
 
+Package: libxinerama1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 26
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxinerama (2:1.1.3-1)
+Version: 2:1.1.3-1+b1
+Config-Version: 2:1.1.3-1+b1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6
+Pre-Depends: multiarch-support
+Description: X11 Xinerama extension library
+ libXinerama provides an X Window System client interface to the XINERAMA
+ extension to the X protocol.
+ .
+ The Xinerama (also known as panoramiX) extension allows for multiple screens
+ attached to a single display to be treated as belonging together, and to give
+ desktop applications a better idea of the monitor layout.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXinerama
+
+Package: git-man
+Status: install ok installed
+Priority: optional
+Section: doc
+Installed-Size: 1259
+Maintainer: Gerrit Pape <pape@smarden.org>
+Architecture: all
+Multi-Arch: foreign
+Source: git
+Version: 1:2.1.4-2.1
+Replaces: git (<< 1:1.7.4~rc1), git-core (<< 1:1.7.0.4-1.)
+Breaks: git (<< 1:1.7.4~rc1)
+Description: fast, scalable, distributed revision control system (manual pages)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides reference documentation for use by the 'man'
+ utility and the 'git help' command.
+Homepage: http://git-scm.com/
+
+Package: libxcb-dri2-0
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 29
+Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxcb (1.10-3)
+Version: 1.10-3+b1
+Config-Version: 1.10-3+b1
+Depends: libc6 (>= 2.4), libxcb1
+Pre-Depends: multiarch-support
+Description: X C Binding, dri2 extension
+ This package contains the library files needed to run software using
+ libxcb-dri2, the dri2 extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+Homepage: http://xcb.freedesktop.org
+
+Package: libsm6
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 51
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libsm (2:1.2.2-1)
+Version: 2:1.2.2-1+b1
+Config-Version: 2:1.2.2-1+b1
+Depends: libc6 (>= 2.14), libice6 (>= 1:1.0.0), libuuid1 (>= 2.16)
+Pre-Depends: multiarch-support
+Description: X11 Session Management library
+ This package provides the main interface to the X11 Session Management
+ library, which allows for applications to both manage sessions, and make use
+ of session managers to save and restore their state for later use.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libSM
+
 Package: cpio
 Status: install ok installed
 Priority: important
@@ -653,6 +841,35 @@ Description: Command Channel Library used by BIND
  This package delivers the libisccc shared library used by BIND's daemons
  and clients, particularly rndc.
 
+Package: libxcb-dri3-0
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 19
+Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxcb (1.10-3)
+Version: 1.10-3+b1
+Config-Version: 1.10-3+b1
+Depends: libc6 (>= 2.4), libxcb1 (>= 1.9.2)
+Pre-Depends: multiarch-support
+Description: X C Binding, dri3 extension
+ This package contains the library files needed to run software using
+ libxcb-dri3, the dri3 extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+Homepage: http://xcb.freedesktop.org
+
 Package: kmod
 Status: install ok installed
 Priority: important
@@ -737,6 +954,35 @@ Description: command-line interface parsing library
  .
  It was originally inspired by the Multics SubSystem library.
 Homepage: http://e2fsprogs.sourceforge.net
+
+Package: libxcb-glx0
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 127
+Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxcb (1.10-3)
+Version: 1.10-3+b1
+Config-Version: 1.10-3+b1
+Depends: libc6 (>= 2.4), libxcb1
+Pre-Depends: multiarch-support
+Description: X C Binding, glx extension
+ This package contains the library files needed to run software using
+ libxcb-glx, the glx extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+Homepage: http://xcb.freedesktop.org
 
 Package: nfacct
 Status: install ok installed
@@ -885,6 +1131,25 @@ Description: generic font configuration library - configuration
  specified by applications.
  .
  This package contains the configuration files and scripts for fontconfig.
+
+Package: tk8.6
+Status: deinstall ok config-files
+Priority: optional
+Section: interpreters
+Installed-Size: 79
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 8.6.2-1
+Config-Version: 8.6.2-1
+Depends: libc6 (>= 2.2.5), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0), libx11-6, libxext6, libxft2 (>> 2.1.1), libxss1, zlib1g (>= 1:1.1.4)
+Recommends: xterm | x-terminal-emulator
+Conflicts: libtk-img (<< 1.2.5), tk40 (<= 4.0p3-2)
+Description: Tk toolkit for Tcl and X11 v8.6 - windowing shell
+ Tk is a cross-platform graphical toolkit which provides the Motif
+ look-and-feel and is implemented using the Tcl scripting language.
+ This package contains the windowing Tcl/Tk shell (wish).
+Homepage: http://www.tcl.tk/
 
 Package: vlan
 Status: install ok installed
@@ -1127,6 +1392,32 @@ Description: Utilities for managing the XFS filesystem
  Refer to the documentation at http://oss.sgi.com/projects/xfs/
  for complete details.
 Homepage: http://oss.sgi.com/projects/xfs/
+
+Package: libxdamage1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 22
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxdamage (1:1.1.4-2)
+Version: 1:1.1.4-2+b1
+Config-Version: 1:1.1.4-2+b1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1), libxfixes3
+Pre-Depends: multiarch-support
+Description: X11 damaged region extension library
+ libXdamage provides an X Window System client interface to the DAMAGE
+ extension to the X protocol.
+ .
+ The Damage extension provides for notification of when on-screen regions have
+ been 'damaged' (altered).
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXdamage
 
 Package: apache2
 Status: install ok installed
@@ -1505,6 +1796,51 @@ Description: scripts for handling base ACPI events such as the power button
  for suspend-to-RAM and for various laptop features, install the package
  "acpi-support".
 
+Package: libxext6
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 142
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxext
+Version: 2:1.3.3-1
+Config-Version: 2:1.3.3-1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0)
+Pre-Depends: multiarch-support
+Description: X11 miscellaneous extension library
+ libXext provides an X Window System client interface to several extensions to
+ the X protocol.
+ .
+ The supported protocol extensions are:
+  - DOUBLE-BUFFER (DBE), the Double Buffer extension;
+  - DPMS, the VESA Display Power Management System extension;
+  - Extended-Visual-Information (EVI), an extension for gathering extra
+    information about the X server's visuals;
+  - LBX, the Low Bandwidth X extension;
+  - MIT-SHM, the MIT X client/server shared memory extension;
+  - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
+  - Multi-Buffering, the multi-buffering and stereo display extension;
+  - SECURITY, the X security extension;
+  - SHAPE, the non-rectangular shaped window extension;
+  - SYNC, the X synchronization extension;
+  - TOG-CUP, the Open Group's Colormap Utilization extension;
+  - XC-APPGROUP, the X Consortium's Application Group extension;
+  - XC-MISC, the X Consortium's resource ID querying extension;
+  - XTEST, the X test extension (this is one of two client-side
+    implementations; the other is in the libXtst library, provided by the
+    libxtst6 package);
+ .
+ libXext also provides a small set of utility functions to aid authors of
+ client APIs for X protocol extensions.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXext
+
 Package: dialog
 Status: install ok installed
 Priority: optional
@@ -1557,6 +1893,31 @@ Description: Miscellaneous utilities specific to Debian
  The specific utilities included are:
  add-shell installkernel ischroot remove-shell run-parts savelog
  tempfile which
+
+Package: libxfixes3
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 38
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxfixes (1:5.0.1-2)
+Version: 1:5.0.1-2+b2
+Config-Version: 1:5.0.1-2+b2
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0)
+Pre-Depends: multiarch-support
+Description: X11 miscellaneous 'fixes' extension library
+ libXfixes provides an X Window System client interface to the 'XFIXES'
+ extension to the X protocol.
+ .
+ It provides support for Region types, and some cursor functions.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXfixes
 
 Package: mime-support
 Status: install ok installed
@@ -1657,6 +2018,29 @@ Description: LGPL Crypto library - runtime library
  Tiger, Whirlpool, DSA, DSA2, ElGamal, RSA, ECC.
 Homepage: http://directory.fsf.org/project/libgcrypt/
 
+Package: libtxc-dxtn-s2tc0
+Status: deinstall ok config-files
+Priority: extra
+Section: libs
+Installed-Size: 260
+Maintainer: Lennart Weller <lhw@ring0.de>
+Architecture: amd64
+Multi-Arch: same
+Source: s2tc
+Version: 0~git20131104-1.1
+Config-Version: 0~git20131104-1.1
+Provides: libtxc-dxtn0
+Depends: libc6 (>= 2.3.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Conflicts: libtxc-dxtn0
+Description: Texture compression library for Mesa
+ S2TC is a patent-free S3TC compatible implementation and provides
+ texture compression to Mesa.
+ .
+ The library is automatically loaded and adds the OpenGL extensions
+ GL_S3_s3tc and GL_EXT_texture_compression_s3tc.
+Homepage: https://github.com/divVerent/s2tc
+
 Package: mysql-server-5.5
 Status: install ok installed
 Priority: optional
@@ -1712,6 +2096,24 @@ Description: shared libraries for terminal handling (wide character support)
  This package contains the shared libraries necessary to run programs
  compiled with ncursesw, which includes support for wide characters.
 Homepage: http://invisible-island.net/ncurses/
+
+Package: liberror-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 40
+Maintainer: Clint Burfoot <clint@burfoot.info>
+Architecture: all
+Version: 0.17-1.1
+Depends: perl
+Description: Perl module for error/exception handling in an OO-ish way
+ This module provides two interfaces.  Firstly "Error" provides a
+ procedural interface to exception handling.  Secondly "Error" is a
+ base class for errors/exceptions that can either be thrown, for
+ subsequent catch, or can simply be recorded.
+ .
+ Errors in the class "Error" should not be thrown directly, but the
+ user should throw errors from a sub-class of "Error".
 
 Package: mysql-client-5.5
 Status: install ok installed
@@ -2180,6 +2582,36 @@ Description: Apache HTTP Server (utility programs for web servers)
   - httxt2dbm (Generate dbm files for use with RewriteMap)
 Homepage: http://httpd.apache.org/
 
+Package: libcurl3-gnutls
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 558
+Maintainer: Alessandro Ghedini <ghedo@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: curl
+Version: 7.38.0-4+deb8u2
+Depends: libc6 (>= 2.17), libcomerr2 (>= 1.01), libgnutls-deb0-28 (>= 3.3.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnettle4, librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.2.6), zlib1g (>= 1:1.1.4)
+Pre-Depends: multiarch-support
+Recommends: ca-certificates
+Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
+ libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
+ FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S,
+ RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+ .
+ libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP
+ form based upload, proxies, cookies, user+password authentication (Basic,
+ Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling
+ and more!
+ .
+ libcurl is free, thread-safe, IPv6 compatible, feature rich, well supported,
+ fast, thoroughly documented and is already used by many known, big and
+ successful companies and numerous applications.
+ .
+ SSL support is provided by GnuTLS.
+Homepage: http://curl.haxx.se
+
 Package: lsof
 Status: install ok installed
 Priority: standard
@@ -2401,6 +2833,28 @@ Description: GNU compression utilities
  on files with names ending in '.gz', but can also decompress files ending
  in '.Z' created with 'compress'.
 
+Package: libelf1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 944
+Maintainer: Kurt Roeckx <kurt@roeckx.be>
+Architecture: amd64
+Multi-Arch: same
+Source: elfutils
+Version: 0.159-4.2
+Config-Version: 0.159-4.2
+Depends: libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Description: library to read and write ELF files
+ The libelf1 package provides a shared library which allows reading and
+ writing ELF files on a high level.  Third party programs depend on
+ this package to read internals of ELF files.  The programs of the
+ elfutils package use it also to generate new ELF files.
+ .
+ This library is part of elfutils.
+Homepage: https://fedorahosted.org/elfutils/
+
 Package: btrfs-tools
 Status: install ok installed
 Priority: optional
@@ -2480,6 +2934,30 @@ Description: GNU troff text-formatting system (base system components)
  install the groff package.
 Homepage: https://www.gnu.org/software/groff/
 
+Package: libtk8.6
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 2287
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: tk8.6
+Version: 8.6.2-1
+Config-Version: 8.6.2-1
+Replaces: tk8.6 (<< 8.6.0-2)
+Provides: libtk
+Depends: libtcl8.6 (>= 8.6.0-2), libc6 (>= 2.14), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libx11-6, libxext6, libxft2 (>> 2.1.1), libxss1, zlib1g (>= 1:1.1.4)
+Pre-Depends: multiarch-support
+Suggests: tk8.6
+Conflicts: libtk-img (<< 1.2.5), tk40 (<= 4.0p3-2), tk8.6 (<< 8.6.0-2)
+Description: Tk toolkit for Tcl and X11 v8.6 - run-time files
+ Tk is a cross-platform graphical toolkit which provides the Motif
+ look-and-feel and is implemented using the Tcl scripting language.
+ This package contains the Tk library and supplementary packages you
+ need to run Tk-enabled apps.
+Homepage: http://www.tcl.tk/
+
 Package: liblognorm1
 Status: install ok installed
 Priority: extra
@@ -2523,6 +3001,33 @@ Description: GLib library of C routines
  .
  This package contains the shared libraries.
 Homepage: http://www.gtk.org/
+
+Package: libxss1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 56
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxss
+Version: 1:1.2.2-1
+Config-Version: 1:1.2.2-1
+Depends: libc6 (>= 2.2.5), libx11-6 (>= 2:1.4.99.1), libxext6, x11-common
+Pre-Depends: multiarch-support
+Description: X11 Screen Saver extension library
+ libXss provides an X Window System client interface to the MIT-SCREEN-SAVER
+ extension to the X protocol.
+ .
+ The Screen Saver extension allows clients behaving as screen savers to
+ register themselves with the X server, to better integrate themselves with
+ the running session.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libScrnSaver
 
 Package: mysql-common
 Status: install ok installed
@@ -2568,6 +3073,25 @@ Description: GNU privacy guard - signature verification tool
  different (and simpler) way to check that the public keys used to
  make the signature are trustworthy.
 Homepage: http://www.gnupg.org
+
+Package: libxshmfence1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 42
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxshmfence
+Version: 1.1-4
+Config-Version: 1.1-4
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+Description: X shared memory fences - shared library
+ This library provides an interface to shared-memory fences for
+ synchronization between the X server and direct-rendering clients.
+ .
+ This package contains the xshmfence shared library.
 
 Package: libcap2
 Status: install ok installed
@@ -2921,6 +3445,37 @@ Description: Cyrus SASL - authentication abstraction library
  Kerberos 5), NTLM, OTP, PLAIN, or LOGIN can be used.
 Homepage: http://www.cyrusimap.org/
 
+Package: libgl1-mesa-dri
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 13481
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: mesa
+Version: 10.3.2-1
+Config-Version: 10.3.2-1
+Replaces: libgl1-mesa-dri-experimental (<< 7.11.1), xlibmesa-dri (<< 1:7.0.0)
+Depends: libc6 (>= 2.17), libdrm-intel1 (>= 2.4.48), libdrm-nouveau2 (>= 2.4.38), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.38), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.7), libllvm3.5, libstdc++6 (>= 4.9)
+Pre-Depends: multiarch-support
+Recommends: libtxc-dxtn-s2tc0 | libtxc-dxtn0
+Breaks: libgl1-mesa-dri-experimental (<< 7.11.1), libgl1-mesa-glx (<< 7.10.2-4), libgl1-mesa-glx-no-multiarch, xserver-xorg-core (<< 2:1.14.3-5), xserver-xorg-core-no-multiarch
+Conflicts: xlibmesa-dri (<< 1:7.0.0)
+Conffiles:
+ /etc/drirc 4c85301b21785034745233dd43e6036e
+Description: free implementation of the OpenGL API -- DRI modules
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the OpenGL library itself, only the DRI
+ modules for accelerating direct rendering.
+ .
+ For a complete description of Mesa, please look at the
+ libgl1-mesa-swx11 package.
+Homepage: http://mesa3d.sourceforge.net/
+
 Package: apache2-bin
 Status: install ok installed
 Priority: optional
@@ -3214,6 +3769,55 @@ Description: QDBM Database Libraries without GDBM wrapper[runtime]
  library.
 Homepage: http://fallabs.com/qdbm/
 
+Package: x11-utils
+Status: deinstall ok config-files
+Priority: optional
+Section: x11
+Installed-Size: 598
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 7.7+2
+Config-Version: 7.7+2
+Depends: libc6 (>= 2.15), libfontconfig1 (>= 2.11), libfontenc1, libfreetype6 (>= 2.2.1), libgl1-mesa-glx | libgl1, libx11-6, libx11-xcb1, libxaw7, libxcb-shape0, libxcb1 (>= 1.6), libxcomposite1 (>= 1:0.3-1), libxext6, libxft2 (>> 2.1.1), libxi6, libxinerama1, libxmu6, libxmuu1, libxrandr2 (>= 2:1.2.0), libxrender1, libxt6, libxtst6, libxv1, libxxf86dga1, libxxf86vm1
+Suggests: mesa-utils
+Conffiles:
+ /etc/X11/app-defaults/Editres-color 5ec5d0e8c953faaa06af647650f30ce6
+ /etc/X11/app-defaults/Viewres-color ff9c397a80443790a97b909050f63282
+ /etc/X11/app-defaults/Xmessage-color ca383db9e4e9648bda0952ad6b8a2115
+ /etc/X11/app-defaults/Viewres 4f77da598593ff07cda9d2d147a07772
+ /etc/X11/app-defaults/Xfd a8b4d28d2ad895e40cfb6fb9c69eeecd
+ /etc/X11/app-defaults/XFontSel 183bca665ae87e3943bdb4362d21973d
+ /etc/X11/app-defaults/Editres 4ab7f8d63e234cf35a62ef7ae959edf7
+ /etc/X11/app-defaults/Xmessage eed84b35dde8b18e7dcfc80e75c1da67
+Description: X11 utilities
+ An X client is a program that interfaces with an X server (almost always via
+ the X libraries), and thus with some input and output hardware like a
+ graphics card, monitor, keyboard, and pointing device (such as a mouse).
+ .
+ This package provides a miscellaneous assortment of X utilities
+ that ship with the X Window System, including:
+  - appres, editres, listres and viewres, which query the X resource database;
+  - luit, a filter that can be run between an arbitrary application and a
+    UTF-8 terminal emulator;
+  - xdpyinfo, a display information utility for X;
+  - xdriinfo, query configuration information of DRI drivers;
+  - xev, an X event displayer;
+  - xfd, a tool that displays all the glyphs in a given X font;
+  - xfontsel, a tool for browsing and selecting X fonts;
+  - xkill, a tool for terminating misbehaving X clients;
+  - xlsatoms, which lists interned atoms defined on an X server;
+  - xlsclients, which lists client applications running on an X display;
+  - xlsfonts, a server font list displayer;
+  - xmessage, a tool to display message or dialog boxes;
+  - xprop, a property displayer for X;
+  - xvinfo, an Xv extension information utility for X;
+  - xwininfo, a window information utility for X;
+ .
+ The editres and viewres programs use bitmap images provided by the
+ xbitmaps package. The luit program requires locale information from
+ the libx11-data package.
+
 Package: apache2-data
 Status: install ok installed
 Priority: optional
@@ -3435,6 +4039,46 @@ Description: Clients provided with BIND
   - dig - query the DNS in various ways
   - nslookup - the older way to do it
   - nsupdate - perform dynamic updates (See RFC2136)
+
+Package: libglapi-mesa
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 252
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: mesa
+Version: 10.3.2-1
+Config-Version: 10.3.2-1
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+Description: free implementation of the GL API -- shared library
+ The Mesa GL API module is responsible for dispatching all the gl*
+ functions. It is intended to be mainly used by both the libgles1-mesa
+ and libgles2-mesa packages.
+Homepage: http://mesa3d.sourceforge.net/
+
+Package: librtmp1
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 164
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: rtmpdump
+Version: 2.4+20150115.gita107cef-1
+Depends: libc6 (>= 2.14), libgmp10, libgnutls-deb0-28 (>= 3.3.0), libhogweed2, libnettle4, zlib1g (>= 1:1.1.4)
+Pre-Depends: multiarch-support
+Description: toolkit for RTMP streams (shared library)
+ A small dumper for media content streamed over the RTMP protocol (like BBC's
+ iPlayer high quality streams). Supplying an RTMP URL will result in a dumped
+ flv file, which can be played/transcoded with standard tools.
+ .
+ This package contains the shared libraries, header files needed by
+ programs that want to use librtmp.
+Homepage: http://rtmpdump.mplayerhq.hu/
 
 Package: proftpd-basic
 Status: install ok installed
@@ -3676,6 +4320,50 @@ Description: Exported DNS Shared Library
  Internet, and is supported by the Internet Software Consortium, www.isc.org.
  .
  This package delivers the exported libdns shared library.
+
+Package: xterm
+Status: deinstall ok config-files
+Priority: optional
+Section: x11
+Installed-Size: 1709
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 312-2
+Config-Version: 312-2
+Provides: x-terminal-emulator
+Depends: xbitmaps, libc6 (>= 2.15), libfontconfig1 (>= 2.11), libice6 (>= 1:1.0.0), libtinfo5, libutempter0 (>= 1.1.5), libx11-6, libxaw7, libxft2 (>> 2.1.1), libxmu6, libxpm4, libxt6
+Recommends: x11-utils
+Suggests: xfonts-cyrillic
+Conffiles:
+ /etc/X11/app-defaults/KOI8RXTerm e904665737663827da6ff9b9651910df
+ /etc/X11/app-defaults/KOI8RXTerm-color d2d26270262950b81921694506281cfe
+ /etc/X11/app-defaults/UXTerm 3ee3b2958ca3aadba1d7f1f5e419951b
+ /etc/X11/app-defaults/UXTerm-color 446ecb44b3bec790d5c7ac8582ef6ca5
+ /etc/X11/app-defaults/XTerm 56c3bc0cefd8d8dbf8fb586e35b3c4a2
+ /etc/X11/app-defaults/XTerm-color 0ceac6d8b2f3e33be29edddb64394d96
+Description: X terminal emulator
+ xterm is a terminal emulator for the X Window System.  It provides DEC VT102
+ and Tektronix 4014 compatible terminals for programs that cannot use the
+ window system directly.  This version implements ISO/ANSI colors and most of
+ the control sequences used by DEC VT220 terminals.
+ .
+ This package provides four commands: xterm, which is the traditional
+ terminal emulator; uxterm, which is a wrapper around xterm that is
+ intelligent about locale settings (especially those which use the UTF-8
+ character encoding), but which requires the luit program from the x11-utils
+ package; koi8rxterm, a wrapper similar to uxterm for locales that use the
+ KOI8-R character set; and lxterm, a simple wrapper that chooses which of the
+ previous commands to execute based on the user's locale settings.
+ .
+ A complete list of control sequences supported by the X terminal emulator
+ is provided in /usr/share/doc/xterm.
+ .
+ The xterm program uses bitmap images provided by the xbitmaps package.
+ .
+ Those interested in using koi8rxterm will likely want to install the
+ xfonts-cyrillic package as well.
+Homepage: http://invisible-island.net/xterm/xterm.html
 
 Package: smartmontools
 Status: install ok installed
@@ -4009,6 +4697,30 @@ Description: libkmod shared library
  This library provides an API for insertion, removal, configuration and
  listing of kernel modules.
 
+Package: libxmuu1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 66
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxmu
+Version: 2:1.1.2-1
+Config-Version: 2:1.1.2-1
+Depends: libc6 (>= 2.2.5), libx11-6
+Pre-Depends: multiarch-support
+Description: X11 miscellaneous micro-utility library
+ libXmuu provides a set of miscellaneous utility convenience functions for X
+ libraries to use.  It is a lighter version of libXmu that does not depend
+ on libXt or libXext; for more information on libXmu, see libxmu6.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXmu
+
 Package: libisc95
 Status: install ok installed
 Priority: standard
@@ -4052,6 +4764,25 @@ Description: GNOME XML library
  This package provides a library providing an extensive API to handle
  such XML data files.
 Homepage: http://xmlsoft.org/
+
+Package: libutempter0
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 84
+Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: libutempter
+Version: 1.1.5-4
+Config-Version: 1.1.5-4
+Depends: libc6 (>= 2.2.5), adduser
+Description: A privileged helper for utmp/wtmp updates (runtime)
+ The libutempter library provides interface for terminal emulators such as
+ screen and xterm to record user sessions to utmp and wtmp files.
+ .
+ The utempter is a privileged helper used by libutempter library to manipulate
+ utmp and wtmp files.
+Homepage: http://freshmeat.net/projects/libutempter
 
 Package: tcpdump
 Status: install ok installed
@@ -4159,6 +4890,56 @@ Description: FreeType 2 font engine, shared library files
            Werner Lemberg <werner.lemberg@freetype.org>
 Homepage: http://www.freetype.org
 
+Package: libxtst6
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 45
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxtst (2:1.2.2-1)
+Version: 2:1.2.2-1+b1
+Config-Version: 2:1.2.2-1+b1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6, libxi6, x11-common
+Pre-Depends: multiarch-support
+Description: X11 Testing -- Record extension library
+ libXtst provides an X Window System client interface to the Record
+ extension to the X protocol.
+ .
+ The Record extension allows X clients to synthesise input events, which
+ is useful for automated testing.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXtst
+
+Package: libxmu6
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 153
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxmu
+Version: 2:1.1.2-1
+Config-Version: 2:1.1.2-1
+Depends: libc6 (>= 2.14), libx11-6, libxext6, libxt6
+Pre-Depends: multiarch-support
+Description: X11 miscellaneous utility library
+ libXmu provides a set of miscellaneous utility convenience functions for X
+ libraries to use.  libXmuu is a lighter-weight version that does not depend
+ on libXt or libXext; for more information, see libxmuu1.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXmu
+
 Package: libtasn1-6
 Status: install ok installed
 Priority: standard
@@ -4204,6 +4985,28 @@ Description: minimal subset of the Python language (default version)
  See /usr/share/doc/python2.7-minimal/README.Debian for a list of the modules
  contained in this package.
 Homepage: http://www.python.org/
+
+Package: libdrm2
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 110
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libdrm
+Version: 2.4.58-2
+Config-Version: 2.4.58-2
+Depends: libc6 (>= 2.17)
+Pre-Depends: multiarch-support
+Description: Userspace interface to kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides the runtime environment for libdrm.
 
 Package: isc-dhcp-client
 Status: install ok installed
@@ -4362,6 +5165,35 @@ Description: /proc file system utilities
  It contains free, kill, pkill, pgrep, pmap, ps, pwdx, skill, slabtop,
  snice, sysctl, tload, top, uptime, vmstat, w, and watch.
 Homepage: http://gitorious.org/procps
+
+Package: libxcb-sync1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 38
+Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxcb (1.10-3)
+Version: 1.10-3+b1
+Config-Version: 1.10-3+b1
+Depends: libc6 (>= 2.14), libxcb1
+Pre-Depends: multiarch-support
+Description: X C Binding, sync extension
+ This package contains the library files needed to run software using
+ libxcb-sync, the sync extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+Homepage: http://xcb.freedesktop.org
 
 Package: libgssapi-krb5-2
 Status: install ok installed
@@ -4641,6 +5473,52 @@ Description: Debian base system miscellaneous files
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
  and the text of several common licenses in use on Debian systems.
 
+Package: libdrm-intel1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 194
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libdrm
+Version: 2.4.58-2
+Config-Version: 2.4.58-2
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.38), libpciaccess0
+Pre-Depends: multiarch-support
+Description: Userspace interface to intel-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
+Package: libx11-xcb1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 235
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libx11
+Version: 2:1.6.2-3
+Config-Version: 2:1.6.2-3
+Depends: libc6 (>= 2.2.5), libx11-6
+Pre-Depends: multiarch-support
+Description: Xlib/XCB interface library
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:http://xcb.freedesktop.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
 Package: libgmp10
 Status: install ok installed
 Priority: optional
@@ -4722,6 +5600,45 @@ Description: Exported ISC Shared Library
  Internet, and is supported by the Internet Software Consortium, www.isc.org.
  .
  This package delivers the exported libisc shared library.
+
+Package: libssh2-1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 229
+Maintainer: Mikhail Gusarov <dottedmag@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libssh2
+Version: 1.4.3-4.1
+Depends: libc6 (>= 2.14), libgcrypt20 (>= 1.6.1), zlib1g (>= 1:1.1.4)
+Pre-Depends: multiarch-support
+Description: SSH2 client-side library
+ libssh2 is a client-side C library implementing the SSH2 protocol.
+ It supports regular terminal, SCP and SFTP (v1-v5) sessions;
+ port forwarding, X11 forwarding; password, key-based and
+ keyboard-interactive authentication.
+ .
+ This package contains the runtime library.
+Homepage: http://libssh2.org/
+
+Package: patch
+Status: install ok installed
+Priority: standard
+Section: vcs
+Installed-Size: 191
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 2.7.5-1
+Depends: libc6 (>= 2.17)
+Suggests: ed, diffutils-doc
+Description: Apply a diff file to an original
+ Patch will take a patch file containing any of the four forms
+ of difference listing produced by the diff program and apply
+ those differences to an original file, producing a patched
+ version.
+Homepage: http://savannah.gnu.org/projects/patch/
 
 Package: passwd
 Status: install ok installed
@@ -4954,6 +5871,31 @@ Description: Internationalization support for MIT Kerberos
  This package contains internationalized messages for MIT Kerberos.
 Homepage: http://web.mit.edu/kerberos/
 
+Package: libxxf86dga1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 41
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxxf86dga (2:1.1.4-1)
+Version: 2:1.1.4-1+b1
+Config-Version: 2:1.1.4-1+b1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6
+Pre-Depends: multiarch-support
+Description: X11 Direct Graphics Access extension library
+ libXxf86dga provides the XFree86-DGA extension, which allows direct
+ graphics access to a framebuffer-like region, and also allows relative
+ mouse reporting, et al.  It is mainly used by games and emulators for
+ games.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXxf86dga
+
 Package: libc-bin
 Essential: yes
 Status: install ok installed
@@ -5070,6 +6012,36 @@ Description: client for setting system time from NTP servers
  If the full NTP daemon from the package "ntp" is installed, then
  ntpdate is not necessary.
 Homepage: http://support.ntp.org/
+
+Package: libgl1-mesa-glx
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 702
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: mesa
+Version: 10.3.2-1
+Config-Version: 10.3.2-1
+Replaces: libgl1, libgl1-mesa-dri (<< 6.4.0)
+Provides: libgl1
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libexpat1 (>= 2.0.1), libglapi-mesa (= 10.3.2-1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-sync1, libxcb1 (>= 1.9.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, libudev1
+Pre-Depends: multiarch-support
+Recommends: libgl1-mesa-dri (>= 7.2)
+Breaks: fglrx-glx (<< 1:11-6-1), glx-diversions (<< 0.4), libgl1-nvidia-alternatives (<= 275.09.07-1)
+Conflicts: libgl1, libgl1-mesa-dri (<< 6.4.0)
+Description: free implementation of the OpenGL API -- GLX runtime
+ This version of Mesa provides GLX and DRI capabilities: it is capable of
+ both direct and indirect rendering.  For direct rendering, it can use DRI
+ modules from the libgl1-mesa-dri package to accelerate drawing.
+ .
+ This package does not include the modules themselves: these can be found
+ in the libgl1-mesa-dri package.
+ .
+ For a complete description of Mesa, please look at the
+ libgl1-mesa-swx11 package.
+Homepage: http://mesa3d.sourceforge.net/
 
 Package: udev
 Status: install ok installed
@@ -5569,6 +6541,25 @@ Description: SELinux runtime shared libraries
  version supported by the kernel) when loading policy.
 Homepage: http://userspace.selinuxproject.org/
 
+Package: tcl8.6
+Status: deinstall ok config-files
+Priority: optional
+Section: interpreters
+Installed-Size: 126
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 8.6.2+dfsg-2
+Config-Version: 8.6.2+dfsg-2
+Depends: libc6 (>= 2.2.5), libtcl8.6 (>= 8.6.0), zlib1g (>= 1:1.1.4)
+Suggests: tcl-tclreadline
+Conflicts: tcl74 (<= 7.4p3-2)
+Description: Tcl (the Tool Command Language) v8.6 - shell
+ Tcl is a powerful, easy to use, embeddable, cross-platform interpreted
+ scripting language.  This package contains the Tcl shell which you need
+ to run Tcl scripts.  This version includes thread support.
+Homepage: http://www.tcl.tk/
+
 Package: systemd
 Status: install ok installed
 Priority: optional
@@ -5859,6 +6850,78 @@ Description: SQLite 3 shared library
  access without running a separate RDBMS process.
 Homepage: http://www.sqlite.org/
 
+Package: libice6
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 122
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libice (2:1.0.9-1)
+Version: 2:1.0.9-1+b1
+Config-Version: 2:1.0.9-1+b1
+Depends: libc6 (>= 2.14), x11-common
+Pre-Depends: multiarch-support
+Description: X11 Inter-Client Exchange library
+ This package provides the main interface to the X11 Inter-Client Exchange
+ library, which allows for communication of data between X clients.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libICE
+
+Package: libfontenc1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 43
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libfontenc (1:1.1.2-1)
+Version: 1:1.1.2-1+b2
+Config-Version: 1:1.1.2-1+b2
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Pre-Depends: multiarch-support
+Description: X11 font encoding library
+ libfontenc is a library which helps font libraries portably determine
+ and deal with different encodings of fonts.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libfontenc
+
+Package: libxcomposite1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 56
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxcomposite
+Version: 1:0.4.4-1
+Config-Version: 1:0.4.4-1
+Depends: libc6 (>= 2.2.5), libx11-6 (>= 2:1.4.99.1)
+Pre-Depends: multiarch-support
+Description: X11 Composite extension library
+ libXcomposite provides an X Window System client interface to the Composite
+ extension to the X protocol.
+ .
+ The Composite extension allows clients called compositing managers to control
+ the final drawing of the screen.  Rendering is done into an off-screen buffer.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXcomposite
+
 Package: sysv-rc
 Status: install ok installed
 Priority: required
@@ -5996,6 +7059,30 @@ Description: X11 pixmap library
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libXpm
 
+Package: libxt6
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 494
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxt (1:1.1.4-1)
+Version: 1:1.1.4-1+b1
+Config-Version: 1:1.1.4-1+b1
+Depends: libc6 (>= 2.14), libice6 (>= 1:1.0.0), libsm6, libx11-6
+Pre-Depends: multiarch-support
+Description: X11 toolkit intrinsics library
+ libXt provides the X Toolkit Intrinsics, an abstract widget library upon
+ which other toolkits are based.  Xt is the basis for many toolkits, including
+ the Athena widgets (Xaw), and LessTif (a Motif implementation).
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXt
+
 Package: pciutils
 Status: install ok installed
 Priority: standard
@@ -6011,6 +7098,80 @@ Description: Linux PCI Utilities
  This package contains various utilities for inspecting and setting of
  devices connected to the PCI bus.
 Homepage: http://atrey.karlin.mff.cuni.cz/~mj/pciutils.shtml
+
+Package: libxcb-shape0
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 24
+Maintainer: XCB Developers <xcb@lists.freedesktop.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxcb (1.10-3)
+Version: 1.10-3+b1
+Config-Version: 1.10-3+b1
+Depends: libc6 (>= 2.4), libxcb1
+Pre-Depends: multiarch-support
+Description: X C Binding, shape extension
+ This package contains the library files needed to run software using
+ libxcb-shape, the shape extension for the X C Binding.
+ .
+ The XCB library provides an interface to the X Window System protocol,
+ designed to replace the Xlib interface.  XCB provides several advantages over
+ Xlib:
+ .
+  * Size: small library and lower memory footprint
+  * Latency hiding: batch several requests and wait for the replies later
+  * Direct protocol access: one-to-one mapping between interface and protocol
+  * Thread support: access XCB from multiple threads, with no explicit locking
+  * Easy creation of new extensions: automatically generates interface from
+    machine-parsable protocol descriptions
+Homepage: http://xcb.freedesktop.org
+
+Package: libpciaccess0
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 108
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libpciaccess (0.13.2-3)
+Version: 0.13.2-3+b1
+Config-Version: 0.13.2-3+b1
+Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4)
+Pre-Depends: multiarch-support
+Suggests: pciutils
+Description: Generic PCI access library for X
+ Provides functionality for X to access the PCI bus and devices
+ in a platform-independent way.
+
+Package: libxrender1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 87
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxrender (1:0.9.8-1)
+Version: 1:0.9.8-1+b1
+Config-Version: 1:0.9.8-1+b1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0)
+Pre-Depends: multiarch-support
+Description: X Rendering Extension client library
+ The X Rendering Extension (Render) introduces digital image composition as
+ the foundation of a new rendering model within the X Window System.
+ Rendering geometric figures is accomplished by client-side tessellation into
+ either triangles or trapezoids.  Text is drawn by loading glyphs into the
+ server and rendering sets of them.  The Xrender library exposes this
+ extension to X clients.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrender
 
 Package: diffutils
 Essential: yes
@@ -6040,6 +7201,33 @@ Description: File comparison utilities
  to the complete files.  Given `diff' output, the `patch' program can
  update, or "patch", a copy of the file.
 Homepage: http://www.gnu.org/software/diffutils/
+
+Package: libxv1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 37
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxv (2:1.0.10-1)
+Version: 2:1.0.10-1+b1
+Config-Version: 2:1.0.10-1+b1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), libxext6
+Pre-Depends: multiarch-support
+Description: X11 Video extension library
+ libXv provides an X Window System client interface to the XVideo
+ extension to the X protocol.
+ .
+ The XVideo extension allows for accelerated drawing of videos.  Hardware
+ adaptors are exposed to clients, which may draw in a number of colourspaces,
+ including YUV.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXv
 
 Package: man-db
 Status: install ok installed
@@ -6335,6 +7523,26 @@ Description: Shared library for the Lua interpreter version 5.1
  explicitly.
 Homepage: http://www.lua.org
 
+Package: libdrm-radeon1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 107
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libdrm
+Version: 2.4.58-2
+Config-Version: 2.4.58-2
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.38)
+Pre-Depends: multiarch-support
+Description: Userspace interface to radeon-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+
 Package: mysql-server-core-5.5
 Status: install ok installed
 Priority: optional
@@ -6401,6 +7609,31 @@ Description: common error description library
  manipulate the most common form of error code in a fashion that does not
  have the problems identified with mechanisms commonly in use.
 Homepage: http://e2fsprogs.sourceforge.net
+
+Package: libtcl8.6
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 3856
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: tcl8.6
+Version: 8.6.2+dfsg-2
+Config-Version: 8.6.2+dfsg-2
+Replaces: tcl8.6 (<< 8.6.0-2)
+Provides: libtcl
+Depends: tzdata, libc6 (>= 2.15), zlib1g (>= 1:1.2.2)
+Pre-Depends: multiarch-support
+Suggests: tcl8.6
+Breaks: tcl8.4 (<< 8.4.20-2), tk8.4 (<< 8.4.20-2)
+Conflicts: tcl74 (<= 7.4p3-2), tcl8.6 (<< 8.6.0-2)
+Description: Tcl (the Tool Command Language) v8.6 - run-time library files
+ Tcl is a powerful, easy to use, embeddable, cross-platform interpreted
+ scripting language.  This package contains the Tcl library and auxiliary
+ code which allows one to run Tcl-enabled applications.  This version
+ includes thread support.
+Homepage: http://www.tcl.tk/
 
 Package: findutils
 Essential: yes
@@ -6560,6 +7793,31 @@ Pre-Depends: multiarch-support
 Description: device mounting library
  The device mounting library, used by mount and umount helpers.
 
+Package: libxxf86vm1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 35
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxxf86vm (1:1.1.3-1)
+Version: 1:1.1.3-1+b1
+Config-Version: 1:1.1.3-1+b1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6
+Pre-Depends: multiarch-support
+Description: X11 XFree86 video mode extension library
+ libXxf86vm provides an interface to the XFree86-VidModeExtension
+ extension, which allows client applications to get and set video mode
+ timings in extensive detail.  It is used by the xvidtune program in
+ particular.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXxf86vm
+
 Package: ethtool
 Status: install ok installed
 Priority: optional
@@ -6599,6 +7857,26 @@ Description: Linux Key Management Utilities (library)
  This package provides a wrapper library for the key management facility system
  calls.
 Homepage: http://people.redhat.com/~dhowells/keyutils/
+
+Package: libdrm-nouveau2
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 91
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libdrm
+Version: 2.4.58-2
+Config-Version: 2.4.58-2
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.38)
+Pre-Depends: multiarch-support
+Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
 
 Package: libreadline5
 Status: install ok installed
@@ -6671,6 +7949,25 @@ Description: collection of more utilities from FreeBSD
  This package used to contain whois and vacation, which are now distributed in
  their own packages. Also here was tsort, which is now in the "coreutils"
  package.
+
+Package: libxft2
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 141
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: xft
+Version: 2.3.2-1
+Config-Version: 2.3.2-1
+Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.5), libx11-6, libxrender1
+Pre-Depends: multiarch-support
+Description: FreeType-based font drawing library for X
+ Xft provides a client-side font API for X applications, making the FreeType
+ font rasterizer available to X clients.  Fontconfig is used for font
+ specification resolution.  Where available, the RENDER extension handles
+ glyph drawing; otherwise, the core X protocol is used.
 
 Package: libsasl2-modules
 Status: install ok installed
@@ -6979,6 +8276,45 @@ Description: Netfilter acct library
  extended netfilter accounting infrastructure.
 Homepage: http://www.netfilter.org/projects/libnetfilter_acct/
 
+Package: x11-common
+Status: deinstall ok config-files
+Priority: optional
+Section: x11
+Installed-Size: 466
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: xorg
+Version: 1:7.7+7
+Config-Version: 1:7.7+7
+Depends: debconf (>= 0.5) | debconf-2.0, lsb-base (>= 1.3-9ubuntu2)
+Conffiles:
+ /etc/X11/rgb.txt 09ee098b83d94c7c046d6b55ebe84ae1
+ /etc/X11/Xresources/x11-common b640adb1cd646ec097f8df5b6deca9f0
+ /etc/X11/Xsession.d/20x11-common_process-args b3365bc1fd7637dc237eda93533d0fe9
+ /etc/X11/Xsession.d/99x11-common_start 3874d5e8f3ec888f69adb126e223e168
+ /etc/X11/Xsession.d/35x11-common_xhost-local 3080616d080574d7b06c2b2a20af53dd
+ /etc/X11/Xsession.d/40x11-common_xsessionrc db544c8543d1cb3762b9859288e77040
+ /etc/X11/Xsession.d/30x11-common_xresources 61cebe25ee0c64e981b88958dfee6f9c
+ /etc/X11/Xsession.d/50x11-common_determine-startup b4570043736ae7f22947067b6d28ab8d
+ /etc/X11/Xsession.d/90x11-common_ssh-agent ae74aadf705c5fccf841ef921b45ca72
+ /etc/X11/Xreset.d/README b344c222b5daf81926fd3270df374b5f
+ /etc/X11/Xreset 05d188ccac2f3360af8fe0c216640233
+ /etc/X11/Xsession.options 210cd520efa87a5197cac01e10b3a84a
+ /etc/X11/Xsession 8662d290adffe530016ebf825b9af06f
+ /etc/init.d/x11-common aacceda738fb4e684ff00b5ac3fb6c0a
+Description: X Window System (X.Org) infrastructure
+ x11-common contains the filesystem infrastructure required for further
+ installation of the X Window System in any configuration; it does not
+ provide a full installation of clients, servers, libraries, and utilities
+ required to run the X Window System.
+ .
+ A number of terms are used to refer to the X Window System, including "X",
+ "X Version 11", "X11", "X11R6", and "X11R7".  The version of X used in
+ Debian is derived from the version released by the X.Org Foundation, and
+ is thus often also referred to as "X.Org".  All of the preceding quoted
+ terms are functionally interchangeable in an Debian system.
+
 Package: manpages-de
 Status: install ok installed
 Priority: optional
@@ -7005,6 +8341,31 @@ Description: German manpages
  The English package manpages contains additional manual pages
  which have not been translated yet.
 Homepage: http://manpages-de.alioth.debian.org/
+
+Package: ca-certificates
+Status: install ok installed
+Priority: optional
+Section: misc
+Installed-Size: 452
+Maintainer: Michael Shuler <michael@pbandjelly.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 20141019
+Depends: openssl (>= 1.0.0), debconf (>= 0.5) | debconf-2.0
+Breaks: ca-certificates-java (<< 20121112+nmu1)
+Enhances: openssl
+Description: Common CA certificates
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections.
+ .
+ It includes, among others, certificate authorities used by the Debian
+ infrastructure and those shipped with Mozilla's browsers.
+ .
+ Please note that Debian can neither confirm nor deny whether the
+ certificate authorities whose certificates are included in this package
+ have in any way been audited for trustworthiness or RFC 3647 compliance.
+ Full responsibility to assess them belongs to the local system
+ administrator.
 
 Package: libacl1
 Status: install ok installed
@@ -7183,6 +8544,33 @@ Description: Daemon to balance interrupts for SMP systems
  Note: irqbalance is not useful if you don't have more than one core
        or socket.
 Homepage: https://github.com/Irqbalance/irqbalance
+
+Package: git-core
+Status: install ok installed
+Priority: optional
+Section: vcs
+Installed-Size: 1
+Maintainer: Gerrit Pape <pape@smarden.org>
+Architecture: all
+Multi-Arch: foreign
+Source: git
+Version: 1:2.1.4-2.1
+Depends: git (>> 1:1.7.0.2)
+Description: fast, scalable, distributed revision control system (obsolete)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This is a transitional dummy package.  The 'git-core' package has been
+ renamed to 'git', which has been installed automatically.  This
+ git-core package is now obsolete, and can safely be removed from the
+ system if no other package depends on it.
+Homepage: http://git-scm.com/
 
 Package: libslang2
 Status: install ok installed
@@ -7438,6 +8826,27 @@ Description: De-/Encryption Library
  http://mcrypt.sourceforge.net/ .
 Homepage: http://mcrypt.sourceforge.net/
 
+Package: libllvm3.5
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 29817
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: llvm-toolchain-3.5
+Version: 1:3.5-10
+Config-Version: 1:3.5-10
+Depends: libc6 (>= 2.15), libedit2 (>= 2.11-20080614), libffi6 (>= 3.0.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), libtinfo5, zlib1g (>= 1:1.2.0)
+Pre-Depends: multiarch-support
+Description: Modular compiler and toolchain technologies, runtime library
+ LLVM is a collection of libraries and tools that make it easy to build
+ compilers, optimizers, just-in-time code generators, and many other
+ compiler-related programs.
+ .
+ This package contains the LLVM runtime library.
+Homepage: http://www.llvm.org/
+
 Package: logrotate
 Status: install ok installed
 Priority: important
@@ -7493,6 +8902,39 @@ Description: Perl Database Interface (DBI)
   * Firebird
   * MySQL
 Homepage: http://dbi.perl.org/
+
+Package: git
+Status: install ok installed
+Priority: optional
+Section: vcs
+Installed-Size: 21362
+Maintainer: Gerrit Pape <pape@smarden.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 1:2.1.4-2.1
+Replaces: git-core (<< 1:1.7.0.4-1.), gitweb (<< 1:1.7.4~rc1)
+Provides: git-completion, git-core
+Depends: libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), libpcre3 (>= 1:8.35), zlib1g (>= 1:1.2.0), perl-modules, liberror-perl, git-man (>> 1:2.1.4), git-man (<< 1:2.1.4-.)
+Recommends: patch, less, rsync, ssh-client
+Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-el, git-email, git-gui, gitk, gitweb, git-arch, git-cvs, git-mediawiki, git-svn
+Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), stgit (<< 0.15), stgit-contrib (<< 0.15)
+Conffiles:
+ /etc/bash_completion.d/git-prompt 7baac5c3ced94ebf2c0e1dde65c3b1a6
+Description: fast, scalable, distributed revision control system
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git main components with minimal dependencies.
+ Additional functionality, e.g. a graphical user interface and revision
+ tree visualizer, tools for interoperating with other VCS's, or a web
+ interface, is provided as separate git* packages.
+Homepage: http://git-scm.com/
 
 Package: libsepol1
 Status: install ok installed
@@ -7724,6 +9166,32 @@ Description: command-line interpreter for the php5 scripting language
  open source general-purpose scripting language that is especially suited
  for web development and can be embedded into HTML.
 Homepage: http://www.php.net/
+
+Package: libxrandr2
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxrandr (2:1.4.2-1)
+Version: 2:1.4.2-1+b1
+Config-Version: 2:1.4.2-1+b1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), libxext6, libxrender1
+Pre-Depends: multiarch-support
+Description: X11 RandR extension library
+ libXrandr provides an X Window System client interface to the RandR
+ extension to the X protocol.
+ .
+ The RandR extension allows for run-time configuration of display attributes
+ such as resolution, rotation, and reflection.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrandr
 
 Package: libgcc1
 Status: install ok installed
