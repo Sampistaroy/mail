@@ -1,2 +1,5 @@
+root postdrop 2555 /usr/sbin/postqueue
+postfix postdrop 2710 /var/spool/postfix/public
 root crontab 2755 /usr/bin/crontab
 root ssl-cert 710 /etc/ssl/private
+root postdrop 2555 /usr/sbin/postdrop

@@ -1,0 +1,9 @@
+2ad665d01fc0908dcecfab43e77a3cee  usr/lib/libopendbx.so.1.2.0
+b973d6acc18f3ed64f5218816bbff605  usr/lib/libopendbxplus.so.1.0.0
+190cc9f209ccf2506dbefc398d30cd2c  usr/share/doc/libopendbx1/README
+32d70fe76e3e566be174f424305bd1d1  usr/share/doc/libopendbx1/TODO
+2d8f89f909ec7c9bbc363a3f05c75930  usr/share/doc/libopendbx1/changelog.Debian.gz
+ac677dd9184c9d41a254ebfada021d77  usr/share/doc/libopendbx1/changelog.gz
+6182ffbd4814504248ec345e0c3bed8e  usr/share/doc/libopendbx1/copyright
+3772f9a134e9da7de6e09344f93b95d3  usr/share/locale/de/LC_MESSAGES/opendbx.mo
+d198b675cac5b0357e0379af4c6401ee  usr/share/locale/en@quot/LC_MESSAGES/opendbx.mo

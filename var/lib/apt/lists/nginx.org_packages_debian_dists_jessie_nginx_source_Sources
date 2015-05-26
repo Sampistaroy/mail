@@ -1,0 +1,29 @@
+Package: nginx
+Format: 3.0 (quilt)
+Binary: nginx, nginx-debug, nginx-dbg
+Architecture: any
+Version: 1.8.0-1~jessie
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Homepage: http://nginx.org
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.50~), libssl-dev (>= 0.9.7), libpcre3-dev, zlib1g-dev
+Package-List:
+ nginx deb httpd optional arch=any
+ nginx-dbg deb debug extra arch=any
+ nginx-debug deb debug extra arch=any
+Priority: optional
+Section: httpd
+Directory: pool/nginx/n/nginx
+Files: 
+ 4119497f929868785d9d14720cac64e3 1497 nginx_1.8.0-1~jessie.dsc
+ 3ca4a37931e9fa301964b8ce889da8cb 832104 nginx_1.8.0.orig.tar.gz
+ 6d0b465491036bc13dfeac5ade9935cd 6356 nginx_1.8.0-1~jessie.debian.tar.xz
+Checksums-Sha1: 
+ 22d92ad17c1ce1becc199b7fa44f4ec2660ebdd1 1497 nginx_1.8.0-1~jessie.dsc
+ 12bad312764feae50246685ab2e74512d1aa9b2f 832104 nginx_1.8.0.orig.tar.gz
+ fbb7af16ad80c4de6b73752c11adaef2401e53c9 6356 nginx_1.8.0-1~jessie.debian.tar.xz
+Checksums-Sha256: 
+ 7c277703960024ac477fd5fd8e82b730d7465f04318afdd1f0a720cb394b1bc5 1497 nginx_1.8.0-1~jessie.dsc
+ 23cca1239990c818d8f6da118320c4979aadf5386deda691b1b7c2c96b9df3d5 832104 nginx_1.8.0.orig.tar.gz
+ 4f1cf5d0d1a949fb1ca725167de1e95a0004c7cfc8494686e92e7865f5471fd9 6356 nginx_1.8.0-1~jessie.debian.tar.xz
+

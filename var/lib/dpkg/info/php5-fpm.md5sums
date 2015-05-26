@@ -1,0 +1,9 @@
+10ffb752fce9a04977862ec3e035dc3e  lib/systemd/system/php5-fpm.service
+e1591d0bb2e9a7ad7c7f9b7f34fb1fb2  usr/lib/php5/php5-fpm-checkconf
+340ad7d9b97424e34ed56980ee96122b  usr/lib/php5/php5-fpm-reopenlogs
+a213ba632f200bb8d3c57f8c29276659  usr/sbin/php5-fpm
+6ca595a320107e1109c4aee99cc18a0e  usr/share/bug/php5-fpm/control
+321d67e3c606cbed10291c149f157c43  usr/share/bug/php5-fpm/script
+87c173e8fdbd74257b036b350df47d40  usr/share/lintian/overrides/php5-fpm
+c6c477a50c8c83885e8683e102a25e0a  usr/share/man/man8/php5-fpm.8.gz
+d41d8cd98f00b204e9800998ecf8427e  usr/share/php5/sapi/fpm

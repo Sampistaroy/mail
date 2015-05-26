@@ -1,0 +1,10 @@
+dfc923880d13ef96951669e97592a3a2  usr/lib/dovecot/managesieve
+5e218d3aefbe9b0e784607e9296f45de  usr/lib/dovecot/managesieve-login
+30bef947dad35a148900651217067bcc  usr/lib/dovecot/modules/settings/libmanagesieve_login_settings.so
+2248176ce7c09aea4a02302a703ff0d8  usr/lib/dovecot/modules/settings/libmanagesieve_settings.so
+1915237bdc662b578954cf383ba67a4f  usr/share/doc/dovecot-managesieved/README.Debian
+2be7a5cbfe76e23891989ff29007d911  usr/share/doc/dovecot-managesieved/changelog.Debian.gz
+2bc7ba91309c23704d4009c2bf7646f6  usr/share/doc/dovecot-managesieved/changelog.gz
+72f5d634266d31a510c2ee87b700ecda  usr/share/doc/dovecot-managesieved/copyright
+1b415cd9385a00a950cb3d132eeb2861  usr/share/dovecot/conf.d/20-managesieve.conf
+ea907b59612797af4e35b7ccac6c5b7c  usr/share/lintian/overrides/dovecot-managesieved

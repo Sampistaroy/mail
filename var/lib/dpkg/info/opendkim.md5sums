@@ -1,0 +1,17 @@
+bbc2bb615b6f276ae6b3cbf9c34fa645  usr/sbin/opendkim
+da77790db92171b8747665bfdec5bb0f  usr/share/doc/opendkim/FEATURES.gz
+cb895f3f3676b547c2af154b40676bde  usr/share/doc/opendkim/KNOWNBUGS
+774df3355cd7bac22ea37fdb0edfadcf  usr/share/doc/opendkim/NEWS.Debian.gz
+2aa43fc5c024b36e922733bc30a7fc9e  usr/share/doc/opendkim/README.Debian
+8348e1bc95ba16f8687f575eaf86a8b3  usr/share/doc/opendkim/README.gz
+7afa3a7fc2fe6a3c91a260a33a90071c  usr/share/doc/opendkim/RELEASE_NOTES.Sendmail.gz
+ca8649cf465e761415a8455020548bf3  usr/share/doc/opendkim/changelog.Debian.gz
+cfdb49075a5f792c0240f3028d966511  usr/share/doc/opendkim/changelog.gz
+af12f58035db532b03afcc385cdb46a6  usr/share/doc/opendkim/copyright
+16e3fd1aa9f461997e23961a9d7df834  usr/share/doc/opendkim/examples/final.lua.sample
+3ba8dc885e1adc69bad96be933afc9eb  usr/share/doc/opendkim/examples/opendkim.conf.sample.gz
+4dcf3f1e51b5322efa2a9d8128b4e29a  usr/share/doc/opendkim/examples/screen.lua.sample
+5750b1200a2a675d210e27875d070db3  usr/share/doc/opendkim/examples/setup.lua.sample
+f909d5a39c4cedeb3e5413fbb8373c95  usr/share/man/man3/opendkim-lua.3.gz
+647c4f41b8c18faa6656628d9d93322c  usr/share/man/man5/opendkim.conf.5.gz
+352fc29659c8cabe70a2f85d8f57c296  usr/share/man/man8/opendkim.8.gz

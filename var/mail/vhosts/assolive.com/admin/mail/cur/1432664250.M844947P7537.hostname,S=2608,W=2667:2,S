@@ -1,0 +1,59 @@
+Return-Path: <trashbin73@hushmail.com>
+Delivered-To: <admin@assolive.com>
+Received: from hostname.assolive.com
+	by hostname.assolive.com (Dovecot) with LMTP id NSAtMLq4ZFVxHQAAume3iQ
+	for <admin@assolive.com>; Tue, 26 May 2015 20:17:30 +0200
+Received: by hostname.assolive.com (Postfix, from userid 116)
+	id B443BC0AD7; Tue, 26 May 2015 20:17:30 +0200 (CEST)
+Authentication-Results: hostname.assolive.com; dkim=none
+	reason="no signature"; dkim-adsp=none (unprotected policy);
+	dkim-atps=neutral
+X-Spam-Report: 
+	* -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	*  0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	*      (trashbin73[at]hushmail.com)
+	*  0.0 HTML_MESSAGE BODY: HTML inclus dans le message
+	* -0.7 RCVD_IN_DNSWL_LOW RBL: Sender listed at http://www.dnswl.org/, low
+	*      trust
+	*      [65.39.178.143 listed in list.dnswl.org]
+X-Spam-Status: No, score=-0.7 required=5.0 tests=FREEMAIL_FROM,HTML_MESSAGE,
+	RCVD_IN_DNSWL_LOW,SPF_HELO_PASS autolearn=ham autolearn_force=no version=3.4.0
+X-Spam-Level: 
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	hostname.assolive.com
+Received: from smtp10.hushmail.com (smtp10.hushmail.com [65.39.178.143])
+	(using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by hostname.assolive.com (Postfix) with ESMTPS id 8268FC0AD5
+	for <admin@assolive.com>; Tue, 26 May 2015 20:17:26 +0200 (CEST)
+Authentication-Results: "hostname.assolive.com"; dmarc=none header.from=hushmail.com
+Received: from smtp10.hushmail.com (localhost [127.0.0.1])
+	by smtp10.hushmail.com (Postfix) with SMTP id DC310C01C5
+	for <admin@assolive.com>; Tue, 26 May 2015 18:17:23 +0000 (UTC)
+Received: from smtp.hushmail.com (w2.hushmail.com [65.39.178.46])
+	by smtp10.hushmail.com (Postfix) with ESMTP
+	for <admin@assolive.com>; Tue, 26 May 2015 18:17:23 +0000 (UTC)
+Received: by smtp.hushmail.com (Postfix, from userid 99)
+	id C79DFE048C; Tue, 26 May 2015 18:17:23 +0000 (UTC)
+MIME-Version: 1.0
+Date: Tue, 26 May 2015 20:17:23 +0200
+To: admin@assolive.com
+Subject: Test
+From: "BarracudaXT" <trashbin73@hushmail.com>
+Content-Type: multipart/alternative;
+	boundary="=_04cd455756deca0ca0dcca09546f9a08"
+Message-Id: <20150526181723.C79DFE048C@smtp.hushmail.com>
+
+--=_04cd455756deca0ca0dcca09546f9a08
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="UTF-8"
+
+Test
+
+--=_04cd455756deca0ca0dcca09546f9a08
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<span style=3D"font-family: Arial; font-size: 13px;">Test<br></span>
+--=_04cd455756deca0ca0dcca09546f9a08--
+

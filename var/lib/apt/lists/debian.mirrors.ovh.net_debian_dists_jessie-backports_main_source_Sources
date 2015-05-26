@@ -257,6 +257,45 @@ Directory: pool/main/c/cinder
 Priority: extra
 Section: misc
 
+Package: codeblocks
+Binary: codeblocks, codeblocks-common, libcodeblocks0, codeblocks-dbg, codeblocks-contrib, codeblocks-contrib-dbg, codeblocks-dev, libwxsmithlib0, libwxsmithlib-dev, libwxsmithlib0-dev
+Version: 13.12-3.1~bpo8+1
+Maintainer: David Paleino <dapal@debian.org>
+Uploaders: Michael Casadevall <sonicmctails@gmail.com>, Vincent Cheng <vcheng@debian.org>
+Build-Depends: debhelper (>= 8~), dh-autoreconf, libwxgtk3.0-dev, zip, libbz2-dev, zlib1g-dev, libgtk2.0-dev, libhunspell-dev, libgamin-dev, libboost-dev
+Architecture: any all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ f67dba2e6165989820ff451c51437650 2676 codeblocks_13.12-3.1~bpo8+1.dsc
+ 4b450f620d9f1875ecf6882ab3c11402 17221056 codeblocks_13.12.orig.tar.gz
+ 1f17a3e6dc8b54ce7ad0a1e62e45aef0 18212 codeblocks_13.12-3.1~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/codeblocks.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/codeblocks.git
+Checksums-Sha1:
+ 3922d54b9725b3fbc398dfc616b47334306ea7f9 2676 codeblocks_13.12-3.1~bpo8+1.dsc
+ 3d16f977c9dcc0d857f61af3233a76d6a68609e3 17221056 codeblocks_13.12.orig.tar.gz
+ a75710530551903fd2e7d61a5a155d127ea44b50 18212 codeblocks_13.12-3.1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ e06fab0b76f85f51e812cb8e6114a8ea487efeabaaa015513be32bd5ec4ebc52 2676 codeblocks_13.12-3.1~bpo8+1.dsc
+ 772450046e8c8ba2ea0086acf433a46b83e6254fae64df9c8ca132a22f949610 17221056 codeblocks_13.12.orig.tar.gz
+ 695348c0388f4b7f0e75b0e1ed91d26acf8163805eb87c8ec49cfd37946e2d23 18212 codeblocks_13.12-3.1~bpo8+1.debian.tar.xz
+Homepage: http://codeblocks.org
+Package-List: 
+ codeblocks deb devel optional arch=any
+ codeblocks-common deb x11 optional arch=all
+ codeblocks-contrib deb x11 optional arch=any
+ codeblocks-contrib-dbg deb oldlibs extra arch=any
+ codeblocks-dbg deb debug extra arch=any
+ codeblocks-dev deb libdevel optional arch=any
+ libcodeblocks0 deb libs optional arch=any
+ libwxsmithlib-dev deb libdevel optional arch=any
+ libwxsmithlib0 deb libs optional arch=any
+ libwxsmithlib0-dev deb oldlibs extra arch=any
+Directory: pool/main/c/codeblocks
+Priority: extra
+Section: misc
+
 Package: darktable
 Binary: darktable, darktable-dbg
 Version: 1.6.6-1~bpo8+1
@@ -418,6 +457,43 @@ Directory: pool/main/f/fish
 Priority: extra
 Section: misc
 
+Package: ganeti
+Binary: ganeti2, ganeti, ganeti-2.12, ganeti-haskell-2.12, ganeti-htools, ganeti-htools-2.12, ganeti-doc, python-ganeti-rapi
+Version: 2.12.4-1~bpo8+1
+Maintainer: Debian Ganeti Team <pkg-ganeti-devel@lists.alioth.debian.org>
+Uploaders: Guido Trotter <ultrotter@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 9), m4, python-all, ghc (>= 6.12), ghc-ghci, libghc-curl-dev, libghc-json-dev, libghc-snap-server-dev, libghc-network-dev, libghc-parallel-dev, libghc-utf8-string-dev, libghc-deepseq-dev, libghc-hslogger-dev, libghc-crypto-dev, libghc-text-dev, libghc-hinotify-dev, libghc-base64-bytestring-dev (>= 1.0.0.0), libghc-zlib-dev, libghc-regex-pcre-dev, libghc-attoparsec-dev, libghc-vector-dev, libghc-lifted-base-dev, libghc-lens-dev, libpcre3-dev, libcurl4-openssl-dev, python-simplejson, python-pyparsing, python-openssl, python-bitarray, python-pyinotify, python-pycurl, python-paramiko, python-ipaddr, python-sphinx (>= 1.0.7+dfsg), graphviz, qemu-utils, socat, iproute2 | iproute, bash-completion, po-debconf
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 5fe3c6a2c988c192c390893a2a08208b 3065 ganeti_2.12.4-1~bpo8+1.dsc
+ e8ff625ff0409c61e862a9fdc25a6963 4377325 ganeti_2.12.4.orig.tar.gz
+ 2a5de632a0ab734d31ff42550fdcb172 34472 ganeti_2.12.4-1~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ganeti/ganeti.git
+Vcs-Git: git://anonscm.debian.org/pkg-ganeti/ganeti.git
+Checksums-Sha1:
+ c05303a2ddbd23abb76a32c73d5ffbdd186964d0 3065 ganeti_2.12.4-1~bpo8+1.dsc
+ 551f6b744790608d42e7a23330eb8dce36ad3ffe 4377325 ganeti_2.12.4.orig.tar.gz
+ 08ec337eb67203b5cc699674071df42fbba01a49 34472 ganeti_2.12.4-1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ fb8eb69cda0798cede7773c043c4486a112e9e3033009f2c6e2f21fe64a518ab 3065 ganeti_2.12.4-1~bpo8+1.dsc
+ d1e88acb612a6a0836f8ec99e08a7188d767fe4a6c2932d325b93eed59969b3e 4377325 ganeti_2.12.4.orig.tar.gz
+ d6c6c143796a4c08b289c4578a385dbe7b3748cef7fbe315f52fb2d5811ffa79 34472 ganeti_2.12.4-1~bpo8+1.debian.tar.xz
+Homepage: http://code.google.com/p/ganeti/
+Package-List: 
+ ganeti deb admin extra arch=all
+ ganeti-2.12 deb admin extra arch=all
+ ganeti-doc deb doc extra arch=all
+ ganeti-haskell-2.12 deb admin extra arch=any
+ ganeti-htools deb admin extra arch=all
+ ganeti-htools-2.12 deb admin extra arch=any
+ ganeti2 deb admin extra arch=all
+ python-ganeti-rapi deb python extra arch=all
+Directory: pool/main/g/ganeti
+Priority: extra
+Section: misc
+
 Package: glance
 Binary: python-glance, glance, python-glance-doc, glance-common, glance-api, glance-registry
 Version: 2015.1.0-1~bpo8+1
@@ -537,6 +613,236 @@ Package-List:
  gnuplot5-x11 deb math optional arch=any
 Testsuite: autopkgtest
 Directory: pool/main/g/gnuplot5
+Priority: extra
+Section: misc
+
+Package: golang
+Binary: golang-go, golang-src, golang-doc, golang, golang-mode, kate-syntax-go, vim-syntax-go, golang-go-linux-amd64, golang-go-linux-arm, golang-go-linux-386, golang-go-freebsd-amd64, golang-go-freebsd-arm, golang-go-freebsd-386, golang-go-windows-amd64, golang-go-windows-386, golang-go-darwin-amd64, golang-go-darwin-386, golang-go-netbsd-amd64, golang-go-netbsd-386
+Version: 2:1.3.3-1
+Maintainer: Go Compiler Team <pkg-golang-devel@lists.alioth.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <admwiggin@gmail.com>
+Build-Depends: debhelper (>= 7.4.10), bison, ed, mawk | awk, perl, netbase
+Build-Depends-Indep: po-debconf
+Architecture: i386 amd64 armel armhf all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ ee8cd5a85e5601d4dee7d1c61e443eda 3487 golang_1.3.3-1.dsc
+ 2cdbad6baefcf1007f3cf54a5bc878b7 10049379 golang_1.3.3.orig.tar.gz
+ 5185aa88353a366e43a9638bfcdbd583 40328 golang_1.3.3-1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-golang/golang.git
+Vcs-Git: git://anonscm.debian.org/pkg-golang/golang.git
+Checksums-Sha1:
+ 53f91220ab40322a7482fdd342c2010e90e049ee 3487 golang_1.3.3-1.dsc
+ b54b7deb7b7afe9f5d9a3f5dd830c7dede35393a 10049379 golang_1.3.3.orig.tar.gz
+ 09a16406dfe73a47911b3662a5dc455b0549c015 40328 golang_1.3.3-1.debian.tar.xz
+Checksums-Sha256:
+ 1ce17ae02fe7f85736239c5f7e10b9e404f704b3511c2785300dc1ae4b0e5bcb 3487 golang_1.3.3-1.dsc
+ 1bb6fde89cfe8b9756a875af55d994cce0994861227b5dc0f268c143d91cd5ff 10049379 golang_1.3.3.orig.tar.gz
+ 6e02a0c741a879b9d6deb334118042e94093befc205ecb2115f5da31716ddb9a 40328 golang_1.3.3-1.debian.tar.xz
+Homepage: http://golang.org/
+Package-List: 
+ golang deb devel optional arch=all
+ golang-doc deb doc optional arch=all
+ golang-go deb devel optional arch=i386,amd64,armel,armhf
+ golang-go-darwin-386 deb devel optional arch=all
+ golang-go-darwin-amd64 deb devel optional arch=all
+ golang-go-freebsd-386 deb devel optional arch=all
+ golang-go-freebsd-amd64 deb devel optional arch=all
+ golang-go-freebsd-arm deb devel optional arch=all
+ golang-go-linux-386 deb devel optional arch=i386,amd64,armel,armhf
+ golang-go-linux-amd64 deb devel optional arch=i386,amd64,armel,armhf
+ golang-go-linux-arm deb devel optional arch=i386,amd64,armel,armhf
+ golang-go-netbsd-386 deb devel optional arch=all
+ golang-go-netbsd-amd64 deb devel optional arch=all
+ golang-go-windows-386 deb devel optional arch=all
+ golang-go-windows-amd64 deb devel optional arch=all
+ golang-mode deb devel optional arch=all
+ golang-src deb devel optional arch=i386,amd64,armel,armhf
+ kate-syntax-go deb devel optional arch=all
+ vim-syntax-go deb devel optional arch=all
+Extra-Source-Only: yes
+Directory: pool/main/g/golang
+Priority: extra
+Section: misc
+
+Package: golang-dbus
+Binary: golang-dbus-dev
+Version: 2-1~bpo8+1
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Build-Depends: dbus-x11, debhelper (>= 9), dh-golang, golang-go
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ ddfbf61a388e592cf5b9a1d3c97d1859 2100 golang-dbus_2-1~bpo8+1.dsc
+ 198227f2f358a13f60a43e27153992b3 39876 golang-dbus_2.orig.tar.gz
+ bdde84e04559bbc78193a1fd7bb7bdab 3368 golang-dbus_2-1~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-go/packages/golang-dbus.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-dbus.git
+Checksums-Sha1:
+ 0d1a9257a5c795cb274e267054b24421eb93938d 2100 golang-dbus_2-1~bpo8+1.dsc
+ 13e5254db7080055feeef75ce779e06bbc342471 39876 golang-dbus_2.orig.tar.gz
+ 45ac13f8817391a538f45fcd3d0d7961aa1cb51a 3368 golang-dbus_2-1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ e69ded389006b7bff341bbee0fe91eb0590e5e8b29f3f6055888a71f456a026f 2100 golang-dbus_2-1~bpo8+1.dsc
+ a20d97df33eff3b48dbf970d39022a51f87e35010a42df6fd5b3b3e245a3ffb0 39876 golang-dbus_2.orig.tar.gz
+ 7eb75c7f895ce893ac8e8b403dbfa377cb7a6b74a888b8d8ecb1bded973a3547 3368 golang-dbus_2-1~bpo8+1.debian.tar.xz
+Homepage: https://github.com/godbus/dbus
+Package-List: 
+ golang-dbus-dev deb devel extra arch=all
+Directory: pool/main/g/golang-dbus
+Priority: extra
+Section: misc
+
+Package: golang-fsnotify
+Binary: golang-fsnotify-dev
+Version: 1.2.0-1~bpo8+1
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ aec420ad8238f655ef48535e946ba0c4 2166 golang-fsnotify_1.2.0-1~bpo8+1.dsc
+ 85ad53f38d23db444e550530f2741e90 25655 golang-fsnotify_1.2.0.orig.tar.gz
+ 6baaeaf9162ff644fa344e83449a16db 3612 golang-fsnotify_1.2.0-1~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-go/packages/golang-fsnotify.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-fsnotify.git
+Checksums-Sha1:
+ 90f47e245d89ffde56117f2d39faa02ed8c704ff 2166 golang-fsnotify_1.2.0-1~bpo8+1.dsc
+ f844ff1600c108eaf1f5c8c938ea1635bc24ecdc 25655 golang-fsnotify_1.2.0.orig.tar.gz
+ 5158b434c0047830d9b59f3bae1bd11756c0b2da 3612 golang-fsnotify_1.2.0-1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ 9ec8c00569602c12152e32408efea5c8a2f89bb3e95bdc8991bad1a336b12a83 2166 golang-fsnotify_1.2.0-1~bpo8+1.dsc
+ 45cf5fc4ebab273c8a6900ae320a05966d4d0c860068ae10f465093cff29aa93 25655 golang-fsnotify_1.2.0.orig.tar.gz
+ 3c7796348d90c2689461d8bc49fc6944e68938a7367719de7ef08c5adf9f2584 3612 golang-fsnotify_1.2.0-1~bpo8+1.debian.tar.xz
+Homepage: https://github.com/go-fsnotify/fsnotify
+Package-List: 
+ golang-fsnotify-dev deb devel extra arch=all
+Directory: pool/main/g/golang-fsnotify
+Priority: extra
+Section: misc
+
+Package: golang-go-patricia
+Binary: golang-go-patricia-dev
+Version: 2.1.0-1~bpo8+1
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ d3d8c2e14496086d7c892d148afebc61 2201 golang-go-patricia_2.1.0-1~bpo8+1.dsc
+ fe4be56705f54d8bd67a3a6cbbcb309c 10299 golang-go-patricia_2.1.0.orig.tar.gz
+ 1db8da7668c65f16029aa2ff1f7d3c5f 3256 golang-go-patricia_2.1.0-1~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-go/packages/golang-go-patricia.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-go-patricia.git
+Checksums-Sha1:
+ 5a8262e7df9a93f7e27c3e3d98988197a51847b0 2201 golang-go-patricia_2.1.0-1~bpo8+1.dsc
+ 85fdf88b24a5af99fc3551a6405f21452b7afbd3 10299 golang-go-patricia_2.1.0.orig.tar.gz
+ 0a8d0238a79662691c56e0e267cc0a3959ff09ad 3256 golang-go-patricia_2.1.0-1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ 8b75457a001094c1d875c1e236db05c517917e927c6ccf2f35832c415b2b1fd6 2201 golang-go-patricia_2.1.0-1~bpo8+1.dsc
+ ecc831f3c0bb73f834858cd26cfa362bb86726877375df2a4d461a6009a82ab0 10299 golang-go-patricia_2.1.0.orig.tar.gz
+ ceb397c0ff579ca95758b269a0642d0fdb16a4bbc210940c21327ece15e56df5 3256 golang-go-patricia_2.1.0-1~bpo8+1.debian.tar.xz
+Homepage: https://github.com/tchap/go-patricia
+Package-List: 
+ golang-go-patricia-dev deb devel extra arch=all
+Directory: pool/main/g/golang-go-patricia
+Priority: extra
+Section: misc
+
+Package: golang-gocapability-dev
+Binary: golang-gocapability-dev
+Version: 0.0~git20150323.1.8e4cdcb-1~bpo8+1
+Maintainer: Johan Euphrosine <proppy@google.com>
+Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 1c2407c6d5615b14031423e4c977d112 2382 golang-gocapability-dev_0.0~git20150323.1.8e4cdcb-1~bpo8+1.dsc
+ a67246fc92e37242502604392b13a8dd 8615 golang-gocapability-dev_0.0~git20150323.1.8e4cdcb.orig.tar.gz
+ a26b3e03ec5d2fe27cead472913efd44 4052 golang-gocapability-dev_0.0~git20150323.1.8e4cdcb-1~bpo8+1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-gocapability-dev.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-gocapability-dev.git
+Checksums-Sha1:
+ d380d269229fc34da7ce2375c7b5ab521a9509f5 2382 golang-gocapability-dev_0.0~git20150323.1.8e4cdcb-1~bpo8+1.dsc
+ a98c8ec61d135eda555438985770ad779f1658b2 8615 golang-gocapability-dev_0.0~git20150323.1.8e4cdcb.orig.tar.gz
+ 140dcb1995ab1935b15154702afd55088d91b39d 4052 golang-gocapability-dev_0.0~git20150323.1.8e4cdcb-1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ 81407fcb4279333c6cfa128d1ab66111b6327cea84fa51537ceef2c840284384 2382 golang-gocapability-dev_0.0~git20150323.1.8e4cdcb-1~bpo8+1.dsc
+ 401e16453dea27a89b314191ed1fe56410500e05e21b24b9d8bfd20197fad8d1 8615 golang-gocapability-dev_0.0~git20150323.1.8e4cdcb.orig.tar.gz
+ 9a10baa22851f1ea70d813891c80bb28551c83a29cdb924e2e6caa8120643a99 4052 golang-gocapability-dev_0.0~git20150323.1.8e4cdcb-1~bpo8+1.debian.tar.xz
+Homepage: https://github.com/syndtr/gocapability
+Package-List: 
+ golang-gocapability-dev deb devel extra arch=all
+Directory: pool/main/g/golang-gocapability-dev
+Priority: extra
+Section: misc
+
+Package: golang-logrus
+Binary: golang-logrus-dev
+Version: 0.7.1-1~bpo8+1
+Maintainer: Jessie Frazelle <jess@docker.com>
+Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go, golang-testify-dev
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 965768967534ed64bb57801c1d84e967 2158 golang-logrus_0.7.1-1~bpo8+1.dsc
+ 3b912dc35c7408db18340aaabee6147c 23105 golang-logrus_0.7.1.orig.tar.gz
+ d2f2f919d72f3a52593a1a66fdb8b6b0 9292 golang-logrus_0.7.1-1~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-go/packages/golang-logrus.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-logrus.git
+Checksums-Sha1:
+ c8235c3dfdb8d4eb45d924af236222afc5458241 2158 golang-logrus_0.7.1-1~bpo8+1.dsc
+ 5ab9a810f26132db552d80c89fe87f77ebd17df8 23105 golang-logrus_0.7.1.orig.tar.gz
+ 03a93559ab2529fc17bd9dd5f66b43723fc22ea5 9292 golang-logrus_0.7.1-1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ 99a19165d63843af0accdbc9723e0faba55c5e2d7aa2dfbb1a8627eb7b4819bf 2158 golang-logrus_0.7.1-1~bpo8+1.dsc
+ a221804ce4c4632dbdb75f9a698e1393c7fcda0055011983820b87ba1438eff9 23105 golang-logrus_0.7.1.orig.tar.gz
+ 08aaa8c72b0ab59208261d9f1b2ea46750c5f224e52d945a0eda9251b735fbb5 9292 golang-logrus_0.7.1-1~bpo8+1.debian.tar.xz
+Homepage: https://github.com/Sirupsen/logrus
+Package-List: 
+ golang-logrus-dev deb devel extra arch=all
+Directory: pool/main/g/golang-logrus
+Priority: extra
+Section: misc
+
+Package: golang-pty
+Binary: golang-pty-dev
+Version: 0.0~git20141217.1.05017fc-1~bpo8+1
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 23b3dc0cdc721aaffee3688fd1413cb6 2235 golang-pty_0.0~git20141217.1.05017fc-1~bpo8+1.dsc
+ 55fcc525a07d50b2f3bae8cbbc35a301 4034 golang-pty_0.0~git20141217.1.05017fc.orig.tar.gz
+ a228f147b187162f1de242b69d42cfc6 4580 golang-pty_0.0~git20141217.1.05017fc-1~bpo8+1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-pty.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-pty.git
+Checksums-Sha1:
+ a45f2c524b48bfac828abf4f2a6aadba7522d528 2235 golang-pty_0.0~git20141217.1.05017fc-1~bpo8+1.dsc
+ 54b8588665f4083e273d1eec06c9da97b84a5671 4034 golang-pty_0.0~git20141217.1.05017fc.orig.tar.gz
+ 03217dd8522bddc364084adba32c01ee526cf26d 4580 golang-pty_0.0~git20141217.1.05017fc-1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ 23022a1ee16859695ee91db602b1065c4d2053a1cd0011eff8175ccc45f2c5e3 2235 golang-pty_0.0~git20141217.1.05017fc-1~bpo8+1.dsc
+ 99064f0df9c2806252becc6870954d04966594d08eb9ed0a6aa8071d4943e024 4034 golang-pty_0.0~git20141217.1.05017fc.orig.tar.gz
+ 0d6ae66f7531231dbe476d92c2c605890b80b9150114aab3b0758c071d98e993 4580 golang-pty_0.0~git20141217.1.05017fc-1~bpo8+1.debian.tar.xz
+Homepage: https://github.com/kr/pty
+Package-List: 
+ golang-pty-dev deb devel extra arch=all
+Directory: pool/main/g/golang-pty
 Priority: extra
 Section: misc
 
@@ -703,7 +1009,7 @@ Section: misc
 
 Package: horizon
 Binary: python-django-horizon, openstack-dashboard, openstack-dashboard-apache
-Version: 2015.1.0-1~bpo8+1
+Version: 2015.1.0-2~bpo8+1
 Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
 Uploaders: Julien Danjou <acid@debian.org>, Thomas Goirand <zigo@debian.org>, Mehdi Abaakouk <sileht@sileht.net>, Gonéri Le Bouder <goneri@debian.org>
 Build-Depends: debhelper (>= 9), dh-python, openstack-pkg-tools, po-debconf, python-all, python-pbr, python-setuptools, python-sphinx
@@ -713,25 +1019,54 @@ Architecture: all
 Standards-Version: 3.9.5
 Format: 3.0 (quilt)
 Files:
- 1e5afbd9be7625e756600c070c191b33 4046 horizon_2015.1.0-1~bpo8+1.dsc
+ f64cf8f7e252de5506f90385e7603cb8 4046 horizon_2015.1.0-2~bpo8+1.dsc
  b3aad3621ee4f272b011f9467607c485 1501608 horizon_2015.1.0.orig.tar.xz
- 1b1cdbde899512c020d1ed407d04a7de 15624 horizon_2015.1.0-1~bpo8+1.debian.tar.xz
+ 16a973e2e9b4bf8b2034ef66d2e68535 16276 horizon_2015.1.0-2~bpo8+1.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/horizon.git;a=summary
 Vcs-Git: git://anonscm.debian.org/openstack/horizon.git
 Checksums-Sha1:
- 1120c31df49b2fa30d148674689daf36c71ca6d6 4046 horizon_2015.1.0-1~bpo8+1.dsc
+ 3ab3741911ac9baa87f2bc99be081870a778c23c 4046 horizon_2015.1.0-2~bpo8+1.dsc
  be8a064875b767cacd6da670bb8e5d1b446665e7 1501608 horizon_2015.1.0.orig.tar.xz
- 5be7a69393a56d5e689e3a1bfe10462f8834973a 15624 horizon_2015.1.0-1~bpo8+1.debian.tar.xz
+ 8e8d68bf47bb18de2757e32f52995df3568e1e96 16276 horizon_2015.1.0-2~bpo8+1.debian.tar.xz
 Checksums-Sha256:
- 93616406216d79aee1b745bce87c3e7ae5f26758eda3550375b3be7062e3c77e 4046 horizon_2015.1.0-1~bpo8+1.dsc
+ cbc10b345326fa61bc338e0f63b9af44580e27759b09cc0160911a29eb0ec998 4046 horizon_2015.1.0-2~bpo8+1.dsc
  2b2252e1f9e7981a114f7f5dab8fe252d1f482a4e7cf21bbf1fe6500b96371fc 1501608 horizon_2015.1.0.orig.tar.xz
- 81b0eda62d7969fdd1981dd7726d1568e9d555c90299295cd9073e0b9afea8c6 15624 horizon_2015.1.0-1~bpo8+1.debian.tar.xz
+ bbb2071e7b2187102196dfee1e7d180099ad640d608a5d1a518831bf7210add6 16276 horizon_2015.1.0-2~bpo8+1.debian.tar.xz
 Homepage: http://horizon.openstack.org
 Package-List: 
  openstack-dashboard deb net extra arch=all
  openstack-dashboard-apache deb net extra arch=all
  python-django-horizon deb python extra arch=all
 Directory: pool/main/h/horizon
+Priority: extra
+Section: misc
+
+Package: i3-wm
+Binary: i3, i3-wm, i3-wm-dbg
+Version: 4.10.2-2~bpo8+1
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), libx11-dev, libxcb-util0-dev (>= 0.3.8), libxcb-keysyms1-dev, libxcb-xinerama0-dev (>= 1.1), libxcb-randr0-dev, libxcb-icccm4-dev, libxcb-cursor-dev, libxcb-xkb-dev, libxkbcommon-dev (>= 0.4.0), libxkbcommon-x11-dev (>= 0.4.0), asciidoc (>= 8.4.4), xmlto, docbook-xml, pkg-config, libev-dev (>= 1:4.04), libyajl-dev (>= 2.0.4), libpcre3-dev, libstartup-notification0-dev (>= 0.10), libcairo2-dev, libpango1.0-dev, libpod-simple-perl
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 9f349ebe38ef5bb8968df0584dc08e60 2211 i3-wm_4.10.2-2~bpo8+1.dsc
+ a9ef429c05bc46b1a9fc9a8598d2a626 942759 i3-wm_4.10.2.orig.tar.bz2
+ 09b6a22bf82e3feb408cf7d4b85902d9 12320 i3-wm_4.10.2-2~bpo8+1.debian.tar.xz
+Checksums-Sha1:
+ c2d8b622f5c8e14b5db155419f3ccc01f3f4dad6 2211 i3-wm_4.10.2-2~bpo8+1.dsc
+ dc50d112645b9838d05e5864dc09a160c4cec8a1 942759 i3-wm_4.10.2.orig.tar.bz2
+ 789cd2464db0115d59c07323dbf4206c9c044c8e 12320 i3-wm_4.10.2-2~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ 9ce73fe0e5e95d32fd4a79de5d5aeb5447cd6c00732ae70f6d240fc342b3ba2e 2211 i3-wm_4.10.2-2~bpo8+1.dsc
+ 0795a31b47f93b637da7f7e65197568117f46a35c745f4de4f56e7b2efcccfd8 942759 i3-wm_4.10.2.orig.tar.bz2
+ 9f33be203aa96aa9d3e67ceac328351aade7b54ebb52e97e34528981565faae0 12320 i3-wm_4.10.2-2~bpo8+1.debian.tar.xz
+Homepage: http://i3wm.org/
+Package-List: 
+ i3 deb x11 extra arch=any
+ i3-wm deb x11 extra arch=any
+ i3-wm-dbg deb debug extra arch=any
+Directory: pool/main/i/i3-wm
 Priority: extra
 Section: misc
 
@@ -1477,6 +1812,34 @@ Directory: pool/main/l/lime-forensics
 Priority: extra
 Section: misc
 
+Package: lintian
+Binary: lintian
+Version: 2.5.31~bpo8+1
+Maintainer: Debian Lintian Maintainers <lintian-maint@debian.org>
+Uploaders: Josip Rodin <joy-packages@debian.org>, Colin Watson <cjwatson@debian.org>, Russ Allbery <rra@debian.org>, Adam D. Barratt <adam@adam-barratt.org.uk>, Raphael Geissert <geissert@debian.org>, Niels Thykier <niels@thykier.net>, Bastien Roucariès <roucaries.bastien+debian@gmail.com>
+Build-Depends: aspell, aspell-en, binutils, bzip2, cdbs, debhelper (>= 9), default-jdk, diffstat, docbook-utils, docbook-xml, fakeroot, file, gettext, hardening-includes, intltool-debian, javahelper, libapt-pkg-perl, libarchive-zip-perl, libclass-accessor-perl, libclone-perl, libdpkg-perl, libdigest-sha-perl, libemail-valid-perl, libfile-basedir-perl, libhtml-parser-perl, libipc-run-perl, liblist-moreutils-perl, libparse-debianchangelog-perl, libtest-minimumversion-perl, libtest-perl-critic-perl, libtest-pod-coverage-perl, libtest-pod-perl, libtest-spelling-perl, libtest-strict-perl, libtest-synopsis-perl, libtext-levenshtein-perl, libtext-template-perl, libtimedate-perl, liburi-perl, libyaml-perl, man-db, node-uglify, patchutils, perl, pkg-php-tools (>= 1.5~) | bash (<< 4.2+dfsg-1~), po4a, python, python-all-dev, python-numpy, quilt, rsync, t1utils, unzip, xz-utils, zip
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (native)
+Files:
+ 68f3a33dbdc1a2f7fec507f625912182 2759 lintian_2.5.31~bpo8+1.dsc
+ ca608c523d17dce6f434aa6b565efed0 1239572 lintian_2.5.31~bpo8+1.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=lintian/lintian.git
+Vcs-Git: git://anonscm.debian.org/lintian/lintian.git
+Checksums-Sha1:
+ 9d6d6e1d6acbf82fee769e481297504bbdaf2b6c 2759 lintian_2.5.31~bpo8+1.dsc
+ 6bc7b5855bbcdc5d748ff7a9e0d86d259ddac5f9 1239572 lintian_2.5.31~bpo8+1.tar.xz
+Checksums-Sha256:
+ 57d41367af37bcbc689693c2bdf8a8fac9ea4d86b55b8a853179a5dd453de32b 2759 lintian_2.5.31~bpo8+1.dsc
+ 494cc1e9d155ebeeeccb2f9cdc6c0dc09b5bb498b939543154e61028f4700023 1239572 lintian_2.5.31~bpo8+1.tar.xz
+Homepage: https://lintian.debian.org/
+Package-List: 
+ lintian deb devel optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/l/lintian
+Priority: extra
+Section: misc
+
 Package: migrate
 Binary: python-migrate
 Version: 0.9.6-1~bpo8+1
@@ -1563,6 +1926,37 @@ Homepage: http://www.mkgmap.org.uk
 Package-List: 
  mkgmap deb utils optional arch=all
 Directory: pool/main/m/mkgmap
+Priority: extra
+Section: misc
+
+Package: mpd
+Binary: mpd, mpd-dbg
+Version: 0.19.9-2~bpo8+1
+Maintainer: mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, dh-systemd, dpkg-dev (>= 1.16.1~), libadplug-dev, libao-dev, libasound2-dev [linux-any], libaudiofile-dev (>= 0.3), libavahi-client-dev, libavahi-glib-dev, libavcodec-dev, libavformat-dev, libboost-dev, libbz2-dev, libcdio-paranoia-dev, libcppunit-dev, libcurl4-gnutls-dev | libcurl-dev, libexpat1-dev, libfaad-dev, libflac-dev, libfluidsynth-dev, libglib2.0-dev, libgme-dev, libicu-dev, libid3tag0-dev, libiso9660-dev, libjack-jackd2-dev, libmad0-dev, libmikmod-dev, libmms-dev, libmodplug-dev, libmp3lame-dev, libmpcdec-dev, libmpdclient-dev, libmpg123-dev, libnfs-dev, libogg-dev, libopenal-dev, libopus-dev, libpulse-dev, libresid-builder-dev, libroar-dev (>= 0.4), libsamplerate0-dev, libshine-dev [arm armel armeb], libshout3-dev, libsidplay2-dev, libsidutils-dev, libsmbclient-dev, libsndfile1-dev, libsoxr-dev, libsqlite3-dev, libsystemd-daemon-dev [linux-any], libupnp-dev, libvorbis-dev [!arm !armel !armeb], libvorbisidec-dev [arm armel armeb], libwavpack-dev, libwildmidi-dev, libwrap0-dev, libyajl-dev, libzzip-dev, xmlto
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 8bd84a9121849ac7389505b00a504c26 2968 mpd_0.19.9-2~bpo8+1.dsc
+ 1a66f7b4db1fa61b87e04e666c94088d 701480 mpd_0.19.9.orig.tar.xz
+ 54690e39e1e8c91fe5c5cb296bd7b14a 28092 mpd_0.19.9-2~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb?p=pkg-mpd/pkg-mpd.git
+Vcs-Git: git://anonscm.debian.org/pkg-mpd/pkg-mpd.git
+Checksums-Sha1:
+ f7014d02acebb42b3fa3316bb74ccce448527899 2968 mpd_0.19.9-2~bpo8+1.dsc
+ 6683bee5f132eda318c5a61ec14b2df8d9164d60 701480 mpd_0.19.9.orig.tar.xz
+ 0962530465276970eab707c565e674b81d113af6 28092 mpd_0.19.9-2~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ e6dd408b094a7a0c2df119890951e6ad36a1a3743c2d133e89ec1db33eaa0d72 2968 mpd_0.19.9-2~bpo8+1.dsc
+ 47851423053cd38cfad65be5985b41b7cd5bdbe8d0d13378e11748a28b19f26f 701480 mpd_0.19.9.orig.tar.xz
+ 48e719e4db4cb6c2e3ad3d43fda6fca1544ee04cea21c351b971e16a845c4a00 28092 mpd_0.19.9-2~bpo8+1.debian.tar.xz
+Homepage: http://www.musicpd.org/
+Package-List: 
+ mpd deb sound optional arch=any
+ mpd-dbg deb debug extra arch=any
+Directory: pool/main/m/mpd
 Priority: extra
 Section: misc
 
@@ -1810,44 +2204,6 @@ Section: misc
 
 Package: openjdk-8
 Binary: openjdk-8-jdk, openjdk-8-jre-headless, openjdk-8-jre, openjdk-8-demo, openjdk-8-source, openjdk-8-doc, openjdk-8-dbg, openjdk-8-jre-jamvm, openjdk-8-jre-zero
-Version: 8u45-b14-2~bpo8+1
-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
-Uploaders: Matthias Klose <doko@ubuntu.com>, Damien Raude-Morvan <drazzib@debian.org>
-Build-Depends: debhelper (>= 5), quilt, m4, lsb-release, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, time, wdiff, fastjar (>= 2:0.96-0ubuntu2), autoconf, automake, autotools-dev, ant, ant-optional, libtool, g++-4.9, openjdk-8-jdk | openjdk-7-jdk, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libgtk2.0-dev, libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libffi-dev, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libpulse-dev (>= 0.9.12), systemtap-sdt-dev, libnss3-dev (>= 2:3.17.1), tzdata, mauve, jtreg, xvfb, xauth, xfonts-base, libgl1-mesa-dri [!x32], twm | metacity, twm | dbus-x11, x11-xkb-utils
-Architecture: alpha amd64 armel armhf arm64 i386 ia64 lpia mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64 all
-Standards-Version: 3.9.6
-Format: 1.0
-Files:
- 8a28eefa4753328620e1b022a7ee9c4f 4264 openjdk-8_8u45-b14-2~bpo8+1.dsc
- ca95f4fde64e47147f7d1839e5d924dd 63146618 openjdk-8_8u45-b14.orig.tar.gz
- 28378efa0315a2d9d342add7d8440adc 237130 openjdk-8_8u45-b14-2~bpo8+1.diff.gz
-Vcs-Browser: https://code.launchpad.net/~openjdk/openjdk/openjdk8
-Vcs-Bzr: http://bazaar.launchpad.net/~openjdk/openjdk/openjdk8
-Checksums-Sha1:
- 47f4003290df19652bca5630769149cd230e417a 4264 openjdk-8_8u45-b14-2~bpo8+1.dsc
- a990fe08039d51ebaf97a5ab00c896633558b72e 63146618 openjdk-8_8u45-b14.orig.tar.gz
- a323ca8ca06d2e854f4eaf9b8f1df6818d810a99 237130 openjdk-8_8u45-b14-2~bpo8+1.diff.gz
-Checksums-Sha256:
- 1da9a635b9629632cb5fd097065fb42a278330c9e68ff05bb58286f32d3eaaf5 4264 openjdk-8_8u45-b14-2~bpo8+1.dsc
- b480ab4d6e5a40424ffbe940b39f385fe5a390b5cadafdf79f2bc0bcc3b6fae9 63146618 openjdk-8_8u45-b14.orig.tar.gz
- 92d6e09accbf93b737a83991cafff44e4e881297b7d6302e29f10bd7efed1526 237130 openjdk-8_8u45-b14-2~bpo8+1.diff.gz
-Homepage: http://openjdk.java.net/
-Package-List: 
- openjdk-8-dbg deb debug extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,lpia,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64
- openjdk-8-demo deb java extra arch=alpha,amd64,armel,armhf,arm64,i386,ia64,lpia,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64
- openjdk-8-doc deb doc extra arch=all
- openjdk-8-jdk deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,lpia,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64
- openjdk-8-jre deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,lpia,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64
- openjdk-8-jre-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,lpia,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,sh4,sparc,sparc64,s390x,x32,kfreebsd-i386,kfreebsd-amd64
- openjdk-8-jre-jamvm deb java extra arch=amd64,armel,armhf,i386,lpia,mips,mipsel,powerpc,kfreebsd-i386,kfreebsd-amd64
- openjdk-8-jre-zero deb java extra arch=amd64,i386,arm64,lpia,ppc64,ppc64el,kfreebsd-amd64,kfreebsd-i386
- openjdk-8-source deb java extra arch=all
-Directory: pool/main/o/openjdk-8
-Priority: extra
-Section: misc
-
-Package: openjdk-8
-Binary: openjdk-8-jdk, openjdk-8-jre-headless, openjdk-8-jre, openjdk-8-demo, openjdk-8-source, openjdk-8-doc, openjdk-8-dbg, openjdk-8-jre-jamvm, openjdk-8-jre-zero
 Version: 8u45-b14-2~bpo8+2
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Uploaders: Matthias Klose <doko@ubuntu.com>, Damien Raude-Morvan <drazzib@debian.org>
@@ -1886,7 +2242,7 @@ Section: misc
 
 Package: openjfx
 Binary: openjfx, libopenjfx-java, libopenjfx-jni, libopenjfx-java-doc, openjfx-source
-Version: 8u40-b25-1~bpo8+1
+Version: 8u40-b25-1~bpo8+2
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Uploaders: Emmanuel Bourg <ebourg@apache.org>
 Build-Depends: antlr3, bison, debhelper (>= 9), flex, gperf, gradle, junit4, ksh, libasound2-dev, libavcodec-dev, libavformat-dev, libgl1-mesa-dev, libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk2.0-dev, libjpeg-dev, libpng-dev, libsqlite3-dev, libswt-gtk-3-java, libudev-dev, libwerken.xpath-java, libx11-dev, libxml2-dev, libxslt1-dev, libxt-dev, libxtst-dev, libxxf86vm-dev, openjdk-8-jdk, pkg-config, qt4-default, qt4-qmake, x11proto-core-dev, x11proto-xf86vidmode-dev
@@ -1894,19 +2250,19 @@ Architecture: any all
 Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Files:
- d8a21da569e3f9979b6c8eec436428f0 2657 openjfx_8u40-b25-1~bpo8+1.dsc
+ 5afba9b6cc72170680149eed23861181 2657 openjfx_8u40-b25-1~bpo8+2.dsc
  af7f3c1ea9f5bf8739ee06a85ebe7b88 26780728 openjfx_8u40-b25.orig.tar.xz
- 68443675c68217fee4245b606adcfd46 10152 openjfx_8u40-b25-1~bpo8+1.debian.tar.xz
+ a68e89ba99f34822945c91da79ffbf0f 10228 openjfx_8u40-b25-1~bpo8+2.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-java/openjfx.git
 Vcs-Git: git://anonscm.debian.org/pkg-java/openjfx.git
 Checksums-Sha1:
- abe02395dfc245bd4c5bbbb2a53ee6cfbfc100bc 2657 openjfx_8u40-b25-1~bpo8+1.dsc
+ 9a60bf861b71c3756ac842a9dbde31894b36b18a 2657 openjfx_8u40-b25-1~bpo8+2.dsc
  bcbd0115b018a28c14e2eab133a188629614951b 26780728 openjfx_8u40-b25.orig.tar.xz
- 5726d42e8ebfa9f84f8b08e827fcba7d6bc3a9fe 10152 openjfx_8u40-b25-1~bpo8+1.debian.tar.xz
+ 38d183164ce30f25f16be3b01134832273fff256 10228 openjfx_8u40-b25-1~bpo8+2.debian.tar.xz
 Checksums-Sha256:
- 3f8e1b7038536898c45b67e24ea2d0bafd88b555235a9054d2d91f7321f48f51 2657 openjfx_8u40-b25-1~bpo8+1.dsc
+ f619d52ff6b768c0d7a26ad9c50f8cc869e2a2b5584595b63e4354396c473549 2657 openjfx_8u40-b25-1~bpo8+2.dsc
  d179f87909fa3dcff818fa409e55250deb0e43a59e7d3831a8ea6226e7b8077f 26780728 openjfx_8u40-b25.orig.tar.xz
- b2b08bb4679d8ee74ee1a245a211751101b2fd1602c8e085a9db66220fc86762 10152 openjfx_8u40-b25-1~bpo8+1.debian.tar.xz
+ 72fb757724073f8c3a041feda476fa998fdc0ad129e491c2aee89bfbec915299 10228 openjfx_8u40-b25-1~bpo8+2.debian.tar.xz
 Homepage: http://openjdk.java.net/projects/openjfx/
 Package-List: 
  libopenjfx-java deb java optional arch=all
@@ -2265,6 +2621,36 @@ Package-List:
  pdns-recursor-dbg deb debug extra arch=any
 Testsuite: autopkgtest
 Directory: pool/main/p/pdns-recursor
+Priority: extra
+Section: misc
+
+Package: pelican
+Binary: python-pelican
+Version: 3.5.0-1~bpo8+1
+Maintainer: Debian Python Applications Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Vincent Cheng <vcheng@debian.org>
+Build-Depends: debhelper (>= 7.4.3), python-all (>= 2.6.6-3), python-setuptools (>= 0.6b3)
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ efbb3d9adb22bc12af018e15d224cd36 2050 pelican_3.5.0-1~bpo8+1.dsc
+ af9a3deafb4683a109a5c44e6d6138aa 268354 pelican_3.5.0.orig.tar.gz
+ f5a38b50bb79fadd1a151c5c51406f69 15192 pelican_3.5.0-1~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-apps/packages/pelican/trunk/
+Vcs-Svn: svn://anonscm.debian.org/python-apps/packages/pelican/trunk/
+Checksums-Sha1:
+ c6ae62599d46da2a896a385c9d821e98182baeed 2050 pelican_3.5.0-1~bpo8+1.dsc
+ ef73de80298b2ff7510aed269dddece7bf1d90e0 268354 pelican_3.5.0.orig.tar.gz
+ d35d874715ae57acd62c07de095a47e29d0cef0d 15192 pelican_3.5.0-1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ 6d3a157bf47ceac0fea6caf598380eb94efa0bed77a6cdb9605af6b4957ad779 2050 pelican_3.5.0-1~bpo8+1.dsc
+ b7edaa88e458b99e4412e4a445c84e2d387387ed2ffdf1a88c1108a58d888836 268354 pelican_3.5.0.orig.tar.gz
+ 96c1c258ed397b2d4ebe898625e829ff111d7f0a4c283eb6e8d7478e006788de 15192 pelican_3.5.0-1~bpo8+1.debian.tar.xz
+Homepage: http://getpelican.com/
+Package-List: 
+ python-pelican deb python optional arch=all
+Directory: pool/main/p/pelican
 Priority: extra
 Section: misc
 
@@ -3777,6 +4163,38 @@ Directory: pool/main/p/python-pymysql
 Priority: extra
 Section: misc
 
+Package: python-pysaml2
+Binary: python-pysaml2, python-pysaml2-doc
+Version: 2.4.0-1~bpo8+1
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9), python-all (>= 2.6.6-3~), python-setuptools, python-sphinx
+Build-Depends-Indep: python-crypto, python-dateutil, python-decorator, python-mako, python-memcache, python-openssl, python-paste, python-pyasn1, python-pytest, python-repoze.who, python-requests, python-tz, python-zope.interface, xmlsec1
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 3fe022fd06bf0a9fe7756e45b22c9bdf 2348 python-pysaml2_2.4.0-1~bpo8+1.dsc
+ 2f7b6fab10351c9eaf2d6ede0467694d 2674604 python-pysaml2_2.4.0.orig.tar.xz
+ 0f297bbc1363545de9886a987aa2a0bd 3656 python-pysaml2_2.4.0-1~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-pysaml2.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-pysaml2.git
+Checksums-Sha1:
+ 86432c0749b6da5da4fec1879b473db57f1a3996 2348 python-pysaml2_2.4.0-1~bpo8+1.dsc
+ 2238143607db71bc93dd9b5e7f03bdb25f36ec2f 2674604 python-pysaml2_2.4.0.orig.tar.xz
+ 8ddd0de0397c3b9f5b4afbb9871d219a61b2eb7c 3656 python-pysaml2_2.4.0-1~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ e0a435f0b4de6f97d4175001aa4173b344c6c7466c3840daa9193bca8ca90aad 2348 python-pysaml2_2.4.0-1~bpo8+1.dsc
+ 701774d2c422954f53c740da530877a58c225fe9001839122a2dd80c2d5e9cb4 2674604 python-pysaml2_2.4.0.orig.tar.xz
+ 4641b56b5d68f6829bef769aaaacc44e42cd3e0f3e5f0baec777d28f018f4610 3656 python-pysaml2_2.4.0-1~bpo8+1.debian.tar.xz
+Homepage: https://github.com/rohe/pysaml2
+Package-List: 
+ python-pysaml2 deb python optional arch=all
+ python-pysaml2-doc deb doc optional arch=all
+Directory: pool/main/p/python-pysaml2
+Priority: extra
+Section: misc
+
 Package: python-requests-mock
 Binary: python-requests-mock, python3-requests-mock, python-requests-mock-doc
 Version: 0.6.0-2~bpo8+1
@@ -4943,6 +5361,37 @@ Directory: pool/main/r/redis
 Priority: extra
 Section: misc
 
+Package: robustirc-bridge
+Binary: robustirc-bridge, golang-robustirc-bridge-dev
+Version: 1.4-2~bpo8+1
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>
+Build-Depends: debhelper (>= 9), golang-go, dh-golang, golang-sorcix-irc-dev, dh-systemd
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 0da9449019a3d2da1dafc4e79a438c09 2129 robustirc-bridge_1.4-2~bpo8+1.dsc
+ 9b4d54a02e741ec2d9672748771e8f3c 16009 robustirc-bridge_1.4.orig.tar.gz
+ d1ed44aa28d6836b365a3b5c99d02bae 4324 robustirc-bridge_1.4-2~bpo8+1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/cgit/users/stapelberg/robustirc-bridge.git/
+Vcs-Git: git://anonscm.debian.org/users/stapelberg/robustirc-bridge.git
+Checksums-Sha1:
+ 58e8fd8e08030067d414f4b3f7de8500795a044a 2129 robustirc-bridge_1.4-2~bpo8+1.dsc
+ a9cd85b332ac89c865839c05d62c79b74ebd72c9 16009 robustirc-bridge_1.4.orig.tar.gz
+ 458464354b319b8268bb463cdf2a8ed63f30f513 4324 robustirc-bridge_1.4-2~bpo8+1.debian.tar.xz
+Checksums-Sha256:
+ 7fdf8ff81227385851c6a056d9facdfbe04419b2fa9bc3c14352782edc5f7b60 2129 robustirc-bridge_1.4-2~bpo8+1.dsc
+ 842731238968a37c3789318eb3d735ceb7410979b57f5f898abe30bda2dab54c 16009 robustirc-bridge_1.4.orig.tar.gz
+ 779830fde9edf35f513f78be658e8459f2ca0e955995f22a562c1fb24b6e1f74 4324 robustirc-bridge_1.4-2~bpo8+1.debian.tar.xz
+Homepage: http://robustirc.net/
+Package-List: 
+ golang-robustirc-bridge-dev deb devel extra arch=all
+ robustirc-bridge deb net extra arch=any
+Directory: pool/main/r/robustirc-bridge
+Priority: extra
+Section: misc
+
 Package: ruby-mime
 Binary: ruby-mime
 Version: 0.4.2-3~bpo8+1
@@ -5316,6 +5765,37 @@ Package-List:
  wireshark-doc deb doc extra arch=all
  wireshark-qt deb net optional arch=any
 Directory: pool/main/w/wireshark
+Priority: extra
+Section: misc
+
+Package: xserver-xorg-video-intel
+Binary: xserver-xorg-video-intel, xserver-xorg-video-intel-dbg
+Version: 2:2.99.917-1~bpo8+1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>, Michael Stapelberg <stapelberg@debian.org>, maximilian attems <maks@debian.org>, Vincent Cheng <vcheng@debian.org>,
+Build-Depends: debhelper (>= 8), dh-autoreconf, pkg-config, xserver-xorg-dev (>= 2:1.11.99.901), x11proto-core-dev, x11proto-fonts-dev, x11proto-xinerama-dev, x11proto-randr-dev, x11proto-render-dev, x11proto-xext-dev, x11proto-video-dev, libx11-dev, libdrm-dev (>= 2.4.23), x11proto-xf86dri-dev, x11proto-gl-dev, libgl1-mesa-dev | libgl-dev, libpciaccess-dev (>= 0.8.0+git20071002), x11proto-dri2-dev, libxvmc-dev (>= 1:1.0.1), libxext-dev, libxfixes-dev, libx11-xcb-dev, libxcb-util0-dev, libxcb-dri2-0-dev, libudev-dev [linux-any], quilt, xutils-dev (>= 1:7.5+4), valgrind [amd64 armel armhf i386 mips mipsel powerpc s390x], libxinerama-dev, libxrandr-dev, libxdamage-dev, libxcursor-dev, libxtst-dev, libxrender-dev, libpixman-1-dev
+Architecture: amd64 i386 kfreebsd-amd64 kfreebsd-i386
+Standards-Version: 3.9.6
+Format: 1.0
+Files:
+ ee718b53fbbb158f18b923ee44ec9157 3099 xserver-xorg-video-intel_2.99.917-1~bpo8+1.dsc
+ b35d49d8523baed52e4feb4836b1733b 2980541 xserver-xorg-video-intel_2.99.917.orig.tar.gz
+ e1e484c028115d7f8252937925a7f2a9 945786 xserver-xorg-video-intel_2.99.917-1~bpo8+1.diff.gz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-xorg/driver/xserver-xorg-video-intel.git
+Vcs-Git: git://anonscm.debian.org/pkg-xorg/driver/xserver-xorg-video-intel
+Checksums-Sha1:
+ 89ad5ff2197b9e74c65e3f82783b4406f1e4382f 3099 xserver-xorg-video-intel_2.99.917-1~bpo8+1.dsc
+ 7a2a6039e0a7c6b2a4b8e685fb1288a2bbd69d06 2980541 xserver-xorg-video-intel_2.99.917.orig.tar.gz
+ 1f58705f26eb961d6fa3de478926fcc34a7892a0 945786 xserver-xorg-video-intel_2.99.917-1~bpo8+1.diff.gz
+Checksums-Sha256:
+ 4cd7105f3d60ab3e067917bc578df81cfb342aeac541a40a87382126ba3533b5 3099 xserver-xorg-video-intel_2.99.917-1~bpo8+1.dsc
+ 1888f2733f8dccf4ab24bc56ba62eeac41c231b98365027438702d6c55216576 2980541 xserver-xorg-video-intel_2.99.917.orig.tar.gz
+ 144d4ffec4a41ac74bc48c2e2800eb45f569efb2670c1b50393e869701dea5d0 945786 xserver-xorg-video-intel_2.99.917-1~bpo8+1.diff.gz
+Homepage: http://www.x.org/
+Package-List: 
+ xserver-xorg-video-intel deb x11 optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386
+ xserver-xorg-video-intel-dbg deb debug extra arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386
+Directory: pool/main/x/xserver-xorg-video-intel
 Priority: extra
 Section: misc
 

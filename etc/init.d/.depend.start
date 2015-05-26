@@ -1,9 +1,10 @@
-TARGETS = rsyslog killprocs motd bind9 mysql ipmievd irqbalance hddtemp mdadm smartmontools ntp ssh acpid apache2 proftpd bootlogs rsync cron single rc.local rmnologin
+TARGETS = rsyslog php5-fpm nginx killprocs motd bind9 ipmievd irqbalance mysql spamassassin hddtemp mdadm smartmontools ntp ssh acpid apache2 dovecot proftpd opendkim opendmarc bootlogs rsync cron postfix single rc.local rmnologin
 INTERACTIVE = apache2
 bind9: rsyslog
-mysql: rsyslog
 ipmievd: rsyslog
 irqbalance: rsyslog
+mysql: rsyslog
+spamassassin: rsyslog
 hddtemp: rsyslog
 mdadm: rsyslog
 smartmontools: rsyslog
@@ -11,9 +12,13 @@ ntp: rsyslog
 ssh: rsyslog
 acpid: rsyslog
 apache2: rsyslog bind9
+dovecot: rsyslog mysql
 proftpd: rsyslog bind9
+opendkim: rsyslog bind9
+opendmarc: rsyslog bind9
 rsync: rsyslog bind9
 cron: rsyslog bind9
+postfix: rsyslog bind9 mysql spamassassin dovecot
 single: killprocs bootlogs motd
-rc.local: apache2 rsyslog bind9 mysql ipmievd irqbalance proftpd hddtemp mdadm smartmontools bootlogs motd ntp ssh rsync cron acpid
-rmnologin: apache2 rsyslog bind9 mysql ipmievd irqbalance proftpd hddtemp mdadm smartmontools bootlogs motd ntp ssh rsync cron acpid
+rc.local: apache2 rsyslog bind9 php5-fpm nginx ipmievd irqbalance postfix mysql spamassassin dovecot proftpd opendkim hddtemp mdadm opendmarc smartmontools bootlogs motd ntp ssh rsync cron acpid
+rmnologin: apache2 rsyslog bind9 php5-fpm nginx ipmievd irqbalance postfix mysql spamassassin dovecot proftpd opendkim hddtemp mdadm opendmarc smartmontools bootlogs motd ntp ssh rsync cron acpid

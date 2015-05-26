@@ -533,6 +533,193 @@ MD5sum: 43f5062749343a0888793fb6d12f36dc
 SHA1: dd5c9b8d66b8db667f9ca61a62c1017df4207c11
 SHA256: 3259382c6a640a79c394f49ff599e8e1a4578a92079775b0422b312456e98c7d
 
+Package: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 8225
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: amd64
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libcodeblocks0, libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.9), libwxbase3.0-0 (>= 3.0.2), libwxgtk3.0-0 (>= 3.0.2), codeblocks-common (= 13.12-3.1~bpo8+1)
+Recommends: gcc | g++, gdb, xterm
+Suggests: libwxgtk3.0-dev, codeblocks-contrib
+Description: Code::Blocks integrated development environment (IDE)
+Homepage: http://codeblocks.org
+Description-md5: 085a469fb5f38916d82842e097c6fda4
+Section: devel
+Priority: optional
+Filename: pool/main/c/codeblocks/codeblocks_13.12-3.1~bpo8+1_amd64.deb
+Size: 2335610
+MD5sum: 6ece3d1a8a92f1c9c43ea7a756a89ba1
+SHA1: dae7e66bd0782c1eb613f956f6e70f92db6cd97f
+SHA256: dc5b73bcf6f643ba1b7b686c742296a1a204ee8c9b973b2987b835220305ec67
+
+Package: codeblocks-common
+Source: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 5869
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: all
+Replaces: codeblocks (<< 10.05)
+Breaks: codeblocks (<< 10.05)
+Description: common files for Code::Blocks IDE
+Homepage: http://codeblocks.org
+Description-md5: e1583e4d79ede6b548b2149d9200bf8b
+Section: x11
+Priority: optional
+Filename: pool/main/c/codeblocks/codeblocks-common_13.12-3.1~bpo8+1_all.deb
+Size: 3256186
+MD5sum: 8cfd4ebf6b96ff2f65e15f5f2c1e4310
+SHA1: e4998c94053dbf8744bf37666ed44bd131b24255
+SHA256: 2ce0dd5a0dd9b15d1cc8d2112cb33f017046cc134a4411dca1b22506ecfcb391
+
+Package: codeblocks-contrib
+Source: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 22276
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: amd64
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libcodeblocks0, libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.6), libwxbase3.0-0 (>= 3.0.2), libwxgtk3.0-0 (>= 3.0.2), libx11-6, codeblocks (= 13.12-3.1~bpo8+1), libgamin0, libwxsmithlib0 (= 13.12-3.1~bpo8+1)
+Recommends: valgrind
+Description: contrib plugins for Code::Blocks IDE
+Homepage: http://codeblocks.org
+Description-md5: fb01804165a85f9f7cba61be9770640e
+Section: x11
+Priority: optional
+Filename: pool/main/c/codeblocks/codeblocks-contrib_13.12-3.1~bpo8+1_amd64.deb
+Size: 5092490
+MD5sum: d67c336dcd8748a4819db0fae35cb7d2
+SHA1: b27aa2aacf797e49efbffd9779afe86a0f822fc2
+SHA256: 3b41c5b83c76c2a755f0664d740d5153dfcfafc37d6492b055fe2bea85ce1a35
+
+Package: codeblocks-contrib-dbg
+Source: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 380
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: amd64
+Depends: codeblocks-dbg (= 13.12-3.1~bpo8+1)
+Description: dummy transitional package for Code::Blocks debugging symbols
+Homepage: http://codeblocks.org
+Description-md5: 191e6d65d586bc0b287030380bbd9d9a
+Section: oldlibs
+Priority: extra
+Filename: pool/main/c/codeblocks/codeblocks-contrib-dbg_13.12-3.1~bpo8+1_amd64.deb
+Size: 358620
+MD5sum: c2cb3a39a2a2c9fb722f1ff0c0abb4dd
+SHA1: ca888afb2b3961f359b612b017abb550c4fbace9
+SHA256: b531ecf5b874f878f06cbd4587dc30b3b3a82e7178385a1d80b05f7832cc7c68
+
+Package: codeblocks-dbg
+Source: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 461534
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: amd64
+Depends: codeblocks (= 13.12-3.1~bpo8+1), codeblocks-contrib (= 13.12-3.1~bpo8+1)
+Description: Code::Blocks debugging libraries
+Homepage: http://codeblocks.org
+Description-md5: 7e7792ba1de0b06b34ce92145123d1dd
+Section: debug
+Priority: extra
+Filename: pool/main/c/codeblocks/codeblocks-dbg_13.12-3.1~bpo8+1_amd64.deb
+Size: 73685138
+MD5sum: 3d9476e2cc462fe80b293356a0c0cf53
+SHA1: 8be19c38b52563fbc316b1a9decdd58924c074df
+SHA256: 43226af4d829073ae742a77c55331079a6c4d985d000b3d0f3bccdea5ae2fe12
+
+Package: codeblocks-dev
+Source: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 1721
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: amd64
+Depends: libcodeblocks0 (= 13.12-3.1~bpo8+1)
+Description: Code::Blocks development files (SDK)
+Homepage: http://codeblocks.org
+Description-md5: bf5bf143062d45ee97db1da6c01550ed
+Section: libdevel
+Priority: optional
+Filename: pool/main/c/codeblocks/codeblocks-dev_13.12-3.1~bpo8+1_amd64.deb
+Size: 605076
+MD5sum: be0899c49a756f758b6c4919ca66f913
+SHA1: 0e45e190f15ec1049450bc8c8b93a3375c91964b
+SHA256: 7f014792108d2615ebaad3fcc518dc2c671d7bbcaebdf758ef9fa3e0122c9d25
+
+Package: libcodeblocks0
+Source: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 7686
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), libwxbase3.0-0 (>= 3.0.2), libwxgtk3.0-0 (>= 3.0.2), binutils (>= 2.14.90.0.7), file
+Recommends: codeblocks
+Description: Code::Blocks shared library
+Homepage: http://codeblocks.org
+Description-md5: 88406bb0f3f45fa0a5d810ff85a0f62b
+Section: libs
+Priority: optional
+Filename: pool/main/c/codeblocks/libcodeblocks0_13.12-3.1~bpo8+1_amd64.deb
+Size: 2357146
+MD5sum: 2d38fa446dd122482589adedc3a53145
+SHA1: 1ff7a6cad8cd6270991c994f53ce19034d352c53
+SHA256: 4c471bdf129d8b67272d9bff5852d26aa8102a2abf4285d46c5bc4069c552512
+
+Package: libwxsmithlib-dev
+Source: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 813
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: amd64
+Replaces: libwxsmithlib0-dev (<< 10.05-1~)
+Depends: libwxsmithlib0 (= 13.12-3.1~bpo8+1)
+Breaks: libwxsmithlib0-dev (<< 10.05-1~)
+Description: wxSmith development files (Code::Blocks plugin for RAD GUI editing)
+Homepage: http://codeblocks.org
+Description-md5: ec5c20a9093f7298058d2e8aceba9af7
+Section: libdevel
+Priority: optional
+Filename: pool/main/c/codeblocks/libwxsmithlib-dev_13.12-3.1~bpo8+1_amd64.deb
+Size: 421338
+MD5sum: 07525503b5cf6f3efa7f1c81bf0adc04
+SHA1: 2d21ad07a8ca7d329e5643a0403a2560e69125c3
+SHA256: d4ff25ead6f2d5459274bbb6d5812ba90c77d313d281363267a5fa5a732737aa
+
+Package: libwxsmithlib0
+Source: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 5178
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libcodeblocks0 (= 13.12-3.1~bpo8+1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), libwxbase3.0-0 (>= 3.0.2), libwxgtk3.0-0 (>= 3.0.2)
+Recommends: codeblocks-contrib (= 13.12-3.1~bpo8+1)
+Description: wxSmith shared library (Code::Blocks plugin for RAD GUI editing)
+Homepage: http://codeblocks.org
+Description-md5: 0e189ac9dd10b3edc5bd71118f108eeb
+Section: libs
+Priority: optional
+Filename: pool/main/c/codeblocks/libwxsmithlib0_13.12-3.1~bpo8+1_amd64.deb
+Size: 1428866
+MD5sum: 092fe13882694ac7c784801960bb89ec
+SHA1: 3986b0cebcd56c6a615ef00f573923bca3522ec4
+SHA256: c118dea1495e7bcf180434b76b1dd3b0f5ea9e5c7f4175db15cc9051976576b5
+
+Package: libwxsmithlib0-dev
+Source: codeblocks
+Version: 13.12-3.1~bpo8+1
+Installed-Size: 380
+Maintainer: David Paleino <dapal@debian.org>
+Architecture: amd64
+Depends: libwxsmithlib-dev (= 13.12-3.1~bpo8+1)
+Description: dummy transitional package for wxSmith development files
+Homepage: http://codeblocks.org
+Description-md5: 9d445c9313a47e266494998c3080f706
+Section: oldlibs
+Priority: extra
+Filename: pool/main/c/codeblocks/libwxsmithlib0-dev_13.12-3.1~bpo8+1_amd64.deb
+Size: 358624
+MD5sum: 0b22283a8a65a4444c8a3fcdb77a531e
+SHA1: 359d54c4fb18cbfebcadce7602892d37fbf921cb
+SHA256: bc96e7e298a1b2d1075b7af819c3f8d15cd8157b9967decf60e09aee38578d4b
+
 Package: darktable
 Version: 1.6.6-1~bpo8+1
 Installed-Size: 12224
@@ -851,6 +1038,161 @@ Size: 4098778
 MD5sum: 33c329691bd39563a316b181c3c5d6e6
 SHA1: 0c8ec3256070f233addb98daff7b4ff52b0c26f6
 SHA256: 856e44059931347d2841432de2c866af7f37775161bfe002475a7aa4d2c2df64
+
+Package: ganeti
+Version: 2.12.4-1~bpo8+1
+Installed-Size: 360
+Maintainer: Debian Ganeti Team <pkg-ganeti-devel@lists.alioth.debian.org>
+Architecture: all
+Replaces: ganeti-haskell, ganeti-htools, ganeti2 (<< 2.7.0-2)
+Provides: ganeti-htools
+Depends: ganeti-2.12 (= 2.12.4-1~bpo8+1), ganeti-haskell-2.12 (>= 2.12.4-1~bpo8+1), ganeti-haskell-2.12 (<< 2.12.4-1~bpo8+1.1~), ganeti-htools-2.12 (>= 2.12.4-1~bpo8+1), ganeti-htools-2.12 (<< 2.12.4-1~bpo8+1.1~), adduser, python
+Recommends: drbd-utils | drbd8-utils (>= 8.0.7), qemu-kvm | xen-linux-system-amd64 | xen-linux-system-686-pae, ganeti-instance-debootstrap, ndisc6
+Suggests: ganeti-doc, blktap-dkms, molly-guard
+Conflicts: ganeti-htools
+Breaks: ganeti-haskell, ganeti2 (<< 2.7.0-2)
+Description: cluster virtualization manager
+Homepage: http://code.google.com/p/ganeti/
+Description-md5: 1cfa82fb400c69ad1e5d141436d47d89
+Section: admin
+Priority: extra
+Filename: pool/main/g/ganeti/ganeti_2.12.4-1~bpo8+1_all.deb
+Size: 89616
+MD5sum: 7c84a266aa0f9650ad3361492363db58
+SHA1: e213f8eb6c7f19c7b9dc5110db9da94c03b55eb5
+SHA256: 3e1d73bfef9dca5129646dabf4b7fe70520a8f3181fe6ffaeb7bd68fbdfbf80c
+
+Package: ganeti-2.12
+Source: ganeti
+Version: 2.12.4-1~bpo8+1
+Installed-Size: 4200
+Maintainer: Debian Ganeti Team <pkg-ganeti-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, python:any (>= 2.6.6-7~), lvm2, openssh-client, openssh-server, bridge-utils, iproute2 | iproute, iputils-arping, openssl, python-simplejson, python-pyparsing, python-openssl, python-pyinotify, python-pycurl, python-paramiko, python-bitarray, python-ipaddr, python-fdsend, python-psutil, socat, fping, adduser
+Description: cluster virtualization manager - Python components
+Homepage: http://code.google.com/p/ganeti/
+Description-md5: ede3925a0ce34c3d4c41659ecda3b31e
+Section: admin
+Priority: extra
+Filename: pool/main/g/ganeti/ganeti-2.12_2.12.4-1~bpo8+1_all.deb
+Size: 806588
+MD5sum: 0ce08d9db2771346d7c5bd688d38bf39
+SHA1: b2d819a6ebccb7856a06a123a4dc504f7119e81c
+SHA256: c7f55ce8811ce7d018ea438a3d0e0fe071c6dadb86dd061a35eda618b35e19cd
+
+Package: ganeti-doc
+Source: ganeti
+Version: 2.12.4-1~bpo8+1
+Installed-Size: 4570
+Maintainer: Debian Ganeti Team <pkg-ganeti-devel@lists.alioth.debian.org>
+Architecture: all
+Replaces: ganeti2 (<< 2.7.0-2)
+Depends: libjs-sphinxdoc (>= 1.0)
+Breaks: ganeti2 (<< 2.7.0-2)
+Description: cluster virtualization manager - documentation
+Homepage: http://code.google.com/p/ganeti/
+Description-md5: 92ce7ffd549c0915273f19d4fb6f7d90
+Section: doc
+Priority: extra
+Filename: pool/main/g/ganeti/ganeti-doc_2.12.4-1~bpo8+1_all.deb
+Size: 917324
+MD5sum: 09d7a20465e5fd6ce164c2769c0c37e9
+SHA1: ec433710e6c1f11a516af018cae362cc646ec1e6
+SHA256: 787d173c43e2df0e5c3d6ad2529c4276eac08267645689dfc8232eb2f1f242e1
+
+Package: ganeti-haskell-2.12
+Source: ganeti
+Version: 2.12.4-1~bpo8+1
+Installed-Size: 79826
+Maintainer: Debian Ganeti Team <pkg-ganeti-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libcurl3 (>= 7.16.2), libffi6 (>= 3.0.4), libgmp10, libpcre3 (>= 1:8.35), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
+Description: cluster virtualization manager - Haskell components
+Homepage: http://code.google.com/p/ganeti/
+Description-md5: 836f10dff9be3bbb5cb626a591e490ee
+Section: admin
+Priority: extra
+Filename: pool/main/g/ganeti/ganeti-haskell-2.12_2.12.4-1~bpo8+1_amd64.deb
+Size: 9422916
+MD5sum: 8b0f30ea86ed6086e96847c158a1e3b2
+SHA1: 57dc1be0d74d19f66e782a4484d8017404442a98
+SHA256: bee6d9bd10a1ee8f2d217f8d142834706b6924a05b3fb7259f2c042f978bbc97
+
+Package: ganeti-htools
+Source: ganeti
+Version: 2.12.4-1~bpo8+1
+Installed-Size: 69
+Maintainer: Debian Ganeti Team <pkg-ganeti-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: ganeti-htools-2.12
+Breaks: ganeti2 (<< 2.4)
+Description: cluster virtualization manager - tools (stand-alone)
+Homepage: http://code.google.com/p/ganeti/
+Description-md5: d62ec07bf5ac56fe6e2d88b2700046d4
+Section: admin
+Priority: extra
+Filename: pool/main/g/ganeti/ganeti-htools_2.12.4-1~bpo8+1_all.deb
+Size: 18676
+MD5sum: 5f3d5d34c1187322d2c7d59cb2128356
+SHA1: 1751f8e2594f075f2a047433850c25f42fecfd23
+SHA256: ac6c5953d30c590af0f5d784ba2cec4e47615220a32fdd7e097e01f411eb6909
+
+Package: ganeti-htools-2.12
+Source: ganeti
+Version: 2.12.4-1~bpo8+1
+Installed-Size: 13247
+Maintainer: Debian Ganeti Team <pkg-ganeti-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libcurl3 (>= 7.16.2), libffi6 (>= 3.0.4), libgmp10, libpcre3 (>= 1:8.35), debconf (>= 0.5) | debconf-2.0
+Description: cluster virtualization manager - tools for Ganeti 2.12
+Homepage: http://code.google.com/p/ganeti/
+Description-md5: 01512279e1f9717883ce51b7e14c4d93
+Section: admin
+Priority: extra
+Filename: pool/main/g/ganeti/ganeti-htools-2.12_2.12.4-1~bpo8+1_amd64.deb
+Size: 1573936
+MD5sum: 3679a434f21a48293a83f22772e1572e
+SHA1: 8a7dffb45c81b3870ac8bfea9df7c376c2828dac
+SHA256: aeb2f693e590c890f483c8e69ec4b393730b102a78ec65e8645b73095bf2709f
+
+Package: ganeti2
+Source: ganeti
+Version: 2.12.4-1~bpo8+1
+Installed-Size: 121
+Maintainer: Debian Ganeti Team <pkg-ganeti-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: ganeti
+Description: transitional dummy package
+Homepage: http://code.google.com/p/ganeti/
+Description-md5: c67f2f0930edc3f67c23dfb939c797c4
+Section: admin
+Priority: extra
+Filename: pool/main/g/ganeti/ganeti2_2.12.4-1~bpo8+1_all.deb
+Size: 69142
+MD5sum: ccef1adc54a8f063081700915b1e7bb7
+SHA1: 6855d5d58f451cd73ce1c4e1f16b95bb2c1c7a14
+SHA256: 2afff57d2c31852611b175bc9b8156b7a51645fcb2e35c4a1f44c0c67350ea53
+
+Package: python-ganeti-rapi
+Source: ganeti
+Version: 2.12.4-1~bpo8+1
+Installed-Size: 150
+Maintainer: Debian Ganeti Team <pkg-ganeti-devel@lists.alioth.debian.org>
+Architecture: all
+Replaces: ganeti2 (<< 2.7.0-2)
+Depends: python (>= 2.7), python (<< 2.8), python-pycurl, python-simplejson
+Suggests: ganeti-doc
+Breaks: ganeti2 (<< 2.7.0-2)
+Description: cluster virtualization manager - RAPI client library
+Homepage: http://code.google.com/p/ganeti/
+Description-md5: 951cfef86df4cfd4c36dd63f123f2857
+Section: python
+Priority: extra
+Filename: pool/main/g/ganeti/python-ganeti-rapi_2.12.4-1~bpo8+1_all.deb
+Size: 30866
+MD5sum: 30fc96d17f52c8c618db56074c0eae11
+SHA1: aa2782907cd85eb5d641e2347514e96c4e708d50
+SHA256: ab47803b7e3e102b6d9df6fecaf311f8a183790970c34b5475bcc1cfcdb86a10
 
 Package: glance
 Version: 2015.1.0-1~bpo8+1
@@ -1457,6 +1799,110 @@ MD5sum: 67bbee5927e100adc4cb915ba4e45b71
 SHA1: 208da5c47c57312b97880c7df2936103e46d8592
 SHA256: 7371b102de008cba495f0756931305599f41d7d8bbe53484c209ccf2c7303e2a
 
+Package: golang-dbus-dev
+Source: golang-dbus
+Version: 2-1~bpo8+1
+Installed-Size: 197
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Architecture: all
+Description: Go client bindings for D-Bus
+Homepage: https://github.com/godbus/dbus
+Built-Using: golang (= 2:1.3.3-1)
+Description-md5: b8f13fd48b0951af0ad1985ec09e346f
+Section: devel
+Priority: extra
+Filename: pool/main/g/golang-dbus/golang-dbus-dev_2-1~bpo8+1_all.deb
+Size: 36570
+MD5sum: 453a0f6c98c07c3b87e7d11473e7dbfd
+SHA1: 2a9b9605cd264919d286aa8796b832f6db7e54ca
+SHA256: 6b96d2d0bf7f3bfc8d6e98eecd8d307e885ed6fa5ccc446cd71d477abe91a70f
+
+Package: golang-fsnotify-dev
+Source: golang-fsnotify
+Version: 1.2.0-1~bpo8+1
+Installed-Size: 154
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Architecture: all
+Description: File system notifications for Go
+Homepage: https://github.com/go-fsnotify/fsnotify
+Built-Using: golang (= 2:1.3.3-1)
+Description-md5: 8814fbdd6f7659cf5d837b4373338a0a
+Section: devel
+Priority: extra
+Filename: pool/main/g/golang-fsnotify/golang-fsnotify-dev_1.2.0-1~bpo8+1_all.deb
+Size: 28560
+MD5sum: 01fa6b2a04ab2d9b2c53bdf806e3544b
+SHA1: a330d48b086e11c7c788b25cffd6a0a2ed71775c
+SHA256: 4c83caadf49922d61fcbee8a67da41780a85b7a4c4a272cd02b645c5db0cae0d
+
+Package: golang-go-patricia-dev
+Source: golang-go-patricia
+Version: 2.1.0-1~bpo8+1
+Installed-Size: 89
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Architecture: all
+Description: golang-go-patricia is a generic patricia trie (also called radix tree).
+Homepage: https://github.com/tchap/go-patricia
+Built-Using: golang (= 2:1.3.3-1)
+Description-md5: 2c3302adb91ab92fe1ec614cea9ac900
+Section: devel
+Priority: extra
+Filename: pool/main/g/golang-go-patricia/golang-go-patricia-dev_2.1.0-1~bpo8+1_all.deb
+Size: 9888
+MD5sum: 93843dfec277d91d74a3ea5ae7a63e41
+SHA1: 2962988cf338041888b859e0c994c427334e6ad0
+SHA256: 82b17a0b9842019d5ede190a65e752675aee9ee4de8fd3121d7acb9d25f5b609
+
+Package: golang-gocapability-dev
+Version: 0.0~git20150323.1.8e4cdcb-1~bpo8+1
+Installed-Size: 90
+Maintainer: Johan Euphrosine <proppy@google.com>
+Architecture: all
+Description: Utilities for manipulating POSIX capabilities in Go.
+Homepage: https://github.com/syndtr/gocapability
+Description-md5: 15dec93cbd6ef3848cdadb1081815c09
+Section: devel
+Priority: extra
+Filename: pool/main/g/golang-gocapability-dev/golang-gocapability-dev_0.0~git20150323.1.8e4cdcb-1~bpo8+1_all.deb
+Size: 9836
+MD5sum: 7cfd5f5477f9b317534223c4070611ff
+SHA1: adf94cf453ad47c0309d58004392b6902ec1381d
+SHA256: d4925fa1105a954f24a50217b79177e2f80d8d838f079a62b7f04fb02c475723
+
+Package: golang-logrus-dev
+Source: golang-logrus
+Version: 0.7.1-1~bpo8+1
+Installed-Size: 121
+Maintainer: Jessie Frazelle <jess@docker.com>
+Architecture: all
+Description: Logrus: a logging library for Go
+Homepage: https://github.com/Sirupsen/logrus
+Description-md5: d0bab94cbcdddab9b6e98159c6fceaba
+Section: devel
+Priority: extra
+Filename: pool/main/g/golang-logrus/golang-logrus-dev_0.7.1-1~bpo8+1_all.deb
+Size: 17888
+MD5sum: fa19b9476f1aa0bc69a844b8c557a1da
+SHA1: f65b4b151c3d3423f0b871a6375e59358a74a64f
+SHA256: 88df1990b27dc628c2f79697e28ccf3a5e732f8f6696c412739d8975ebfed937
+
+Package: golang-pty-dev
+Source: golang-pty
+Version: 0.0~git20141217.1.05017fc-1~bpo8+1
+Installed-Size: 55
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Architecture: all
+Description: Go package for using unix pseudo-terminals
+Homepage: https://github.com/kr/pty
+Description-md5: 4ab57a3d3d89bf92b014288f52601f5e
+Section: devel
+Priority: extra
+Filename: pool/main/g/golang-pty/golang-pty-dev_0.0~git20141217.1.05017fc-1~bpo8+1_all.deb
+Size: 6136
+MD5sum: b7ec19c94571be094f2cceacade8f73a
+SHA1: ebd7085368c4a41bf17fec8c9197f938e6237670
+SHA256: fb47f0f16dd9381ccf2a762dd2ca04ff59bb156191dc1e81a6b0567e7c3d2842
+
 Package: golang-sorcix-irc-dev
 Version: 1.1.0-1~bpo8+1
 Installed-Size: 100
@@ -1715,11 +2161,11 @@ SHA256: ae794215d78cdef5394b5ea6be17646287c56e698f1c4274e16077bc1b390e74
 
 Package: openstack-dashboard
 Source: horizon
-Version: 2015.1.0-1~bpo8+1
-Installed-Size: 18576
+Version: 2015.1.0-2~bpo8+1
+Installed-Size: 18577
 Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
 Architecture: all
-Depends: adduser, libjs-jquery, libjs-jquery-cookie, python-django-horizon (= 2015.1.0-1~bpo8+1), python:any (>= 2.7.5-5~)
+Depends: adduser, libjs-jquery, libjs-jquery-cookie, python-django-horizon (= 2015.1.0-2~bpo8+1), python:any (>= 2.7.5-5~)
 Pre-Depends: dpkg (>= 1.15.6~)
 Recommends: memcached, openstack-dashboard-apache
 Description: web application to control an OpenStack cloud
@@ -1727,15 +2173,15 @@ Homepage: http://horizon.openstack.org
 Description-md5: c215664f915a2766f0484a870aa6c6be
 Section: net
 Priority: extra
-Filename: pool/main/h/horizon/openstack-dashboard_2015.1.0-1~bpo8+1_all.deb
-Size: 1554774
-MD5sum: 01f9a03d434301af3408b4396f4a7e83
-SHA1: e4951960ccccebacf946473da277b660322b27fd
-SHA256: 83ae4642ab920827c78d3d250953161faa1dfd3d3f38c7eb587902d3b187d0da
+Filename: pool/main/h/horizon/openstack-dashboard_2015.1.0-2~bpo8+1_all.deb
+Size: 1554752
+MD5sum: c7afff7c5aaa11297e4a1c9ff8df693d
+SHA1: c4e0e83b16dd4ccd3069e0f062127b4dbe63495e
+SHA256: f6b970a34c99d40ac6faac0a87e5f3e15daa2b0d90942c07ececb44477e637bf
 
 Package: openstack-dashboard-apache
 Source: horizon
-Version: 2015.1.0-1~bpo8+1
+Version: 2015.1.0-2~bpo8+1
 Installed-Size: 54
 Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
 Architecture: all
@@ -1746,15 +2192,15 @@ Homepage: http://horizon.openstack.org
 Description-md5: 4ab56269ee9b2d767a826dba9bb323b5
 Section: net
 Priority: extra
-Filename: pool/main/h/horizon/openstack-dashboard-apache_2015.1.0-1~bpo8+1_all.deb
-Size: 10958
-MD5sum: b845fdd7d9c9b2a5a77fe8c323088923
-SHA1: 1bd02267236c73e1f272b40a399053cbd0b13336
-SHA256: a6305e50c1124a1030bb9351003b3319c75cec6c97cebdc6f68ba2a4c791c9a8
+Filename: pool/main/h/horizon/openstack-dashboard-apache_2015.1.0-2~bpo8+1_all.deb
+Size: 11252
+MD5sum: 956b25cab41e028e9ebf0314fc308a8e
+SHA1: 144ba6be89f2d7db6739c01575feec9723360e65
+SHA256: c89b89158f9eeeaa2d3b0260e7b0952c9f5447de02ba614f1a988b95f030c204
 
 Package: python-django-horizon
 Source: horizon
-Version: 2015.1.0-1~bpo8+1
+Version: 2015.1.0-2~bpo8+1
 Installed-Size: 20325
 Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
 Architecture: all
@@ -1766,11 +2212,67 @@ Homepage: http://horizon.openstack.org
 Description-md5: dcb39c57e9b2be01fbe0707eea821e4e
 Section: python
 Priority: extra
-Filename: pool/main/h/horizon/python-django-horizon_2015.1.0-1~bpo8+1_all.deb
-Size: 1743750
-MD5sum: a70d80036ea865768b814dc05a1449c3
-SHA1: 86950d6f1bf7f81ad02a539159e8103764b3e8f5
-SHA256: a1ebeff2d916ba7f69c3a399e2c8278b42c0913c9c22d2c65b923926c7c28fa7
+Filename: pool/main/h/horizon/python-django-horizon_2015.1.0-2~bpo8+1_all.deb
+Size: 1744164
+MD5sum: d00675d1ea1b8454d77f7aa736f10524
+SHA1: cf938234e72209ddc2e48b320d75937bc3abffb9
+SHA256: 0b02ea666161cd41c960ee9b8359ee59effa800f1fd3856823334024e9453faa
+
+Package: i3
+Source: i3-wm
+Version: 4.10.2-2~bpo8+1
+Installed-Size: 36
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Architecture: amd64
+Depends: i3-wm (= 4.10.2-2~bpo8+1)
+Recommends: i3lock (>= 2.2), suckless-tools, i3status (>= 2.3), dunst
+Description: metapackage (i3 window manager, screen locker, menu, statusbar)
+Homepage: http://i3wm.org/
+Description-md5: f5cb0728a19ad1e0e01b2d7cc6311aa0
+Section: x11
+Priority: extra
+Filename: pool/main/i/i3-wm/i3_4.10.2-2~bpo8+1_amd64.deb
+Size: 12742
+MD5sum: 203729fcfbcf7d24523a44aecc2484ef
+SHA1: cc32e15846d0c23556d19c062f419b971e44a60a
+SHA256: 791f055bf82fc2831369fba218d2382481e3c41e7a8fd508e126ba5cffeef8fb
+
+Package: i3-wm
+Version: 4.10.2-2~bpo8+1
+Installed-Size: 1729
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Architecture: amd64
+Provides: x-window-manager
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.6.4-5~), libev4 (>= 1:4.04), libglib2.0-0 (>= 2.12.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre3 (>= 1:8.35), libstartup-notification0 (>= 0.10), libxcb-cursor0 (>= 0.0.99), libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-util0 (>= 0.3.8), libxcb-xinerama0, libxcb-xkb1, libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.4.0), libxkbcommon0 (>= 0.4.0), libyajl2 (>= 2.0.4), perl, x11-utils
+Recommends: xfonts-base, fonts-dejavu-core, libanyevent-i3-perl (>= 0.12), libjson-xs-perl, rxvt-unicode | x-terminal-emulator
+Description: improved dynamic tiling window manager
+Homepage: http://i3wm.org/
+Description-md5: 2be7e62f455351435b1e055745d3e81c
+Section: x11
+Priority: extra
+Filename: pool/main/i/i3-wm/i3-wm_4.10.2-2~bpo8+1_amd64.deb
+Size: 688840
+MD5sum: a2c55f96c395a76a14011698180502f2
+SHA1: d08eba01ba5f38522f0dac405951017a1b12628d
+SHA256: 16bae823e66fb6a05558a9d1449c03be1d8ba896bb48f04e5ea6cc29b8514ce5
+
+Package: i3-wm-dbg
+Source: i3-wm
+Version: 4.10.2-2~bpo8+1
+Installed-Size: 1650
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Architecture: amd64
+Depends: i3-wm (= 4.10.2-2~bpo8+1)
+Description: Debugging symbols for the i3 window manager
+Homepage: http://i3wm.org/
+Description-md5: 5f4136360fbbbdabb5e650ce51c69560
+Section: debug
+Priority: extra
+Filename: pool/main/i/i3-wm/i3-wm-dbg_4.10.2-2~bpo8+1_amd64.deb
+Size: 398250
+MD5sum: 145200f9fea95f1d8881f3fdc4422047
+SHA1: 8ca9b523af85d30f1bb1ecd641bf5b9e29c9beb3
+SHA256: db733bf2687ba5eb7fdc685fe61291a470439ef3344f1ec1538327fc0240f135
 
 Package: irssi-plugin-xmpp
 Version: 0.52+git20140102-3~bpo8+1
@@ -5968,6 +6470,28 @@ MD5sum: 5f62b81148f5221431f40a3798c69d1a
 SHA1: 31f4b29d38c78f5c8a3d81a4e8eb92e74c446fa2
 SHA256: 328f6cd4655e3376fa9f654fd35a4f5dfe32a0756bfed32c7fe7356c93c448e3
 
+Package: lintian
+Version: 2.5.31~bpo8+1
+Installed-Size: 3462
+Maintainer: Debian Lintian Maintainers <lintian-maint@debian.org>
+Architecture: all
+Replaces: funny-manpages (<< 1.3-5.1)
+Depends: binutils, bzip2, diffstat, file, gettext, hardening-includes, intltool-debian, libapt-pkg-perl, libarchive-zip-perl, libclass-accessor-perl, libclone-perl, libdigest-sha-perl, libdpkg-perl, libemail-valid-perl, libfile-basedir-perl, libipc-run-perl, liblist-moreutils-perl, libparse-debianchangelog-perl, libtext-levenshtein-perl, libtimedate-perl, liburi-perl, man-db, patchutils, perl, t1utils, xz-utils
+Recommends: dpkg (>= 1.17.14), perl (>= 5.20) | libautodie-perl (>= 2.18), libperlio-gzip-perl
+Suggests: binutils-multiarch, dpkg-dev, libhtml-parser-perl, libtext-template-perl, libyaml-perl
+Breaks: funny-manpages (<< 1.3-5.1)
+Description: Debian package checker
+Multi-Arch: foreign
+Homepage: https://lintian.debian.org/
+Description-md5: 15a3930c90f4a70018af692850997920
+Section: devel
+Priority: optional
+Filename: pool/main/l/lintian/lintian_2.5.31~bpo8+1_all.deb
+Size: 808954
+MD5sum: 35115a08e945e3f5a4b2f1bef7119c40
+SHA1: 5f32d1012da8e44021e25184e7e6e3739a265a07
+SHA256: 3f100f8fbd51473c7c8a3a8d13c9326cbc55bc3ebf26237b713b4d0aeb2a378e
+
 Package: python-migrate
 Source: migrate
 Version: 0.9.6-1~bpo8+1
@@ -6059,6 +6583,43 @@ Size: 1978566
 MD5sum: aca8dd1d21e0685e69b9fe555e2db8e0
 SHA1: 5292c0bab0e691f0cfc4c5d91cffbc38cc263df7
 SHA256: c501b6a25e0041e675a37b3af887917f39cbc6a3c54a5b2e2fac30db00777c82
+
+Package: mpd
+Version: 0.19.9-2~bpo8+1
+Installed-Size: 1167
+Maintainer: mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: adduser, lsb-base, init-system-helpers (>= 1.18~), libadplug-2.2.1-0 (>= 2.2.1-0), libao4 (>= 1.1.0), libasound2 (>= 1.0.18), libaudiofile1 (>= 0.3.6), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavcodec56 (>= 6:11~beta1) | libavcodec-extra-56 (>= 6:11.3), libavformat56 (>= 6:11~beta1), libavutil54 (>= 6:11~beta1), libbz2-1.0, libc6 (>= 2.17), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libcdio13 (>= 0.83), libcurl3-gnutls (>= 7.18.0), libdbus-1-3 (>= 1.0.2), libexpat1 (>= 2.0.1), libfaad2 (>= 2.7), libflac8 (>= 1.3.0), libfluidsynth1, libglib2.0-0 (>= 2.12.0), libgme0 (>= 0.5.5), libicu52 (>= 52~m1-1~), libid3tag0 (>= 0.15.1b), libiso9660-8 (>= 0.83), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libmad0 (>= 0.15.1b-3), libmikmod3 (>= 3.3.3), libmms0 (>= 0.4), libmodplug1, libmp3lame0, libmpcdec6 (>= 1:0.1~r435), libmpdclient2 (>= 2.9), libmpg123-0 (>= 1.6.2), libnfs4 (>= 1.9.3), libogg0 (>= 1.1.0), libopenal1 (>= 1.14), libopus0 (>= 1.1), libpulse0 (>= 0.99.1), libresid-builder0c2a, libroar2, libsamplerate0 (>= 0.1.7), libshout3, libsidplay2, libsidutils0, libsmbclient (>= 2:4.0.3+dfsg1), libsndfile1 (>= 1.0.20), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 4.9), libsystemd0, libupnp6 (>= 1.4.3), libvorbis0a (>= 1.2.3), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 4.40.0), libwildmidi1 (>= 0.2.3), libwrap0 (>= 7.6-4~), libyajl2 (>= 2.0.4), libzzip-0-13 (>= 0.13.56), zlib1g (>= 1:1.1.4)
+Suggests: avahi-daemon, icecast2, mpd-client, pulseaudio
+Breaks: avahi-daemon (<< 0.6.31-3)
+Description: Music Player Daemon
+Homepage: http://www.musicpd.org/
+Description-md5: f318c4a927bba8215d5caa973656c5e7
+Section: sound
+Priority: optional
+Filename: pool/main/m/mpd/mpd_0.19.9-2~bpo8+1_amd64.deb
+Size: 365236
+MD5sum: 80cc4233c9114b73edccc9beaa70c8df
+SHA1: aa29f06fdb40d4bf97d78f854cc3251e9df590fc
+SHA256: 604c8c58f048b71664dca1091cd605b1785a4ba38e28202ddce64e4fd34c62e6
+
+Package: mpd-dbg
+Source: mpd
+Version: 0.19.9-2~bpo8+1
+Installed-Size: 6961
+Maintainer: mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: mpd (= 0.19.9-2~bpo8+1)
+Description: Music Player Daemon debugging symbols
+Homepage: http://www.musicpd.org/
+Description-md5: 833aa17754faffb446b308fd90dd579d
+Section: debug
+Priority: extra
+Filename: pool/main/m/mpd/mpd-dbg_0.19.9-2~bpo8+1_amd64.deb
+Size: 6820986
+MD5sum: 7fa8d351b4d05f056ec80258792faa12
+SHA1: 09bbd485f4ee9af91cc4eaa367a0773017dea683
+SHA256: f697abd910667c8bae6fe94560dd751550d12ace1bec7129e97f8a366d3becc0
 
 Package: murano-agent
 Version: 2015.1.0-1~bpo8+1
@@ -6964,7 +7525,7 @@ SHA256: 81663f195c081e21ee42748bac9b94dd81fc98a178639f19c454e174955184c2
 
 Package: libopenjfx-java
 Source: openjfx
-Version: 8u40-b25-1~bpo8+1
+Version: 8u40-b25-1~bpo8+2
 Installed-Size: 10870
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -6974,16 +7535,16 @@ Homepage: http://openjdk.java.net/projects/openjfx/
 Description-md5: 6d867617d000e853ecb8c2cf36ef22a8
 Section: java
 Priority: optional
-Filename: pool/main/o/openjfx/libopenjfx-java_8u40-b25-1~bpo8+1_all.deb
-Size: 9768672
-MD5sum: 17093ef6c4ccc4c1bd30a02b0dec6ab6
-SHA1: 2f914728ec749233f833500100269968080edd36
-SHA256: 03e82cb8f193e395e8142260d62277cd865a175bf160c47effd3836db28f78c0
+Filename: pool/main/o/openjfx/libopenjfx-java_8u40-b25-1~bpo8+2_all.deb
+Size: 9768924
+MD5sum: d2ba1f97b9f91b2def92e8339e9bfecd
+SHA1: c333eb23b9b302165d4238610c1edd5c7352cc03
+SHA256: 1b96c70462ea7b7c647c82771110c59f73613938471ef28e0fc7b4834bf105ba
 
 Package: libopenjfx-java-doc
 Source: openjfx
-Version: 8u40-b25-1~bpo8+1
-Installed-Size: 55583
+Version: 8u40-b25-1~bpo8+2
+Installed-Size: 55581
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
 Suggests: libopenjfx-java
@@ -6992,32 +7553,32 @@ Homepage: http://openjdk.java.net/projects/openjfx/
 Description-md5: ad5e268ece21bb5db195d233a16cdbd5
 Section: doc
 Priority: optional
-Filename: pool/main/o/openjfx/libopenjfx-java-doc_8u40-b25-1~bpo8+1_all.deb
-Size: 2839106
-MD5sum: 02138ee8e7fab31aec080bc570d428ff
-SHA1: f38d7d55c48f53b2d9d5aad4b0a6a2257adfe9c4
-SHA256: 510829010579633aeba7580043a6580120c23702a81d9ca30b64bcb21a1b133f
+Filename: pool/main/o/openjfx/libopenjfx-java-doc_8u40-b25-1~bpo8+2_all.deb
+Size: 2839278
+MD5sum: 120f43f8453e3774c63d648e23b383f3
+SHA1: 68c54489381217644da02b9f791f0a21405392a6
+SHA256: 90b241d122046d274adb5bb4dafd920f000f001cc0b37f54e33fd624dc741386
 
 Package: libopenjfx-jni
 Source: openjfx
-Version: 8u40-b25-1~bpo8+1
+Version: 8u40-b25-1~bpo8+2
 Installed-Size: 37161
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libavcodec56 (>= 6:11~beta1) | libavcodec-extra-56 (>= 6:11.3), libavformat56 (>= 6:11~beta1), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.24.0), libjpeg8 (>= 8c), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 4.6), libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), libxtst6, libxxf86vm1
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libavcodec56 (>= 6:11~beta1) | libavcodec-extra-56 (>= 6:11.3), libavformat56 (>= 6:11~beta1), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.24.0), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 4.6), libx11-6, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), libxtst6, libxxf86vm1
 Description: JavaFX/OpenJFX 8 - Rich client application platform for Java (native libraries)
 Homepage: http://openjdk.java.net/projects/openjfx/
 Description-md5: c3556cc659f28f8c5e9e1f3096616bc4
 Section: java
 Priority: optional
-Filename: pool/main/o/openjfx/libopenjfx-jni_8u40-b25-1~bpo8+1_amd64.deb
-Size: 8524022
-MD5sum: 063d27a4e38ad2bb91138b0399f20164
-SHA1: 47bcf7f8d7bb961bab39725618078a2464cf3e43
-SHA256: eff2cc5edec8a6d0d6c18fd4d273c0207fefeaaa27c7a2f4944c3c1776e6c00e
+Filename: pool/main/o/openjfx/libopenjfx-jni_8u40-b25-1~bpo8+2_amd64.deb
+Size: 8517946
+MD5sum: 9faac8bae34e9c35a029506f141b958a
+SHA1: f690a3b2a2c4ea13b451afe58f68c1a15655f5fc
+SHA256: 4a07c44d2d57a48a358dc0bed57b783a5e980f724ab083106dc0afa4779c99b1
 
 Package: openjfx
-Version: 8u40-b25-1~bpo8+1
+Version: 8u40-b25-1~bpo8+2
 Installed-Size: 125
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: amd64
@@ -7027,15 +7588,15 @@ Homepage: http://openjdk.java.net/projects/openjfx/
 Description-md5: 14290b0606b913e5c6a77c5ac642635d
 Section: java
 Priority: optional
-Filename: pool/main/o/openjfx/openjfx_8u40-b25-1~bpo8+1_amd64.deb
-Size: 33582
-MD5sum: d69461331e77e21069dd08fe2573c398
-SHA1: dd5866ae204371a3398ffa9543930d859abf9d90
-SHA256: ff995e6044e7b1f72b0d5bea6f06900a6f967749d0682754efd01be0edf6fa4b
+Filename: pool/main/o/openjfx/openjfx_8u40-b25-1~bpo8+2_amd64.deb
+Size: 33642
+MD5sum: 0afa2e9b2f0aca4a2339acffb281090b
+SHA1: 4829e5a58e217972295ababc5cd19a28d1d1fe97
+SHA256: 587fdefc41778c8bdb2d2f06b5066fba44742bade8144d3926309c0540dda676
 
 Package: openjfx-source
 Source: openjfx
-Version: 8u40-b25-1~bpo8+1
+Version: 8u40-b25-1~bpo8+2
 Installed-Size: 6379
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -7044,11 +7605,11 @@ Homepage: http://openjdk.java.net/projects/openjfx/
 Description-md5: d3d23c8291ef29626fafe4612ca6e42f
 Section: java
 Priority: optional
-Filename: pool/main/o/openjfx/openjfx-source_8u40-b25-1~bpo8+1_all.deb
-Size: 5919748
-MD5sum: eaa00085d4390c226e9ae9200fe8e18c
-SHA1: 3988657c4e7d1424c6b9cc0055ea5d39a356d785
-SHA256: 372d28579275eee4b70fd173c2459d1029518e8741dee5d2a48061a2c2928d27
+Filename: pool/main/o/openjfx/openjfx-source_8u40-b25-1~bpo8+2_all.deb
+Size: 5919846
+MD5sum: 49ca9ad23d69223103c087b0379a687b
+SHA1: 715e74665e55368cf19ab7fab00859d23d70c9cc
+SHA256: e2b8bd4bf49bc6f4119843319ae9c9617232c561d9f39d126eaa042ac66d2fba
 
 Package: libjs-openlayers
 Source: openlayers
@@ -7572,6 +8133,25 @@ Size: 7742186
 MD5sum: 7c804469939afbf615484b0c88df81b1
 SHA1: a1d3b0607e870a53382c2fdd0a4cbd574fb7244c
 SHA256: 5f3c18129a92b6899131b63b2a5f7e9a5cb5c6c7cdc8ea9efb18467c0af265fa
+
+Package: python-pelican
+Source: pelican
+Version: 3.5.0-1~bpo8+1
+Installed-Size: 1502
+Maintainer: Debian Python Applications Team <python-apps-team@lists.alioth.debian.org>
+Architecture: all
+Depends: python (>= 2.7), python-markdown, python-pkg-resources, python (<< 2.8), python-feedgenerator, python-jinja2, python-pygments, python-docutils, python-tz, python-blinker, python-unidecode, python-six, python-dateutil
+Suggests: pandoc, python-bs4
+Description: blog aware, static website generator
+Homepage: http://getpelican.com/
+Description-md5: dc0d61e22622de92c244a1cd4f14313c
+Section: python
+Priority: optional
+Filename: pool/main/p/pelican/python-pelican_3.5.0-1~bpo8+1_all.deb
+Size: 147952
+MD5sum: 48d013d1ca4ccd64861f1937794edfec
+SHA1: 84d9d9d12e88b62fe269b098c061a3a61866b435
+SHA256: 93468216216bdc745ee364a26ba16c637f7da3e174b4483b68493407c8f4688e
 
 Package: libalgorithms1
 Source: pktools
@@ -9584,6 +10164,43 @@ MD5sum: e4e13e63081309f0a45722aaea183e1d
 SHA1: cf093575dad6e211adbdfbc63ac261615a2ea668
 SHA256: 804b313141a65d67a77269791c10ed5f8f65bf62cf88504f9db38aac1318cdec
 
+Package: python-pysaml2
+Version: 2.4.0-1~bpo8+1
+Installed-Size: 1889
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: python-mako, python-memcache, python-pyasn1, python-repoze.who, xmlsec1, python (>= 2.7), python (<< 2.8), python-decorator, python-requests, python-paste, python-zope.interface, python-crypto (>= 2.2), python-tz, python-openssl, python-dateutil
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: SAML Version 2 to be used in a WSGI environment - Python 2.x
+Homepage: https://github.com/rohe/pysaml2
+Description-md5: 16d0f971779ad9a34c3370d282079952
+Section: python
+Priority: optional
+Filename: pool/main/p/python-pysaml2/python-pysaml2_2.4.0-1~bpo8+1_all.deb
+Size: 182322
+MD5sum: d0f833dd7aa112239ffe9b3012aa6c05
+SHA1: a7bd745b79ad8fe7f96e154073e9f6ea1f3db28e
+SHA256: 341f26aa333f26280b98bd1de9055dad9f9a687e2d915dbc59cf9cb67baa5d84
+
+Package: python-pysaml2-doc
+Source: python-pysaml2
+Version: 2.4.0-1~bpo8+1
+Installed-Size: 259
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: libjs-sphinxdoc (>= 1.0)
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: SAML Version 2 to be used in a WSGI environment - doc
+Homepage: https://github.com/rohe/pysaml2
+Description-md5: 560a0ed806401665bc7e6f289a294ade
+Section: doc
+Priority: optional
+Filename: pool/main/p/python-pysaml2/python-pysaml2-doc_2.4.0-1~bpo8+1_all.deb
+Size: 45816
+MD5sum: bb6f5a708092fd04a024039b642de44f
+SHA1: 89ade9bf7f06c64c905ed30248f2869b1770fda0
+SHA256: a2c3aac4d0d2522efae2c6521f4d3a8e82cac2f2bf1f5394750e8592d2a8ff14
+
 Package: python-requests-mock
 Version: 0.6.0-2~bpo8+1
 Installed-Size: 123
@@ -11309,6 +11926,41 @@ MD5sum: 88d4966eeb104962123aab044dff684a
 SHA1: 655fb8e5b733dbede4fcedd2e148b719df80f293
 SHA256: 2420edfde360cdfe2511983d4a7c2e0c51bec3545ffad3870223f0192a78fdd0
 
+Package: golang-robustirc-bridge-dev
+Source: robustirc-bridge
+Version: 1.4-2~bpo8+1
+Installed-Size: 77
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Architecture: all
+Description: Go packages to connect to RobustIRC
+Homepage: http://robustirc.net/
+Description-md5: 1e393c9616469df26553ce7979ee550f
+Section: devel
+Priority: extra
+Filename: pool/main/r/robustirc-bridge/golang-robustirc-bridge-dev_1.4-2~bpo8+1_all.deb
+Size: 9006
+MD5sum: b33784b6c23545ea85ab852273f1c306
+SHA1: 4995a59aef6b71f15819eec29c25405d118f4855
+SHA256: 245df691972584a744d74064ccbf6497cad912616005b676c99f12cb04c10591
+
+Package: robustirc-bridge
+Version: 1.4-2~bpo8+1
+Installed-Size: 5488
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), init-system-helpers (>= 1.18~)
+Description: bridge between IRC and RobustIRC
+Homepage: http://robustirc.net/
+Built-Using: golang (= 2:1.3.3-1), golang-sorcix-irc-dev (= 1.1.0-1~bpo8+1)
+Description-md5: 7c523959e308d2b13a295e8d7c90af1a
+Section: net
+Priority: extra
+Filename: pool/main/r/robustirc-bridge/robustirc-bridge_1.4-2~bpo8+1_amd64.deb
+Size: 1144466
+MD5sum: 54637127166689049a87503a363f8f27
+SHA1: 3df92e3ce1b5d3ce7b0ff6a8fa145fe02c2e68c6
+SHA256: ee0b3fa6ede2665cbd41d9b418b62e2e83273d43d2706939ad71d3a65b761e69
+
 Package: ruby-mime
 Version: 0.4.2-3~bpo8+1
 Installed-Size: 102
@@ -12277,6 +12929,43 @@ Size: 1060842
 MD5sum: 98a824317d0ef24e7f3a263441f13a7e
 SHA1: 1b34b2198f02b759bb83f4258435f23bbdcc6432
 SHA256: 081aeae72994bfacc7a5c11670baa4f54f959c4ce3b6b27a50c05afeff083910
+
+Package: xserver-xorg-video-intel
+Version: 2:2.99.917-1~bpo8+1
+Installed-Size: 3094
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.17), libdrm-intel1 (>= 2.4.38), libdrm2 (>= 2.4.25), libpciaccess0 (>= 0.8.0+git20071002), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-dri3-0, libxcb-sync1, libxcb-util0 (>= 0.3.8), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1, libxrandr2 (>= 2:1.2.99.2), libxrender1, libxshmfence1, libxtst6, libxv1, libxvmc1, xorg-video-abi-18, xserver-xorg-core (>= 2:1.15.99.903)
+Description: X.Org X server -- Intel i8xx, i9xx display driver
+Homepage: http://www.x.org/
+Description-md5: 4c1c091bee575987f9997018db5db7a4
+Section: x11
+Priority: optional
+Filename: pool/main/x/xserver-xorg-video-intel/xserver-xorg-video-intel_2.99.917-1~bpo8+1_amd64.deb
+Size: 1619574
+MD5sum: e4f2ca57577196036cc8412626e793da
+SHA1: 2978df1e1f38fbc2e18021a24c5d633b7222d4e8
+SHA256: 5fd00159ef2df5580081e03bb7f75ad701073f958302e39a67364d20f85e3d0f
+
+Package: xserver-xorg-video-intel-dbg
+Source: xserver-xorg-video-intel
+Version: 2:2.99.917-1~bpo8+1
+Installed-Size: 9267
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Depends: xserver-xorg-video-intel (= 2:2.99.917-1~bpo8+1)
+Recommends: intel-gpu-tools
+Description: X.Org X server -- Intel i8xx, i9xx display driver (debug symbols)
+Homepage: http://www.x.org/
+Description-md5: 407ff36ec08d6f79ce154b88e799d94a
+Section: debug
+Priority: extra
+Filename: pool/main/x/xserver-xorg-video-intel/xserver-xorg-video-intel-dbg_2.99.917-1~bpo8+1_amd64.deb
+Size: 2776260
+MD5sum: bb9f2a79a86c92863821eb9ce1ca632b
+SHA1: f36b4bb8135b1bcc1af0ece5f8306e59ff47ad16
+SHA256: 767d563b6c6a7879d3c527bab83e74c87ffeb84149de154365f58208a0bd6d75
 
 Package: python-yowsup
 Source: yowsup

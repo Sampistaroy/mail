@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libunbound2
+/usr/share/doc/libunbound2/changelog.Debian.gz
+/usr/share/doc/libunbound2/changelog.gz
+/usr/share/doc/libunbound2/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libunbound.so.2.2.1
+/usr/lib/x86_64-linux-gnu/libunbound.so.2

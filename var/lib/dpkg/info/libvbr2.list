@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libvbr2
+/usr/share/doc/libvbr2/changelog.gz
+/usr/share/doc/libvbr2/changelog.Debian.gz
+/usr/share/doc/libvbr2/KNOWNBUGS
+/usr/share/doc/libvbr2/copyright
+/usr/lib
+/usr/lib/libvbr.so.2.0.0
+/usr/lib/libvbr.so.2

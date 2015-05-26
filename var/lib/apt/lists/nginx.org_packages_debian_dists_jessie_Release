@@ -1,0 +1,39 @@
+Origin: nginx
+Label: nginx
+Suite: stable
+Codename: jessie
+Version: 8.0
+Date: Tue, 21 Apr 2015 16:39:51 UTC
+Architectures: i386 amd64
+Components: nginx
+Description: nginx apt repository
+MD5Sum:
+ c0635b63a161c4acff3c4e75bdb2c9e6 1903 nginx/binary-i386/Packages
+ 6570e1fc9380d1db46191a25ce1dd6da 828 nginx/binary-i386/Packages.gz
+ 3628a1e49a02f75908c2a7fbeae9ebda 126 nginx/binary-i386/Release
+ 76169800dc4e60b696d2dbdc77e40b85 1909 nginx/binary-amd64/Packages
+ 46aad4df3fd8013bb20b1e74321dd54c 824 nginx/binary-amd64/Packages.gz
+ f1b3fe40af3b32299b68448a7370fcd3 127 nginx/binary-amd64/Release
+ 1b228c961dc4b3f6cde92ea7d4fbb167 1260 nginx/source/Sources
+ e8f502c6d59789d81af531d36d33f542 675 nginx/source/Sources.gz
+ 93cd9ba53236e3abbe4bc19925e57524 128 nginx/source/Release
+SHA1:
+ 5c29527b9de33c32ec6a25c28b23bb3d37bff43a 1903 nginx/binary-i386/Packages
+ 42e4351700a90d7f209075260438a1801ed04831 828 nginx/binary-i386/Packages.gz
+ 8b1662bdb6f175600337bcf7653548cc0ac16ef5 126 nginx/binary-i386/Release
+ 6086efa87e0a57080e1e63fb50290ae60b36b8b1 1909 nginx/binary-amd64/Packages
+ 375ab5f57eb2d99ce7a0eea630c77f6089784ce5 824 nginx/binary-amd64/Packages.gz
+ 42e5319129d34e2091c2adb764870db210c5941e 127 nginx/binary-amd64/Release
+ 4b6c3e7770a838ecc1908868a830129be881a539 1260 nginx/source/Sources
+ 31913e5ac8cf6bc721914a668574271301123031 675 nginx/source/Sources.gz
+ 78581c246cf87640762c2387c37047885e335aff 128 nginx/source/Release
+SHA256:
+ b00cfd045b1fa2ba9514bfd59e422f9cf4950f4ca54d32f167bc0fd8a42f8d1f 1903 nginx/binary-i386/Packages
+ 27780438a8f53b1e9ae24aa34416e053815a4aa58918af807cc894d0a494a144 828 nginx/binary-i386/Packages.gz
+ fd9dd3c4c42ab6911f245f153e5de41b2b9ee6f84c19eafaee682a68e3d0d2a8 126 nginx/binary-i386/Release
+ 2205e5619423dfbe1bc580c7cb886b3077194cdd9abb84e5fdc2fccd33a579ab 1909 nginx/binary-amd64/Packages
+ fb0dfac820642ea6194c9a08ddb321ec47850f59062cfc94fd5451734443ad6c 824 nginx/binary-amd64/Packages.gz
+ e597b4494fc7b6cd78d6e93abb3f13be5f3d6daa7048a8be5bdcfadb98757c3a 127 nginx/binary-amd64/Release
+ 00643a85386138511924a81252f00d5011b7284a53653edcd335ab652f69b759 1260 nginx/source/Sources
+ 3e5c3e21dc6b7d92efb36091de6ebf23299bbeb2d7b1928b8e0b72b4f098461e 675 nginx/source/Sources.gz
+ 0f1b47208f5c2a10d9448c4b9375751b0e4c81dbda08c1d6c0eddfd9994e44a2 128 nginx/source/Release

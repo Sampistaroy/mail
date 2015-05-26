@@ -244,3 +244,1552 @@ May 26 14:04:07 ns331245 named[4406]: lame server resolving '116.111.87.218.in-a
 May 26 14:04:07 ns331245 named[4406]: lame server resolving '116.111.87.218.in-addr.arpa' (in '87.218.in-addr.arpa'?): 202.101.224.68#53
 May 26 14:54:51 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 206 to 200
 May 26 16:54:51 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 200 to 193
+May 26 18:22:48 ns331245 named[4406]: error (insecurity proof failed) resolving '169.188.255.43.in-addr.arpa/PTR/IN': 193.0.9.3#53
+May 26 18:24:51 ns331245 smartd[3786]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 193 to 200
+May 26 18:30:15 ns331245 named[4406]: error (unexpected RCODE SERVFAIL) resolving '173.226.154.195.in-addr.arpa/PTR/IN': 2001:67c:e0::6#53
+May 26 18:30:15 ns331245 named[4406]: error (unexpected RCODE SERVFAIL) resolving '173.226.154.195.in-addr.arpa/PTR/IN': 193.0.9.6#53
+May 26 18:38:42 ns331245 systemd[1]: Reloading.
+May 26 18:38:42 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:38:42 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:38:42 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:38:42 ns331245 systemd[1]: Reached target Timers.
+May 26 18:38:42 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:38:42 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:38:42 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:38:42 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:38:42 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:38:42 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:38:42 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:38:45 ns331245 systemd[1]: Reloading.
+May 26 18:38:45 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:38:45 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:38:45 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:38:45 ns331245 systemd[1]: Reached target Timers.
+May 26 18:38:45 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:38:45 ns331245 systemd[1]: Reloading.
+May 26 18:38:45 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:38:45 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:38:45 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:38:45 ns331245 systemd[1]: Reached target Timers.
+May 26 18:38:45 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:38:45 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:38:45 ns331245 systemd[1]: Reloading.
+May 26 18:38:46 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:38:46 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:38:46 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:38:46 ns331245 systemd[1]: Reached target Timers.
+May 26 18:38:46 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:38:46 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:38:46 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:38:46 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:38:46 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:38:46 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:38:46 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:38:46 ns331245 systemd[1]: Starting A high performance web server and a reverse proxy server...
+May 26 18:38:46 ns331245 nginx[1360]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:38:46 ns331245 nginx[1360]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:38:46 ns331245 nginx[1360]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:38:46 ns331245 nginx[1360]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:38:47 ns331245 nginx[1360]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:38:47 ns331245 nginx[1360]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:38:47 ns331245 nginx[1360]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:38:47 ns331245 nginx[1360]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:38:48 ns331245 nginx[1360]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:38:48 ns331245 nginx[1360]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:38:48 ns331245 nginx[1360]: nginx: [emerg] still could not bind()
+May 26 18:38:48 ns331245 systemd[1]: nginx.service: control process exited, code=exited status=1
+May 26 18:38:48 ns331245 systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May 26 18:38:48 ns331245 systemd[1]: Unit nginx.service entered failed state.
+May 26 18:38:51 ns331245 php5-fpm: php5_invoke: Enable module pdo for fpm SAPI
+May 26 18:38:51 ns331245 php5-fpm: php5_invoke: Enable module mcrypt for fpm SAPI
+May 26 18:38:51 ns331245 php5-fpm: php5_invoke: Enable module mysqli for fpm SAPI
+May 26 18:38:51 ns331245 php5-fpm: php5_invoke: Enable module opcache for fpm SAPI
+May 26 18:38:51 ns331245 php5-fpm: php5_invoke: Enable module mysql for fpm SAPI
+May 26 18:38:52 ns331245 php5-fpm: php5_invoke: Enable module pdo_mysql for fpm SAPI
+May 26 18:38:52 ns331245 php5-fpm: php5_invoke: Enable module gd for fpm SAPI
+May 26 18:38:52 ns331245 php5-fpm: php5_invoke: Enable module json for fpm SAPI
+May 26 18:38:52 ns331245 php5-fpm: php5_invoke: Enable module readline for fpm SAPI
+May 26 18:38:53 ns331245 systemd[1]: Reloading.
+May 26 18:38:53 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:38:53 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:38:53 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:38:53 ns331245 systemd[1]: Reached target Timers.
+May 26 18:38:53 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:38:53 ns331245 systemd[1]: Reloading.
+May 26 18:38:53 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:38:53 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:38:53 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:38:53 ns331245 systemd[1]: Reached target Timers.
+May 26 18:38:53 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:38:53 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:38:54 ns331245 systemd[1]: Reloading.
+May 26 18:38:54 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:38:54 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:38:54 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:38:54 ns331245 systemd[1]: Reached target Timers.
+May 26 18:38:54 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:38:54 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:38:54 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:38:54 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:38:54 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:38:54 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:38:54 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:38:54 ns331245 systemd[1]: Starting The PHP FastCGI Process Manager...
+May 26 18:38:54 ns331245 systemd[1]: Started The PHP FastCGI Process Manager.
+May 26 18:38:54 ns331245 systemd[1]: Reloading.
+May 26 18:38:55 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:38:55 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:38:55 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:38:55 ns331245 systemd[1]: Reached target Timers.
+May 26 18:38:55 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:38:55 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:38:55 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:38:55 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:38:55 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:38:55 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:38:55 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:39:49 ns331245 systemd[1]: Reloading.
+May 26 18:39:49 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:39:49 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:39:49 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:39:49 ns331245 systemd[1]: Reached target Timers.
+May 26 18:39:49 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:39:49 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:39:49 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:39:49 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:39:49 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:39:49 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:39:49 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:39:49 ns331245 systemd[1]: Starting A high performance web server and a reverse proxy server...
+May 26 18:39:49 ns331245 nginx[2372]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:39:49 ns331245 nginx[2372]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:39:50 ns331245 nginx[2372]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:39:50 ns331245 nginx[2372]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:39:50 ns331245 nginx[2372]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:39:50 ns331245 nginx[2372]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:39:51 ns331245 nginx[2372]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:39:51 ns331245 nginx[2372]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:39:51 ns331245 nginx[2372]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:39:51 ns331245 nginx[2372]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:39:52 ns331245 nginx[2372]: nginx: [emerg] still could not bind()
+May 26 18:39:52 ns331245 systemd[1]: nginx.service: control process exited, code=exited status=1
+May 26 18:39:52 ns331245 systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May 26 18:39:52 ns331245 systemd[1]: Unit nginx.service entered failed state.
+May 26 18:40:06 ns331245 systemd[1]: Reloading.
+May 26 18:40:06 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:40:06 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:40:06 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:40:06 ns331245 systemd[1]: Reached target Timers.
+May 26 18:40:06 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:40:06 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:40:06 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:40:06 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:40:06 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:40:06 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:40:06 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:40:06 ns331245 systemd[1]: Starting A high performance web server and a reverse proxy server...
+May 26 18:40:06 ns331245 nginx[2688]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:40:06 ns331245 nginx[2688]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:40:07 ns331245 nginx[2688]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:40:07 ns331245 nginx[2688]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:40:07 ns331245 nginx[2688]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:40:07 ns331245 nginx[2688]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:40:08 ns331245 nginx[2688]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:40:08 ns331245 nginx[2688]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:40:08 ns331245 nginx[2688]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:40:08 ns331245 nginx[2688]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:40:09 ns331245 nginx[2688]: nginx: [emerg] still could not bind()
+May 26 18:40:09 ns331245 systemd[1]: nginx.service: control process exited, code=exited status=1
+May 26 18:40:09 ns331245 systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May 26 18:40:09 ns331245 systemd[1]: Unit nginx.service entered failed state.
+May 26 18:42:34 ns331245 systemd[1]: Reloading.
+May 26 18:42:34 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:34 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:34 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:34 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:34 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:34 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:34 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:34 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:34 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:34 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:34 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:34 ns331245 systemd[1]: Stopping The PHP FastCGI Process Manager...
+May 26 18:42:34 ns331245 systemd[1]: Starting The PHP FastCGI Process Manager...
+May 26 18:42:34 ns331245 systemd[1]: Started The PHP FastCGI Process Manager.
+May 26 18:42:35 ns331245 systemd[1]: Reloading.
+May 26 18:42:35 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:35 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:35 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:35 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:35 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:35 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:35 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:35 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:35 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:35 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:35 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:35 ns331245 systemd[1]: Reloading.
+May 26 18:42:36 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:36 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:36 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:36 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:36 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:36 ns331245 systemd[1]: Started The PHP FastCGI Process Manager.
+May 26 18:42:36 ns331245 systemd[1]: Reloading.
+May 26 18:42:36 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:36 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:36 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:36 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:36 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:36 ns331245 systemd[1]: Reloading.
+May 26 18:42:36 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:36 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:36 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:36 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:36 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:36 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:37 ns331245 systemd[1]: Starting A high performance web server and a reverse proxy server...
+May 26 18:42:37 ns331245 nginx[3899]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:42:37 ns331245 nginx[3899]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:42:37 ns331245 nginx[3899]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:42:37 ns331245 nginx[3899]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:42:38 ns331245 nginx[3899]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:42:38 ns331245 nginx[3899]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:42:38 ns331245 nginx[3899]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:42:38 ns331245 nginx[3899]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:42:39 ns331245 nginx[3899]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:42:39 ns331245 nginx[3899]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:42:39 ns331245 nginx[3899]: nginx: [emerg] still could not bind()
+May 26 18:42:39 ns331245 systemd[1]: nginx.service: control process exited, code=exited status=1
+May 26 18:42:39 ns331245 systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May 26 18:42:39 ns331245 systemd[1]: Unit nginx.service entered failed state.
+May 26 18:42:41 ns331245 php5-curl: php5_invoke: Enable module curl for fpm SAPI
+May 26 18:42:42 ns331245 php5-curl: php5_invoke: Enable module curl for cli SAPI
+May 26 18:42:42 ns331245 php5-curl: php5_invoke: Enable module curl for apache2 SAPI
+May 26 18:42:44 ns331245 php5-imap: php5_invoke: Enable module imap for fpm SAPI
+May 26 18:42:44 ns331245 php5-imap: php5_invoke: Enable module imap for cli SAPI
+May 26 18:42:44 ns331245 php5-imap: php5_invoke: Enable module imap for apache2 SAPI
+May 26 18:42:46 ns331245 systemd[1]: Reloading.
+May 26 18:42:46 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:46 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:46 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:46 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:46 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:46 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:46 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:46 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:46 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:46 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:46 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:51 ns331245 systemd[1]: Reloading.
+May 26 18:42:52 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:52 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:52 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:52 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:52 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:52 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:52 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:52 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:52 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:52 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:52 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:52 ns331245 systemd[1]: Starting LSB: Postfix Mail Transport Agent...
+May 26 18:42:53 ns331245 postfix[4581]: Starting Postfix Mail Transport Agent: postfix.
+May 26 18:42:53 ns331245 systemd[1]: Started LSB: Postfix Mail Transport Agent.
+May 26 18:42:53 ns331245 systemd[1]: Starting Mail Transport Agent.
+May 26 18:42:53 ns331245 systemd[1]: Reached target Mail Transport Agent.
+May 26 18:42:54 ns331245 systemd[1]: Reloading.
+May 26 18:42:54 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:54 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:54 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:54 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:54 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:54 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:54 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:54 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:54 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:54 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:54 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:54 ns331245 systemd[1]: Stopping The PHP FastCGI Process Manager...
+May 26 18:42:54 ns331245 systemd[1]: Starting The PHP FastCGI Process Manager...
+May 26 18:42:54 ns331245 systemd[1]: Started The PHP FastCGI Process Manager.
+May 26 18:42:55 ns331245 systemd[1]: Reloading.
+May 26 18:42:55 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:55 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:55 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:55 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:55 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:55 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:55 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:55 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:55 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:55 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:55 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:56 ns331245 systemd[1]: Reloading.
+May 26 18:42:56 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:56 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:56 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:56 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:56 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:42:56 ns331245 systemd[1]: Started The PHP FastCGI Process Manager.
+May 26 18:42:56 ns331245 systemd[1]: Reloading.
+May 26 18:42:56 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:42:56 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:42:56 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:42:56 ns331245 systemd[1]: Reached target Timers.
+May 26 18:42:56 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:42:56 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:43:25 ns331245 systemd[1]: Reloading LSB: Postfix Mail Transport Agent.
+May 26 18:43:25 ns331245 postfix[4887]: Reloading Postfix configuration...done.
+May 26 18:43:25 ns331245 systemd[1]: Reloaded LSB: Postfix Mail Transport Agent.
+May 26 18:43:50 ns331245 systemd[1]: Reloading.
+May 26 18:43:50 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:43:50 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:43:50 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:43:50 ns331245 systemd[1]: Reached target Timers.
+May 26 18:43:50 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:43:50 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:43:50 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:43:50 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:43:50 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:43:50 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:43:50 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:43:50 ns331245 systemd[1]: Stopped A high performance web server and a reverse proxy server.
+May 26 18:43:55 ns331245 systemd[1]: Reloading.
+May 26 18:43:55 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:43:55 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:43:55 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:43:55 ns331245 systemd[1]: Reached target Timers.
+May 26 18:43:55 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:43:55 ns331245 systemd[1]: Reloading.
+May 26 18:43:55 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:43:55 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:43:55 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:43:55 ns331245 systemd[1]: Reached target Timers.
+May 26 18:43:55 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:43:55 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:44:02 ns331245 systemd[1]: Reloading.
+May 26 18:44:02 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:44:02 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:44:02 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:44:02 ns331245 systemd[1]: Reached target Timers.
+May 26 18:44:02 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:44:02 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:44:02 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:44:02 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:44:02 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:44:02 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:44:02 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:44:04 ns331245 systemd[1]: Reloading.
+May 26 18:44:04 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:44:04 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:44:04 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:44:04 ns331245 systemd[1]: Reached target Timers.
+May 26 18:44:04 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:44:04 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:44:04 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:44:04 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:44:04 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:44:04 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:44:04 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:44:05 ns331245 systemd[1]: Reloading.
+May 26 18:44:05 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:44:05 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:44:05 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:44:05 ns331245 systemd[1]: Reached target Timers.
+May 26 18:44:05 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:44:05 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:44:05 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:44:05 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:44:05 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:44:05 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:44:05 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:44:05 ns331245 systemd[1]: Reloading.
+May 26 18:44:06 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:44:06 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:44:06 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:44:06 ns331245 systemd[1]: Reached target Timers.
+May 26 18:44:06 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:44:06 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:44:06 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:44:06 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:44:06 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:44:06 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:44:06 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:44:06 ns331245 systemd[1]: Starting A high performance web server and a reverse proxy server...
+May 26 18:44:06 ns331245 nginx[5602]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:44:06 ns331245 nginx[5602]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:44:06 ns331245 nginx[5602]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:44:06 ns331245 nginx[5602]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:44:07 ns331245 nginx[5602]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:44:07 ns331245 nginx[5602]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:44:07 ns331245 nginx[5602]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:44:07 ns331245 nginx[5602]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:44:08 ns331245 nginx[5602]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+May 26 18:44:08 ns331245 nginx[5602]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+May 26 18:44:08 ns331245 nginx[5602]: nginx: [emerg] still could not bind()
+May 26 18:44:08 ns331245 systemd[1]: nginx.service: control process exited, code=exited status=1
+May 26 18:44:08 ns331245 systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+May 26 18:44:08 ns331245 systemd[1]: Unit nginx.service entered failed state.
+May 26 18:44:25 ns331245 systemd[1]: Reloading.
+May 26 18:44:25 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:44:25 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:44:25 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:44:25 ns331245 systemd[1]: Reached target Timers.
+May 26 18:44:25 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:44:25 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:44:25 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:44:25 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:44:25 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:44:25 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:44:25 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:44:25 ns331245 systemd[1]: Stopped A high performance web server and a reverse proxy server.
+May 26 18:44:26 ns331245 systemd[1]: Reloading.
+May 26 18:44:26 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:44:26 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:44:26 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:44:26 ns331245 systemd[1]: Reached target Timers.
+May 26 18:44:26 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:44:26 ns331245 systemd[1]: Reloading.
+May 26 18:44:26 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:44:26 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:44:26 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:44:26 ns331245 systemd[1]: Reached target Timers.
+May 26 18:44:26 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:44:26 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:47:43 ns331245 systemd[1]: Reloading.
+May 26 18:47:44 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:47:44 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:47:44 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:47:44 ns331245 systemd[1]: Reached target Timers.
+May 26 18:47:44 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:47:44 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:47:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:47:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:47:44 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:47:44 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:47:44 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:47:45 ns331245 systemd[1]: Reloading.
+May 26 18:47:45 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:47:45 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:47:45 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:47:45 ns331245 systemd[1]: Reached target Timers.
+May 26 18:47:45 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:47:45 ns331245 systemd[1]: Reloading.
+May 26 18:47:45 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:47:45 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:47:45 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:47:45 ns331245 systemd[1]: Reached target Timers.
+May 26 18:47:45 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:47:45 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:48:15 ns331245 systemd[1]: Reloading.
+May 26 18:48:15 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:48:15 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:48:15 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:48:15 ns331245 systemd[1]: Reached target Timers.
+May 26 18:48:15 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:48:15 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:48:15 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:48:15 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:48:15 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:48:15 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:48:15 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:48:15 ns331245 systemd[1]: Stopping Mail Transport Agent.
+May 26 18:48:15 ns331245 systemd[1]: Stopped target Mail Transport Agent.
+May 26 18:48:15 ns331245 systemd[1]: Stopping LSB: Postfix Mail Transport Agent...
+May 26 18:48:15 ns331245 postfix[6434]: Stopping Postfix Mail Transport Agent: postfix.
+May 26 18:48:15 ns331245 systemd[1]: Stopped LSB: Postfix Mail Transport Agent.
+May 26 18:48:16 ns331245 systemd[1]: Reloading.
+May 26 18:48:16 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:48:16 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:48:16 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:48:16 ns331245 systemd[1]: Reached target Timers.
+May 26 18:48:16 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:48:16 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:48:16 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:48:16 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:48:16 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:48:16 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:48:16 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:48:18 ns331245 systemd[1]: Reloading.
+May 26 18:48:18 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:48:18 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:48:18 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:48:18 ns331245 systemd[1]: Reached target Timers.
+May 26 18:48:18 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:48:18 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:48:18 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:48:18 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:48:18 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:48:18 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:48:18 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:58:10 ns331245 systemd[1]: Reloading.
+May 26 18:58:10 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:58:10 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:58:10 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:58:10 ns331245 systemd[1]: Reached target Timers.
+May 26 18:58:10 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:58:10 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:58:10 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:58:10 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:58:10 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:58:10 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:58:10 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:58:14 ns331245 systemd[1]: Reloading.
+May 26 18:58:14 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:58:14 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:58:14 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:58:14 ns331245 systemd[1]: Reached target Timers.
+May 26 18:58:14 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:58:14 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:58:14 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:58:14 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:58:14 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:58:14 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:58:14 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:58:18 ns331245 systemd[1]: Reloading.
+May 26 18:58:18 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:58:18 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:58:18 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:58:18 ns331245 systemd[1]: Reached target Timers.
+May 26 18:58:18 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:58:18 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:58:18 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:58:18 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:58:18 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:58:19 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:58:19 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:58:19 ns331245 systemd[1]: Starting LSB: Postfix Mail Transport Agent...
+May 26 18:58:20 ns331245 postfix[8479]: Starting Postfix Mail Transport Agent: postfix.
+May 26 18:58:20 ns331245 systemd[1]: Started LSB: Postfix Mail Transport Agent.
+May 26 18:58:20 ns331245 systemd[1]: Starting Mail Transport Agent.
+May 26 18:58:20 ns331245 systemd[1]: Reached target Mail Transport Agent.
+May 26 18:58:20 ns331245 systemd[1]: Reloading.
+May 26 18:58:21 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 18:58:21 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 18:58:21 ns331245 systemd[1]: Reached target Basic System.
+May 26 18:58:21 ns331245 systemd[1]: Reached target Timers.
+May 26 18:58:21 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 18:58:21 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 18:58:21 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 18:58:21 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 18:58:21 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 18:58:21 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 18:58:21 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 18:59:19 ns331245 systemd[1]: Stopping The PHP FastCGI Process Manager...
+May 26 18:59:19 ns331245 systemd[1]: Starting The PHP FastCGI Process Manager...
+May 26 18:59:19 ns331245 systemd[1]: Started The PHP FastCGI Process Manager.
+May 26 19:00:18 ns331245 systemd[1]: Stopping LSB: Apache2 web server...
+May 26 19:00:19 ns331245 apache2[8836]: Stopping web server: apache2.
+May 26 19:00:19 ns331245 systemd[1]: Stopped LSB: Apache2 web server.
+May 26 19:02:19 ns331245 systemd[1]: Reloading.
+May 26 19:02:19 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:02:19 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:02:19 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:02:19 ns331245 systemd[1]: Reached target Timers.
+May 26 19:02:19 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:02:19 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:02:19 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:02:19 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:02:19 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:02:19 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:02:19 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:21:16 ns331245 systemd[1]: Reloading.
+May 26 19:21:16 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:21:16 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:21:16 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:21:16 ns331245 systemd[1]: Reached target Timers.
+May 26 19:21:16 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:21:16 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:21:16 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:21:16 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:21:16 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:21:16 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:21:16 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:21:34 ns331245 systemd[1]: Reloading.
+May 26 19:21:34 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:21:34 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:21:34 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:21:34 ns331245 systemd[1]: Reached target Timers.
+May 26 19:21:34 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:21:34 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:21:34 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:21:34 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:21:34 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:21:34 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:21:34 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:21:34 ns331245 systemd[1]: Reloading.
+May 26 19:21:35 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:21:35 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:21:35 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:21:35 ns331245 systemd[1]: Reached target Timers.
+May 26 19:21:35 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:21:35 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:21:35 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:21:35 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:21:35 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:21:35 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:21:35 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:21:35 ns331245 systemd[1]: Starting LSB: Dovecot init script...
+May 26 19:21:35 ns331245 dovecot[12943]: Starting IMAP/POP3 mail server: dovecot.
+May 26 19:21:35 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:21:38 ns331245 systemd[1]: Reloading.
+May 26 19:21:39 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:21:39 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:21:39 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:21:39 ns331245 systemd[1]: Reached target Timers.
+May 26 19:21:39 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:21:39 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:21:39 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:21:39 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:21:39 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:21:39 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:21:39 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:21:40 ns331245 systemd[1]: Reloading.
+May 26 19:21:40 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:21:40 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:21:40 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:21:40 ns331245 systemd[1]: Reached target Timers.
+May 26 19:21:40 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:21:40 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:21:40 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:21:40 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:21:40 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:21:40 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:21:40 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:21:40 ns331245 systemd[1]: Stopping LSB: Dovecot init script...
+May 26 19:21:40 ns331245 dovecot[13246]: Stopping IMAP/POP3 mail server: dovecot.
+May 26 19:21:40 ns331245 systemd[1]: Starting LSB: Dovecot init script...
+May 26 19:21:40 ns331245 dovecot[13254]: Starting IMAP/POP3 mail server: dovecot.
+May 26 19:21:40 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:21:41 ns331245 systemd[1]: Reloading.
+May 26 19:21:41 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:21:41 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:21:41 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:21:41 ns331245 systemd[1]: Reached target Timers.
+May 26 19:21:41 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:21:41 ns331245 systemd[1]: Reloading.
+May 26 19:21:41 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:21:41 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:21:41 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:21:41 ns331245 systemd[1]: Reached target Timers.
+May 26 19:21:41 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:21:41 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:21:41 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:23:11 ns331245 systemd[1]: Reloading.
+May 26 19:23:12 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:23:12 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:23:12 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:23:12 ns331245 systemd[1]: Reached target Timers.
+May 26 19:23:12 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:23:12 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:23:12 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:23:12 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:23:12 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:23:12 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:23:12 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:23:16 ns331245 systemd[1]: Reloading.
+May 26 19:23:16 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:23:16 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:23:16 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:23:16 ns331245 systemd[1]: Reached target Timers.
+May 26 19:23:16 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:23:16 ns331245 systemd[1]: Reloading.
+May 26 19:23:16 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:23:16 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:23:16 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:23:16 ns331245 systemd[1]: Reached target Timers.
+May 26 19:23:16 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:23:16 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:23:16 ns331245 systemd[1]: Starting LSB: Start the OpenDKIM service...
+May 26 19:23:17 ns331245 opendkim[14178]: Starting OpenDKIM: opendkim.
+May 26 19:23:17 ns331245 systemd[1]: Started LSB: Start the OpenDKIM service.
+May 26 19:23:17 ns331245 systemd[1]: Reloading.
+May 26 19:23:17 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:23:17 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:23:17 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:23:17 ns331245 systemd[1]: Reached target Timers.
+May 26 19:23:17 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:23:17 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:23:17 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:23:17 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:23:17 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:23:17 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:23:17 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:23:41 ns331245 systemd[1]: Reloading.
+May 26 19:23:41 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:23:41 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:23:41 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:23:41 ns331245 systemd[1]: Reached target Timers.
+May 26 19:23:41 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:23:41 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:23:41 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:23:41 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:23:41 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:23:41 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:23:41 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:23:44 ns331245 systemd[1]: Reloading.
+May 26 19:23:44 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:23:44 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:23:44 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:23:44 ns331245 systemd[1]: Reached target Timers.
+May 26 19:23:44 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:23:44 ns331245 systemd[1]: Reloading.
+May 26 19:23:44 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:23:44 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:23:44 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:23:44 ns331245 systemd[1]: Reached target Timers.
+May 26 19:23:44 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:23:44 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:23:44 ns331245 systemd[1]: Starting LSB: Start the OpenDMARC service...
+May 26 19:23:44 ns331245 opendmarc[14898]: Starting OpenDMARC: opendmarc.
+May 26 19:23:44 ns331245 systemd[1]: Started LSB: Start the OpenDMARC service.
+May 26 19:23:45 ns331245 systemd[1]: Reloading.
+May 26 19:23:45 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:23:45 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:23:45 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:23:45 ns331245 systemd[1]: Reached target Timers.
+May 26 19:23:45 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:23:45 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:23:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:23:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:23:45 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:23:45 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:23:45 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:24:42 ns331245 systemd[1]: Reloading.
+May 26 19:24:42 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:24:42 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:24:42 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:24:42 ns331245 systemd[1]: Reached target Timers.
+May 26 19:24:42 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:24:42 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:24:42 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:24:42 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:24:42 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:24:42 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:24:42 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:24:53 ns331245 systemd[1]: Reloading.
+May 26 19:24:54 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:24:54 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:24:54 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:24:54 ns331245 systemd[1]: Reached target Timers.
+May 26 19:24:54 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:24:54 ns331245 systemd[1]: Reloading.
+May 26 19:24:54 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:24:54 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:24:54 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:24:54 ns331245 systemd[1]: Reached target Timers.
+May 26 19:24:54 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:24:54 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:24:54 ns331245 systemd[1]: Starting Perl-based spam filter using text analysis...
+May 26 19:25:01 ns331245 systemd[1]: Started Perl-based spam filter using text analysis.
+May 26 19:26:42 ns331245 systemd[1]: Reloading.
+May 26 19:26:42 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:26:42 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:26:42 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:26:42 ns331245 systemd[1]: Reached target Timers.
+May 26 19:26:42 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:26:42 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:26:42 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:26:42 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:26:42 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:26:42 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:26:42 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:24 ns331245 systemd[1]: Reloading.
+May 26 19:27:24 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:27:24 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:27:24 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:27:24 ns331245 systemd[1]: Reached target Timers.
+May 26 19:27:24 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:27:24 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:27:24 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:27:24 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:27:24 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:27:24 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:27:24 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:24 ns331245 systemd[1]: Stopping LSB: Dovecot init script...
+May 26 19:27:24 ns331245 dovecot[21336]: Stopping IMAP/POP3 mail server: dovecot.
+May 26 19:27:24 ns331245 systemd[1]: Starting LSB: Dovecot init script...
+May 26 19:27:24 ns331245 dovecot[21346]: Starting IMAP/POP3 mail server: dovecot.
+May 26 19:27:24 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:27:25 ns331245 systemd[1]: Reloading.
+May 26 19:27:25 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:27:25 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:27:25 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:27:25 ns331245 systemd[1]: Reached target Timers.
+May 26 19:27:25 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:25 ns331245 systemd[1]: Reloading.
+May 26 19:27:25 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:27:25 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:27:25 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:27:25 ns331245 systemd[1]: Reached target Timers.
+May 26 19:27:25 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:27:25 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:25 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:27:30 ns331245 systemd[1]: Reloading.
+May 26 19:27:30 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:27:30 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:27:30 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:27:30 ns331245 systemd[1]: Reached target Timers.
+May 26 19:27:30 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:27:30 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:27:30 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:27:30 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:27:30 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:27:30 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:27:30 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:30 ns331245 systemd[1]: Stopping LSB: Dovecot init script...
+May 26 19:27:30 ns331245 dovecot[21899]: Stopping IMAP/POP3 mail server: dovecot.
+May 26 19:27:30 ns331245 systemd[1]: Starting LSB: Dovecot init script...
+May 26 19:27:31 ns331245 dovecot[21908]: Starting IMAP/POP3 mail server: dovecot.
+May 26 19:27:31 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:27:31 ns331245 systemd[1]: Reloading.
+May 26 19:27:31 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:27:31 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:27:31 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:27:31 ns331245 systemd[1]: Reached target Timers.
+May 26 19:27:31 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:31 ns331245 systemd[1]: Reloading.
+May 26 19:27:31 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:27:31 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:27:31 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:27:31 ns331245 systemd[1]: Reached target Timers.
+May 26 19:27:31 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:27:31 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:31 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:27:34 ns331245 systemd[1]: Reloading.
+May 26 19:27:34 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:27:34 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:27:34 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:27:34 ns331245 systemd[1]: Reached target Timers.
+May 26 19:27:34 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:27:34 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:27:34 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:27:34 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:27:34 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:27:34 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:27:34 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:34 ns331245 systemd[1]: Stopping LSB: Dovecot init script...
+May 26 19:27:35 ns331245 dovecot[22130]: Stopping IMAP/POP3 mail server: dovecot.
+May 26 19:27:35 ns331245 systemd[1]: Starting LSB: Dovecot init script...
+May 26 19:27:35 ns331245 dovecot[22139]: Starting IMAP/POP3 mail server: dovecot.
+May 26 19:27:35 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:27:35 ns331245 systemd[1]: Reloading.
+May 26 19:27:35 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:27:35 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:27:35 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:27:35 ns331245 systemd[1]: Reached target Timers.
+May 26 19:27:35 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:27:35 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:27:35 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:27:35 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:27:35 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:27:35 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:27:35 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:35 ns331245 systemd[1]: Reloading.
+May 26 19:27:36 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:27:36 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:27:36 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:27:36 ns331245 systemd[1]: Reached target Timers.
+May 26 19:27:36 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:27:36 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:27:36 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:27:36 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:27:36 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:27:36 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:27:36 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:27:36 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:28:26 ns331245 systemd[1]: Stopping The PHP FastCGI Process Manager...
+May 26 19:28:26 ns331245 systemd[1]: Starting The PHP FastCGI Process Manager...
+May 26 19:28:26 ns331245 systemd[1]: Started The PHP FastCGI Process Manager.
+May 26 19:28:54 ns331245 systemd[1]: Stopped LSB: Apache2 web server.
+May 26 19:29:26 ns331245 systemd[1]: Stopping Mail Transport Agent.
+May 26 19:29:26 ns331245 systemd[1]: Stopping LSB: Postfix Mail Transport Agent...
+May 26 19:29:26 ns331245 postfix[23724]: Stopping Postfix Mail Transport Agent: postfix.
+May 26 19:29:26 ns331245 systemd[1]: Starting LSB: Postfix Mail Transport Agent...
+May 26 19:29:27 ns331245 postfix[23749]: Starting Postfix Mail Transport Agent: postfix.
+May 26 19:29:27 ns331245 systemd[1]: Started LSB: Postfix Mail Transport Agent.
+May 26 19:29:27 ns331245 systemd[1]: Starting Mail Transport Agent.
+May 26 19:29:27 ns331245 systemd[1]: Reached target Mail Transport Agent.
+May 26 19:29:27 ns331245 systemd[1]: Stopping LSB: Dovecot init script...
+May 26 19:29:27 ns331245 dovecot[23864]: Stopping IMAP/POP3 mail server: dovecot.
+May 26 19:29:27 ns331245 systemd[1]: Starting LSB: Dovecot init script...
+May 26 19:29:27 ns331245 dovecot[23873]: Starting IMAP/POP3 mail server: dovecot.
+May 26 19:29:27 ns331245 systemd[1]: Started LSB: Dovecot init script.
+May 26 19:29:27 ns331245 systemd[1]: Stopping LSB: Start the OpenDKIM service...
+May 26 19:29:32 ns331245 opendkim[23886]: Stopping OpenDKIM: opendkim.
+May 26 19:29:32 ns331245 systemd[1]: Starting LSB: Start the OpenDKIM service...
+May 26 19:29:32 ns331245 opendkim[23900]: Starting OpenDKIM: opendkim.
+May 26 19:29:32 ns331245 systemd[1]: Started LSB: Start the OpenDKIM service.
+May 26 19:29:32 ns331245 systemd[1]: Stopping LSB: Start the OpenDMARC service...
+May 26 19:29:35 ns331245 opendmarc[23917]: Stopping OpenDMARC: opendmarc.
+May 26 19:29:35 ns331245 systemd[1]: Starting LSB: Start the OpenDMARC service...
+May 26 19:29:35 ns331245 opendmarc[23923]: Starting OpenDMARC: opendmarc.
+May 26 19:29:35 ns331245 systemd[1]: Started LSB: Start the OpenDMARC service.
+May 26 19:29:35 ns331245 systemd[1]: Stopping Perl-based spam filter using text analysis...
+May 26 19:29:35 ns331245 systemd[1]: Starting Perl-based spam filter using text analysis...
+May 26 19:29:42 ns331245 systemd[1]: Started Perl-based spam filter using text analysis.
+May 26 19:29:42 ns331245 systemd[1]: Reloading.
+May 26 19:29:42 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:42 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:42 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:42 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:42 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:42 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:42 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:42 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:42 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:42 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:42 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:42 ns331245 systemd[1]: Reloading.
+May 26 19:29:43 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:43 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:43 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:43 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:43 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:43 ns331245 systemd[1]: Reloading.
+May 26 19:29:43 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:43 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:43 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:43 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:43 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:43 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:43 ns331245 systemd[1]: Reloading.
+May 26 19:29:44 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:44 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:44 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:44 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:44 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:44 ns331245 systemd[1]: Reloading.
+May 26 19:29:44 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:44 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:44 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:44 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:44 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:44 ns331245 systemd[1]: Reloading.
+May 26 19:29:44 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:44 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:44 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:44 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:44 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:44 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:45 ns331245 systemd[1]: Reloading.
+May 26 19:29:45 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:45 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:45 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:45 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:45 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:45 ns331245 systemd[1]: Reloading.
+May 26 19:29:45 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:45 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:45 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:45 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:45 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:45 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:46 ns331245 systemd[1]: Reloading.
+May 26 19:29:46 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:46 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:46 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:46 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:46 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:46 ns331245 systemd[1]: Reloading.
+May 26 19:29:46 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:46 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:46 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:46 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:46 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:46 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:29:46 ns331245 systemd[1]: Reloading.
+May 26 19:29:47 ns331245 systemd[1]: Started ACPI event daemon.
+May 26 19:29:47 ns331245 systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:29:47 ns331245 systemd[1]: Reached target Basic System.
+May 26 19:29:47 ns331245 systemd[1]: Reached target Timers.
+May 26 19:29:47 ns331245 systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:29:47 ns331245 systemd[1]: Activated swap /dev/sda4.
+May 26 19:29:47 ns331245 systemd[1]: Activated swap /dev/disk/by-id/ata-HGST_HUS724020ALA640_PN2181P6J5KKAP-part4.
+May 26 19:29:47 ns331245 systemd[1]: Activated swap /dev/disk/by-id/wwn-0x5000cca22ddeb6c7-part4.
+May 26 19:29:47 ns331245 systemd[1]: Activated swap /dev/disk/by-label/swap-sda4.
+May 26 19:29:47 ns331245 systemd[1]: Activated swap /dev/disk/by-partuuid/9c25baa5-64e2-481b-8127-fd334976fb16.
+May 26 19:29:47 ns331245 systemd[1]: Activated swap /dev/disk/by-uuid/b93e1d19-3ce2-4ff9-a514-df3ee08e1db5.
+May 26 19:42:53 ns331245 systemd[1]: Started Synchronise Hardware Clock to System Clock.
+May 26 19:42:53 ns331245 systemd[1]: Deactivating swap /dev/disk/by-partlabel/primary...
+May 26 19:42:53 ns331245 systemd[1]: Deactivating swap /dev/sda4...
+May 26 19:42:53 ns331245 systemd[1]: Deactivating swap /dev/sda4...
+May 26 19:42:53 ns331245 systemd[1]: Deactivating swap /dev/sda4...
+May 26 19:42:53 ns331245 systemd[1]: Deactivating swap /dev/sda4...
+May 26 19:42:53 ns331245 systemd[1]: Deactivating swap /dev/sda4...
+May 26 19:42:53 ns331245 systemd[1]: Stopping system-systemd\x2dfsck.slice.
+May 26 19:42:53 ns331245 systemd[1]: Removed slice system-systemd\x2dfsck.slice.
+May 26 19:42:53 ns331245 systemd[1]: Stopping Graphical Interface.
+May 26 19:42:53 ns331245 systemd[1]: Stopped target Graphical Interface.
+May 26 19:42:53 ns331245 systemd[1]: Stopping Multi-User System.
+May 26 19:42:53 ns331245 systemd[1]: Stopped target Multi-User System.
+May 26 19:42:53 ns331245 systemd[1]: Stopping The PHP FastCGI Process Manager...
+May 26 19:42:53 ns331245 systemd[1]: Stopping Self Monitoring and Reporting Technology (SMART) Daemon...
+May 26 19:42:53 ns331245 systemd[1]: Stopping Regular background program processing daemon...
+May 26 19:42:53 ns331245 systemd[1]: Stopping OpenBSD Secure Shell server...
+May 26 19:42:53 ns331245 systemd[1]: Stopping Login Prompts.
+May 26 19:42:53 ns331245 systemd[1]: Stopped target Login Prompts.
+May 26 19:42:53 ns331245 systemd[1]: Stopping Getty on tty6...
+May 26 19:42:53 ns331245 systemd[1]: Stopping Getty on tty5...
+May 26 19:42:53 ns331245 systemd[1]: Stopping Getty on tty4...
+May 26 19:42:53 ns331245 systemd[1]: Stopping Getty on tty3...
+May 26 19:42:53 ns331245 systemd[1]: Stopping Getty on tty2...
+May 26 19:42:53 ns331245 systemd[1]: Stopping Getty on tty1...
+May 26 19:42:53 ns331245 systemd[1]: Stopping getty on tty2-tty6 if dbus and logind are not available...
+May 26 19:42:53 ns331245 systemd[1]: Stopped getty on tty2-tty6 if dbus and logind are not available.
+May 26 19:42:53 ns331245 systemd[1]: Stopping LSB: Start the OpenDMARC service...
+May 26 19:42:53 ns331245 systemd[1]: Stopping Mail Transport Agent.
+May 26 19:42:53 ns331245 systemd[1]: Stopped target Mail Transport Agent.
+May 26 19:42:53 ns331245 systemd[1]: Stopping LSB: Postfix Mail Transport Agent...
+May 26 19:42:53 ns331245 smartd[3786]: smartd received signal 15: Terminated
+May 26 19:42:53 ns331245 smartd[3786]: Device: /dev/sda [SAT], state written to /var/lib/smartmontools/smartd.HGST_HUS724020ALA640-PN2181P6J5KKAP.ata.state
+May 26 19:42:53 ns331245 smartd[3786]: smartd is exiting (exit status 0)
+May 26 19:42:53 ns331245 swapoff[24997]: swapoff: /dev/disk/by-partlabel/primary: swapoff failed: Invalid argument
+May 26 19:42:53 ns331245 systemd[1]: Stopping LSB: daemon to balance interrupts for SMP systems...
+May 26 19:42:53 ns331245 systemd[1]: Stopping LSB: Start NTP daemon...
+May 26 19:42:53 ns331245 systemd[1]: Stopping LSB: Starts ProFTPD daemon...
+May 26 19:42:53 ns331245 systemd[1]: Stopping LSB: Start the OpenDKIM service...
+May 26 19:42:53 ns331245 systemd[1]: Stopping LSB: disk temperature monitoring daemon...
+May 26 19:42:53 ns331245 systemd[1]: Stopping System Logging Service...
+May 26 19:43:59 hostname systemd-modules-load[2179]: could not open moddep file '/lib/modules/3.14.32-xxxx-grs-ipv6-64/modules.dep.bin'
+May 26 19:43:59 hostname systemd-modules-load[2179]: Failed to lookup alias 'ipmi_devintf': Function not implemented
+May 26 19:43:59 hostname systemd-modules-load[2179]: could not open moddep file '/lib/modules/3.14.32-xxxx-grs-ipv6-64/modules.dep.bin'
+May 26 19:43:59 hostname systemd-modules-load[2179]: Failed to lookup alias 'ipmi_msghandler': Function not implemented
+May 26 19:43:59 hostname systemd-modules-load[2179]: could not open moddep file '/lib/modules/3.14.32-xxxx-grs-ipv6-64/modules.dep.bin'
+May 26 19:43:59 hostname systemd-modules-load[2179]: Failed to lookup alias 'ipmi_poweroff': Function not implemented
+May 26 19:43:59 hostname systemd-modules-load[2179]: could not open moddep file '/lib/modules/3.14.32-xxxx-grs-ipv6-64/modules.dep.bin'
+May 26 19:43:59 hostname systemd-modules-load[2179]: Failed to lookup alias 'ipmi_si': Function not implemented
+May 26 19:43:59 hostname systemd-modules-load[2179]: could not open moddep file '/lib/modules/3.14.32-xxxx-grs-ipv6-64/modules.dep.bin'
+May 26 19:43:59 hostname systemd-modules-load[2179]: Failed to lookup alias 'ipmi_watchdog': Function not implemented
+May 26 19:43:59 hostname systemd[1]: Mounted Configuration File System.
+May 26 19:43:59 hostname systemd-fsck[2173]: /dev/sda2 : propre, 49598/1281120 fichiers, 458418/5119744 blocs
+May 26 19:43:59 hostname systemd[1]: Started File System Check on Root Device.
+May 26 19:43:59 hostname mdadm-raid[3340]: Assembling MD arrays...done (no arrays found in config file or automatically).
+May 26 19:43:59 hostname systemd[1]: Started LSB: MD array assembly.
+May 26 19:43:59 hostname systemd[1]: Found device HGST_HUS724020ALA640 swap-sda4.
+May 26 19:43:59 hostname systemd[1]: Activating swap /dev/sda4...
+May 26 19:43:59 hostname systemd[1]: Found device HGST_HUS724020ALA640 primary.
+May 26 19:43:59 hostname systemd[1]: Started udev Wait for Complete Device Initialization.
+May 26 19:43:59 hostname systemd[1]: Starting Activation of LVM2 logical volumes...
+May 26 19:43:59 hostname systemd[1]: Starting Copy rules generated while the root was ro...
+May 26 19:43:59 hostname systemd[1]: Starting File System Check on /dev/sda3...
+May 26 19:43:59 hostname udev-finish[3458]: /lib/udev/udev-finish: ligne 6: /etc/udev/rules.d/70-persistent-net.rules: Système de fichiers accessible en lecture seulement
+May 26 19:43:59 hostname systemd[1]: udev-finish.service: main process exited, code=exited, status=1/FAILURE
+May 26 19:43:59 hostname systemd[1]: Failed to start Copy rules generated while the root was ro.
+May 26 19:43:59 hostname systemd[1]: Unit udev-finish.service entered failed state.
+May 26 19:43:59 hostname systemd-fsck[3459]: /dev/sda3 : propre, 14141/120782848 fichiers, 7666097/483126528 blocs
+May 26 19:43:59 hostname systemd[1]: Activated swap /dev/sda4.
+May 26 19:43:59 hostname systemd[1]: Starting Swap.
+May 26 19:43:59 hostname systemd[1]: Reached target Swap.
+May 26 19:43:59 hostname systemd[1]: Started File System Check on /dev/sda3.
+May 26 19:43:59 hostname lvm[3457]: No volume groups found
+May 26 19:43:59 hostname systemd[1]: Started Activation of LVM2 logical volumes.
+May 26 19:43:59 hostname systemd[1]: Starting Encrypted Volumes.
+May 26 19:43:59 hostname systemd[1]: Reached target Encrypted Volumes.
+May 26 19:43:59 hostname systemd[1]: Starting Activation of LVM2 logical volumes...
+May 26 19:43:59 hostname lvm[3472]: No volume groups found
+May 26 19:43:59 hostname systemd[1]: Started Activation of LVM2 logical volumes.
+May 26 19:43:59 hostname systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+May 26 19:43:59 hostname lvm[3474]: No volume groups found
+May 26 19:43:59 hostname systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+May 26 19:43:59 hostname keyboard-setup[3341]: Setting preliminary keymap...done.
+May 26 19:43:59 hostname systemd[1]: Started LSB: Set preliminary keymap.
+May 26 19:43:59 hostname systemd[1]: Starting Remount Root and Kernel File Systems...
+May 26 19:43:59 hostname systemd[1]: Started Remount Root and Kernel File Systems.
+May 26 19:43:59 hostname systemd[1]: Started Various fixups to make systemd work better on Debian.
+May 26 19:43:59 hostname systemd[1]: Starting Load/Save Random Seed...
+May 26 19:43:59 hostname systemd[1]: Starting Local File Systems (Pre).
+May 26 19:43:59 hostname systemd[1]: Reached target Local File Systems (Pre).
+May 26 19:43:59 hostname systemd[1]: Mounting /home...
+May 26 19:43:59 hostname systemd[1]: Started Load/Save Random Seed.
+May 26 19:43:59 hostname systemd[1]: Mounted /home.
+May 26 19:43:59 hostname systemd[1]: Starting Local File Systems.
+May 26 19:43:59 hostname systemd[1]: Reached target Local File Systems.
+May 26 19:43:59 hostname systemd[1]: Starting Create Volatile Files and Directories...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: Raise network interfaces....
+May 26 19:43:59 hostname systemd[1]: Starting Remote File Systems.
+May 26 19:43:59 hostname systemd[1]: Reached target Remote File Systems.
+May 26 19:43:59 hostname systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: Prepare console...
+May 26 19:43:59 hostname systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+May 26 19:43:59 hostname kbd[3496]: Setting console screen modes.
+May 26 19:43:59 hostname systemd[1]: Started Create Volatile Files and Directories.
+May 26 19:43:59 hostname systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+May 26 19:43:59 hostname systemd[1]: Started Update UTMP about System Boot/Shutdown.
+May 26 19:43:59 hostname kbd[3496]: setterm: $TERM n'est pas défini.
+May 26 19:43:59 hostname systemd[1]: Started LSB: Prepare console.
+May 26 19:43:59 hostname systemd[1]: Starting LSB: Set console font and keymap...
+May 26 19:43:59 hostname console-setup[3553]: Setting up console font and keymap...done.
+May 26 19:43:59 hostname systemd[1]: Started LSB: Set console font and keymap.
+May 26 19:43:59 hostname networking[3494]: Configuring network interfaces...RTNETLINK answers: File exists
+May 26 19:43:59 hostname networking[3494]: RTNETLINK answers: File exists
+May 26 19:43:59 hostname networking[3494]: Waiting for DAD... Done
+May 26 19:43:59 hostname networking[3494]: RTNETLINK answers: File exists
+May 26 19:43:59 hostname networking[3494]: Failed to bring up eth0.
+May 26 19:43:59 hostname networking[3494]: RTNETLINK answers: File exists
+May 26 19:43:59 hostname networking[3494]: RTNETLINK answers: File exists
+May 26 19:43:59 hostname networking[3494]: done.
+May 26 19:43:59 hostname systemd[1]: Started LSB: Raise network interfaces..
+May 26 19:43:59 hostname systemd[1]: Starting Network.
+May 26 19:43:59 hostname systemd[1]: Reached target Network.
+May 26 19:43:59 hostname systemd[1]: Starting Network is Online.
+May 26 19:43:59 hostname systemd[1]: Reached target Network is Online.
+May 26 19:43:59 hostname systemd[1]: Starting System Initialization.
+May 26 19:43:59 hostname systemd[1]: Reached target System Initialization.
+May 26 19:43:59 hostname systemd[1]: Starting ACPID Listen Socket.
+May 26 19:43:59 hostname systemd[1]: Listening on ACPID Listen Socket.
+May 26 19:43:59 hostname systemd[1]: Starting Sockets.
+May 26 19:43:59 hostname systemd[1]: Reached target Sockets.
+May 26 19:43:59 hostname systemd[1]: Starting Daily Cleanup of Temporary Directories.
+May 26 19:43:59 hostname systemd[1]: Started Daily Cleanup of Temporary Directories.
+May 26 19:43:59 hostname systemd[1]: Starting Timers.
+May 26 19:43:59 hostname systemd[1]: Reached target Timers.
+May 26 19:43:59 hostname systemd[1]: Starting ACPI Events Check.
+May 26 19:43:59 hostname systemd[1]: Started ACPI Events Check.
+May 26 19:43:59 hostname systemd[1]: Starting Paths.
+May 26 19:43:59 hostname systemd[1]: Reached target Paths.
+May 26 19:43:59 hostname systemd[1]: Starting Basic System.
+May 26 19:43:59 hostname systemd[1]: Reached target Basic System.
+May 26 19:43:59 hostname systemd[1]: Starting The PHP FastCGI Process Manager...
+May 26 19:43:59 hostname systemd[1]: Starting Self Monitoring and Reporting Technology (SMART) Daemon...
+May 26 19:43:59 hostname systemd[1]: Started Self Monitoring and Reporting Technology (SMART) Daemon.
+May 26 19:43:59 hostname systemd[1]: Starting BIND Domain Name Server...
+May 26 19:43:59 hostname systemd[1]: Started BIND Domain Name Server.
+May 26 19:43:59 hostname systemd[1]: Starting Host and Network Name Lookups.
+May 26 19:43:59 hostname systemd[1]: Reached target Host and Network Name Lookups.
+May 26 19:43:59 hostname systemd[1]: Starting Regular background program processing daemon...
+May 26 19:43:59 hostname systemd[1]: Started Regular background program processing daemon.
+May 26 19:43:59 hostname systemd[1]: Starting OpenBSD Secure Shell server...
+May 26 19:43:59 hostname systemd[1]: Started OpenBSD Secure Shell server.
+May 26 19:43:59 hostname systemd[1]: Starting /etc/rc.local Compatibility...
+May 26 19:43:59 hostname systemd[1]: Started Login Service.
+May 26 19:43:59 hostname systemd[1]: Starting getty on tty2-tty6 if dbus and logind are not available...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: Start the OpenDMARC service...
+May 26 19:43:59 hostname systemd[1]: Starting Perl-based spam filter using text analysis...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: Apache2 web server...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: Start and stop the mysql database server daemon...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: Start NTP daemon...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: Starts ProFTPD daemon...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: Start the OpenDKIM service...
+May 26 19:43:59 hostname systemd[1]: Starting LSB: disk temperature monitoring daemon...
+May 26 19:43:59 hostname systemd[1]: Starting System Logging Service...
+May 26 19:43:59 hostname systemd[1]: Starting Permit User Sessions...
+May 26 19:43:59 hostname systemd[1]: Starting ACPI event daemon...
+May 26 19:43:59 hostname systemd[1]: Started ACPI event daemon.
+May 26 19:43:59 hostname acpid: cannot open input layer
+May 26 19:43:59 hostname acpid: starting up with netlink and the input layer
+May 26 19:43:59 hostname acpid: 1 rule loaded
+May 26 19:43:59 hostname acpid: waiting for events: event logging is off
+May 26 19:43:59 hostname systemd[1]: Started Permit User Sessions.
+May 26 19:43:59 hostname systemd[1]: Started LSB: disk temperature monitoring daemon.
+May 26 19:43:59 hostname systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+May 26 19:43:59 hostname systemd[1]: Started /etc/rc.local Compatibility.
+May 26 19:43:59 hostname systemd[1]: Starting Getty on tty6...
+May 26 19:43:59 hostname systemd[1]: Started Getty on tty6.
+May 26 19:43:59 hostname systemd[1]: Starting Getty on tty5...
+May 26 19:43:59 hostname systemd[1]: Started Getty on tty5.
+May 26 19:43:59 hostname systemd[1]: Starting Getty on tty4...
+May 26 19:43:59 hostname systemd[1]: Started Getty on tty4.
+May 26 19:43:59 hostname systemd[1]: Starting Getty on tty3...
+May 26 19:43:59 hostname systemd[1]: Started Getty on tty3.
+May 26 19:43:59 hostname systemd[1]: Starting Getty on tty2...
+May 26 19:43:59 hostname systemd[1]: Started Getty on tty2.
+May 26 19:43:59 hostname systemd[1]: Starting Getty on tty1...
+May 26 19:43:59 hostname systemd[1]: Started Getty on tty1.
+May 26 19:43:59 hostname systemd[1]: Starting Login Prompts.
+May 26 19:43:59 hostname systemd[1]: Reached target Login Prompts.
+May 26 19:43:59 hostname irqbalance[3821]: Starting SMP IRQ Balancer: irqbalance.
+May 26 19:43:59 hostname systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+May 26 19:43:59 hostname opendmarc[3814]: Starting OpenDMARC: opendmarc.
+May 26 19:43:59 hostname systemd[1]: Started LSB: Start the OpenDMARC service.
+May 26 19:43:59 hostname sshd[3811]: Could not load host key: /etc/ssh/ssh_host_ed25519_key
+May 26 19:43:59 hostname ntpd[3897]: ntpd 4.2.6p5@1.2349-o Fri Apr 10 19:04:04 UTC 2015 (1)
+May 26 19:43:59 hostname ntpd[3907]: proto: precision = 0.154 usec
+May 26 19:43:59 hostname ntp[3822]: Starting NTP server: ntpd.
+May 26 19:43:59 hostname systemd[1]: Started LSB: Start NTP daemon.
+May 26 19:43:59 hostname ntpd[3907]: unable to bind to wildcard address 0.0.0.0 - another process may be running - EXITING
+May 26 19:43:59 hostname systemd[1]: Started System Logging Service.
+May 26 19:43:59 hostname named[3809]: starting BIND 9.9.5-9-Debian -f -u bind
+May 26 19:43:59 hostname named[3809]: built with '--prefix=/usr' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/var' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' 'CFLAGS=-fno-strict-aliasing -fno-delete-null-pointer-checks -DDIG_SIGCHASE -O2'
+May 26 19:43:59 hostname named[3809]: ----------------------------------------------------
+May 26 19:43:59 hostname named[3809]: BIND 9 is maintained by Internet Systems Consortium,
+May 26 19:43:59 hostname named[3809]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+May 26 19:43:59 hostname named[3809]: corporation.  Support and training for BIND 9 are
+May 26 19:43:59 hostname named[3809]: available at https://www.isc.org/support
+May 26 19:43:59 hostname named[3809]: ----------------------------------------------------
+May 26 19:43:59 hostname named[3809]: adjusted limit on open files from 4096 to 1048576
+May 26 19:43:59 hostname named[3809]: found 4 CPUs, using 4 worker threads
+May 26 19:43:59 hostname named[3809]: using 4 UDP listeners per interface
+May 26 19:43:59 hostname named[3809]: using up to 4096 sockets
+May 26 19:44:00 hostname smartd[3808]: smartd 6.4 2014-10-07 r4002 [x86_64-linux-3.14.32-xxxx-grs-ipv6-64] (local build)
+May 26 19:44:00 hostname smartd[3808]: Copyright (C) 2002-14, Bruce Allen, Christian Franke, www.smartmontools.org
+May 26 19:44:00 hostname smartd[3808]: Opened configuration file /etc/smartd.conf
+May 26 19:44:00 hostname smartd[3808]: Drive: DEVICESCAN, implied '-a' Directive on line 21 of file /etc/smartd.conf
+May 26 19:44:00 hostname smartd[3808]: Configuration file /etc/smartd.conf was parsed, found DEVICESCAN, scanning devices
+May 26 19:44:00 hostname smartd[3808]: Device: /dev/sda, type changed from 'scsi' to 'sat'
+May 26 19:44:00 hostname smartd[3808]: Device: /dev/sda [SAT], opened
+May 26 19:44:00 hostname smartd[3808]: Device: /dev/sda [SAT], HGST HUS724020ALA640, S/N:PN2181P6J5KKAP, WWN:5-000cca-22ddeb6c7, FW:MF6OAA70, 2.00 TB
+May 26 19:44:00 hostname smartd[3808]: Device: /dev/sda [SAT], not found in smartd database.
+May 26 19:44:00 hostname named[3809]: loading configuration from '/etc/bind/named.conf'
+May 26 19:44:01 hostname named[3809]: reading built-in trusted keys from file '/etc/bind/bind.keys'
+May 26 19:44:01 hostname named[3809]: using default UDP/IPv4 port range: [1024, 65535]
+May 26 19:44:01 hostname named[3809]: using default UDP/IPv6 port range: [1024, 65535]
+May 26 19:44:01 hostname named[3809]: listening on IPv4 interface lo, 127.0.0.1#53
+May 26 19:44:01 hostname named[3809]: listening on IPv6 interface lo, ::1#53
+May 26 19:44:01 hostname named[3809]: generating session key for dynamic DNS
+May 26 19:44:01 hostname named[3809]: sizing zone task pool based on 5 zones
+May 26 19:44:02 hostname smartd[3808]: Device: /dev/sda [SAT], is SMART capable. Adding to "monitor" list.
+May 26 19:44:02 hostname smartd[3808]: Device: /dev/sda [SAT], state read from /var/lib/smartmontools/smartd.HGST_HUS724020ALA640-PN2181P6J5KKAP.ata.state
+May 26 19:44:02 hostname smartd[3808]: Monitoring 1 ATA and 0 SCSI devices
+May 26 19:44:02 hostname named[3809]: using built-in root key for view _default
+May 26 19:44:02 hostname named[3809]: set up managed keys zone for view _default, file 'managed-keys.bind'
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 10.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 16.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 17.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 18.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 19.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 20.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 21.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 22.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 23.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 24.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 25.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 26.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 27.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 28.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 29.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 30.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 31.172.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 168.192.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 64.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 65.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 66.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 67.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 68.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 69.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 70.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 71.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 72.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 73.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 74.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 75.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 76.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 77.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 78.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 79.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 80.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 81.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 82.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 83.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 84.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 85.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 86.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 87.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 88.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 89.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 90.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 91.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 92.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 93.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 94.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 95.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 96.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 97.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 98.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 99.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 100.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 101.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 102.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 103.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 104.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 105.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 106.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 107.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 108.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 109.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 110.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 111.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 112.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 113.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 114.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 115.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 116.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 117.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 118.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 119.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 120.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 121.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 122.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 123.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 124.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 125.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 126.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 127.100.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 254.169.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: D.F.IP6.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 8.E.F.IP6.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 9.E.F.IP6.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: A.E.F.IP6.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: B.E.F.IP6.ARPA
+May 26 19:44:02 hostname named[3809]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+May 26 19:44:02 hostname named[3809]: command channel listening on 127.0.0.1#953
+May 26 19:44:02 hostname named[3809]: command channel listening on ::1#953
+May 26 19:44:02 hostname named[3809]: managed-keys-zone: journal file is out of date: removing journal file
+May 26 19:44:02 hostname named[3809]: managed-keys-zone: loaded serial 7
+May 26 19:44:03 hostname named[3809]: zone 0.in-addr.arpa/IN: loaded serial 1
+May 26 19:44:03 hostname named[3809]: zone 127.in-addr.arpa/IN: loaded serial 1
+May 26 19:44:03 hostname named[3809]: zone localhost/IN: loaded serial 2
+May 26 19:44:03 hostname named[3809]: zone 255.in-addr.arpa/IN: loaded serial 1
+May 26 19:44:03 hostname named[3809]: all zones loaded
+May 26 19:44:03 hostname named[3809]: running
+May 26 19:44:03 hostname smartd[3808]: Device: /dev/sda [SAT], state written to /var/lib/smartmontools/smartd.HGST_HUS724020ALA640-PN2181P6J5KKAP.ata.state
+May 26 19:44:03 hostname opendkim[3825]: Starting OpenDKIM: opendkim.
+May 26 19:44:03 hostname systemd[1]: Started LSB: Start the OpenDKIM service.
+May 26 19:44:03 hostname ntpdate[3660]: step time server 213.251.128.249 offset -0.508553 sec
+May 26 19:44:03 hostname systemd[1]: Time has been changed
+May 26 19:44:06 hostname proftpd[3823]: Starting ftp server: proftpd.
+May 26 19:44:06 hostname systemd[1]: Started LSB: Starts ProFTPD daemon.
+May 26 19:44:07 hostname systemd[1]: Started The PHP FastCGI Process Manager.
+May 26 19:44:08 hostname apache2[3817]: Starting web server: apache2.
+May 26 19:44:08 hostname systemd[1]: Started LSB: Apache2 web server.
+May 26 19:44:09 hostname ntpdate[3791]: adjust time server 213.251.128.249 offset -0.000182 sec
+May 26 19:44:11 hostname mysql[3819]: Starting MySQL database server: mysqld . . . . . ..
+May 26 19:44:11 hostname mysql[3819]: Checking for tables which need an upgrade, are corrupt or were
+May 26 19:44:11 hostname mysql[3819]: not closed cleanly..
+May 26 19:44:11 hostname systemd[1]: Started LSB: Start and stop the mysql database server daemon.
+May 26 19:44:11 hostname systemd[1]: Starting LSB: Dovecot init script...
+May 26 19:44:11 hostname /etc/mysql/debian-start[4591]: Upgrading MySQL tables if necessary.
+May 26 19:44:11 hostname /etc/mysql/debian-start[4595]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+May 26 19:44:11 hostname /etc/mysql/debian-start[4595]: Looking for 'mysql' as: /usr/bin/mysql
+May 26 19:44:11 hostname /etc/mysql/debian-start[4595]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+May 26 19:44:11 hostname /etc/mysql/debian-start[4595]: This installation of MySQL is already upgraded to 5.5.43, use --force if you still need to run mysql_upgrade
+May 26 19:44:11 hostname /etc/mysql/debian-start[4610]: Checking for insecure root accounts.
+May 26 19:44:12 hostname /etc/mysql/debian-start[4618]: Triggering myisam-recover for all MyISAM tables
+May 26 19:44:12 hostname dovecot[4592]: Starting IMAP/POP3 mail server: dovecot.
+May 26 19:44:12 hostname systemd[1]: Started LSB: Dovecot init script.
+May 26 19:44:16 hostname systemd[1]: Started Perl-based spam filter using text analysis.
+May 26 19:44:16 hostname systemd[1]: Starting LSB: Postfix Mail Transport Agent...
+May 26 19:44:18 hostname postfix[4734]: Starting Postfix Mail Transport Agent: postfix.
+May 26 19:44:18 hostname systemd[1]: Started LSB: Postfix Mail Transport Agent.
+May 26 19:44:18 hostname systemd[1]: Starting Multi-User System.
+May 26 19:44:18 hostname systemd[1]: Reached target Multi-User System.
+May 26 19:44:18 hostname systemd[1]: Starting Graphical Interface.
+May 26 19:44:18 hostname systemd[1]: Reached target Graphical Interface.
+May 26 19:44:18 hostname systemd[1]: Starting Update UTMP about System Runlevel Changes...
+May 26 19:44:18 hostname systemd[1]: Starting Mail Transport Agent.
+May 26 19:44:18 hostname systemd[1]: Reached target Mail Transport Agent.
+May 26 19:44:18 hostname systemd[1]: Started Update UTMP about System Runlevel Changes.
+May 26 19:44:18 hostname systemd[1]: Startup finished in 4.967s (kernel) + 42.728s (userspace) = 47.695s.
+May 26 19:44:44 hostname named[3809]: error (unexpected RCODE SERVFAIL) resolving '173.226.154.195.in-addr.arpa/PTR/IN': 193.0.9.6#53
+May 26 19:58:37 hostname systemd[1]: Starting Cleanup of Temporary Directories...
+May 26 19:58:38 hostname systemd[1]: Started Cleanup of Temporary Directories.
+May 26 20:14:03 hostname smartd[3808]: Device: /dev/sda [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 200 to 206
+May 26 20:17:30 hostname named[3809]: success resolving '143.178.39.65.bb.barracudacentral.org/A' (in 'bb.barracudacentral.org'?) after reducing the advertised EDNS UDP packet size to 512 octets

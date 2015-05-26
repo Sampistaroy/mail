@@ -1,6 +1,6 @@
-Linux ns331245.ip-37-187-121.eu 3.14.32-xxxx-grs-ipv6-64 #1 SMP Sat Feb 7 11:35:27 CET 2015 x86_64 GNU/Linux
+Linux hostname 3.14.32-xxxx-grs-ipv6-64 #1 SMP Sat Feb 7 11:35:27 CET 2015 x86_64 GNU/Linux
 
 server    : 460875
 ip        : 37.187.121.118
-hostname  : ns331245.ip-37-187-121.eu
+hostname  : hostname
 

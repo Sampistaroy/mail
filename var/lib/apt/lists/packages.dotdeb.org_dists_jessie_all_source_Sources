@@ -1,0 +1,86 @@
+Package: nginx
+Binary: nginx, nginx-doc, nginx-common, nginx-full, nginx-full-dbg, nginx-light, nginx-light-dbg, nginx-extras, nginx-extras-dbg, nginx-naxsi, nginx-naxsi-dbg
+Version: 1.8.0-1~dotdeb+8.1
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Build-Depends: autotools-dev, curl, debhelper (>= 9), dh-systemd (>= 1.5), dpkg-dev (>= 1.15.5), libcurl4-openssl-dev, libexpat-dev, libgd2-dev | libgd2-noxpm-dev, libgeoip-dev, libldap2-dev, libluajit-5.1-dev [i386 amd64 kfreebsd-i386 armel armhf powerpc powerpcspe mips mipsel] | liblua5.1-0-dev, libmhash-dev, libossp-uuid-dev, libpam0g-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, zlib1g-dev
+Architecture: any all
+Standards-Version: 3.9.6.0
+Format: 3.0 (quilt)
+Directory: pool/all/n/nginx
+Files: 6f064a9e93f0d0bf02e04ad67c3b4c25 1048952 nginx_1.8.0-1~dotdeb+8.1.debian.tar.xz
+ b94eec6131db25b69772ddbe0f0995f4 1937 nginx_1.8.0-1~dotdeb+8.1.dsc
+ 3ca4a37931e9fa301964b8ce889da8cb 832104 nginx_1.8.0.orig.tar.gz
+Checksums-Sha1: 272f3acc799c4bef378f6be85bd8db148b1754db 1048952 nginx_1.8.0-1~dotdeb+8.1.debian.tar.xz
+ 16ade11e24f5b1b311f13c40d582ddecac41fabf 1937 nginx_1.8.0-1~dotdeb+8.1.dsc
+ 12bad312764feae50246685ab2e74512d1aa9b2f 832104 nginx_1.8.0.orig.tar.gz
+Checksums-Sha256: 8d9261237c43697a77013ccc4a91e270aab1d9dff7f4163c6fbe692349efbc57 1048952 nginx_1.8.0-1~dotdeb+8.1.debian.tar.xz
+ eb3cd2582a018120fc4037247384928ffd9d72dfdc786099b6bc27848b70a849 1937 nginx_1.8.0-1~dotdeb+8.1.dsc
+ 23cca1239990c818d8f6da118320c4979aadf5386deda691b1b7c2c96b9df3d5 832104 nginx_1.8.0.orig.tar.gz
+Package-List: nginx deb httpd optional arch=all
+ nginx-common deb httpd optional arch=all
+ nginx-doc deb doc optional arch=all
+ nginx-extras deb httpd extra arch=any
+ nginx-extras-dbg deb debug extra arch=any
+ nginx-full deb httpd optional arch=any
+ nginx-full-dbg deb debug extra arch=any
+ nginx-light deb httpd extra arch=any
+ nginx-light-dbg deb debug extra arch=any
+ nginx-naxsi deb httpd extra arch=any
+ nginx-naxsi-dbg deb debug extra arch=any
+Homepage: http://nginx.net
+Vcs-Git: git://anonscm.debian.org/collab-maint/nginx.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/nginx.git;a=summary
+Testsuite: autopkgtest
+
+Package: redis
+Binary: redis-server, redis-tools, redis-sentinel
+Version: 2:3.0.1-1~dotdeb+8.1
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Build-Depends: debhelper (>= 9), dh-systemd (>= 1.5), tcl
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/all/r/redis
+Files: d60d8bf979e0ab5e2d67e88ba536ab54 27612 redis_3.0.1-1~dotdeb+8.1.debian.tar.xz
+ 62c60102f7209f0c48cbae2aa0286b7f 1112 redis_3.0.1-1~dotdeb+8.1.dsc
+ dd2bf1f65d75ed518313158086d4219b 1358190 redis_3.0.1.orig.tar.gz
+Checksums-Sha1: 8101197d10520c795be90618994b03072698a09f 27612 redis_3.0.1-1~dotdeb+8.1.debian.tar.xz
+ b4db352eb13fb1a3dafa878cba39c9cd8cbc9bd4 1112 redis_3.0.1-1~dotdeb+8.1.dsc
+ fe1d06599042bfe6a0e738542f302ce9533dde88 1358190 redis_3.0.1.orig.tar.gz
+Homepage: http://redis.io/
+Checksums-Sha256: 2652e99c5112b410364ed0ad4b04f2f05042de6b6d71b34348d29bc47e78380c 27612 redis_3.0.1-1~dotdeb+8.1.debian.tar.xz
+ bd6ea5f8b2ccaca43b94ddf6dd765da551c5991bb3df1421669d941300d21772 1112 redis_3.0.1-1~dotdeb+8.1.dsc
+ 0e21be5d7c5e6ab6adcbed257619897db59be9e1ded7ef6fd1582d0cdb5e5bb7 1358190 redis_3.0.1.orig.tar.gz
+Vcs-Git: git://github.com/lamby/pkg-redis.git
+Testsuite: autopkgtest
+Vcs-Browser: https://github.com/lamby/pkg-redis
+Package-List: redis-sentinel deb database optional arch=any
+ redis-server deb database optional arch=any
+ redis-tools deb database optional arch=any
+
+Package: redis
+Binary: redis-server, redis-tools, redis-sentinel
+Version: 2:3.0.0-1~dotdeb+jessie.1
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Build-Depends: debhelper (>= 9), dh-systemd (>= 1.5), tcl
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/all/r/redis
+Files: 86896ea4456c637fd9f3ad27e9b19d41 27812 redis_3.0.0-1~dotdeb+jessie.1.debian.tar.xz
+ dceb553f4f42b6d20d2d36296adee960 1132 redis_3.0.0-1~dotdeb+jessie.1.dsc
+ cd8487159459d7575ba2664cb2a4819e 1358081 redis_3.0.0.orig.tar.gz
+Checksums-Sha256: df9d294d4e52b273f457144035387ccc6dd9c767583d4b01f21657105f668f1e 27812 redis_3.0.0-1~dotdeb+jessie.1.debian.tar.xz
+ cbe943de0a4794484b0034df651a3495b1eca1ac0f0106869cfc840b0b7345c3 1132 redis_3.0.0-1~dotdeb+jessie.1.dsc
+ 654c95c6236692dcb916fccba9a34d0877cc91338c8b6a372511e6eb080e34bf 1358081 redis_3.0.0.orig.tar.gz
+Vcs-Git: git://github.com/lamby/pkg-redis.git
+Package-List: redis-sentinel deb database optional arch=any
+ redis-server deb database optional arch=any
+ redis-tools deb database optional arch=any
+Testsuite: autopkgtest
+Checksums-Sha1: 850f22e70763c3a756355682afba06def2417bc8 27812 redis_3.0.0-1~dotdeb+jessie.1.debian.tar.xz
+ 7f3d7d58e563d49d9a5a29220c51a07c67c4cbc2 1132 redis_3.0.0-1~dotdeb+jessie.1.dsc
+ c75fd32900187a7c9f9d07c412ea3b3315691c65 1358081 redis_3.0.0.orig.tar.gz
+Vcs-Browser: https://github.com/lamby/pkg-redis
+Homepage: http://redis.io/
+

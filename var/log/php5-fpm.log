@@ -1,0 +1,40 @@
+[26-May-2015 18:38:54] NOTICE: configuration file /etc/php5/fpm/php-fpm.conf test is successful
+
+[26-May-2015 18:38:54] NOTICE: fpm is running, pid 1903
+[26-May-2015 18:38:54] NOTICE: ready to handle connections
+[26-May-2015 18:38:54] NOTICE: systemd monitor interval set to 10000ms
+[26-May-2015 18:42:34] NOTICE: Terminating ...
+[26-May-2015 18:42:34] NOTICE: exiting, bye-bye!
+[26-May-2015 18:42:34] NOTICE: configuration file /etc/php5/fpm/php-fpm.conf test is successful
+
+[26-May-2015 18:42:34] NOTICE: fpm is running, pid 3783
+[26-May-2015 18:42:34] NOTICE: ready to handle connections
+[26-May-2015 18:42:34] NOTICE: systemd monitor interval set to 10000ms
+[26-May-2015 18:42:54] NOTICE: Terminating ...
+[26-May-2015 18:42:54] NOTICE: exiting, bye-bye!
+[26-May-2015 18:42:54] NOTICE: configuration file /etc/php5/fpm/php-fpm.conf test is successful
+
+[26-May-2015 18:42:54] NOTICE: fpm is running, pid 4750
+[26-May-2015 18:42:54] NOTICE: ready to handle connections
+[26-May-2015 18:42:54] NOTICE: systemd monitor interval set to 10000ms
+[26-May-2015 18:59:19] NOTICE: Terminating ...
+[26-May-2015 18:59:19] NOTICE: exiting, bye-bye!
+[26-May-2015 18:59:19] NOTICE: configuration file /etc/php5/fpm/php-fpm.conf test is successful
+
+[26-May-2015 18:59:19] NOTICE: fpm is running, pid 8720
+[26-May-2015 18:59:19] NOTICE: ready to handle connections
+[26-May-2015 18:59:19] NOTICE: systemd monitor interval set to 10000ms
+[26-May-2015 19:28:26] NOTICE: Terminating ...
+[26-May-2015 19:28:26] NOTICE: exiting, bye-bye!
+[26-May-2015 19:28:26] NOTICE: configuration file /etc/php5/fpm/php-fpm.conf test is successful
+
+[26-May-2015 19:28:26] NOTICE: fpm is running, pid 23624
+[26-May-2015 19:28:26] NOTICE: ready to handle connections
+[26-May-2015 19:28:26] NOTICE: systemd monitor interval set to 10000ms
+[26-May-2015 19:42:53] NOTICE: Terminating ...
+[26-May-2015 19:42:53] NOTICE: exiting, bye-bye!
+[26-May-2015 19:44:07] NOTICE: configuration file /etc/php5/fpm/php-fpm.conf test is successful
+
+[26-May-2015 19:44:07] NOTICE: fpm is running, pid 4500
+[26-May-2015 19:44:07] NOTICE: ready to handle connections
+[26-May-2015 19:44:07] NOTICE: systemd monitor interval set to 10000ms

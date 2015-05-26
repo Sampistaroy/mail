@@ -58,3 +58,12 @@ teamspeakserver:x:1004:
 croogomulti:x:1005:
 cdcasso:x:1006:
 utempter:x:114:
+nginx:x:117:
+postfix:x:115:
+postdrop:x:116:
+dovecot:x:118:
+dovenull:x:119:
+vmail:x:5000:
+opendkim:x:120:postfix
+opendmarc:x:121:postfix
+debian-spamd:x:122:

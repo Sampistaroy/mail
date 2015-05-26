@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/lib
+/usr/lib/opendbx
+/usr/lib/opendbx/libmysqlbackend.so.1.2.0
+/usr/share/doc/libopendbx1-mysql
+/usr/lib/opendbx/libmysqlbackend.so.1
+/usr/lib/opendbx/libmysqlbackend.so

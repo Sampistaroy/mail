@@ -1,0 +1,55 @@
+Package: nginx
+Version: 1.8.0-1~jessie
+Architecture: amd64
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Installed-Size: 1098
+Depends: libc6 (>= 2.14), libpcre3 (>= 1:8.35), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.2.0), lsb-base, adduser
+Provides: httpd
+Homepage: http://nginx.org
+Priority: optional
+Section: httpd
+Filename: pool/nginx/n/nginx/nginx_1.8.0-1~jessie_amd64.deb
+Size: 460940
+SHA256: a535a8d73a365ff24ef623b6ae92c84367dad70366cde8abd3c6a4744e48551d
+SHA1: 1100df3aa6b9ae90209c83dff8cae0baef0fc663
+MD5sum: 6f975e599f9198fd198a1a16b0950674
+Description: high performance web server
+ nginx [engine x] is an HTTP and reverse proxy server, as well as
+ a mail proxy server.
+
+Package: nginx-dbg
+Source: nginx
+Version: 1.8.0-1~jessie
+Architecture: amd64
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Installed-Size: 6128
+Depends: nginx (= 1.8.0-1~jessie)
+Homepage: http://nginx.org
+Priority: extra
+Section: debug
+Filename: pool/nginx/n/nginx/nginx-dbg_1.8.0-1~jessie_amd64.deb
+Size: 1159570
+SHA256: 94d91c4835c6d8cc8c5174c05c7b54a3642ea13f49f823e7c60f2845ca708948
+SHA1: fa940eadcf12686e71269c0f5bc7e6e6a6b48d0e
+MD5sum: eef27b2837721d9a7442a189103b5f4e
+Description: nginx debug symbols
+ This package contains the debugging symbols for nginx.
+
+Package: nginx-debug
+Source: nginx
+Version: 1.8.0-1~jessie
+Architecture: amd64
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Installed-Size: 6986
+Depends: libc6 (>= 2.14), libpcre3 (>= 1:8.35), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.2.0), nginx (= 1.8.0-1~jessie)
+Homepage: http://nginx.org
+Priority: extra
+Section: debug
+Filename: pool/nginx/n/nginx/nginx-debug_1.8.0-1~jessie_amd64.deb
+Size: 1489444
+SHA256: 2d837dc207ede15720ca79bee08dc5c44734c014ee2fb6f8b62cf952aa7210c3
+SHA1: 0b6626315b69adb2dc6ad1e84c8b9b701e3422a9
+MD5sum: ba1f47b04656bc8c8f422affbe2f88fc
+Description: debug version of nginx
+ Not stripped version of nginx built with the debugging log support.
+

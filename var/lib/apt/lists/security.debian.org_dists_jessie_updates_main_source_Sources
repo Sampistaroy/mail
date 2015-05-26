@@ -32,7 +32,7 @@ Section: misc
 
 Package: chromium-browser
 Binary: chromium, chromium-dbg, chromium-l10n, chromium-inspector, chromedriver
-Version: 42.0.2311.135-1~deb8u1
+Version: 43.0.2357.65-1~deb8u1
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Uploaders: Giuseppe Iuculano <iuculano@debian.org>, Michael Gilbert <mgilbert@debian.org>,
 Build-Depends: clang (>= 3.5), debhelper (>= 9), gyp, python3, pkg-config, ninja-build, python-jinja2, ca-certificates, wget, flex, yasm, xvfb, wdiff, gperf, bison, valgrind, xz-utils, x11-apps, xfonts-base, libglewmx-dev, libgl1-mesa-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, mesa-common-dev, libgtk2.0-dev, libglib2.0-dev, libxt-dev, libre2-dev, libpng-dev, libxss-dev, libelf-dev, libvpx-dev, libssl-dev, libpci-dev, libcap-dev, libdrm-dev, libusb-dev, libicu-dev, libkrb5-dev, libexif-dev, libudev-dev, libopus-dev, libwebp-dev, libxtst-dev, libsrtp-dev, libjpeg-dev, libxml2-dev, libxslt1-dev, libpulse-dev, libspeex-dev, libpam0g-dev, libsnappy-dev, libgconf2-dev, libasound2-dev, libjsoncpp-dev, libspeechd-dev, libminizip-dev, libhunspell-dev, libmodpbase64-dev, libgnome-keyring-dev, libnss3-dev (>= 3.12.3), libnspr4-dev (>= 2:4.9), libcups2-dev (>= 1.5.0), libevent-dev (>= 1.4.13), libjs-jquery, libjs-excanvas, libjs-jquery-flot, libgcrypt20-dev, fonts-ipafont-gothic, fonts-ipafont-mincho
@@ -40,19 +40,19 @@ Architecture: i386 amd64 all
 Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Files:
- cd7b03d2f732eeb3024ce41b43f36c0a 4067 chromium-browser_42.0.2311.135-1~deb8u1.dsc
- 79c76f9e38c1c2ccd8a979d2db89429c 332229840 chromium-browser_42.0.2311.135.orig.tar.xz
- 5eff58674fc1783efd3ac8c7d7fbd4f5 178404 chromium-browser_42.0.2311.135-1~deb8u1.debian.tar.xz
+ f4e694fc66bff66fcec0fd5da1e23f78 4060 chromium-browser_43.0.2357.65-1~deb8u1.dsc
+ 24a0b06c473dbf0daa6a9bdaf9e3bf6e 333144304 chromium-browser_43.0.2357.65.orig.tar.xz
+ 678cb6a2f6eb6bde22fc782896876a23 178396 chromium-browser_43.0.2357.65-1~deb8u1.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-chromium/pkg-chromium.git
 Vcs-Git: git://anonscm.debian.org/pkg-chromium/pkg-chromium.git
 Checksums-Sha1:
- 63f24ea952a0648880e4b8566e6a7ea928007368 4067 chromium-browser_42.0.2311.135-1~deb8u1.dsc
- 0b7c65be95d6d6c5651dd49a64bf11d894787803 332229840 chromium-browser_42.0.2311.135.orig.tar.xz
- 08bd9b68c2278431600cc0a467744d774c44d25c 178404 chromium-browser_42.0.2311.135-1~deb8u1.debian.tar.xz
+ d3a77256dc03c60eff56fac36c435ed74c039fd7 4060 chromium-browser_43.0.2357.65-1~deb8u1.dsc
+ f82e0dd4ac4010a6e5d3d14be97fb3351ec4e6b0 333144304 chromium-browser_43.0.2357.65.orig.tar.xz
+ 70d110d1c375a52f2551625d85f0f35e923b3e91 178396 chromium-browser_43.0.2357.65-1~deb8u1.debian.tar.xz
 Checksums-Sha256:
- 2ad2dcc56dd43b62aaca020cf131ca225fca35d7c0a1f317b6da66a4886448cf 4067 chromium-browser_42.0.2311.135-1~deb8u1.dsc
- 376370405e8e8af278e921bf34951fcc2b5d38a4ea48aaf3d4d1f53a11f818c8 332229840 chromium-browser_42.0.2311.135.orig.tar.xz
- 710c197c80adc2a8b0a202ef82017b17ba825039e138ac0b8f841578da13c20f 178404 chromium-browser_42.0.2311.135-1~deb8u1.debian.tar.xz
+ 1bc90c3916a6a2b44804d11b84a9706b6157d69d5b6b074b63a6b1819a91e5eb 4060 chromium-browser_43.0.2357.65-1~deb8u1.dsc
+ 148705cd617a40f6f33add127187fceb9a007e9836378dcc8b494b2414018844 333144304 chromium-browser_43.0.2357.65.orig.tar.xz
+ d079ed38522cc68bd68c3622d1a6fd08b2c0c58fc9a8d1adf12cc81768c775a8 178396 chromium-browser_43.0.2357.65-1~deb8u1.debian.tar.xz
 Homepage: http://www.chromium.org/Home
 Package-List: 
  chromedriver deb web optional arch=i386,amd64
@@ -221,6 +221,38 @@ Package-List:
 Directory: pool/updates/main/e/elasticsearch
 Priority: source
 Section: misc
+
+Package: fuse
+Binary: fuse, fuse-dbg, libfuse2, libfuse-dev, fuse-udeb, libfuse2-udeb
+Version: 2.9.3-15+deb8u1
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libselinux-dev [linux-any]
+Architecture: linux-any kfreebsd-any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ e81d6446898dfffc6122441bb6ee3c11 2125 fuse_2.9.3-15+deb8u1.dsc
+ 8945087314a5ddcdc19a2ac81426cc14 387492 fuse_2.9.3.orig.tar.xz
+ 44af48e421e763c242ef99020e4e7a4d 17420 fuse_2.9.3-15+deb8u1.debian.tar.xz
+Checksums-Sha1:
+ 6124f6e3c501477dc68bc48ea676498500bbf324 2125 fuse_2.9.3-15+deb8u1.dsc
+ c461a1832a759f57ca481c8acf21a90f47f5086b 387492 fuse_2.9.3.orig.tar.xz
+ f0d889cd5474be6ae0acb9a52896097aa7e2f07a 17420 fuse_2.9.3-15+deb8u1.debian.tar.xz
+Checksums-Sha256:
+ 4fac849135f3ec65ccd3b6a1481976cd2ccf74f6a78edae033f41ff9d94a884b 2125 fuse_2.9.3-15+deb8u1.dsc
+ 4196a9447f836c6a367f862032f101942a1b057b1b6b30a87ef9d3e1dda9679a 387492 fuse_2.9.3.orig.tar.xz
+ c4153094ce2502974e2ac1a16fabf6e19de56920594779220c4e2d64747e68dd 17420 fuse_2.9.3-15+deb8u1.debian.tar.xz
+Homepage: http://fuse.sourceforge.net/
+Package-List: 
+ fuse deb utils optional arch=linux-any
+ fuse-dbg deb debug extra arch=linux-any,kfreebsd-any
+ fuse-udeb udeb debian-installer optional arch=linux-any
+ libfuse-dev deb libdevel optional arch=linux-any,kfreebsd-any
+ libfuse2 deb libs optional arch=linux-any,kfreebsd-any
+ libfuse2-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any
+Directory: pool/updates/main/f/fuse
+Priority: source
+Section: utils
 
 Package: gcc-4.9
 Binary: gcc-4.9-base, libgcc1, libgcc1-dbg, libgcc2, libgcc2-dbg, libgcc-4.9-dev, libgcc4, libgcc4-dbg, lib64gcc1, lib64gcc1-dbg, lib64gcc-4.9-dev, lib32gcc1, lib32gcc1-dbg, lib32gcc-4.9-dev, libn32gcc1, libn32gcc1-dbg, libn32gcc-4.9-dev, libx32gcc1, libx32gcc1-dbg, libx32gcc-4.9-dev, gcc-4.9, gcc-4.9-multilib, gcc-4.9-plugin-dev, gcc-4.9-hppa64, cpp-4.9, gcc-4.9-locales, g++-4.9, g++-4.9-multilib, libgomp1, libgomp1-dbg, lib32gomp1, lib32gomp1-dbg, lib64gomp1, lib64gomp1-dbg, libn32gomp1, libn32gomp1-dbg, libx32gomp1, libx32gomp1-dbg, libitm1, libitm1-dbg, lib32itm1, lib32itm1-dbg, lib64itm1, lib64itm1-dbg, libx32itm1, libx32itm1-dbg, libatomic1, libatomic1-dbg, lib32atomic1, lib32atomic1-dbg, lib64atomic1, lib64atomic1-dbg, libn32atomic1, libn32atomic1-dbg, libx32atomic1, libx32atomic1-dbg, libasan1, libasan1-dbg, lib32asan1, lib32asan1-dbg, lib64asan1, lib64asan1-dbg, libx32asan1, libx32asan1-dbg, liblsan0, liblsan0-dbg, lib32lsan0, lib32lsan0-dbg, libx32lsan0,
@@ -1382,6 +1414,37 @@ Package-List:
 Directory: pool/updates/main/i/iceweasel
 Priority: source
 Section: web
+
+Package: ipsec-tools
+Binary: ipsec-tools, racoon
+Version: 1:0.8.2+20140711-2+deb8u1
+Maintainer: pkg-ipsec-tools team <pkg-ipsec-tools-devel@lists.alioth.debian.org>
+Uploaders: Noah Meyerhans <noahm@debian.org>, Matt Grant <matt@mattgrant.net.nz>, Christian Hofstaedtler <zeha@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), flex, bison, libkrb5-dev, libssl-dev (>= 0.9.6), libpam0g-dev, po-debconf, libldap2-dev, dh-autoreconf, dh-systemd
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 88107427cd9dea31d1a39d25a005073b 2289 ipsec-tools_0.8.2+20140711-2+deb8u1.dsc
+ 8c222aedb897820e946aac203113b650 1102890 ipsec-tools_0.8.2+20140711.orig.tar.gz
+ 63a681a83ccd55f3d78470e98d91032a 61896 ipsec-tools_0.8.2+20140711-2+deb8u1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ipsec-tools/pkg-ipsec-tools.git
+Vcs-Git: git://anonscm.debian.org/pkg-ipsec-tools/pkg-ipsec-tools.git
+Checksums-Sha1:
+ 46cbcebf6a2e6f02960db63f3643e667ecd61ccf 2289 ipsec-tools_0.8.2+20140711-2+deb8u1.dsc
+ f342ec3e0d5d0eb505f06f6772b31100cacac8bf 1102890 ipsec-tools_0.8.2+20140711.orig.tar.gz
+ 5ea8d7980eedaf4f3274519b228f48b36a47ac0c 61896 ipsec-tools_0.8.2+20140711-2+deb8u1.debian.tar.xz
+Checksums-Sha256:
+ 7f27da9988cedc5a9afbf5943748a59aad80955e35754beaba11e174f38e1b44 2289 ipsec-tools_0.8.2+20140711-2+deb8u1.dsc
+ 5e702549103d4cffb73d5bcd3a9b4cb75c398e7988f2421b2901cc0e15915785 1102890 ipsec-tools_0.8.2+20140711.orig.tar.gz
+ 72be17c43042f161a0cf6256d73560b9c6f120d97f258e86f0098b953f02713f 61896 ipsec-tools_0.8.2+20140711-2+deb8u1.debian.tar.xz
+Homepage: http://ipsec-tools.sourceforge.net/
+Package-List: 
+ ipsec-tools deb net extra arch=any
+ racoon deb net extra arch=any
+Directory: pool/updates/main/i/ipsec-tools
+Priority: source
+Section: net
 
 Package: jackson-core
 Binary: libjackson2-core-java, libjackson2-core-java-doc
@@ -4365,6 +4428,67 @@ Directory: pool/updates/main/m/mysql-5.5
 Priority: source
 Section: misc
 
+Package: nbd
+Binary: nbd-server, nbd-client, nbd-client-udeb
+Version: 1:3.8-4+deb8u1
+Maintainer: Wouter Verhelst <wouter@debian.org>
+Build-Depends: debhelper (>= 9), libglib2.0-dev (>= 2.26.0)
+Architecture: any
+Standards-Version: 3.9.4
+Format: 1.0
+Files:
+ 98b45116dfa8b48bae0e0c3cd2c057be 1938 nbd_3.8-4+deb8u1.dsc
+ 35326f983d2671f7b41467a34a6f5844 945343 nbd_3.8.orig.tar.gz
+ 8668d30fa68647c80cb4f46ef8a435dd 93517 nbd_3.8-4+deb8u1.diff.gz
+Vcs-Browser: http://git.debian.org/?p=users/wouter/nbd.git;a=summary
+Vcs-Git: git://anonscm.debian.org/users/wouter/nbd.git
+Checksums-Sha1:
+ 0f46539e91f383a62419256ffded839c4e3913b2 1938 nbd_3.8-4+deb8u1.dsc
+ 7890715ced4695b1fa9ddb080e79f8497590d746 945343 nbd_3.8.orig.tar.gz
+ 97e0fec3ec310446372ca3c5f2362c5a9012d15e 93517 nbd_3.8-4+deb8u1.diff.gz
+Checksums-Sha256:
+ 6de318c0346d3ade5465030442a572610b70e08109d8f1bedb0f11ad869a5fb1 1938 nbd_3.8-4+deb8u1.dsc
+ bdcbfe6c5f01f5f46efb5cc5b7e10222d76d74d2056bbfb95e34522bd0fddcd9 945343 nbd_3.8.orig.tar.gz
+ 0f96f80ab8125bb05f17bfda4e033488e3cdf66781d4a50b007b3f44341719ce 93517 nbd_3.8-4+deb8u1.diff.gz
+Homepage: http://nbd.sourceforge.net/
+Package-List: 
+ nbd-client deb admin optional arch=linux-any
+ nbd-client-udeb udeb debian-installer optional arch=linux-any
+ nbd-server deb admin optional arch=any
+Directory: pool/updates/main/n/nbd
+Priority: source
+Section: admin
+
+Package: ntfs-3g
+Binary: ntfs-3g, ntfs-3g-dbg, ntfs-3g-dev, ntfs-3g-udeb
+Version: 1:2014.2.15AR.2-1+deb8u1
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, chrpath, libfuse-dev, libgcrypt20-dev, libgpg-error-dev, libgnutls28-dev, pkg-config
+Architecture: linux-any kfreebsd-any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 2a1e279807884fed46f41973fa8406b0 2162 ntfs-3g_2014.2.15AR.2-1+deb8u1.dsc
+ a9df831e8fbdd4c88e0b8a43f14ed2b7 1222940 ntfs-3g_2014.2.15AR.2.orig.tar.gz
+ 0aa52f17e2ae719a790388cbd13a0eb7 21980 ntfs-3g_2014.2.15AR.2-1+deb8u1.debian.tar.xz
+Checksums-Sha1:
+ 0b4b1556dbc76fbf5bff617f8821ca6a3b307afa 2162 ntfs-3g_2014.2.15AR.2-1+deb8u1.dsc
+ 71f29ce374ca1cff404a7bea6d879e22b15f4db4 1222940 ntfs-3g_2014.2.15AR.2.orig.tar.gz
+ 08fbbe349b33c08de8f864a652ef19455ec9ab42 21980 ntfs-3g_2014.2.15AR.2-1+deb8u1.debian.tar.xz
+Checksums-Sha256:
+ 0d4166f6cc6150a54b9537dd2663591796aae5f0b00ab2996526a8dbf6613a5c 2162 ntfs-3g_2014.2.15AR.2-1+deb8u1.dsc
+ 7c1f10aecdd195da2e1ca1276a62c158cce91f764c0711153798ac50f46b785d 1222940 ntfs-3g_2014.2.15AR.2.orig.tar.gz
+ f06050630f88a980c736927c11a8032de66e824036c6662182202e056afa8601 21980 ntfs-3g_2014.2.15AR.2-1+deb8u1.debian.tar.xz
+Homepage: http://www.tuxera.com/community/ntfs-3g-advanced/
+Package-List: 
+ ntfs-3g deb otherosfs optional arch=linux-any,kfreebsd-any
+ ntfs-3g-dbg deb debug extra arch=linux-any,kfreebsd-any
+ ntfs-3g-dev deb libdevel optional arch=linux-any,kfreebsd-any
+ ntfs-3g-udeb udeb debian-installer optional arch=linux-any
+Directory: pool/updates/main/n/ntfs-3g
+Priority: source
+Section: otherosfs
+
 Package: openjdk-7
 Binary: openjdk-7-jdk, openjdk-7-jre-headless, openjdk-7-jre, openjdk-7-jre-lib, openjdk-7-demo, openjdk-7-source, openjdk-7-doc, openjdk-7-dbg, icedtea-7-jre-jamvm, openjdk-7-jre-zero
 Version: 7u79-2.5.5-1~deb8u1
@@ -4507,6 +4631,82 @@ Testsuite: autopkgtest
 Directory: pool/updates/main/p/pdns-recursor
 Priority: source
 Section: net
+
+Package: postgresql-9.1
+Binary: postgresql-plperl-9.1
+Version: 9.1.16-0+deb8u1
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Uploaders: Martin Pitt <mpitt@debian.org>, Peter Eisentraut <petere@debian.org>, Christoph Berg <myon@debian.org>
+Build-Depends: debhelper (>= 8~), dpkg-dev (>= 1.16.1~) | hardening-wrapper, perl (>= 5.8), libperl-dev, libedit-dev, zlib1g-dev | libz-dev, libpq-dev (>= 9.1), bison, flex, gettext
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 107a08972b48fb68571525d5e09aa3c3 2271 postgresql-9.1_9.1.16-0+deb8u1.dsc
+ db77f7ca6123ec6b71fee983a896a24b 15814306 postgresql-9.1_9.1.16.orig.tar.bz2
+ 3afcd1f06de1ca17518b544f50a617ac 35248 postgresql-9.1_9.1.16-0+deb8u1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-postgresql/postgresql.git/
+Vcs-Git: https://anonscm.debian.org/git/pkg-postgresql/postgresql.git -b 9.1-jessie
+Checksums-Sha1:
+ e70f1caa6c68ebeb9d85d56895144035ec3b3c03 2271 postgresql-9.1_9.1.16-0+deb8u1.dsc
+ e6cdb1494cc90ede8c0a19ac2ea1c14dbf36d404 15814306 postgresql-9.1_9.1.16.orig.tar.bz2
+ aa5e3c3d9967d809bc89024be8a65ae1851da749 35248 postgresql-9.1_9.1.16-0+deb8u1.debian.tar.xz
+Checksums-Sha256:
+ 5a8cc29ef6c448bb3fa143044783d2516ff0ce8a11ee00b0497af083dcbe9d99 2271 postgresql-9.1_9.1.16-0+deb8u1.dsc
+ 2b65e2f7d6171107b96d3e92f42b869ec21f3b4e920d8941e511111372909456 15814306 postgresql-9.1_9.1.16.orig.tar.bz2
+ 52f3b23471bd4d761e537b658c06b0086e4593e6eedc432fd9dc6bea06775c1e 35248 postgresql-9.1_9.1.16-0+deb8u1.debian.tar.xz
+Homepage: http://www.postgresql.org/
+Package-List: 
+ postgresql-plperl-9.1 deb database optional arch=any
+Directory: pool/updates/main/p/postgresql-9.1
+Priority: source
+Section: database
+
+Package: postgresql-9.4
+Binary: libpq-dev, libpq5, libecpg6, libecpg-dev, libecpg-compat3, libpgtypes3, postgresql-9.4, postgresql-9.4-dbg, postgresql-client-9.4, postgresql-server-dev-9.4, postgresql-doc-9.4, postgresql-contrib-9.4, postgresql-plperl-9.4, postgresql-plpython-9.4, postgresql-plpython3-9.4, postgresql-pltcl-9.4
+Version: 9.4.2-0+deb8u1
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Uploaders: Martin Pitt <mpitt@debian.org>, Peter Eisentraut <petere@debian.org>, Christoph Berg <myon@debian.org>
+Build-Depends: debhelper (>= 9~), dpkg-dev (>= 1.16.1~) | hardening-wrapper, perl (>= 5.8), libperl-dev, libipc-run-perl, tcl8.6-dev | tcl8.5-dev, libedit-dev, libssl-dev, zlib1g-dev | libz-dev, libpam0g-dev | libpam-dev, libxml2-dev, krb5-multidev, libldap2-dev, libselinux1-dev [linux-any], libxslt1-dev, uuid-dev, python-dev, python3-dev, bison, flex, openjade, docbook-dsssl, docbook-xsl, docbook, opensp, xsltproc, gettext
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ d3e0c35302a6ae2699be9798fba35fab 3525 postgresql-9.4_9.4.2-0+deb8u1.dsc
+ b6369156607a4fd88f21af6fec0f30b9 17611143 postgresql-9.4_9.4.2.orig.tar.bz2
+ ce6d81c082d0ff22d619fd2f9e7d00d1 20804 postgresql-9.4_9.4.2-0+deb8u1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-postgresql/postgresql.git/
+Vcs-Git: https://anonscm.debian.org/git/pkg-postgresql/postgresql.git -b 9.4-jessie
+Checksums-Sha1:
+ ef701a5b64abff20b7bed96b423e8a191074987a 3525 postgresql-9.4_9.4.2-0+deb8u1.dsc
+ c1ec1254a3ebcef71594000426efab7f07230fe5 17611143 postgresql-9.4_9.4.2.orig.tar.bz2
+ 68a73f74a28ea7515a5136216d54f18a8968397f 20804 postgresql-9.4_9.4.2-0+deb8u1.debian.tar.xz
+Checksums-Sha256:
+ 5bf9ab5e971741934676a2477adee22167a5b102eeecb7bcb14a3a90284d8b03 3525 postgresql-9.4_9.4.2-0+deb8u1.dsc
+ 81fda191c165ba1d25d75cd0166ece5abdcb4a7f5eca01b349371e279ebb4d11 17611143 postgresql-9.4_9.4.2.orig.tar.bz2
+ 4f3c1e14b3e408f96232c90a5f1958ccfbe82483630cec0fb91ed1f6fd2b9820 20804 postgresql-9.4_9.4.2-0+deb8u1.debian.tar.xz
+Homepage: http://www.postgresql.org/
+Package-List: 
+ libecpg-compat3 deb libs optional arch=any
+ libecpg-dev deb libdevel optional arch=any
+ libecpg6 deb libs optional arch=any
+ libpgtypes3 deb libs optional arch=any
+ libpq-dev deb libdevel optional arch=any
+ libpq5 deb libs optional arch=any
+ postgresql-9.4 deb database optional arch=any
+ postgresql-9.4-dbg deb debug extra arch=any
+ postgresql-client-9.4 deb database optional arch=any
+ postgresql-contrib-9.4 deb database optional arch=any
+ postgresql-doc-9.4 deb doc optional arch=all
+ postgresql-plperl-9.4 deb database optional arch=any
+ postgresql-plpython-9.4 deb database optional arch=any
+ postgresql-plpython3-9.4 deb database optional arch=any
+ postgresql-pltcl-9.4 deb database optional arch=any
+ postgresql-server-dev-9.4 deb libdevel optional arch=any
+Testsuite: autopkgtest
+Directory: pool/updates/main/p/postgresql-9.4
+Priority: source
+Section: misc
 
 Package: pound
 Binary: pound
@@ -4854,7 +5054,7 @@ Section: net
 
 Package: zendframework
 Binary: zendframework, zendframework-bin, zendframework-resources
-Version: 1.12.9+dfsg-2+deb8u1
+Version: 1.12.9+dfsg-2+deb8u2
 Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
 Uploaders: Frank Habermann <lordlamer@lordlamer.de>, ownCloud for Debian maintainers <pkg-owncloud-maintainers@lists.alioth.debian.org>, David Prévot <taffit@debian.org>
 Build-Depends: debhelper (>= 7.0.50), pkg-php-tools (>= 1.7~)
@@ -4862,19 +5062,19 @@ Architecture: all
 Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Files:
- ad461381d1ca69513f266fa887bca98c 1969 zendframework_1.12.9+dfsg-2+deb8u1.dsc
+ b64b0d873ba76d313230b7a4cdffaf83 1969 zendframework_1.12.9+dfsg-2+deb8u2.dsc
  99e89312a9d7da47e50de5d79fb457f7 27637590 zendframework_1.12.9+dfsg.orig.tar.gz
- db6b15c53e78e01d9182b8fedc55493b 15584 zendframework_1.12.9+dfsg-2+deb8u1.debian.tar.xz
+ 8c6d673db84c8ed72382a92538b79bd2 16244 zendframework_1.12.9+dfsg-2+deb8u2.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-php/zendframework.git
 Vcs-Git: git://anonscm.debian.org/pkg-php/zendframework.git
 Checksums-Sha1:
- a594a9f0c5256aa12dddb6ae4eb4510408265459 1969 zendframework_1.12.9+dfsg-2+deb8u1.dsc
+ ba0566a231e67e2ae46458f94752b805ff030c40 1969 zendframework_1.12.9+dfsg-2+deb8u2.dsc
  fe45a7dcb6629115a637305bcd3ed6b1ab355114 27637590 zendframework_1.12.9+dfsg.orig.tar.gz
- 65d30948460af720c39ecf420f4dc41e58322d97 15584 zendframework_1.12.9+dfsg-2+deb8u1.debian.tar.xz
+ c8481a73532425d5f468e860f9c0478ce0a79e2f 16244 zendframework_1.12.9+dfsg-2+deb8u2.debian.tar.xz
 Checksums-Sha256:
- a809037a64fe94b9779b94e71fc6760de827ca30673273511e7ee4156a821f69 1969 zendframework_1.12.9+dfsg-2+deb8u1.dsc
+ 1dc5df0560940a5db4e515f24048ffe3e2691226429a705aee83524f328b2964 1969 zendframework_1.12.9+dfsg-2+deb8u2.dsc
  82dac95db4c997aae1f9e7ab5bf42b2d36079c782b847539ef675da0a8fff8df 27637590 zendframework_1.12.9+dfsg.orig.tar.gz
- a2f0fda150d827f5ed71baa015b27eb836bf80f8659a1d69a95e0c59cdf7ae88 15584 zendframework_1.12.9+dfsg-2+deb8u1.debian.tar.xz
+ 33e545934047facce47d332543a0bb8303644321134f1f787c1fb074c6e11dc8 16244 zendframework_1.12.9+dfsg-2+deb8u2.debian.tar.xz
 Homepage: http://framework.zend.com
 Package-List: 
  zendframework deb php optional arch=all

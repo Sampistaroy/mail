@@ -1,0 +1,441 @@
+May 26 18:42:53 ns331245 postfix/master[4694]: daemon started -- version 2.11.3, configuration /etc/postfix
+May 26 18:43:25 ns331245 postfix/master[4694]: reload -- version 2.11.3, configuration /etc/postfix
+May 26 18:48:15 ns331245 postfix/master[4694]: terminating on signal 15
+May 26 18:58:20 ns331245 postfix/master[8592]: daemon started -- version 2.11.3, configuration /etc/postfix
+May 26 19:11:24 ns331245 postfix/smtpd[9695]: connect from localhost.localdomain[127.0.0.1]
+May 26 19:11:24 ns331245 postfix/smtpd[9695]: 263C9C030B: client=localhost.localdomain[127.0.0.1]
+May 26 19:11:24 ns331245 postfix/cleanup[9699]: 263C9C030B: message-id=<20150526171124.263C9C030B@ns331245.ip-37-187-121.eu>
+May 26 19:11:24 ns331245 postfix/qmgr[8594]: 263C9C030B: from=<admin@assolive.com>, size=526, nrcpt=1 (queue active)
+May 26 19:11:24 ns331245 postfix/smtpd[9695]: disconnect from localhost.localdomain[127.0.0.1]
+May 26 19:11:24 ns331245 postfix/smtp[9700]: 263C9C030B: to=<admin@assolive.com>, relay=none, delay=0.05, delays=0.03/0.01/0.01/0, dsn=5.4.6, status=bounced (mail for assolive.com loops back to myself)
+May 26 19:11:24 ns331245 postfix/cleanup[9699]: 3BA3AC030F: message-id=<20150526171124.3BA3AC030F@ns331245.ip-37-187-121.eu>
+May 26 19:11:24 ns331245 postfix/bounce[9701]: 263C9C030B: sender non-delivery notification: 3BA3AC030F
+May 26 19:11:24 ns331245 postfix/qmgr[8594]: 3BA3AC030F: from=<>, size=2487, nrcpt=1 (queue active)
+May 26 19:11:24 ns331245 postfix/qmgr[8594]: 263C9C030B: removed
+May 26 19:11:24 ns331245 postfix/smtp[9700]: 3BA3AC030F: to=<admin@assolive.com>, relay=none, delay=0.03, delays=0.03/0/0/0, dsn=5.4.6, status=bounced (mail for assolive.com loops back to myself)
+May 26 19:11:24 ns331245 postfix/qmgr[8594]: 3BA3AC030F: removed
+May 26 19:11:34 ns331245 postfix/smtpd[9695]: connect from localhost.localdomain[127.0.0.1]
+May 26 19:11:34 ns331245 postfix/smtpd[9695]: 68807C030E: client=localhost.localdomain[127.0.0.1]
+May 26 19:11:34 ns331245 postfix/cleanup[9699]: 68807C030E: message-id=<20150526171134.68807C030E@ns331245.ip-37-187-121.eu>
+May 26 19:11:34 ns331245 postfix/qmgr[8594]: 68807C030E: from=<admin@assolive.com>, size=526, nrcpt=1 (queue active)
+May 26 19:11:34 ns331245 postfix/smtpd[9695]: disconnect from localhost.localdomain[127.0.0.1]
+May 26 19:11:35 ns331245 postfix/smtp[9700]: 68807C030E: to=<jeremydu73@live.fr>, relay=mx3.hotmail.com[65.55.33.135]:25, delay=1.5, delays=0.03/0/0.77/0.68, dsn=2.0.0, status=sent (250  <20150526171134.68807C030E@ns331245.ip-37-187-121.eu> Queued mail for delivery)
+May 26 19:11:35 ns331245 postfix/qmgr[8594]: 68807C030E: removed
+May 26 19:21:35 ns331245 dovecot: master: Dovecot v2.2.13 starting up without any protocols (core dumps disabled)
+May 26 19:21:35 ns331245 dovecot: ssl-params: Generating SSL parameters
+May 26 19:21:39 ns331245 dovecot: ssl-params: SSL parameters regeneration completed
+May 26 19:21:40 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=13250 uid=0 code=kill)
+May 26 19:21:40 ns331245 dovecot: master: Dovecot v2.2.13 starting up for imap, lmtp (core dumps disabled)
+May 26 19:23:17 ns331245 opendkim[14184]: OpenDKIM Filter v2.9.2 starting (args: -x /etc/opendkim.conf -u opendkim -P /var/run/opendkim/opendkim.pid -p local:/var/run/opendkim/opendkim.sock)
+May 26 19:23:44 ns331245 opendmarc[14904]: OpenDMARC Filter v1.3.0 starting (args: -c /etc/opendmarc.conf -u opendmarc -P /var/run/opendmarc/opendmarc.pid -p local:/var/run/opendmarc/opendmarc.sock)
+May 26 19:23:44 ns331245 opendmarc[14904]: trusted authentication services: (none)
+May 26 19:24:55 ns331245 spamd[20389]: logger: removing stderr method
+May 26 19:25:01 ns331245 spamd[20391]: spamd: server started on IO::Socket::IP [127.0.0.1]:783, IO::Socket::IP [::1]:783 (running version 3.4.0)
+May 26 19:25:01 ns331245 spamd[20391]: spamd: server pid: 20391
+May 26 19:25:01 ns331245 spamd[20391]: spamd: server successfully spawned child process, pid 20397
+May 26 19:25:01 ns331245 spamd[20391]: spamd: server successfully spawned child process, pid 20398
+May 26 19:25:01 ns331245 spamd[20391]: prefork: child states: SI
+May 26 19:25:01 ns331245 spamd[20391]: prefork: child states: II
+May 26 19:27:24 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=21341 uid=0 code=kill)
+May 26 19:27:24 ns331245 dovecot: master: Dovecot v2.2.13 starting up for imap, lmtp (core dumps disabled)
+May 26 19:27:25 ns331245 dovecot: ssl-params: Warning: Regenerating /var/lib/dovecot/ssl-parameters.dat for ssl_dh_parameters_length=2048
+May 26 19:27:25 ns331245 dovecot: ssl-params: Generating SSL parameters
+May 26 19:27:30 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=21904 uid=0 code=kill)
+May 26 19:27:31 ns331245 dovecot: master: Dovecot v2.2.13 starting up for imap, lmtp (core dumps disabled)
+May 26 19:27:31 ns331245 dovecot: ssl-params: Warning: Regenerating /var/lib/dovecot/ssl-parameters.dat for ssl_dh_parameters_length=2048
+May 26 19:27:35 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=22135 uid=0 code=kill)
+May 26 19:27:35 ns331245 dovecot: master: Dovecot v2.2.13 starting up for imap, lmtp (core dumps disabled)
+May 26 19:27:35 ns331245 dovecot: ssl-params: Warning: Regenerating /var/lib/dovecot/ssl-parameters.dat for ssl_dh_parameters_length=2048
+May 26 19:29:26 ns331245 postfix/master[8592]: terminating on signal 15
+May 26 19:29:27 ns331245 postfix/master[23857]: daemon started -- version 2.11.3, configuration /etc/postfix
+May 26 19:29:27 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=23869 uid=0 code=kill)
+May 26 19:29:27 ns331245 dovecot: master: Dovecot v2.2.13 starting up for imap, lmtp, sieve (core dumps disabled)
+May 26 19:29:28 ns331245 dovecot: ssl-params: Warning: Regenerating /var/lib/dovecot/ssl-parameters.dat for ssl_dh_parameters_length=2048
+May 26 19:29:32 ns331245 opendkim[14184]: OpenDKIM Filter: mi_stop=1
+May 26 19:29:32 ns331245 opendkim[14184]: OpenDKIM Filter v2.9.2 terminating with status 0, errno = 0
+May 26 19:29:32 ns331245 opendkim[23907]: OpenDKIM Filter v2.9.2 starting (args: -x /etc/opendkim.conf -u opendkim -P /var/run/opendkim/opendkim.pid)
+May 26 19:29:35 ns331245 opendmarc[14904]: OpenDMARC Filter: mi_stop=1
+May 26 19:29:35 ns331245 opendmarc[14904]: OpenDMARC Filter v1.3.0 terminating with status 0, errno = 0
+May 26 19:29:35 ns331245 opendmarc[23930]: OpenDMARC Filter v1.3.0 starting (args: -c /etc/opendmarc.conf -u opendmarc -P /var/run/opendmarc/opendmarc.pid)
+May 26 19:29:35 ns331245 opendmarc[23930]: trusted authentication services: "hostname.assolive.com"
+May 26 19:29:35 ns331245 spamd[20391]: spamd: server killed by SIGTERM, shutting down
+May 26 19:29:36 ns331245 spamd[23941]: logger: removing stderr method
+May 26 19:29:40 ns331245 spamd[23943]: zoom: able to use 360/360 'body_0' compiled rules (100%)
+May 26 19:29:42 ns331245 spamd[23943]: spamd: server started on IO::Socket::IP [127.0.0.1]:783, IO::Socket::IP [::1]:783 (running version 3.4.0)
+May 26 19:29:42 ns331245 spamd[23943]: spamd: server pid: 23943
+May 26 19:29:42 ns331245 spamd[23943]: spamd: server successfully spawned child process, pid 23946
+May 26 19:29:42 ns331245 spamd[23943]: spamd: server successfully spawned child process, pid 23947
+May 26 19:29:42 ns331245 spamd[23943]: prefork: child states: IS
+May 26 19:29:42 ns331245 spamd[23943]: prefork: child states: II
+May 26 19:37:43 ns331245 dovecot: ssl-params: SSL parameters regeneration completed
+May 26 19:40:27 ns331245 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=37.187.121.118, lip=37.187.121.118, secured, session=<AwpAn/8W7wAlu3l2>
+May 26 19:40:27 ns331245 postfix/smtpd[24846]: connect from hostname.assolive.com[37.187.121.118]
+May 26 19:40:27 ns331245 postfix/smtpd[24846]: lost connection after EHLO from hostname.assolive.com[37.187.121.118]
+May 26 19:40:27 ns331245 postfix/smtpd[24846]: disconnect from hostname.assolive.com[37.187.121.118]
+May 26 19:40:32 ns331245 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=37.187.121.118, lip=37.187.121.118, TLS, session=<GLWJn/8W8QAlu3l2>
+May 26 19:40:32 ns331245 postfix/smtpd[24846]: connect from hostname.assolive.com[37.187.121.118]
+May 26 19:40:32 ns331245 postfix/smtpd[24846]: lost connection after EHLO from hostname.assolive.com[37.187.121.118]
+May 26 19:40:32 ns331245 postfix/smtpd[24846]: disconnect from hostname.assolive.com[37.187.121.118]
+May 26 19:40:34 ns331245 dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=37.187.121.118, lip=37.187.121.118, TLS, session=<xHSpn/8W8wAlu3l2>
+May 26 19:40:34 ns331245 postfix/smtpd[24846]: connect from hostname.assolive.com[37.187.121.118]
+May 26 19:40:34 ns331245 postfix/smtpd[24846]: lost connection after EHLO from hostname.assolive.com[37.187.121.118]
+May 26 19:40:34 ns331245 postfix/smtpd[24846]: disconnect from hostname.assolive.com[37.187.121.118]
+May 26 19:40:54 ns331245 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 3 secs): user=<admin>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, TLS, session=<iE6xoP8W9QAlu3l2>
+May 26 19:41:09 ns331245 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 6 secs): user=<admin>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, TLS, session=<lHhhof8W9wAlu3l2>
+May 26 19:42:06 ns331245 dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<admin>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, TLS, session=<ne39pP8W+AAlu3l2>
+May 26 19:43:59 hostname opendmarc[3905]: OpenDMARC Filter v1.3.0 starting (args: -c /etc/opendmarc.conf -u opendmarc -P /var/run/opendmarc/opendmarc.pid)
+May 26 19:43:59 hostname opendmarc[3905]: trusted authentication services: "hostname.assolive.com"
+May 26 19:44:03 hostname opendkim[3952]: OpenDKIM Filter v2.9.2 starting (args: -x /etc/opendkim.conf -u opendkim -P /var/run/opendkim/opendkim.pid)
+May 26 19:44:09 hostname spamd[3815]: logger: removing stderr method
+May 26 19:44:12 hostname dovecot: master: Dovecot v2.2.13 starting up for imap, lmtp, sieve (core dumps disabled)
+May 26 19:44:14 hostname spamd[4548]: zoom: able to use 360/360 'body_0' compiled rules (100%)
+May 26 19:44:16 hostname spamd[4548]: spamd: server started on IO::Socket::IP [127.0.0.1]:783, IO::Socket::IP [::1]:783 (running version 3.4.0)
+May 26 19:44:16 hostname spamd[4548]: spamd: server pid: 4548
+May 26 19:44:16 hostname spamd[4548]: spamd: server successfully spawned child process, pid 4732
+May 26 19:44:16 hostname spamd[4548]: spamd: server successfully spawned child process, pid 4733
+May 26 19:44:16 hostname spamd[4548]: prefork: child states: IS
+May 26 19:44:16 hostname spamd[4548]: prefork: child states: II
+May 26 19:44:18 hostname postfix/master[4842]: daemon started -- version 2.11.3, configuration /etc/postfix
+May 26 19:44:18 hostname postfix/pickup[4845]: 1FA5DC0A40: uid=1004 from=<teamspeakserver>
+May 26 19:44:18 hostname postfix/cleanup[4847]: 1FA5DC0A40: message-id=<20150526174418.1FA5DC0A40@hostname.assolive.com>
+May 26 19:44:18 hostname opendkim[3952]: 1FA5DC0A40: no signing table match for 'root@hostname.assolive.com'
+May 26 19:44:18 hostname postfix/qmgr[4846]: 1FA5DC0A40: from=<teamspeakserver@hostname.assolive.com>, size=937, nrcpt=1 (queue active)
+May 26 19:44:18 hostname postfix/smtp[4855]: 1FA5DC0A40: to=<teamspeakserver@hostname.assolive.com>, orig_to=<teamspeakserver>, relay=none, delay=16, delays=16/0.22/0.01/0, dsn=5.4.6, status=bounced (mail for hostname.assolive.com loops back to myself)
+May 26 19:44:18 hostname postfix/cleanup[4847]: A6146C0A42: message-id=<20150526174418.A6146C0A42@hostname.assolive.com>
+May 26 19:44:18 hostname postfix/bounce[4857]: 1FA5DC0A40: sender non-delivery notification: A6146C0A42
+May 26 19:44:18 hostname postfix/qmgr[4846]: A6146C0A42: from=<>, size=3152, nrcpt=1 (queue active)
+May 26 19:44:18 hostname postfix/qmgr[4846]: 1FA5DC0A40: removed
+May 26 19:44:18 hostname postfix/smtp[4855]: A6146C0A42: to=<teamspeakserver@hostname.assolive.com>, relay=none, delay=0.03, delays=0.02/0/0/0, dsn=5.4.6, status=bounced (mail for hostname.assolive.com loops back to myself)
+May 26 19:44:18 hostname postfix/qmgr[4846]: A6146C0A42: removed
+May 26 19:52:36 hostname postfix/smtpd[5655]: connect from localhost.localdomain[127.0.0.1]
+May 26 19:52:36 hostname postfix/smtpd[5655]: DAFEDC0A44: client=localhost.localdomain[127.0.0.1]
+May 26 19:52:36 hostname postfix/cleanup[5660]: DAFEDC0A44: message-id=<20150526175236.DAFEDC0A44@hostname.assolive.com>
+May 26 19:52:37 hostname opendkim[3952]: DAFEDC0A44: DKIM-Signature field added (s=mail, d=assolive.com)
+May 26 19:52:37 hostname postfix/qmgr[4846]: DAFEDC0A44: from=<admin@assolive.com>, size=545, nrcpt=1 (queue active)
+May 26 19:52:37 hostname postfix/smtpd[5655]: disconnect from localhost.localdomain[127.0.0.1]
+May 26 19:52:37 hostname spamd[4732]: spamd: connection from ::1 [::1]:40429 to port 783, fd 6
+May 26 19:52:37 hostname spamd[4732]: spamd: setuid to debian-spamd succeeded
+May 26 19:52:37 hostname spamd[4732]: spamd: creating default_prefs: /var/lib/spamassassin/.spamassassin/user_prefs
+May 26 19:52:37 hostname spamd[4732]: config: created user preferences file: /var/lib/spamassassin/.spamassassin/user_prefs
+May 26 19:52:37 hostname spamd[4732]: spamd: processing message <20150526175236.DAFEDC0A44@hostname.assolive.com> for debian-spamd:116
+May 26 19:52:37 hostname spamd[4732]: spamd: clean message (-101.0/5.0) for debian-spamd:116 in 0.3 seconds, 1385 bytes.
+May 26 19:52:37 hostname spamd[4732]: spamd: result: . -100 - ALL_TRUSTED,T_DKIM_INVALID,USER_IN_WHITELIST scantime=0.3,size=1385,user=debian-spamd,uid=116,required_score=5.0,rhost=::1,raddr=::1,rport=40429,mid=<20150526175236.DAFEDC0A44@hostname.assolive.com>,autolearn=ham autolearn_force=no
+May 26 19:52:37 hostname postfix/pickup[4845]: 6FA11C0A4A: uid=116 from=<admin@assolive.com>
+May 26 19:52:37 hostname postfix/pipe[5663]: DAFEDC0A44: to=<trashbin73@hushmail.com>, relay=spamassassin, delay=0.6, delays=0.18/0.02/0/0.39, dsn=2.0.0, status=sent (delivered via spamassassin service)
+May 26 19:52:37 hostname postfix/cleanup[5660]: 6FA11C0A4A: message-id=<20150526175236.DAFEDC0A44@hostname.assolive.com>
+May 26 19:52:37 hostname postfix/qmgr[4846]: DAFEDC0A44: removed
+May 26 19:52:37 hostname spamd[4548]: prefork: child states: II
+May 26 19:52:37 hostname opendkim[3952]: 6FA11C0A4A: DKIM-Signature field added (s=mail, d=assolive.com)
+May 26 19:52:37 hostname postfix/qmgr[4846]: 6FA11C0A4A: from=<admin@assolive.com>, size=2037, nrcpt=1 (queue active)
+May 26 19:52:39 hostname postfix/smtp[5667]: Untrusted TLS connection established to mx5.hushmail.com[65.39.178.200]:25: TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)
+May 26 19:52:40 hostname postfix/smtp[5667]: 6FA11C0A4A: to=<trashbin73@hushmail.com>, relay=mx5.hushmail.com[65.39.178.200]:25, delay=3.5, delays=0.17/0.03/2.4/0.91, dsn=2.0.0, status=sent (250 Ok)
+May 26 19:52:41 hostname postfix/qmgr[4846]: 6FA11C0A4A: removed
+May 26 20:01:54 hostname postfix/submission/smtpd[6711]: connect from hostname.assolive.com[37.187.121.118]
+May 26 20:01:54 hostname postfix/submission/smtpd[6711]: Anonymous TLS connection established from hostname.assolive.com[37.187.121.118]: TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)
+May 26 20:01:54 hostname postfix/submission/smtpd[6711]: lost connection after EHLO from hostname.assolive.com[37.187.121.118]
+May 26 20:01:54 hostname postfix/submission/smtpd[6711]: disconnect from hostname.assolive.com[37.187.121.118]
+May 26 20:01:54 hostname dovecot: imap-login: Disconnected (no auth attempts in 10 secs): user=<>, rip=37.187.121.118, lip=37.187.121.118, TLS handshaking: Disconnected, session=<STj16/8WnwAlu3l2>
+May 26 20:02:03 hostname dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=37.187.121.118, lip=37.187.121.118, secured, session=<3eF67P8WMgAlu3l2>
+May 26 20:02:03 hostname postfix/submission/smtpd[6711]: connect from hostname.assolive.com[37.187.121.118]
+May 26 20:02:03 hostname postfix/submission/smtpd[6711]: Anonymous TLS connection established from hostname.assolive.com[37.187.121.118]: TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)
+May 26 20:02:03 hostname postfix/submission/smtpd[6711]: lost connection after EHLO from hostname.assolive.com[37.187.121.118]
+May 26 20:02:03 hostname postfix/submission/smtpd[6711]: disconnect from hostname.assolive.com[37.187.121.118]
+May 26 20:03:02 hostname dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, secured, session=<RJjn7/8WNgAlu3l2>
+May 26 20:04:46 hostname dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, secured, session=<SfMY9v8WOAAlu3l2>
+May 26 20:05:23 hostname postfix/anvil[6713]: statistics: max connection rate 2/60s for (submission:37.187.121.118) at May 26 20:02:03
+May 26 20:05:23 hostname postfix/anvil[6713]: statistics: max connection count 1 for (submission:37.187.121.118) at May 26 20:01:54
+May 26 20:05:23 hostname postfix/anvil[6713]: statistics: max cache size 1 at May 26 20:01:54
+May 26 20:09:15 hostname postfix/smtpd[7119]: connect from localhost.localdomain[127.0.0.1]
+May 26 20:09:15 hostname postfix/smtpd[7119]: 3A65FC0A56: client=localhost.localdomain[127.0.0.1]
+May 26 20:09:15 hostname postfix/cleanup[7124]: 3A65FC0A56: message-id=<20150526180915.3A65FC0A56@hostname.assolive.com>
+May 26 20:09:15 hostname opendkim[3952]: 3A65FC0A56: DKIM-Signature field added (s=mail, d=assolive.com)
+May 26 20:09:15 hostname postfix/qmgr[4846]: 3A65FC0A56: from=<admin@assolive.com>, size=533, nrcpt=1 (queue active)
+May 26 20:09:15 hostname postfix/smtpd[7119]: disconnect from localhost.localdomain[127.0.0.1]
+May 26 20:09:15 hostname spamd[4732]: spamd: connection from ::1 [::1]:40456 to port 783, fd 6
+May 26 20:09:15 hostname spamd[4732]: spamd: setuid to debian-spamd succeeded
+May 26 20:09:15 hostname spamd[4732]: spamd: processing message <20150526180915.3A65FC0A56@hostname.assolive.com> for debian-spamd:116
+May 26 20:09:15 hostname spamd[4732]: spamd: clean message (-101.0/5.0) for debian-spamd:116 in 0.2 seconds, 1373 bytes.
+May 26 20:09:15 hostname spamd[4732]: spamd: result: . -100 - ALL_TRUSTED,T_DKIM_INVALID,USER_IN_WHITELIST scantime=0.2,size=1373,user=debian-spamd,uid=116,required_score=5.0,rhost=::1,raddr=::1,rport=40456,mid=<20150526180915.3A65FC0A56@hostname.assolive.com>,autolearn=ham autolearn_force=no
+May 26 20:09:15 hostname postfix/pickup[4845]: 97A5CC0A64: uid=116 from=<admin@assolive.com>
+May 26 20:09:15 hostname postfix/pipe[7126]: 3A65FC0A56: to=<test@assolive.com>, relay=spamassassin, delay=0.41, delays=0.17/0.02/0/0.22, dsn=2.0.0, status=sent (delivered via spamassassin service)
+May 26 20:09:15 hostname postfix/qmgr[4846]: 3A65FC0A56: removed
+May 26 20:09:15 hostname postfix/cleanup[7124]: 97A5CC0A64: message-id=<20150526180915.3A65FC0A56@hostname.assolive.com>
+May 26 20:09:15 hostname spamd[4548]: prefork: child states: II
+May 26 20:09:15 hostname opendkim[3952]: 97A5CC0A64: DKIM-Signature field added (s=mail, d=assolive.com)
+May 26 20:09:15 hostname postfix/qmgr[4846]: 97A5CC0A64: from=<admin@assolive.com>, size=2025, nrcpt=1 (queue active)
+May 26 20:09:15 hostname dovecot: lmtp(7132): Connect from local
+May 26 20:09:16 hostname dovecot: lmtp(7132, test@assolive.com): cp62NMu2ZFXcGwAAume3iQ: sieve: msgid=<20150526180915.3A65FC0A56@hostname.assolive.com>: stored mail into mailbox 'INBOX'
+May 26 20:09:16 hostname postfix/lmtp[7131]: 97A5CC0A64: to=<test@assolive.com>, relay=hostname.assolive.com[private/dovecot-lmtp], delay=0.47, delays=0.15/0.03/0.1/0.19, dsn=2.0.0, status=sent (250 2.0.0 <test@assolive.com> cp62NMu2ZFXcGwAAume3iQ Saved)
+May 26 20:09:16 hostname dovecot: lmtp(7132): Disconnect from local: Successful quit
+May 26 20:09:16 hostname postfix/qmgr[4846]: 97A5CC0A64: removed
+May 26 20:09:35 hostname dovecot: imap-login: Login: user=<test@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7140, secured, session=<hYVvBwAXRgAlu3l2>
+May 26 20:09:35 hostname dovecot: imap(test@assolive.com): Disconnected: Logged out in=11 out=401
+May 26 20:09:37 hostname dovecot: imap-login: Login: user=<test@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7141, secured, session=<iECEBwAXRwAlu3l2>
+May 26 20:09:37 hostname dovecot: imap(test@assolive.com): Disconnected: Logged out in=369 out=1679
+May 26 20:09:37 hostname dovecot: imap-login: Login: user=<test@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7142, secured, session=<yM+OBwAXSAAlu3l2>
+May 26 20:09:37 hostname dovecot: imap(test@assolive.com): Disconnected: Logged out in=251 out=4620
+May 26 20:09:39 hostname dovecot: imap-login: Login: user=<test@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7143, secured, session=<VSCsBwAXSQAlu3l2>
+May 26 20:09:39 hostname dovecot: imap(test@assolive.com): Disconnected: Logged out in=334 out=1225
+May 26 20:09:40 hostname dovecot: imap-login: Login: user=<test@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7145, secured, session=<+we0BwAXSgAlu3l2>
+May 26 20:09:40 hostname dovecot: imap(test@assolive.com): Disconnected: Logged out in=168 out=4188
+May 26 20:09:40 hostname dovecot: imap-login: Login: user=<test@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7147, secured, session=<dF22BwAXTAAlu3l2>
+May 26 20:09:40 hostname dovecot: imap(test@assolive.com): Disconnected: Logged out in=72 out=784
+May 26 20:09:42 hostname dovecot: imap-login: Login: user=<test@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7148, secured, session=<8EPaBwAXTQAlu3l2>
+May 26 20:09:42 hostname dovecot: imap(test@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 20:11:23 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7238, secured, session=<jZ7fDQAXTgAlu3l2>
+May 26 20:11:23 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=11 out=401
+May 26 20:11:24 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7239, secured, session=<SDvxDQAXUAAlu3l2>
+May 26 20:11:25 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=369 out=1679
+May 26 20:11:25 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7240, secured, session=<lqD7DQAXUQAlu3l2>
+May 26 20:11:25 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=110 out=1218
+May 26 20:11:27 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7241, secured, session=<CWQYDgAXUgAlu3l2>
+May 26 20:11:27 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=334 out=1225
+May 26 20:11:30 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7242, secured, session=<z09GDgAXUwAlu3l2>
+May 26 20:11:30 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 20:11:55 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7243, secured, session=<KJTBDwAXVAAlu3l2>
+May 26 20:11:55 hostname postfix/submission/smtpd[7244]: connect from hostname.assolive.com[37.187.121.118]
+May 26 20:11:55 hostname postfix/submission/smtpd[7244]: Anonymous TLS connection established from hostname.assolive.com[37.187.121.118]: TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)
+May 26 20:11:55 hostname postfix/submission/smtpd[7244]: A764EC0ACE: client=hostname.assolive.com[37.187.121.118], sasl_method=LOGIN, sasl_username=admin@assolive.com
+May 26 20:11:55 hostname postfix/cleanup[7250]: A764EC0ACE: message-id=<0a484b184b07a5c7328865697c41a14c@webmail.assolive.com>
+May 26 20:11:55 hostname opendkim[3952]: A764EC0ACE: DKIM-Signature field added (s=mail, d=assolive.com)
+May 26 20:11:55 hostname opendmarc[3905]: A764EC0ACE: assolive.com none
+May 26 20:11:55 hostname postfix/qmgr[4846]: A764EC0ACE: from=<admin@assolive.com>, size=1270, nrcpt=1 (queue active)
+May 26 20:11:55 hostname postfix/submission/smtpd[7244]: disconnect from hostname.assolive.com[37.187.121.118]
+May 26 20:11:55 hostname spamd[4732]: spamd: connection from ::1 [::1]:40479 to port 783, fd 6
+May 26 20:11:55 hostname spamd[4732]: spamd: setuid to debian-spamd succeeded
+May 26 20:11:55 hostname spamd[4732]: spamd: processing message <0a484b184b07a5c7328865697c41a14c@webmail.assolive.com> for debian-spamd:116
+May 26 20:11:55 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=920 out=459
+May 26 20:11:56 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7254, secured, session=<DW/MDwAXXAAlu3l2>
+May 26 20:11:56 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=90 out=861
+May 26 20:11:56 hostname spamd[4732]: spamd: clean message (-101.0/5.0) for debian-spamd:116 in 0.2 seconds, 2171 bytes.
+May 26 20:11:56 hostname spamd[4732]: spamd: result: . -100 - ALL_TRUSTED,HTML_MESSAGE,T_DKIM_INVALID,USER_IN_WHITELIST scantime=0.2,size=2171,user=debian-spamd,uid=116,required_score=5.0,rhost=::1,raddr=::1,rport=40479,mid=<0a484b184b07a5c7328865697c41a14c@webmail.assolive.com>,autolearn=ham autolearn_force=no
+May 26 20:11:56 hostname postfix/pickup[4845]: 27836C0AD4: uid=116 from=<admin@assolive.com>
+May 26 20:11:56 hostname postfix/pipe[7252]: A764EC0ACE: to=<trashbin73@hotmail.fr>, relay=spamassassin, delay=0.51, delays=0.22/0.02/0/0.26, dsn=2.0.0, status=sent (delivered via spamassassin service)
+May 26 20:11:56 hostname postfix/qmgr[4846]: A764EC0ACE: removed
+May 26 20:11:56 hostname postfix/cleanup[7250]: 27836C0AD4: message-id=<0a484b184b07a5c7328865697c41a14c@webmail.assolive.com>
+May 26 20:11:56 hostname spamd[4548]: prefork: child states: II
+May 26 20:11:56 hostname opendkim[3952]: 27836C0AD4: DKIM-Signature field added (s=mail, d=assolive.com)
+May 26 20:11:56 hostname postfix/qmgr[4846]: 27836C0AD4: from=<admin@assolive.com>, size=2919, nrcpt=1 (queue active)
+May 26 20:11:57 hostname postfix/smtp[7257]: Untrusted TLS connection established to mx1.hotmail.com[65.55.33.119]:25: TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)
+May 26 20:11:58 hostname postfix/smtp[7257]: 27836C0AD4: to=<trashbin73@hotmail.fr>, relay=mx1.hotmail.com[65.55.33.119]:25, delay=2.4, delays=0.16/0.03/1.5/0.68, dsn=2.0.0, status=sent (250  <0a484b184b07a5c7328865697c41a14c@webmail.assolive.com> Queued mail for delivery)
+May 26 20:11:58 hostname postfix/qmgr[4846]: 27836C0AD4: removed
+May 26 20:15:16 hostname postfix/anvil[7246]: statistics: max connection rate 1/60s for (submission:37.187.121.118) at May 26 20:11:55
+May 26 20:15:16 hostname postfix/anvil[7246]: statistics: max connection count 1 for (submission:37.187.121.118) at May 26 20:11:55
+May 26 20:15:16 hostname postfix/anvil[7246]: statistics: max cache size 1 at May 26 20:11:55
+May 26 20:17:25 hostname postfix/smtpd[7520]: connect from smtp10.hushmail.com[65.39.178.143]
+May 26 20:17:25 hostname postfix/smtpd[7520]: Anonymous TLS connection established from smtp10.hushmail.com[65.39.178.143]: TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits)
+May 26 20:17:26 hostname postfix/smtpd[7520]: 8268FC0AD5: client=smtp10.hushmail.com[65.39.178.143]
+May 26 20:17:26 hostname postfix/cleanup[7530]: 8268FC0AD5: message-id=<20150526181723.C79DFE048C@smtp.hushmail.com>
+May 26 20:17:26 hostname opendkim[3952]: 8268FC0AD5: smtp10.hushmail.com [65.39.178.143] not internal
+May 26 20:17:26 hostname opendkim[3952]: 8268FC0AD5: not authenticated
+May 26 20:17:26 hostname opendmarc[3905]: 8268FC0AD5 ignoring Authentication-Results at 0 from hostname.assolive.com
+May 26 20:17:26 hostname opendmarc[3905]: 8268FC0AD5: hushmail.com none
+May 26 20:17:26 hostname postfix/qmgr[4846]: 8268FC0AD5: from=<trashbin73@hushmail.com>, size=1472, nrcpt=1 (queue active)
+May 26 20:17:26 hostname spamd[4732]: spamd: connection from ::1 [::1]:40487 to port 783, fd 6
+May 26 20:17:26 hostname spamd[4732]: spamd: setuid to debian-spamd succeeded
+May 26 20:17:26 hostname spamd[4732]: spamd: processing message <20150526181723.C79DFE048C@smtp.hushmail.com> for debian-spamd:116
+May 26 20:17:27 hostname postfix/smtpd[7520]: disconnect from smtp10.hushmail.com[65.39.178.143]
+May 26 20:17:30 hostname spamd[4732]: spamd: clean message (-0.7/5.0) for debian-spamd:116 in 3.7 seconds, 1622 bytes.
+May 26 20:17:30 hostname spamd[4732]: spamd: result: . 0 - FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_HELO_PASS scantime=3.7,size=1622,user=debian-spamd,uid=116,required_score=5.0,rhost=::1,raddr=::1,rport=40487,mid=<20150526181723.C79DFE048C@smtp.hushmail.com>,autolearn=ham autolearn_force=no
+May 26 20:17:30 hostname postfix/pickup[4845]: B443BC0AD7: uid=116 from=<trashbin73@hushmail.com>
+May 26 20:17:30 hostname postfix/pipe[7532]: 8268FC0AD5: to=<admin@assolive.com>, relay=spamassassin, delay=4.5, delays=0.65/0.02/0/3.8, dsn=2.0.0, status=sent (delivered via spamassassin service)
+May 26 20:17:30 hostname postfix/qmgr[4846]: 8268FC0AD5: removed
+May 26 20:17:30 hostname postfix/cleanup[7530]: B443BC0AD7: message-id=<20150526181723.C79DFE048C@smtp.hushmail.com>
+May 26 20:17:30 hostname opendkim[3952]: B443BC0AD7: no signing table match for 'trashbin73@hushmail.com'
+May 26 20:17:30 hostname postfix/qmgr[4846]: B443BC0AD7: from=<trashbin73@hushmail.com>, size=2460, nrcpt=1 (queue active)
+May 26 20:17:30 hostname dovecot: lmtp(7537): Connect from local
+May 26 20:17:30 hostname spamd[4548]: prefork: child states: II
+May 26 20:17:30 hostname dovecot: lmtp(7537, admin@assolive.com): NSAtMLq4ZFVxHQAAume3iQ: sieve: msgid=<20150526181723.C79DFE048C@smtp.hushmail.com>: stored mail into mailbox 'INBOX'
+May 26 20:17:30 hostname postfix/lmtp[7536]: B443BC0AD7: to=<admin@assolive.com>, relay=hostname.assolive.com[private/dovecot-lmtp], delay=0.2, delays=0.06/0.03/0.01/0.11, dsn=2.0.0, status=sent (250 2.0.0 <admin@assolive.com> NSAtMLq4ZFVxHQAAume3iQ Saved)
+May 26 20:17:30 hostname postfix/qmgr[4846]: B443BC0AD7: removed
+May 26 20:17:30 hostname dovecot: lmtp(7537): Disconnect from local: Successful quit
+May 26 20:17:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7541, secured, session=<5uZzJAAXZQAlu3l2>
+May 26 20:17:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=11 out=401
+May 26 20:17:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7542, secured, session=<5jiIJAAXZgAlu3l2>
+May 26 20:17:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=80 out=1237
+May 26 20:17:44 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7543, secured, session=<f7uRJAAXZwAlu3l2>
+May 26 20:17:44 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=251 out=4022
+May 26 20:17:46 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7545, secured, session=<yqWoJAAXaQAlu3l2>
+May 26 20:17:46 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=168 out=3589
+May 26 20:17:46 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7546, secured, session=<BOmrJAAXagAlu3l2>
+May 26 20:17:46 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=72 out=784
+May 26 20:17:46 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7547, secured, session=<36yuJAAXawAlu3l2>
+May 26 20:17:46 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=334 out=1225
+May 26 20:17:49 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7548, secured, session=<13bcJAAXbAAlu3l2>
+May 26 20:17:49 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 20:19:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7638, secured, session=<2nOuKwAXbQAlu3l2>
+May 26 20:19:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:19:44 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7639, secured, session=<QMWwKwAXbwAlu3l2>
+May 26 20:19:44 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=251 out=3989
+May 26 20:20:47 hostname postfix/anvil[7522]: statistics: max connection rate 1/60s for (smtp:65.39.178.143) at May 26 20:17:25
+May 26 20:20:47 hostname postfix/anvil[7522]: statistics: max connection count 1 for (smtp:65.39.178.143) at May 26 20:17:25
+May 26 20:20:47 hostname postfix/anvil[7522]: statistics: max cache size 1 at May 26 20:17:25
+May 26 20:21:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7728, secured, session=<jwfXMgAXcAAlu3l2>
+May 26 20:21:44 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:23:08 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7818, secured, session=<nynhNwAXcgAlu3l2>
+May 26 20:23:08 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=114 out=1220
+May 26 20:23:09 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7819, secured, session=<onPpNwAXdAAlu3l2>
+May 26 20:23:09 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=110 out=1250
+May 26 20:23:10 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7820, secured, session=<tF8COAAXdQAlu3l2>
+May 26 20:23:10 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=108 out=1249
+May 26 20:23:11 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7821, secured, session=<JSgROAAXdgAlu3l2>
+May 26 20:23:11 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=112 out=1251
+May 26 20:23:12 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7822, secured, session=<IlocOAAXdwAlu3l2>
+May 26 20:23:12 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=249 out=2014
+May 26 20:23:14 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7823, secured, session=<54FCOAAXeAAlu3l2>
+May 26 20:23:14 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=167 out=1766
+May 26 20:23:15 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7824, secured, session=<SCBPOAAXeQAlu3l2>
+May 26 20:23:15 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=133 out=1330
+May 26 20:23:15 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7825, secured, session=<spNROAAXegAlu3l2>
+May 26 20:23:15 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=108 out=1249
+May 26 20:23:16 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7826, secured, session=<ZpZXOAAXewAlu3l2>
+May 26 20:23:16 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=251 out=2015
+May 26 20:23:17 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7827, secured, session=<kXpmOAAXfAAlu3l2>
+May 26 20:23:17 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=168 out=1766
+May 26 20:23:18 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7828, secured, session=<4Ql5OAAXfQAlu3l2>
+May 26 20:23:18 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=173 out=1317
+May 26 20:23:18 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7829, secured, session=<VMt6OAAXfgAlu3l2>
+May 26 20:23:18 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=110 out=1250
+May 26 20:23:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7830, secured, session=<cxH7OQAXfwAlu3l2>
+May 26 20:23:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7831, secured, session=<JCz7OQAXgAAlu3l2>
+May 26 20:23:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:23:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:23:48 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7832, secured, session=<fcNEOgAXgQAlu3l2>
+May 26 20:23:48 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 20:25:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7923, secured, session=<3AQkQQAXggAlu3l2>
+May 26 20:25:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:26:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=7967, secured, session=<OuW2RAAXhAAlu3l2>
+May 26 20:26:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:27:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8011, secured, session=<THVKSAAXhQAlu3l2>
+May 26 20:27:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:28:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8061, secured, session=<nTHeSwAXhgAlu3l2>
+May 26 20:28:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=273 out=1134
+May 26 20:29:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8105, secured, session=<zt5xTwAXiAAlu3l2>
+May 26 20:29:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8106, secured, session=<C/JxTwAXiQAlu3l2>
+May 26 20:29:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:29:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:31:44 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8196, secured, session=<bAibVgAXigAlu3l2>
+May 26 20:31:44 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:32:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8241, secured, session=</7csWgAXjQAlu3l2>
+May 26 20:32:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 20:32:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8242, secured, session=<mAEtWgAXjwAlu3l2>
+May 26 20:32:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8244, secured, session=<ML0sWgAXjAAlu3l2>
+May 26 20:32:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:32:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=80 out=1237
+May 26 20:33:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8288, secured, session=<kc2/XQAXkQAlu3l2>
+May 26 20:33:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:34:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8332, secured, session=<lIVTYQAXkgAlu3l2>
+May 26 20:34:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=273 out=1134
+May 26 20:35:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8380, secured, session=<oEznZAAXkwAlu3l2>
+May 26 20:35:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:35:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8382, secured, session=<J1TnZAAXlAAlu3l2>
+May 26 20:35:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:37:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8472, secured, session=<PVQObAAXlwAlu3l2>
+May 26 20:37:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:38:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8516, secured, session=<bbehbwAXmQAlu3l2>
+May 26 20:38:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:39:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8593, secured, session=<oEc1cwAXmgAlu3l2>
+May 26 20:39:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:40:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8640, secured, session=<subIdgAXmwAlu3l2>
+May 26 20:40:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=273 out=1134
+May 26 20:41:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8685, secured, session=<pGpbegAXnQAlu3l2>
+May 26 20:41:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:41:44 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8686, secured, session=<Oa5eegAXngAlu3l2>
+May 26 20:41:44 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:43:44 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8778, secured, session=<XaSFgQAXnwAlu3l2>
+May 26 20:43:44 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:43:59 hostname dovecot: imap-login: Disconnected (auth failed, 1 attempts in 2 secs): user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, secured, session=<sH5NggAXoQAlu3l2>
+May 26 20:44:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8822, secured, session=<aiIXhQAXogAlu3l2>
+May 26 20:44:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:45:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8875, secured, session=<X6KqiAAXowAlu3l2>
+May 26 20:45:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:46:40 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8921, secured, session=<g6oQjAAXpAAlu3l2>
+May 26 20:46:40 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=11 out=401
+May 26 20:46:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8922, secured, session=<qXgjjAAXpQAlu3l2>
+May 26 20:46:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=80 out=1237
+May 26 20:46:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8923, secured, session=<96ktjAAXpgAlu3l2>
+May 26 20:46:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=197 out=3941
+May 26 20:46:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8924, secured, session=<TUs+jAAXpwAlu3l2>
+May 26 20:46:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=273 out=1134
+May 26 20:46:44 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8925, secured, session=<R2VGjAAXqAAlu3l2>
+May 26 20:46:44 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=334 out=1225
+May 26 20:46:47 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8926, secured, session=<xSp0jAAXqQAlu3l2>
+May 26 20:46:47 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 20:47:02 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8970, secured, session=<JaFbjQAXqgAlu3l2>
+May 26 20:47:02 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=168 out=3563
+May 26 20:47:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8971, secured, session=<PiLSjwAXqwAlu3l2>
+May 26 20:47:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8972, secured, session=<3yvSjwAXrAAlu3l2>
+May 26 20:47:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:47:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8973, secured, session=</mjSjwAXrQAlu3l2>
+May 26 20:47:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:47:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 20:47:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=8974, secured, session=<OuzSjwAXrgAlu3l2>
+May 26 20:47:44 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=80 out=1237
+May 26 20:48:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9029, secured, session=<Sb9LkwAXrwAlu3l2>
+May 26 20:48:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:49:44 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9080, secured, session=<jQr7lgAXsAAlu3l2>
+May 26 20:49:44 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:50:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9127, secured, session=<tOdvmgAXsgAlu3l2>
+May 26 20:50:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:50:43 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9128, secured, session=<sG+MmgAXswAlu3l2>
+May 26 20:50:43 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:51:40 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9172, secured, session=<8bDqnQAXtAAlu3l2>
+May 26 20:51:40 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=80 out=1237
+May 26 20:51:40 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9173, secured, session=<UlnznQAXtQAlu3l2>
+May 26 20:51:40 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=110 out=1250
+May 26 20:51:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9174, secured, session=<1S0FngAXtgAlu3l2>
+May 26 20:51:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:51:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9175, secured, session=<a+sQngAXtwAlu3l2>
+May 26 20:51:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=273 out=1134
+May 26 20:51:45 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9176, secured, session=<o58+ngAXuAAlu3l2>
+May 26 20:51:45 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 20:52:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9220, secured, session=<BfeWoQAXuQAlu3l2>
+May 26 20:52:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:53:40 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9264, secured, session=<CHQRpQAXugAlu3l2>
+May 26 20:53:40 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:53:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9265, secured, session=<aHcqpQAXuwAlu3l2>
+May 26 20:53:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=334 out=1225
+May 26 20:54:40 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9382, secured, session=<BvSkqAAXvAAlu3l2>
+May 26 20:54:40 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:54:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9383, secured, session=<dSK+qAAXvQAlu3l2>
+May 26 20:54:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:55:40 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9427, secured, session=<LJM4rAAXvgAlu3l2>
+May 26 20:55:40 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:56:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9476, secured, session=<O2jlrwAXvwAlu3l2>
+May 26 20:56:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:58:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9613, secured, session=<XAINtwAXwQAlu3l2>
+May 26 20:58:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 20:59:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9659, secured, session=<8luiugAXwwAlu3l2>
+May 26 20:59:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=334 out=1225
+May 26 21:00:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9703, secured, session=<+4czvgAXxQAlu3l2>
+May 26 21:00:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 21:01:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9787, secured, session=<BSbHwQAXxgAlu3l2>
+May 26 21:01:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 21:01:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9789, secured, session=<fSjHwQAXxwAlu3l2>
+May 26 21:01:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=80 out=1237
+May 26 21:02:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9856, secured, session=</ZJaxQAXyQAlu3l2>
+May 26 21:02:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 21:04:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=9972, secured, session=<qNOCzAAXygAlu3l2>
+May 26 21:04:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 21:05:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10045, secured, session=<sS0V0AAXzAAlu3l2>
+May 26 21:05:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=334 out=1225
+May 26 21:06:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10163, secured, session=<39So0wAXzQAlu3l2>
+May 26 21:06:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 21:08:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10260, secured, session=<dkbQ2gAXzgAlu3l2>
+May 26 21:08:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 21:10:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10419, secured, session=<2Mb54QAX0AAlu3l2>
+May 26 21:10:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 21:11:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10463, secured, session=<PM+K5QAX0gAlu3l2>
+May 26 21:11:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=334 out=1225
+May 26 21:12:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10507, secured, session=<Djke6QAX0wAlu3l2>
+May 26 21:12:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 21:14:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10599, secured, session=<4opO8AAX1AAlu3l2>
+May 26 21:14:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 21:16:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10690, secured, session=<QbFs9wAX1wAlu3l2>
+May 26 21:16:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=89 out=860
+May 26 21:16:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10694, secured, session=<O7ds9wAX1gAlu3l2>
+May 26 21:16:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=28 out=769
+May 26 21:16:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10696, secured, session=<CLhs9wAX2AAlu3l2>
+May 26 21:16:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=80 out=1237
+May 26 21:17:42 hostname dovecot: imap-login: Login: user=<admin@assolive.com>, method=PLAIN, rip=37.187.121.118, lip=37.187.121.118, mpid=10743, secured, session=<IyoA+wAX3AAlu3l2>
+May 26 21:17:42 hostname dovecot: imap(admin@assolive.com): Disconnected: Logged out in=334 out=1225

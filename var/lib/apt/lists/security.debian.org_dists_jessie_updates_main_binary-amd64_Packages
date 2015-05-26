@@ -1,63 +1,63 @@
 Package: chromedriver
 Source: chromium-browser
-Version: 42.0.2311.135-1~deb8u1
-Installed-Size: 7771
+Version: 43.0.2357.65-1~deb8u1
+Installed-Size: 7768
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libc6 (>= 2.15), libglib2.0-0 (>= 2.35.9), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.14.3), libstdc++6 (>= 4.9), libx11-6, chromium (= 42.0.2311.135-1~deb8u1)
+Depends: libc6 (>= 2.15), libglib2.0-0 (>= 2.35.9), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.14.3), libstdc++6 (>= 4.9), libx11-6, chromium (= 43.0.2357.65-1~deb8u1)
 Description: web browser - WebDriver support
 Homepage: http://www.chromium.org/Home
 Description-md5: eee08f744fef7bc2d6a452496bc1e57c
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromedriver_42.0.2311.135-1~deb8u1_amd64.deb
-Size: 2193160
-MD5sum: 65206d1082b2054a6876bd46f29ab343
-SHA1: dde74375fba01282c2b6189941cd4536a6d9fbd2
-SHA256: 4533cbdef48b6961c133dba6a9457519177c7025f203c0352486c95c3ce1ada3
+Filename: pool/updates/main/c/chromium-browser/chromedriver_43.0.2357.65-1~deb8u1_amd64.deb
+Size: 2190984
+MD5sum: 57b4ec77d8fbfd3025991cae0ea8e6a7
+SHA1: 5f95887c71c41cd9241f4d1af693b22d38c4b137
+SHA256: a702dc3e2e153eaa34c606f905b589b4bc317eb28b7dce50d41c6764134347af
 
 Package: chromium
 Source: chromium-browser
-Version: 42.0.2311.135-1~deb8u1
-Installed-Size: 141793
+Version: 43.0.2357.65-1~deb8u1
+Installed-Size: 145357
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: amd64
 Provides: gnome-www-browser, www-browser
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.15), libcairo2 (>= 1.6.0), libcap2 (>= 1:2.10), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.1.4), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.9), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgnome-keyring0 (>= 3.2.2-2~), libgtk2.0-0 (>= 2.24.0), libharfbuzz0b (>= 0.9.11), libjpeg62-turbo (>= 1.3.1), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.14.3), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpci3 (>= 1:3.2.1-1), libspeechd2 (>= 0.7.1), libspeex1 (>= 1.2~beta3-1), libsrtp0, libstdc++6 (>= 4.9), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.2.99.4), libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.99.2), libxrender1, libxslt1.1 (>= 1.1.25), libxss1, libxtst6, x11-utils, xdg-utils
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.15), libcairo2 (>= 1.6.0), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.1.4), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.9), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgnome-keyring0 (>= 3.2.2-2~), libgtk2.0-0 (>= 2.24.0), libharfbuzz0b (>= 0.9.11), libjpeg62-turbo (>= 1.3.1), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.14.3), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpci3 (>= 1:3.2.1-1), libspeechd2 (>= 0.7.1), libspeex1 (>= 1.2~beta3-1), libsrtp0, libstdc++6 (>= 4.9), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.2.99.4), libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.99.2), libxrender1, libxslt1.1 (>= 1.1.25), libxss1, libxtst6, x11-utils, xdg-utils
 Suggests: chromium-l10n, chromium-inspector
 Description: web browser
 Homepage: http://www.chromium.org/Home
 Description-md5: 3a7ed4512cf49e4fe53b4490bcc1060b
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromium_42.0.2311.135-1~deb8u1_amd64.deb
-Size: 37246354
-MD5sum: e25e5007ac9a482411bb4c23705b2580
-SHA1: 18d250c49298eb97f10a8fdd5ede58bee9990b79
-SHA256: 3f2c8b6636ff0d41f2d0c49ec4a85e277f3efad85a9201dc63933828e66e0e3e
+Filename: pool/updates/main/c/chromium-browser/chromium_43.0.2357.65-1~deb8u1_amd64.deb
+Size: 38509820
+MD5sum: 033c6e2b44b5c7a1217e88b999d61745
+SHA1: df72e4f3abe6bf216fc43fee81ab4ee995b3d61a
+SHA256: 6da8499370338abc908dd4442e4f393516eb7c609bcb15b18ac43ca7244bb8e6
 
 Package: chromium-dbg
 Source: chromium-browser
-Version: 42.0.2311.135-1~deb8u1
-Installed-Size: 626852
+Version: 43.0.2357.65-1~deb8u1
+Installed-Size: 640525
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: amd64
-Depends: chromium (= 42.0.2311.135-1~deb8u1)
+Depends: chromium (= 43.0.2357.65-1~deb8u1)
 Description: web browser - debugging symbols
 Homepage: http://www.chromium.org/Home
 Description-md5: 406e0573fc60b1d0a33cee33ad9fcfa6
 Section: debug
 Priority: extra
-Filename: pool/updates/main/c/chromium-browser/chromium-dbg_42.0.2311.135-1~deb8u1_amd64.deb
-Size: 599078326
-MD5sum: 1fbacaf35800efb211442755a6b2ff33
-SHA1: c452f9fd4e19566178b51efd3fa25f2a72b0781d
-SHA256: 821417f9dff7a089019a47471ce317798ffacf026c6b0eeba5a52211adbc89c4
+Filename: pool/updates/main/c/chromium-browser/chromium-dbg_43.0.2357.65-1~deb8u1_amd64.deb
+Size: 612211810
+MD5sum: 8e935791b9e4ec5939b39b725b6ff3c5
+SHA1: c48eb9f7b6330b955fcaffd1c3a90144c2f69103
+SHA256: c9ddb3ea0b7baf3418ca01b6d764d15dfb5343b524459231142b30c62435ca7d
 
 Package: chromium-inspector
 Source: chromium-browser
-Version: 42.0.2311.135-1~deb8u1
-Installed-Size: 5995
+Version: 43.0.2357.65-1~deb8u1
+Installed-Size: 6126
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: all
 Replaces: chromium (<< 31.0.1650.48-1)
@@ -68,29 +68,29 @@ Multi-Arch: foreign
 Recommends: chromium
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromium-inspector_42.0.2311.135-1~deb8u1_all.deb
-Size: 880168
-MD5sum: 26fd7e3a0944d57e96077c52a5f252ad
-SHA1: 63442282c390ad14cb9cfb965ca7fde527b29f82
-SHA256: c4511d3fc45f0f68b7c1a0158827ea92d487cebfea48d3ada4d1753deb65b81f
+Filename: pool/updates/main/c/chromium-browser/chromium-inspector_43.0.2357.65-1~deb8u1_all.deb
+Size: 898264
+MD5sum: 88fe184132e3e3ddfca35a2b06648614
+SHA1: 71e878308bf31616e87b55a62a9f1573d8617814
+SHA256: b944880763b25f0e7f39bcd3db5ce44b76a088554f5577d62a39f4e77510092a
 
 Package: chromium-l10n
 Source: chromium-browser
-Version: 42.0.2311.135-1~deb8u1
-Installed-Size: 17244
+Version: 43.0.2357.65-1~deb8u1
+Installed-Size: 17519
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: all
-Depends: chromium (>= 42.0.2311.135-1~deb8u1)
+Depends: chromium (>= 43.0.2357.65-1~deb8u1)
 Description: web browser - language packs
 Homepage: http://www.chromium.org/Home
 Description-md5: 7992f596971a4c3c71057d845c47f8e7
 Section: localization
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromium-l10n_42.0.2311.135-1~deb8u1_all.deb
-Size: 3103176
-MD5sum: 616d7df200385b4b366456307fc828f0
-SHA1: 7db3e1d3e77223897b0034f1231e2a0ee79a8d82
-SHA256: e6d1b254b0dcaf9f128bade9d7ae97f39d06c69b491de7b7761fcaa3a24f000f
+Filename: pool/updates/main/c/chromium-browser/chromium-l10n_43.0.2357.65-1~deb8u1_all.deb
+Size: 3175116
+MD5sum: d54d9a4e1dfc0e84b03e2ee43f4acc33
+SHA1: 4c2caa8381529c9543f9ca2995d5fcfdd73e9a58
+SHA256: 8088e2df04d271ac0a743f4a7f66935f3c968b294a0804f18afb0b6521daafa6
 
 Package: curl
 Version: 7.38.0-4+deb8u2
@@ -390,6 +390,82 @@ Size: 10495730
 MD5sum: 1f472b02744830229539611e15adfd8f
 SHA1: 0f8952dc7525f62429b1822e38f4274755808270
 SHA256: d7bc28b6b044cdbf7be7ed30b68458fe2f86c5d220d73d162be13a95862a626f
+
+Package: fuse
+Version: 2.9.3-15+deb8u1
+Installed-Size: 109
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libfuse2 (= 2.9.3-15+deb8u1), adduser, mount (>= 2.19.1), sed (>= 4), udev | makedev
+Description: Filesystem in Userspace
+Homepage: http://fuse.sourceforge.net/
+Description-md5: 7c02c670c9296dcdf481f6c060b0083d
+Section: utils
+Priority: optional
+Filename: pool/updates/main/f/fuse/fuse_2.9.3-15+deb8u1_amd64.deb
+Size: 70354
+MD5sum: 5dc6e19f93228c8add3ac29ed2c695bc
+SHA1: e7354ec8e3a26ebeb45cecc0a83a7f4ab5b6aa1a
+SHA256: 20bc55ff3b19000ca78a12df9b870087d3e22c516d7be2ce0a94d95641c46729
+
+Package: fuse-dbg
+Source: fuse
+Version: 2.9.3-15+deb8u1
+Installed-Size: 357
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: amd64
+Depends: fuse (= 2.9.3-15+deb8u1), libfuse2 (= 2.9.3-15+deb8u1), libfuse-dev (= 2.9.3-15+deb8u1)
+Description: Filesystem in Userspace (debug)
+Homepage: http://fuse.sourceforge.net/
+Description-md5: 843dcbbdec369720ffbde3d0f0bc50be
+Section: debug
+Priority: extra
+Filename: pool/updates/main/f/fuse/fuse-dbg_2.9.3-15+deb8u1_amd64.deb
+Size: 309346
+MD5sum: a1a8c3a8c90afa25f10db6a087f00838
+SHA1: a2df93e9ae26e17b5e26ab0fe998fad2cb1d7ed3
+SHA256: 1502a7744ee27c242b9e974110d1c74f41c608678abdb87d4b1e1de604af5119
+
+Package: libfuse-dev
+Source: fuse
+Version: 2.9.3-15+deb8u1
+Installed-Size: 587
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: amd64
+Depends: libfuse2 (= 2.9.3-15+deb8u1), libselinux-dev
+Suggests: fuse
+Description: Filesystem in Userspace (development)
+Homepage: http://fuse.sourceforge.net/
+Description-md5: da11b1a71c864509638e23fbce6723a3
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/f/fuse/libfuse-dev_2.9.3-15+deb8u1_amd64.deb
+Size: 150056
+MD5sum: a3a719f9cc6184c71e6c97c2e44d8a61
+SHA1: d4677ef39c248afdc43ade4b7fcb234bc0c3c6a4
+SHA256: a1181de623ea82c6b301ced6e5b63fbbf3bdff28e0c82d8020a49c69516a5dd9
+
+Package: libfuse2
+Source: fuse
+Version: 2.9.3-15+deb8u1
+Installed-Size: 335
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.17)
+Suggests: fuse
+Conflicts: fuse (<< 2.9.3-15+deb8u1)
+Description: Filesystem in Userspace (library)
+Homepage: http://fuse.sourceforge.net/
+Description-md5: 2838d8f82765d1fc4d4e07819a7b8d25
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/f/fuse/libfuse2_2.9.3-15+deb8u1_amd64.deb
+Size: 134200
+MD5sum: d1a5f0465b21b5028f8527f214db93e9
+SHA1: 3b176fd62be7af86382f28dabb2945fde71c4e8a
+SHA256: 03050b2ab88566a7dda0ac306ed9dcaa829a4519bc6264c46814f16879c9ab55
 
 Package: hello
 Version: 2.9-2+deb8u1
@@ -2127,6 +2203,43 @@ Size: 422816
 MD5sum: 931caa0292b0718b79a92384716d1c89
 SHA1: e735e1b6af44bb8261f3409763fd41fd67802d99
 SHA256: c1ff771a8fc9417094327a66a54e86e9daf64c652e0bbfbd7359d3ecd59230d1
+
+Package: ipsec-tools
+Version: 1:0.8.2+20140711-2+deb8u1
+Installed-Size: 244
+Maintainer: pkg-ipsec-tools team <pkg-ipsec-tools-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), lsb-base (>= 3.0-6)
+Description: IPsec utilities
+Homepage: http://ipsec-tools.sourceforge.net/
+Description-md5: 47ce7806ae074dc9fcef15b402834e1f
+Section: net
+Priority: extra
+Filename: pool/updates/main/i/ipsec-tools/ipsec-tools_0.8.2+20140711-2+deb8u1_amd64.deb
+Size: 92334
+MD5sum: 1be4542fade2639b6fc1e1b56a1a371c
+SHA1: 020b5755bcfecd4bc5f9488a92fdfba0c899c8fd
+SHA256: 2852e5ef485f5c83af07ac68a6df3baa21d7a3c1d74b59283ba70fa2980188c0
+
+Package: racoon
+Source: ipsec-tools
+Version: 1:0.8.2+20140711-2+deb8u1
+Installed-Size: 1116
+Maintainer: pkg-ipsec-tools team <pkg-ipsec-tools-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: ike-server
+Depends: debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), ipsec-tools (= 1:0.8.2+20140711-2+deb8u1), libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), adduser, lsb-base (>= 3.0-6), perl
+Conflicts: ike-server
+Description: IPsec Internet Key Exchange daemon
+Homepage: http://ipsec-tools.sourceforge.net/
+Description-md5: cebbc15cc909dfc3b4ae68cc1b03b53e
+Section: net
+Priority: extra
+Filename: pool/updates/main/i/ipsec-tools/racoon_0.8.2+20140711-2+deb8u1_amd64.deb
+Size: 369444
+MD5sum: ddc3ff7a561a6f9bad3bab7cd15e33bd
+SHA1: 7513efe0c9f814ad0673be63466d99bdaea19f18
+SHA256: 605ffcde5ae337915e8a7777a31552b815c008bab288960a8024ba52f9035d63
 
 Package: libmodule-signature-perl
 Version: 0.73-1+deb8u2
@@ -6527,6 +6640,98 @@ MD5sum: 94b635f70fe1c2999018c60a583b8547
 SHA1: 3a37c15b39ee515b5abd9f48534bbf7f6040bfab
 SHA256: 2327429bcb4cf38bd1ba66bcd1b1ca1dcc123253e81972fa37b9399867bcc9ab
 
+Package: nbd-client
+Source: nbd
+Version: 1:3.8-4+deb8u1
+Installed-Size: 200
+Maintainer: Wouter Verhelst <wouter@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), debconf (>= 0.5) | debconf-2.0, initscripts (>= 2.88dsf-13.3)
+Description: Network Block Device protocol - client
+Homepage: http://nbd.sourceforge.net/
+Description-md5: 50b5081db709f9bc399b8b74366d1d8f
+Section: admin
+Priority: optional
+Filename: pool/updates/main/n/nbd/nbd-client_3.8-4+deb8u1_amd64.deb
+Size: 69068
+MD5sum: e59e0e6fdaedf7d6da0a85ea662db852
+SHA1: 899aaef99a5e734f88cb46ec94145d240e42361c
+SHA256: 7102375e26690319c689fa16dde6b1f585d7f8a3331a763ed0229c1f53d77ec2
+
+Package: nbd-server
+Source: nbd
+Version: 1:3.8-4+deb8u1
+Installed-Size: 220
+Maintainer: Wouter Verhelst <wouter@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.15), libglib2.0-0 (>= 2.26.0), debconf (>= 1.2.9) | debconf-2.0, ucf, adduser
+Description: Network Block Device protocol - server
+Homepage: http://nbd.sourceforge.net/
+Description-md5: e277eb8c796be1246a3bdf1f441257b9
+Section: admin
+Priority: optional
+Filename: pool/updates/main/n/nbd/nbd-server_3.8-4+deb8u1_amd64.deb
+Size: 82042
+MD5sum: 8969f5dd79a3aa47b3aa0b700bb1a48a
+SHA1: 7dd0ea2edd934b8ee6ea869094de583d5c6a1fb5
+SHA256: 00c1b4549d04c49f30c1071b27c61bbdf0af35d25b7ffd49159e7d0676653f43
+
+Package: ntfs-3g
+Version: 1:2014.2.15AR.2-1+deb8u1
+Installed-Size: 1500
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: amd64
+Provides: libntfs-3g852
+Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), libgnutls-deb0-28 (>= 3.3.0), libgpg-error0 (>= 1.14)
+Description: read/write NTFS driver for FUSE
+Homepage: http://www.tuxera.com/community/ntfs-3g-advanced/
+Description-md5: d38b96403238266210560bdd2ee0d28c
+Pre-Depends: multiarch-support, fuse
+Section: otherosfs
+Priority: optional
+Filename: pool/updates/main/n/ntfs-3g/ntfs-3g_2014.2.15AR.2-1+deb8u1_amd64.deb
+Size: 488624
+MD5sum: bd324990373a88db29e21a26199f2935
+SHA1: 6300f1d52bfd3536bcd59198a544d71f396dda83
+SHA256: 75b68f7585f12b027c954ee84a061a47fe38e0816827f2e047634c39f322a607
+
+Package: ntfs-3g-dbg
+Source: ntfs-3g
+Version: 1:2014.2.15AR.2-1+deb8u1
+Installed-Size: 1566
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: amd64
+Depends: ntfs-3g (= 1:2014.2.15AR.2-1+deb8u1), ntfs-3g-dev (= 1:2014.2.15AR.2-1+deb8u1)
+Description: read/write NTFS driver for FUSE (debug)
+Homepage: http://www.tuxera.com/community/ntfs-3g-advanced/
+Description-md5: 4d27c9bf99072e55f4dbb4647c384b5f
+Section: debug
+Priority: extra
+Filename: pool/updates/main/n/ntfs-3g/ntfs-3g-dbg_2014.2.15AR.2-1+deb8u1_amd64.deb
+Size: 1301344
+MD5sum: f0f7b8835eafc630c98353ba90c41dd9
+SHA1: 79f0b45cab2c353af8eedc2412f7a03afeef3cee
+SHA256: 09c71e3d99a6f878260c2d9e0a4396ad21c0dbef410a8e0239ae12c62eb1e4d9
+
+Package: ntfs-3g-dev
+Source: ntfs-3g
+Version: 1:2014.2.15AR.2-1+deb8u1
+Installed-Size: 905
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libntfs-3g852, ntfs-3g (= 1:2014.2.15AR.2-1+deb8u1)
+Breaks: ntfs-3g (<< 1:2014.2.15AR.1-2~)
+Description: read/write NTFS driver for FUSE (development)
+Homepage: http://www.tuxera.com/community/ntfs-3g-advanced/
+Description-md5: f17752933720148edc7d3f25b03e9fee
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/n/ntfs-3g/ntfs-3g-dev_2014.2.15AR.2-1+deb8u1_amd64.deb
+Size: 233152
+MD5sum: ab3269d67a3193f11927e4bfa79a2225
+SHA1: e89a75f78bc228998da01d073fe08918cf68c87e
+SHA256: 08b5e34c7c0d847f1f9748f960c928575ddc953db05870399c0d448749e18efe
+
 Package: icedtea-7-jre-jamvm
 Source: openjdk-7
 Version: 7u79-2.5.5-1~deb8u1
@@ -7019,6 +7224,330 @@ Size: 7276172
 MD5sum: de893e69a9706f578f7a688e79059f60
 SHA1: 415d9434108ab0e0c7e3cb2e90895b7b76935418
 SHA256: 4d0a45f0ac7e955c1caed0c831ebe2c5c8016c9f3a99a96392d4c63c9fe38293
+
+Package: postgresql-plperl-9.1
+Source: postgresql-9.1
+Version: 9.1.16-0+deb8u1
+Installed-Size: 358
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libperl5.20 (>= 5.20.2), perl
+Breaks: postgresql-9.1 (<< 9.1.12)
+Description: PL/Perl procedural language for PostgreSQL 9.1
+Homepage: http://www.postgresql.org/
+Description-md5: 2b9c7b7b530b4340a6a7d885c6595c99
+Section: database
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.1/postgresql-plperl-9.1_9.1.16-0+deb8u1_amd64.deb
+Size: 73278
+MD5sum: c3ba516fb8467f58c5fc7088a8b9ed7c
+SHA1: 35ed30e196d7125a86ebfacbb46d3f17caa6fde0
+SHA256: 1785f860bdc5f8ea9885a1a8bc3ac67f7b1173446f2dfcbcaf5c6729019f8802
+
+Package: libecpg-compat3
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 65
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libecpg6 (>= 9.0~), libpgtypes3
+Description: older version of run-time library for ECPG programs
+Homepage: http://www.postgresql.org/
+Description-md5: 66ce228306ea5636e1cb757bd540255b
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/libecpg-compat3_9.4.2-0+deb8u1_amd64.deb
+Size: 14030
+MD5sum: 2026c1281592c39d87d54055b71fe3f6
+SHA1: d832d839e132e895f2b3bf53c711b13cb581c06c
+SHA256: bddbd8b09bb26487cbff9fa00b82e9e9789b9a0f8348cde68fd25458e75c0600
+
+Package: libecpg-dev
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 1131
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libpq-dev, libecpg6 (= 9.4.2-0+deb8u1), libecpg-compat3 (= 9.4.2-0+deb8u1), libpgtypes3 (= 9.4.2-0+deb8u1)
+Description: development files for ECPG (Embedded PostgreSQL for C)
+Homepage: http://www.postgresql.org/
+Description-md5: 5eb928e68d1075508e3d6a4d7fc6f514
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/libecpg-dev_9.4.2-0+deb8u1_amd64.deb
+Size: 215448
+MD5sum: 809a34821df0ebd89db8c5549bc9b671
+SHA1: 57db77e9a6f980d152c1b28e538fb5469cb472f2
+SHA256: 5823a632f6ecc5c093dfdae9cef5796b3360d2123c86c66444e8d693c713b6aa
+
+Package: libecpg6
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 457
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libpgtypes3, libpq5 (>= 9.0~)
+Description: run-time library for ECPG programs
+Homepage: http://www.postgresql.org/
+Description-md5: 51ed6df58b24baddae9952acb91903bd
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/libecpg6_9.4.2-0+deb8u1_amd64.deb
+Size: 78108
+MD5sum: f36157aaa1288141a87009d48a9bb0c0
+SHA1: 1e75c5a191a6bbcbeb2f27b9b41fb2fe2103f92b
+SHA256: 871e68616feaaa3edeeb3db10a8f0902ec25be9873e5108c4b83ee11c61c1775
+
+Package: libpgtypes3
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 115
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14)
+Description: shared library libpgtypes for PostgreSQL 9.4
+Homepage: http://www.postgresql.org/
+Description-md5: c940ba91bfefe6f16573eb3f23b555d9
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/libpgtypes3_9.4.2-0+deb8u1_amd64.deb
+Size: 36034
+MD5sum: 541649ef2ee4b53d4b044adb944f8c91
+SHA1: 024deae4a298dbee5947656bbc5efca369d04f09
+SHA256: 9df4f48a895876cb1aabb82127f74d13f9988d6e3f491be0a1c3a41f7667c2b6
+
+Package: libpq-dev
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 927
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libpq5 (= 9.4.2-0+deb8u1), libssl-dev, krb5-multidev, comerr-dev
+Suggests: postgresql-doc-9.4
+Description: header files for libpq5 (PostgreSQL library)
+Homepage: http://www.postgresql.org/
+Description-md5: 7f4362b106aae6b219ccc880faa1f04c
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/libpq-dev_9.4.2-0+deb8u1_amd64.deb
+Size: 161858
+MD5sum: a37a3af34f7582e915d303413e596d6c
+SHA1: f23fe3b6028dfb14a623cef3ed2fbd1285faca77
+SHA256: 855e2ac8e7827eaee6c12e98fabfe4d63219d322464950f3455292c0e816b407
+
+Package: libpq5
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 611
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libgssapi-krb5-2 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libssl1.0.0 (>= 1.0.0)
+Description: PostgreSQL C client library
+Homepage: http://www.postgresql.org/
+Description-md5: 4109d08c168c8058d09c0cc8bf8b18b1
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/libpq5_9.4.2-0+deb8u1_amd64.deb
+Size: 121726
+MD5sum: 7ede416c918645c3cd52bc3531decea2
+SHA1: df8f2dc1fac70e70d9a055735fddb83cb57ed88b
+SHA256: 294e494a3678d7bb4c9a3331a0b1458fc6bfeaed05275f127c5a43e228f51196
+
+Package: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 18040
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.16), libgssapi-krb5-2 (>= 1.8+dfsg), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpq5 (>= 9.1~), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), postgresql-client-9.4, postgresql-common (>= 142~), tzdata, ssl-cert, locales
+Suggests: oidentd | ident-server, locales-all
+Description: object-relational SQL database, version 9.4 server
+Homepage: http://www.postgresql.org/
+Description-md5: eedbb9b30b9afe086ba4d5dc1c488dac
+Section: database
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-9.4_9.4.2-0+deb8u1_amd64.deb
+Size: 3728116
+MD5sum: be3dc074777a1b07a987a3ccb05a1fe3
+SHA1: 57ae1ed4eea79d93eaae24fc6655321c411d09a3
+SHA256: 9a3b461fde89c6b86c1dcc78f596e1ddc4774cca420b9c18bcec413bddcf08fb
+
+Package: postgresql-9.4-dbg
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 14276
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: postgresql-9.4 (= 9.4.2-0+deb8u1)
+Description: debug symbols for postgresql-9.4
+Homepage: http://www.postgresql.org/
+Description-md5: 8656086cbf9dcbded4caa55be2c62ba6
+Section: debug
+Priority: extra
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-9.4-dbg_9.4.2-0+deb8u1_amd64.deb
+Size: 12041810
+MD5sum: 8b89d71269e782f17e51b3b72b8616f9
+SHA1: 91cd1594ac3c7c3307d77602c3c92823d89186ad
+SHA256: 361e0ce452b6e97ec920deafe878fa9a8c7a5ea5690f940137809e47e4e9947e
+
+Package: postgresql-client-9.4
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 4415
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Provides: postgresql-client
+Depends: libc6 (>= 2.15), libedit2 (>= 2.11-20080614), libpq5 (>= 9.4.2), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4), postgresql-client-common (>= 142~)
+Suggests: postgresql-9.4, postgresql-doc-9.4
+Description: front-end programs for PostgreSQL 9.4
+Homepage: http://www.postgresql.org/
+Description-md5: 76b239f86fcb8ac90d5c22782798002c
+Multi-Arch: foreign
+Section: database
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-client-9.4_9.4.2-0+deb8u1_amd64.deb
+Size: 1069462
+MD5sum: f378921ba9767ba8bb0b83b9b25b629e
+SHA1: 658876b3cb65a3dfb2bb900b8eab09d74737a7bc
+SHA256: 9fe72c7866615747e5a86aedf8141e270789f082cb8638ac0b1ae7d4173923d9
+
+Package: postgresql-contrib-9.4
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 1984
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: postgresql-9.4 (= 9.4.2-0+deb8u1), libc6 (>= 2.15), libpq5 (>= 9.2~beta3), libselinux1 (>= 2.1.12), libssl1.0.0 (>= 1.0.0), libuuid1 (>= 2.16), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Suggests: libdbd-pg-perl
+Description: additional facilities for PostgreSQL
+Homepage: http://www.postgresql.org/
+Description-md5: 69457d8d72dc39d4893f4794913511ea
+Section: database
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-contrib-9.4_9.4.2-0+deb8u1_amd64.deb
+Size: 448680
+MD5sum: 82ee1cc8f65da1e98a06bb7047cc8c21
+SHA1: 2958022558631732a6730918f404bf9fabbbcf32
+SHA256: 47b9bc7a6327e4fb2c7ef8ef7bd18699683e6b349031a5f52a13b257c89fd4db
+
+Package: postgresql-doc-9.4
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 13576
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: all
+Description: documentation for the PostgreSQL database management system
+Homepage: http://www.postgresql.org/
+Description-md5: dd199026c1d6b88ab1c24432d4fe87b9
+Multi-Arch: foreign
+Section: doc
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-doc-9.4_9.4.2-0+deb8u1_all.deb
+Size: 1825776
+MD5sum: 148f5820f82351449994095dc9bf46a8
+SHA1: 015e6640c7ffc366e7d155f90719b3d483a24d6b
+SHA256: 4292a804165ba2f38402c3bd5c59c5a17d6c0442af8793af297644d79b418af5
+
+Package: postgresql-plperl-9.4
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 349
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Provides: postgresql-plperl
+Depends: libc6 (>= 2.4), libperl5.20 (>= 5.20.2), postgresql-9.4 (= 9.4.2-0+deb8u1), perl
+Description: PL/Perl procedural language for PostgreSQL 9.4
+Homepage: http://www.postgresql.org/
+Description-md5: e9be9f28c9bec6ba68cc64e444ce9cb0
+Section: database
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-plperl-9.4_9.4.2-0+deb8u1_amd64.deb
+Size: 54988
+MD5sum: d0c21d537556e38b84a8273aef48eca3
+SHA1: 0f91f37ef867d1377bc0e200a20eb05e5c8c3ce8
+SHA256: 21bd02517fbb16bb6fa206d8754b91a86caaed52aa2d7552d046e941b69e9319
+
+Package: postgresql-plpython-9.4
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 185
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Provides: postgresql-plpython
+Depends: libc6 (>= 2.14), libpython2.7 (>= 2.7), postgresql-9.4 (= 9.4.2-0+deb8u1)
+Description: PL/Python procedural language for PostgreSQL 9.4
+Homepage: http://www.postgresql.org/
+Description-md5: a7f57d9b860eeab5c2e9a345a4b0c090
+Section: database
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-plpython-9.4_9.4.2-0+deb8u1_amd64.deb
+Size: 43024
+MD5sum: ca1e460d63b75be76a7bfb40e432d1d7
+SHA1: 103ba261ec9ee67c49fa656a57aaad858cc98fb4
+SHA256: 3e8e3ac9d64a75c509ad671dc894f037cb7bff4b796fd246cadcca9fc1eb67a6
+
+Package: postgresql-plpython3-9.4
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 180
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Provides: postgresql-plpython3
+Depends: libc6 (>= 2.14), libpython3.4 (>= 3.4.2~rc1), postgresql-9.4 (= 9.4.2-0+deb8u1)
+Description: PL/Python 3 procedural language for PostgreSQL 9.4
+Homepage: http://www.postgresql.org/
+Description-md5: 1825f81e2de38e06a579c6e1696fc42b
+Section: database
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-plpython3-9.4_9.4.2-0+deb8u1_amd64.deb
+Size: 42830
+MD5sum: bc73b47aa78be785af9ad2c5313b3a14
+SHA1: 02a8a7390f53955ce725d16c4ef662bfb17f4c78
+SHA256: e06ee6f714bb3b0dd6e65d1823223474f7f886eece283b78bee042bd84bf76a9
+
+Package: postgresql-pltcl-9.4
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 245
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Provides: postgresql-pltcl
+Depends: libc6 (>= 2.4), libtcl8.6 (>= 8.6.0), postgresql-9.4 (= 9.4.2-0+deb8u1)
+Description: PL/Tcl procedural language for PostgreSQL 9.4
+Homepage: http://www.postgresql.org/
+Description-md5: 36135680f42fd87bb0ab7c73e7f89156
+Section: database
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-pltcl-9.4_9.4.2-0+deb8u1_amd64.deb
+Size: 28772
+MD5sum: c90b875ec13962161d5ce21c22578667
+SHA1: 8f7e4ad6ab5188cfefbae9a4e86ef42d126ffdba
+SHA256: fe7324b5b4783613426b946cff90e466109ff79a70ecd698817622585e07cbf1
+
+Package: postgresql-server-dev-9.4
+Source: postgresql-9.4
+Version: 9.4.2-0+deb8u1
+Installed-Size: 3439
+Maintainer: Debian PostgreSQL Maintainers <pkg-postgresql-public@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.14), libpq-dev (>= 9.4~), postgresql-common (>= 142~)
+Description: development files for PostgreSQL 9.4 server-side programming
+Homepage: http://www.postgresql.org/
+Description-md5: 750d6a30756c35825898adac0065d537
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/p/postgresql-9.4/postgresql-server-dev-9.4_9.4.2-0+deb8u1_amd64.deb
+Size: 635486
+MD5sum: e83e573123691df06110ec5e749da725
+SHA1: 14f9ebb71d1b55637fcd2dc0ed8c7a0be5ff8d40
+SHA256: 08749910f148d3089ed2e621b115210c932c868cbb56b08b619fc322c3866541
 
 Package: pound
 Version: 2.6-6+deb8u1
@@ -8072,8 +8601,8 @@ SHA1: 9ddfb62c1c77069b63375ee935a5f53a4cc7c99d
 SHA256: 499bd68b7a5cb180069d993e8c906310454cde891417edb83d64a811d3b5453d
 
 Package: zendframework
-Version: 1.12.9+dfsg-2+deb8u1
-Installed-Size: 43536
+Version: 1.12.9+dfsg-2+deb8u2
+Installed-Size: 43537
 Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
 Architecture: all
 Provides: zend-framework
@@ -8084,15 +8613,15 @@ Homepage: http://framework.zend.com
 Description-md5: 0d82deb838cd0fc35f4e32648d3ece85
 Section: web
 Priority: optional
-Filename: pool/updates/main/z/zendframework/zendframework_1.12.9+dfsg-2+deb8u1_all.deb
-Size: 3550358
-MD5sum: 8b9b9f39498591f73154c5831fdf2a5c
-SHA1: 3bbceaa61c2a4fe0e20cec148939b751bbc77d50
-SHA256: 06d46fe3a5576c620d040d587d74f6cadc99d7703119ef544aa967ddbbceaac2
+Filename: pool/updates/main/z/zendframework/zendframework_1.12.9+dfsg-2+deb8u2_all.deb
+Size: 3550334
+MD5sum: dad8b75a0747307838ff79f4053de4be
+SHA1: e5b2d21587d0d62f6486789be46b8d01f2fd675b
+SHA256: 5b73d32a70315c825f96b714f33003b3666987406e6dff477e84cab16bb53edf
 
 Package: zendframework-bin
 Source: zendframework
-Version: 1.12.9+dfsg-2+deb8u1
+Version: 1.12.9+dfsg-2+deb8u2
 Installed-Size: 76
 Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
 Architecture: all
@@ -8102,16 +8631,16 @@ Homepage: http://framework.zend.com
 Description-md5: 989ca779966b125b308ba0951a388f02
 Section: web
 Priority: optional
-Filename: pool/updates/main/z/zendframework/zendframework-bin_1.12.9+dfsg-2+deb8u1_all.deb
-Size: 11264
-MD5sum: 8f431248397b286f5295266b06befa82
-SHA1: 05bcedd02033d7299d6c9796e4fd7fca103d789a
-SHA256: 1dfc88adcc8369715b55c6ed19c564718dfb2384c61691d48cdedbb0d759bf93
+Filename: pool/updates/main/z/zendframework/zendframework-bin_1.12.9+dfsg-2+deb8u2_all.deb
+Size: 11516
+MD5sum: 90cf6286985206ac8f5f66b2f0a81818
+SHA1: 5c24c21aec1fedd6179e552756d3be4cf97bb043
+SHA256: b45c3396668d04aab47ac3d3e7d81d769589195e20d1a8a01706ee7cf4b8f0ca
 
 Package: zendframework-resources
 Source: zendframework
-Version: 1.12.9+dfsg-2+deb8u1
-Installed-Size: 400
+Version: 1.12.9+dfsg-2+deb8u2
+Installed-Size: 401
 Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
 Architecture: all
 Depends: zendframework
@@ -8120,11 +8649,11 @@ Homepage: http://framework.zend.com
 Description-md5: f62ea4146b5a83e1f3a9e929363e6de9
 Section: web
 Priority: optional
-Filename: pool/updates/main/z/zendframework/zendframework-resources_1.12.9+dfsg-2+deb8u1_all.deb
-Size: 37594
-MD5sum: a43e1e1c7e4cb94673d55d32c357be88
-SHA1: 72daa6fa4de14faef1e3a0ddda7a2f0d87d83d7e
-SHA256: df94e81ef43edb8ddb61d2d84b6728761f2ed716b4b33b027dc36151e84a7a24
+Filename: pool/updates/main/z/zendframework/zendframework-resources_1.12.9+dfsg-2+deb8u2_all.deb
+Size: 37856
+MD5sum: 72f218e95eb661ff4210be64900e33ce
+SHA1: b9fdcc616ffbf6088e5a3c581b5a1676cc2a1566
+SHA256: fe3f8d44a6b71191b21417910424459ae42e8141c6d5edabda566459e2e4a0d6
 
 Package: libzmq3
 Source: zeromq3

@@ -1,11 +1,14 @@
-TARGETS = mysql ipmievd irqbalance hddtemp mdadm smartmontools apache2 proftpd urandom bind9 sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot mdadm-raid mdadm-waitidle halt reboot
-bind9: apache2 proftpd
-sendsigs: apache2 mysql bind9 ipmievd irqbalance proftpd hddtemp mdadm
-rsyslog: apache2 mysql bind9 ipmievd irqbalance proftpd sendsigs hddtemp mdadm smartmontools
-umountnfs.sh: apache2 mysql sendsigs bind9 ipmievd irqbalance proftpd rsyslog hddtemp
-hwclock.sh: mysql rsyslog
-networking: apache2 mysql bind9 proftpd hddtemp umountnfs.sh
-umountfs: apache2 mysql bind9 ipmievd irqbalance proftpd hwclock.sh urandom hddtemp networking umountnfs.sh mdadm
+TARGETS = php5-fpm nginx ipmievd irqbalance hddtemp mdadm smartmontools apache2 proftpd opendkim opendmarc postfix urandom bind9 spamassassin dovecot mysql sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs umountroot mdadm-raid mdadm-waitidle halt reboot
+bind9: apache2 postfix proftpd
+spamassassin: postfix
+dovecot: postfix
+mysql: postfix dovecot
+sendsigs: apache2 php5-fpm nginx bind9 ipmievd irqbalance postfix proftpd dovecot opendkim mysql spamassassin hddtemp mdadm opendmarc
+rsyslog: apache2 sendsigs bind9 ipmievd irqbalance postfix proftpd dovecot opendkim mysql hddtemp mdadm opendmarc smartmontools
+umountnfs.sh: apache2 php5-fpm sendsigs nginx rsyslog bind9 ipmievd irqbalance postfix proftpd dovecot opendkim mysql spamassassin hddtemp opendmarc
+hwclock.sh: rsyslog opendkim mysql opendmarc
+networking: apache2 php5-fpm nginx bind9 postfix proftpd dovecot mysql hddtemp umountnfs.sh
+umountfs: apache2 php5-fpm networking nginx bind9 ipmievd irqbalance postfix proftpd dovecot opendkim mysql urandom hwclock.sh spamassassin hddtemp umountnfs.sh mdadm opendmarc
 umountroot: umountfs
 mdadm-raid: umountfs mdadm
 mdadm-waitidle: umountroot

@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/bug
+/usr/share/dovecot
+/usr/share/dovecot/conf.d
+/usr/share/dovecot/conf.d/20-lmtp.conf
+/usr/share/doc
+/usr/share/doc/dovecot-lmtpd
+/usr/share/doc/dovecot-lmtpd/changelog.Debian.gz
+/usr/share/doc/dovecot-lmtpd/changelog.gz
+/usr/share/doc/dovecot-lmtpd/copyright
+/usr/lib
+/usr/lib/dovecot
+/usr/lib/dovecot/lmtp
+/usr/share/bug/dovecot-lmtpd

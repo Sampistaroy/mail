@@ -1,0 +1,14 @@
+b9f50ebb77aa9620df95c8f10aa1d980  etc/cczerc
+aa607a173e5eb628a402b4ec0a8fd9ba  usr/share/doc/ccze/NEWS
+bd7fdda8990c323171a282d1c3704261  usr/share/doc/ccze/THANKS
+f5c149016506184091174c579d9756bb  usr/share/doc/ccze/FAQ
+864460b84b49bcac72247249bd7d1645  usr/share/doc/ccze/ChangeLog.gz
+73ee8cf38cf7d292a5a3408221815202  usr/share/doc/ccze/ChangeLog-0.1.gz
+47d991c43297084326124565fee1d447  usr/share/doc/ccze/changelog.Debian.gz
+592333dca4a97e0f8b0130d9e5a68179  usr/share/doc/ccze/copyright
+453536feb57298913b34b9a587304e41  usr/share/man/man1/ccze.1.gz
+67ff657a8fc3090a2aced52852bbd8c9  usr/share/man/man1/ccze-cssdump.1.gz
+264a459f9aa4c0b3b638ba61832744a9  usr/share/man/man7/ccze-plugin.7.gz
+51faf01985fccf05a456c1b088f27219  usr/bin/ccze
+a332b0e15926a660cc9b2dd10f1abae2  usr/bin/ccze-cssdump
+d24f756aa054d8c0f0c342f6915bd78b  usr/include/ccze.h

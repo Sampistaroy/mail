@@ -1,500 +1,500 @@
-lstat("/home/www/www/app", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot/app", 0x780298cd76f0) = -1 ENOENT (No such file or directory                                                                                                                  )
-stat("/home/www/www/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/a                                                                                                                  pp/webroot/", 0x780298cd7670) = -1 ENOENT (No such file or directory)
-lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www/app", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot/app", 0x780298cd7670) = -1 ENOENT (No such file or directory                                                                                                                  )
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x75d091451000
-stat("/home/www/www/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/a                                                                                                                  pp/webroot/app/webroot/", 0x780298cd75f0) = -1 ENOENT (No such file or directory)
-lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www/app", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot/app", 0x780298cd75f0) = -1 ENOENT (No such file or directory                                                                                                                  )
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x75d09144f000
-stat("/home/www/www/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/a                                                                                                                  pp/webroot/app/webroot/app/webroot/", 0x780298cd7570) = -1 ENOENT (No such file or directory)
-lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www/app", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot/app", 0x780298cd7570) = -1 ENOENT (No such file or directory                                                                                                                  )
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x75d09144d000
-stat("/home/www/www/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/app/webroot/a                                                                                                                  pp/webroot/app/webroot/app/webroot/app/webroot/", 0x780298cd74f0) = -1 ENOENT (No such file o                                                                                                                  r directory)
-lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
-lstat("/home/www/www/app", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
-lstat("/home/www/www/app/webroot/app", 0x780298cd74f0) = -1 ENOENT (No such file or directory                                                                                                                  )
-write(2, "[Sun May 24 04:21:09.170055 2015] [core:error] [pid 23552] [client 81.242.143.240:6                                                                                                                  4966] AH00124: Request exceeded the limit of 10 internal redirects due to probable configurat                                                                                                                  ion error. Use 'LimitInt"..., 293) = 293
-write(2, "[Sun May 24 04:21:09.170226 2015] [core:debug] [pid 23552] core.c(3533): [client 81                                                                                                                  .242.143.240:64966] AH00121: r->uri = /app/webroot/app/webroot/app/webroot/app/webroot/app/we                                                                                                                  broot/app/webroot/app/we"..., 243) = 243
-write(2, "[Sun May 24 04:21:09.170383 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /app/webroot/app/webroot/app/webroot/ap                                                                                                                  p/webroot/app/webroot/ap"..., 247) = 247
-write(2, "[Sun May 24 04:21:09.170517 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /app/webroot/app/webroot/app/webroot/ap                                                                                                                  p/webroot/app/webroot/ap"..., 235) = 235
-write(2, "[Sun May 24 04:21:09.170683 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /app/webroot/app/webroot/app/webroot/ap                                                                                                                  p/webroot/app/webroot/ap"..., 223) = 223
-write(2, "[Sun May 24 04:21:09.170816 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /app/webroot/app/webroot/app/webroot/ap                                                                                                                  p/webroot/app/webroot/ap"..., 211) = 211
-write(2, "[Sun May 24 04:21:09.170949 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /app/webroot/app/webroot/app/webroot/ap                                                                                                                  p/webroot/app/webroot/\n", 199) = 199
-write(2, "[Sun May 24 04:21:09.171082 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /app/webroot/app/webroot/app/webroot/ap                                                                                                                  p/webroot/\n", 187) = 187
-write(2, "[Sun May 24 04:21:09.171214 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /app/webroot/app/webroot/app/webroot/\n                                                                                                                  ", 175) = 175
-write(2, "[Sun May 24 04:21:09.171343 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /app/webroot/app/webroot/\n", 163) = 16                                                                                                                  3
-write(2, "[Sun May 24 04:21:09.171504 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /app/webroot/\n", 151) = 151
-write(2, "[Sun May 24 04:21:09.171658 2015] [core:debug] [pid 23552] core.c(3540): [client 81                                                                                                                  .242.143.240:64966] AH00122: redirected from r->uri = /\n", 139) = 139
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x75d09144b000
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x75d091449000
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x75d091447000
-write(10, "81.242.143.240 - - [24/May/2015:04:21:09 +0200] \"GET / HTTP/1.1\" 500 773 \"-\" \                                                                                                                  "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0\"\n", 152) = 152
-times({tms_utime=0, tms_stime=1, tms_cutime=0, tms_cstime=0}) = 1745837932
-shutdown(19, SHUT_WR)                   = 0
-poll([{fd=19, events=POLLIN}], 1, 2000) = 1 ([{fd=19, revents=POLLIN|POLLERR|POLLHUP}])
-read(19, 0x780298cd7b40, 512)           = -1 ECONNRESET (Connection reset by peer)
-close(19)                               = 0
-read(7, 0x780298cd7d6f, 1)              = -1 EAGAIN (Resource temporarily unavailable)
-fcntl(17, F_SETLKW, {type=F_WRLCK, whence=SEEK_SET, start=0, len=0}
-service apache2 reload
-cat /tmp/strace.out.24111
-clear
-clear
-cat /tmp/strace.out.24111
-cat /tmp/strace.out.21302
+ls -a
+             ptypd  ptyw2  tty16   ttycd  ttyse  ttyz3
+cd ../..
+ls -l
+ls -a
+cat ~/.bash_history 
+cd /root
+ls
+ls -a
+cat .bash_history 
+history 
+git status
+cd ..
+git status
+git status
+ls
+cd /etc/nginx/
+ls
+service apache2
+service apache2 stop
+service nginx start
+ps aux | grep nginx
+systemctl start nginx
+systemctl start nginx.service
+ps aux | grep nginx
+cd /etc/init.d/
+ls
+nano nginx 
+gnomesu gedit /lib/systemd/system/nginx.service
+nano /lib/systemd/system/nginx.service
+systemctl enable /lib/systemd/system/nginx.service
+service nginx start
+ps aux | grep nginx
+nginx
+ps aux | grep nginx
+cd /etc/
+cd nginx/ls
+cd nginx/
+ls
+cd sites-enabled/
+ls
+nano postfixadmin.conf 
+ls /var/www/postfixadmin/
+nano postfixadmin.conf 
+nano /etc/php5/fpm/php.ini 
+nano /etc/php5/fpm/php-fpm.conf 
+nano /etc/php5/fpm/pool.d/www.conf 
+ls
+nano /etc/php5/fpm/pool.d/www.conf 
+ls
+nano postfixadmin.conf 
+killall nginx
+nginx
+cd /var/log/
+cd
+cd /var/log/nginx/
+ls
+man nginx
+killall nginx
+nginx -c /etc/nginx/nginx.conf
+ps aux | grep nginx
+cd /etc/nginx/
+ls
+nano nginx.conf 
+echo "" > nginx.conf 
+nano nginx.conf 
+killall nginx
+nginx -c /etc/nginx/nginx.conf
+ps aux | grep nginx
+cd /var/log/nginx/
+ls
+tail -f posterror.log 
+curl postfixadmin.assolive.com
+curl https://postfixadmin.assolive.com
+curl -k https://postfixadmin.assolive.com
+cd /var/log/
+ls
+ip route
+iptables -L -n
+tail -f auth.log
+cd /etc/nginx/
+ls
+nano passwd 
+echo "Admin:$apr1$3jDGP3.I$4B0vJQJh.Lpg3zq/Eltro/
+ls
+echo "" > passwd 
+nano passwd 
+tail -f /var/log/nginx/errors.log
+tail -f /var/log/nginx/error.log 
+service apache2 stop
+tail -f /var/log/nginx/error.log 
+dig MX assolive.com
+dig MX hostname.assolive.com
+ping hostname.assolive.com
+ping frejkofej.assolive.com
+ping hosntmae.assolive.com
+ping hostname.assolive.com
+hostname
+hostname -a
+echo "hostname" > /etc/hostname
+/etc/hosts
+nano /etc/hosts
+ls
+ls
+cat /proc/cpuinfo 
+apt-get update && apt-get dist-upgrade
+apt-get install git-core
+ls
+cd ~
+git clone https://github.com/hardware/mailserver-autoinstall.git
+cd mailserver-autoinstall/
+ls
+bash install.sh 
+apt-get -y install unzip nginx php5-fpm mysql-server
+nginx 
+nginx -t
+cd /etc/nginx/
+ls
+cd sites-enabled/
+ls
+nano default 
+..
+cd sn
+cd ..
+cd snippets/
+le
+ls
+nano *
+cd ~
+ls
+cd mailserver-autoinstall/
+ls
+bash install.sh 
+apt-get -y install binutils
+bash install.sh 
+apt-get -y install curl
+bash install.sh 
+/etc/init.d/postfix reload
+apt-get -y remove nginx nginx-full && apt-get -y purge && apt-get -y autoremove && apt-get -y install nginx
+apt-get -y remove "nginx*"
+apt-get -y purge
+apt-get -y autoremove
+apt-cache search nginx
+apt-cache policy nginx
 nano /etc/apt/sources.list
-apt-get install ntp ntpdate
-aptitude search ftp
-apt-get search ftp
-apt search ftp
-apt-get install vsftpd
-netstat -npl
-/etc/init.d/vsftpd stop
-vi /etc/vsftpd.conf
-vi /etc/vsftpd.conf
-/etc/init.d/vsftpd start
-/etc/init.d/vsftpd stop
-vi /etc/vsftpd.conf
-/etc/init.d/vsftpd start
-netstat -npl
-apt-get -purge remove vsftpd
-apt-get --purge remove vsftpd
-netstat -npl
-apt-get install ssh openssh-server
-sudo apt-get install proftpd
-apt-get install proftpd
-vi /etc/proftpd/proftpd.conf
-sudo /etc/init.d/proftpd reload
-/etc/init.d/proftpd reload
-/etc/init.d/proftpd restart
-ls -l /home
-cd /home/www/www/app/
-ls -l
-cd tmp
-ls -l
-cd cache/
+apt-get update && apt-get upgrade
+nano /etc/apt/sources.list
+wget http://www.dotdeb.org/dotdeb.gpg
+sudo apt-key add dotdeb.gpg
+apt-key add dotdeb.gpg
+wget http://nginx.org/keys/nginx_signing.key
+apt-key add nginx_signing.key
+apt-get update && apt-get -y upgrade && apt-get -y install nginx
+l
 ls
-chmod -R 755 *
-cd persistent/
-ls -l
-chmod -R 775 *
-cd ../models/
-chmod -R 775 *
- _cake_core_ cache was unable to write 'cake_dev_fr
-:w
-
-q
-chmod 777 *
-cd ../persistent/
-chmod 777 *
-su www
-cd /etc/apache2/sites-available/
-vi www.conf 
-ServerSignature Off
-service apache2 restart
-vi www.conf 
-service apache2 restart
-a2enmod userdir
-vi www.conf 
-service apache2 restart
-vi www.conf 
-service apache2 restart
-vi www.conf 
-service apache2 restart
-vi www.conf 
-service apache2 restart
-vi www.conf 
-vi www.conf 
-service apache2 restart
-vi www.conf 
-vi /etc/hosts
-cat /var/log/apache2/error.log
-cat /var/log/apache2/error.log
-clear
-vi /var/log/apache2/error.log
-cd ../sites-enabled/
+bash install.sh 
 ls
-vi www.conf 
-cd ../sites-available/
-vi www.conf 
-service apache2 restart
-systemctl status apache2.service
-cd ../sites-enabled/
-vi www.conf 
-cd ../sites-available/
-vi www.conf 
-service apache2 restart
-systemctl status apache2.service
-vi www.conf 
-service apache2 restart
-tree -apug /srv/http
-grep -Ev "^ *$|^ *#" /etc/httpd/conf/httpd.conf
+bash uninstall.sh 
+bash install.sh 
+bash install.sh 
+bash install.sh 
+cd /etc/nginx/
+ls
+cd sites-enabled/
+ls
+nano rainloop.conf 
+ls
+nano *.c*
+ps aux | grep nginx
+ifconfig 
+cd /var/log/
+killall nginx
+nginx -t
+nginx -c /etc/nginx/nginx.conf 
+curl -k https://postfixadmin.assolive.com/
+ls
+cd /var/www/
+ls
+cd rainloop/
+ls
+cd data/
+ls
+..
+ls
 cd ..
 ls
-ls -a
-cd sites-available/
-vi www.conf 
-service apache2 restart
-vi www.conf 
-service apache2 restart
-find /  httpd.conf 
-cd /usr/local/apache2
-cd 
-cd /usr/local/apache2/conf/httpd.conf
-cd /etc/apache2/
-grep -rn "ErrorLog" /etc/apache2/
-grep -rn "${APACHE_LOG_DIR}" /etc/apache2/
-grep -rn "ErrorLog" /etc/apache2/
-vi apache2.conf 
-clear
-vi apache2.conf 
-vi apache2.conf 
 ls
-vi envvars 
-cd /var/log/apache2/
+cd rainloop/
 ls
-ls -l
-cat error.log
-ls -l
-cat error.log.1
-cat error.log.1
-date
-vi /etc/apache2/sites-available/www.conf 
-vi /etc/hosts
-vi /etc/hosts
-service apache2 restart
-vi /etc/hosts
-service apache2 restart
-vi /etc/hosts
-service apache2 restart
-vi /etc/hosts
-service apache2 restart
-vi /etc/apache2/apache2.conf 
-vi /etc/apache2/apache2.conf 
-grep -rn "ServerTokens" /etc/apache2/
-vi /etc/apache2/conf-available//security.conf 
-service apache2 restart
-vi /etc/apache2/conf-available//security.conf 
-grep -rn "expose_php" /etc/apache2/
-grep -rn "expose_php" /etc/php
-ls -l /etc/
-grep -rn "expose_php" /etc/php5
-make clean
-./configure –prefix=/usr –with-apxs=/usr/bin/apxs2 –with-setid-mode=paranoid –with-apache-user=www-data –with-php=/usr/bin/php4-cgi –with-logfile=/var/log/apache2/suphp.log
-ls -l
-vi error.log
-vi error.log.1
-vi error.log.2
-vi error.log.2.gz 
-cd /home/www/
-chgrp www-data /home/www/*
-service apache2 restart
-grep -rn "Deny" /etc/apache2/
-vi /etc/apache2/conf-available/security.conf
-vi /etc/apache2/sites-available/www.conf 
-service apache2 restart
+cd v/
 ls
-cd /etc/apache2/sites-available/
+cd 1.9.1.333/
 ls
-rm www.conf 
-cp doc.conf www.conf
-vi www.conf 
-service apache2 restart
-vi www.conf 
-service apache2 restart
-cd /var/log/apache2/
+nano check.php 
+cd app/
 ls
-ls -l
-cat error.log
-cat error.log.1
-cat error.log
-vi error.log
-vi error.log.1
-vi error.log.2.gz 
-vi error.log
-vi error.log
-vi error.log.1
+..
+cd domains/
 ls
-cat access.log
-:q
-cat access.log
+cp yahoo.com.ini assolive.com.ini
+nano assolive.com.ini 
+nano assolive.com.ini 
+ping imap.assolive.com
+ping smtp.assolive.com
 ls
-cat error.log
-[Sun May 24 01:12:35.488698 2015] [mpm_prefork:notice] [pid 10530] AH00169: caught SIGTERM, shutting down
-[Sun May 24 01:12:37.042790 2015] [auth_digest:notice] [pid 10640] AH01757: generating secret for digest authentication ...
-[Sun May 24 01:12:37.103072 2015] [mpm_prefork:notice] [pid 10640] AH00163: Apache/2.4.10 (Debian) OpenSSL/1.0.1k configured -- resuming normal operations
-[Sun May 24 01:12:37.103174 2015] [core:notice] [pid 10640] AH00094: Command line: '/usr/sbin/apache2'
-cat error.log.1
-vi error.log.1
-vi error.log.2.gz 
-cat access.log
-cd /etc//apache2/mods-available/
-vi mod_rewrite
+nano *
+cd /var/log/nginx/
 ls
-vi rewrite.load 
-cd /usr/lib/apache2/modules/
-ls
-vi mod_rewrite.so 
-cd /etc/apache2/sites-available/
-vi www.conf 
-vi www.conf 
-service apache2 restart
-cat /var/log/apache2/error.log
-cat /var/log/apache2/error.log
-cat /var/log/apache2/error.log
-vi www.conf 
-service apache2 restart
-cat /var/log/apache2/error.log
-vi www.conf 
-cat /var/log/apache2/error.log
-service apache2 restart
-cat /var/log/apache2/error.log
-strace -o /tmp/outputfile -s 5000 httpd -X or strace -ff -F -s200 -o /tmp/strace.out -p PID or the single most important debugging tool or http://en.wikipedia.org/wiki/Strace
-strace -o /tmp/outputfile -s 5000 httpd -X or strace -ff -F -s200 -o /tmp/strace.out -p PID or the single most important debugging tool or http://en.wikipedia.org/wiki/Stracestrace -o /tmp/outputfile -s 5000 httpd -X or strace -ff -F -s200 -o /tmp/strace.out -p PID
-strace -o /tmp/outputfile -s 5000 httpd -X or strace -ff -F -s200 -o /tmp/strace.out -p PID
-strace -o /tmp/outputfile -s 5000 httpd -X or strace -ff -F -s200 -o /tmp/strace.out -p PID
-apt-get strace
-apt-get install strace
-strace -o /tmp/outputfile -s 5000 httpd -X or strace -ff -F -s200 -o /tmp/strace.out -p PID
-ps -ef | grep httpd
-ps -ef | grep apche
-ps -ef | grep apache
+tail -f posterror.log 
+nano /etc/nginx/sites-enabled/rainloop.conf 
+nano /etc/nginx/sites-enabled/rainloop.conf 
+killall nginx
+nginx -c /etc/nginx/nginx.conf 
+tail -f /var/log/nginx/looperror.log 
 cd ..
 ls
- strace -o /tmp/outputfile -s 5000 apache2.conf -X or strace -ff -F -s200 -o /tmp/strace.out -p PID
- strace -o /tmp/outputfile -s 5000 /etc/apache2/apache2.conf -X or strace -ff -F -s200 -o /tmp/strace.out -p PID
-ps -fC apache2
-strace -ff -F -s200 -o /tmp/strace.out -p 13611
-strace -o /tmp/outputfile -s 5000 httpd -X or strace -ff -F -s200 -o /tmp/strace.out -p 13611
- strace -ff -F -s200 -o /tmp/strace.out -p 13611
-ps -fC apache2
- strace -ff -F -s200 -o /tmp/strace.out -p 13611
- strace -ff -F -s200 -o /tmp/strace.out -p 13611    Process 13611 attached
-Process 16161 attached
-j,npk
-jhhj
- strace -ff -F -s200 -o /tmp/strace.out -p 13611
-ps -fC apache2
- strace -ff -F -s200 -o /tmp/strace.out -p 20174
-ps -fC apache2
- strace -ff -F -s200 -o /tmp/strace.out -p 20374
-ps -fC apache2
- strace -ff -F -s200 -o /tmp/strace.out -p 21302
-ps -fC apache2
- strace -ff -F -s200 -o /tmp/strace.out -p 21302
-find / httpd.conf
-find /etc/apache2/ httpd.conf
-grep -rn "LoadModule rewrite" /etc/apache2
-grep -rn "rewrite" /etc/apache2
-grep -rn "httpd" /etc/apache2
-grep -rn "rewrite" /etc/apache2
-a2enmod rewrite
-cd /etc/apache2/sites-available/
-vi www.conf 
-service apache2 reload
-vi www.conf 
-vi doc.conf 
-vi doc.conf 
-vi doc.conf 
-vi www.conf 
-vi doc.conf 
-vi www.conf 
-service apache2 reload
-vi www.conf 
-vi doc.conf 
-service apache2 restart
-a2dissite 000-default.conf 
-ls -l
-vi www.conf 
-service apache2 restart
-vi www.conf 
-service apache2 restart
-vi www.conf 
-service apache2 restart
-vi www.conf 
-vi www.conf 
-service apache2 restart
-vi www.conf 
-vi www.conf 
-service apache2 restart
-cd ..
+tail -f mail.e
+tail -f mail.er
+tail -f mail.err
+tail -f mail.info 
+tail -f mail.log 
+ifconfig 
+reboot 
+             ptypd  ptyw2  tty16   ttycd  ttyse  ttyz3
 ls
-vi apache2.conf 
-cd mods-available/
+w
 ls
-vi rewrite.load 
-vi  /usr/lib/apache2/modules/mod_rewrite.so
-cd ../sites-available/
-vi www.conf 
-cd ../sites-available/
-service apache2 restart
-vi www.conf 
-service apache2 restart
-vi www.conf 
-service apache2 restart
-vi www.conf 
-service apache2 restart
-cd /home/www/www/
-chmod 777 app  -R
-vi /etc/apache2/sites-available/www.conf 
-service apache2 restart
-a2enmod suexec rewrite ssl actions include dav_fs dav auth_digest cgi
-service apache2 restart
-service apache2 restart
-vi /etc/apache2/sites-available/www.conf 
-service apache2 restart
-vi /etc/apache2/sites-available/www.conf 
-vi /etc/apache2/apache2.conf 
-vi /etc/apache2/apache2.conf 
-vi /etc/apache2/apache2.conf 
-cd /etc/apache2/apache2.conf 
-cd /etc/apache2/apa
-cd /etc/apache2/
+cd /var/log/
 ls
-ls -a
-rm .apache2.conf.swp 
-vi /etc/apache2/apache2.conf 
-service apache2 restart
-vi /etc/apache2/apache2.conf 
-service apache2 restart
-vi /etc/apache2/apache2.conf 
-service apache2 restart
-vi /etc/apache2/apache2.conf 
-service apache2 restart
-cd sites-available/
-vi www.conf 
-cd sites-available/
-service apache2 restart
-cd sites-available/
-vi www.conf 
-service apache2 restart
-vi www.conf 
-vi www.conf 
-<IfModule mod_rewrite.c>
-                RewriteEngine on
-                RewriteCond %{CONTEXT_DOCUMENT_ROOT}%{REQUEST_URI} find /etc/apache2/ httpd.conf
-                RewriteRule ^(.*)$ /index.php [L]
-su doc
-cd /etc/apache2/sites-available/
-vi doc.conf 
-service apache2 restart
-vi doc.conf 
-service apache2 restart
-vi doc.conf 
-service apache2 restart
-vi doc.conf 
-service apache2 restart
-vi doc.conf 
-service apache2 restart
-service apache2 restart
+tail -f mail.info 
+tail -f mail.info | ccze -A
+hostname
+hostname -h
+hostname -A
 ls
-cd /home
 ls
-ls -ln
-ls -l
-cd sampistaroy/
+cd /var/log/
 ls
-ls -a
-cd ..
-adduser croogo
-cd /etc/apache2/sites-available/
-cp www.conf croogo.conf
-vi croogo.conf 
-vi croogo.conf 
-vi /etc/hosts
-service apache2 restart
-a2ensite croogo.conf
-service apache2 reload
-vi /etc/hosts
-su croogo
-chown teamspeakserver ts3server.sqlitedb
-su teamspeakserver
-find / -name ts3server.sqlitedb
-mv /home/www/www/ts3server.sqlitedb /home/teamspeakserver/teamspeak3/ts3server.sqlited
-ls -ln
-mv /home/teamspeakserver/teamspeak3/ts3server.sqlitedb /home/teamspeakserver/teamspeak3/ts3server.sqlitedb_2
-ls -ln
-mv /home/teamspeakserver/teamspeak3/ts3server.sqlited /home/teamspeakserver/teamspeak3/ts3server.sqlitedb
-ls -ln
-./ts3server_startscript.sh reload
-./ts3server_startscript.sh restart
-./ts3server_startscript.sh stop
-su teamspeakserver
-adduser teamspeakserver
-su teamspeakserver
-./ts3server_startscript.sh stop
-su teamspeakserver
-rm -rf teamspeak3
-su teamspeakserver
-./ts3server_startscript.sh start
-./ts3server_startscript.sh stop
-./ts3server_startscript.sh start
-./ts3server_startscript.sh stop
-su teamspeakserver
-su croogo
-chown croogomulti *
-cd ..
-cake bake
-Console/cake bake
-su croogomulti
-adduser croogomulti
-cd /etc/apache2/sites-available/
-cp www.conf croogomulti.conf
-vi croogomulti.conf 
-a2ensite croogomulti.conf
-vi /etc/hosts
-service apache2 reload
-su croogomulti
-cd /home/
+tail -f mail.e
+tail -f mail.er
+tail -f mail.err
+tail -f mail.log
+tail -f mail.info 
+tail -f mail.log 
+ps aux | grep apache
+ps aux | grep nginx
+killall apache
+killall apache2
+nginx -c /etc/nginx/nginx.conf 
+apt-get -y install ccze
 ls
-ls -ln
-find / -name php.ini
-vi /etc/php5/cli/php.ini
-su croogo
-su croogomulti
-script
-Script started, file is typescript
-col -bx <typescript >fichier_propre
-vim fichier_propre
-sh -i 2>&1 | tee typescript
-git status
+tail -f mail.er
+tail -f mail.err
+tail -f mail.info 
+tail -f mail.info | ccze -A
+nano /var/www/rainloop/rainloop/v/1.9.1.333/app/domains/*
+nano /var/www/rainloop/rainloop/v/1.9.1.333/app/domains/*
+netstat -auntlp
+netstat -auntlp | grep 465
+nano /var/www/rainloop/rainloop/v/1.9.1.333/app/domains/assolive.com.ini 
+nano /var/www/rainloop/rainloop/v/1.9.1.333/app/domains/assolive.com.ini 
+tail -f mail.info | ccze -A
+mysql -uroot -p
 ls
-rm fichier_propre 
-rm typescript 
-git status
-vi ~/.bashrc 
-clear
-git status
-/usr/share/doc/etckeeper/README.gz
-cat /usr/share/doc/xterm/ctlseqs.txt.gz
-chown croogomulti *
+cd nginx/
+tail -f posterror.log 
+tail -f posterror.log | ccze -A
+whois 81.242.143.240
+cd /etc/nginx/
 ls
-cd Config/
-ls -l
-chown croogomulti *
-ls -l
-chown www-data settings.json
-adduser cdcasso
-su www
-rm -rf *
+nano passwd 
+cd /var/log/nginx/
 ls
-su croogomulti
+cd /etc/nginx/
+ls
+cd sites-enabled/
+ls
+nano rainloop.conf 
+nano rainloop.conf 
+killall nginx
+nginx -c /etc/nginx/nginx.conf 
+ls
+rm default 
+nano *
+ls
+cd /var/log/nginx/
+ls
+tail -f posterror.log | ccze -A
+ipconfig /flushdns
+history
+  293  cd /etc/nginx/
+  294  ls
+  295  service apache2
+  296  service apache2 stop
+  297  service nginx start
+  298  ps aux | grep nginx
+  299  systemctl start nginx
+  300  systemctl start nginx.service
+  301  ps aux | grep nginx
+  302  cd /etc/init.d/
+  303  ls
+  304  nano nginx
+  305  gnomesu gedit /lib/systemd/system/nginx.service
+  306  nano /lib/systemd/system/nginx.service
+  307  systemctl enable /lib/systemd/system/nginx.service
+  308  service nginx start
+  309  ps aux | grep nginx
+  310  nginx
+  311  ps aux | grep nginx
+  312  cd /etc/
+  313  cd nginx/ls
+  314  cd nginx/
+  315  ls
+  316  cd sites-enabled/
+  317  ls
+  318  nano postfixadmin.conf
+  319  ls /var/www/postfixadmin/
+  320  nano postfixadmin.conf
+  321  nano /etc/php5/fpm/php.ini
+  322  nano /etc/php5/fpm/php-fpm.conf
+  323  nano /etc/php5/fpm/pool.d/www.conf
+  324  ls
+  325  nano /etc/php5/fpm/pool.d/www.conf
+  326  ls
+  327  nano postfixadmin.conf
+  328  killall nginx
+  329  nginx
+  330  cd /var/log/
+  331  cd
+  332  cd /var/log/nginx/
+  333  ls
+  334  man nginx
+  335  killall nginx
+  336  nginx -c /etc/nginx/nginx.conf
+  337  ps aux | grep nginx
+  338  cd /etc/nginx/
+  339  ls
+  340  nano nginx.conf
+  341  echo "" > nginx.conf
+  342  nano nginx.conf
+  343  killall nginx
+  344  nginx -c /etc/nginx/nginx.conf
+  345  ps aux | grep nginx
+  346  cd /var/log/nginx/
+  347  ls
+  348  tail -f posterror.log
+  349  curl postfixadmin.assolive.com
+  350  curl https://postfixadmin.assolive.com
+  351  curl -k https://postfixadmin.assolive.com
+  352  cd /var/log/
+  353  ls
+  354  ip route
+  355  iptables -L -n
+  356  tail -f auth.log
+  357  cd /etc/nginx/
+  358  ls
+  359  nano passwd
+  360  echo "Admin:$apr1$3jDGP3.I$4B0vJQJh.Lpg3zq/Eltro/
+  361  ls
+  362  echo "" > passwd
+  363  nano passwd
+  364  tail -f /var/log/nginx/errors.log
+  365  tail -f /var/log/nginx/error.log
+  366  service apache2 stop
+  367  tail -f /var/log/nginx/error.log
+  368  dig MX assolive.com
+  369  dig MX hostname.assolive.com
+  370  ping hostname.assolive.com
+  371  ping frejkofej.assolive.com
+  372  ping hosntmae.assolive.com
+  373  ping hostname.assolive.com
+  374  hostname
+  375  hostname -a
+  376  echo "hostname" > /etc/hostname
+  377  /etc/hosts
+  378  nano /etc/hosts
+  379  ls
+  380  ls
+  381  cat /proc/cpuinfo
+  382  apt-get update && apt-get dist-upgrade
+  383  apt-get install git-core
+  384  ls
+  385  cd ~
+  386  git clone https://github.com/hardware/mailserver-autoinstall.git
+  387  cd mailserver-autoinstall/
+  388  ls
+  389  bash install.sh
+  390  apt-get -y install unzip nginx php5-fpm mysql-server
+  391  nginx
+  392  nginx -t
+  393  cd /etc/nginx/
+  394  ls
+  395  cd sites-enabled/
+  396  ls
+  397  nano default
+  398  ..
+  399  cd sn
+  400  cd ..
+  401  cd snippets/
+  402  le
+  403  ls
+  404  nano *
+  405  cd ~
+  406  ls
+  407  cd mailserver-autoinstall/
+  408  ls
+  409  bash install.sh
+  410  apt-get -y install binutils
+  411  bash install.sh
+  412  apt-get -y install curl
+  413  bash install.sh
+  414  /etc/init.d/postfix reload
+  415  apt-get -y remove nginx nginx-full && apt-get -y purge && apt-get -y autoremove && apt-get -y install nginx
+  416  apt-get -y remove "nginx*"
+  417  apt-get -y purge
+  418  apt-get -y autoremove
+  419  apt-cache search nginx
+  420  apt-cache policy nginx
+  421  nano /etc/apt/sources.list
+  422  apt-get update && apt-get upgrade
+  423  nano /etc/apt/sources.list
+  424  wget http://www.dotdeb.org/dotdeb.gpg
+  425  sudo apt-key add dotdeb.gpg
+  426  apt-key add dotdeb.gpg
+  427  wget http://nginx.org/keys/nginx_signing.key
+  428  apt-key add nginx_signing.key
+  429  apt-get update && apt-get -y upgrade && apt-get -y install nginx
+  430  l
+  431  ls
+  432  bash install.sh
+  433  ls
+  434  bash uninstall.sh
+  435  bash install.sh
+  436  bash install.sh
+  437  bash install.sh
+  438  cd /etc/nginx/
+  439  ls
+  440  cd sites-enabled/
+  441  ls
+  442  nano rainloop.conf
+  443  ls
+  444  nano *.c*
+  445  ps aux | grep nginx
+  446  ifconfig
+  447  cd /var/log/
+  448  killall nginx
+  449  nginx -t
+  450  nginx -c /etc/nginx/nginx.conf
+  451  curl -k https://postfixadmin.assolive.com/
+  452  ls
+  453  cd /var/www/
+  454  ls
+  455  cd rainloop/
+  456  ls
+  457  cd data/
+  458  ls
+  459  ..
+  460  ls
+  461  cd ..
+  462  ls
+  463  ls
+  464  cd rainloop/
+  465  ls
+  466  cd v/
+  467  ls
+  468  cd 1.9.1.333/
+  469  ls
+  470  nano check.php
+  471  cd app/
+  472  ls
+  473  ..
+  474  cd domains/
+  475  ls
+  476  cp yahoo.com.ini assolive.com.ini
+  477  nano assolive.com.ini
+  478  nano assolive.com.ini
+  479  ping imap.assolive.com
+  480  ping smtp.assolive.com
+  481  ls
+  482  nano *
+  483  cd /var/log/nginx/
+  484  ls
+  485  tail -f posterror.log
+  486  nano /etc/nginx/sites-enabled/rainloop.conf
+  487  nano /etc/nginx/sites-enabled/rainloop.conf
+  488  killall nginx
+  489  nginx -c /etc/nginx/nginx.conf
+  490  tail -f /var/log/nginx/looperror.log
+  491  cd ..
+  492  ls
+  493  tail -f mail.e
+  494  tail -f mail.er
+  495  tail -f mail.err
+  496  tail -f mail.info
+  497  tail -f mail.log
+  498  ifconfig
+  499  reboot
+  500               ptypd  ptyw2  tty16   ttycd  ttyse  ttyz3
+  501  ipconfig /flushdns
+  502  history

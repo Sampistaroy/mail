@@ -1,0 +1,17 @@
+0dab49b4647d46d14554bea8acdef879  usr/bin/sieve-dump
+07b17d4a297161293e8b73bd386b5d87  usr/bin/sieve-filter
+136170d003aa949eef6613becdb006c6  usr/bin/sieve-test
+b4d2fdbc81a1bd7a2ad781e636105487  usr/bin/sievec
+7a218e26757f386c95051490213ce1fa  usr/lib/dovecot/libdovecot-sieve.so.0.0.0
+2207f655cd8aa178eb3e0e720be14f3c  usr/lib/dovecot/modules/doveadm/lib10_doveadm_sieve_plugin.so
+140c046fbd5444c72d93efef86fd7ffb  usr/lib/dovecot/modules/lib90_sieve_plugin.so
+6468eb8183144a7194dfe386fdb0cec2  usr/lib/dovecot/modules/sieve/lib90_sieve_extprograms_plugin.so
+2be7a5cbfe76e23891989ff29007d911  usr/share/doc/dovecot-sieve/changelog.Debian.gz
+2bc7ba91309c23704d4009c2bf7646f6  usr/share/doc/dovecot-sieve/changelog.gz
+72f5d634266d31a510c2ee87b700ecda  usr/share/doc/dovecot-sieve/copyright
+9a744fb7ccc302f10de99ce38b8192fd  usr/share/dovecot/conf.d/90-sieve-extprograms.conf
+eebe8509e06ea7c7489a87b7221ae939  usr/share/dovecot/conf.d/90-sieve.conf
+443fe8fcfa2b01c018db2720f6bcfc05  usr/share/man/man1/sieve-dump.1.gz
+9697b42b631fb418f4ebf5731885e37f  usr/share/man/man1/sieve-filter.1.gz
+43c30b6d59238e683d87e4603697f3e9  usr/share/man/man1/sieve-test.1.gz
+784609d375027bc3fa11e57b33a0f498  usr/share/man/man1/sievec.1.gz

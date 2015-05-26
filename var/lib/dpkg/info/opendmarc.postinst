@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ]; then
+	if ! id -u opendmarc >/dev/null 2>&1; then
+		adduser --quiet --system --group --home /var/run/opendmarc opendmarc
+	fi
+
+	# Set ownership if the admin has not overriden it.
+	if ! dpkg-statoverride --list /var/run/opendmarc >/dev/null; then
+		chown opendmarc:opendmarc /var/run/opendmarc
+	fi
+fi
+
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/opendmarc" ]; then
+	update-rc.d opendmarc defaults >/dev/null
+	invoke-rc.d opendmarc start || exit $?
+fi
+# End automatically added section
+
+
+exit 0

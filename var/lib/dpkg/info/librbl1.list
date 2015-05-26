@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/librbl1
+/usr/share/doc/librbl1/changelog.gz
+/usr/share/doc/librbl1/changelog.Debian.gz
+/usr/share/doc/librbl1/copyright
+/usr/lib
+/usr/lib/librbl.so.1.0.0
+/usr/lib/librbl.so.1

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libopendmarc2
+/usr/share/doc/libopendmarc2/changelog.Debian.gz
+/usr/share/doc/libopendmarc2/changelog.gz
+/usr/share/doc/libopendmarc2/copyright
+/usr/lib
+/usr/lib/libopendmarc.so.2.0.0
+/usr/lib/libopendmarc.so.2

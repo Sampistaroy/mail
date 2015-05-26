@@ -372,6 +372,177 @@ Description-en: OpenStack block storage system - Python libraries
  .
  This package contains the Python libraries that are part of Cinder.
 
+Package: codeblocks
+Description-md5: 085a469fb5f38916d82842e097c6fda4
+Description-en: Code::Blocks integrated development environment (IDE)
+ Code::Blocks is a cross-platform Integrated Development Environment (IDE).
+ It is based on a self-developed plugin framework allowing unlimited
+ extensibility. Most of its functionality is already provided by plugins.
+ Plugins included in the base package are:
+    * Compiler frontend to many free compilers
+    * Debugger frontend for GDB
+    * Source formatter (based on AStyle)
+    * Wizard to create new C++ classes
+    * Code-completion / symbols-browser (work in progress)
+    * Default MIME handler
+    * Wizard to create new Code::Blocks plugins
+    * To-do list
+    * Extensible wizard based on scripts
+    * Autosave (saves your work in the unfortunate case of a crash)
+
+Package: codeblocks-common
+Description-md5: e1583e4d79ede6b548b2149d9200bf8b
+Description-en: common files for Code::Blocks IDE
+ Code::Blocks is a cross-platform Integrated Development Environment (IDE).
+ It is based on a self-developed plugin framework allowing unlimited
+ extensibility. Most of its functionality is already provided by plugins.
+ .
+ This package contains the architecture-independent files of Code::Blocks.
+
+Package: codeblocks-contrib
+Description-md5: fb01804165a85f9f7cba61be9770640e
+Description-en: contrib plugins for Code::Blocks IDE
+ This package extends Code::Blocks functionality a great deal with the included
+ plugins. These are:
+    * Code profiler (based on gprof) and code statistics (SLOCs etc)
+    * Copy strings
+    * DragScroll (enhances mouse operations)
+    * Setting of environment variables
+    * Source exporter to PDF/HTML/ODT/RTF
+    * Header fixup
+    * Help
+    * Keyboard shortcuts configuration
+    * RAD gui-builder for wxWidgets (wxSmith)
+    * wxSmith AUI and wxSmith contrib items
+    * Selection of small games for relaxing between coding sessions! (BYOGames)
+    * Autoversioning
+    * ThreadSearch
+    * BrowseTracker
+    * Valgrind
+    * HexEditor
+    * IncrementalSearch
+    * Codesnippets
+    * Library finder
+    * Regular expression testbed
+    * Symbol table plugin
+    * CB koders
+    * MouseSap
+    * Cccc
+    * CppCheck
+
+Package: codeblocks-contrib-dbg
+Description-md5: 191e6d65d586bc0b287030380bbd9d9a
+Description-en: dummy transitional package for Code::Blocks debugging symbols
+ This is a transitional package to migrate to codeblocks-dbg.
+ Once no package depends on it, you may safely remove it.
+
+Package: codeblocks-dbg
+Description-md5: 7e7792ba1de0b06b34ce92145123d1dd
+Description-en: Code::Blocks debugging libraries
+ Code::Blocks is a cross-platform Integrated Development Environment (IDE).
+ It is based on a self-developed plugin framework allowing unlimited
+ extensibility. Most of its functionality is already provided by plugins.
+ Plugins included in the base package are:
+    * Compiler frontend to many free compilers
+    * Debugger frontend for GDB
+    * Source formatter (based on AStyle)
+    * Wizard to create new C++ classes
+    * Code-completion / symbols-browser (work in progress)
+    * Default MIME handler
+    * Wizard to create new Code::Blocks plugins
+    * To-do list
+    * Extensible wizard based on scripts
+    * Autosave (saves your work in the unfortunate case of a crash)
+ .
+ This package contains the debugging libraries for the 'codeblocks' package.
+
+Package: codeblocks-dev
+Description-md5: bf5bf143062d45ee97db1da6c01550ed
+Description-en: Code::Blocks development files (SDK)
+ Code::Blocks is a cross-platform Integrated Development Environment (IDE).
+ It is based on a self-developed plugin framework allowing unlimited
+ extensibility. Most of its functionality is already provided by plugins.
+ Plugins included in the base package are:
+    * Compiler frontend to many free compilers
+    * Debugger frontend for GDB
+    * Source formatter (based on AStyle)
+    * Wizard to create new C++ classes
+    * Code-completion / symbols-browser (work in progress)
+    * Default MIME handler
+    * Wizard to create new Code::Blocks plugins
+    * To-do list
+    * Extensible wizard based on scripts
+    * Autosave (saves your work in the unfortunate case of a crash)
+ .
+ This package contains the development files (headers and libraries) for
+ creating Code::Blocks plugins.
+
+Package: libcodeblocks0
+Description-md5: 88406bb0f3f45fa0a5d810ff85a0f62b
+Description-en: Code::Blocks shared library
+ Code::Blocks is a cross-platform Integrated Development Environment (IDE).
+ It is based on a self-developed plugin framework allowing unlimited
+ extensibility. Most of its functionality is already provided by plugins.
+ Plugins included in the base package are:
+    * Compiler frontend to many free compilers
+    * Debugger frontend for GDB
+    * Source formatter (based on AStyle)
+    * Wizard to create new C++ classes
+    * Code-completion / symbols-browser (work in progress)
+    * Default MIME handler
+    * Wizard to create new Code::Blocks plugins
+    * To-do list
+    * Extensible wizard based on scripts
+    * Autosave (saves your work in the unfortunate case of a crash)
+ .
+ This package contains the Code::Blocks shared library.
+
+Package: libwxsmithlib-dev
+Description-md5: ec5c20a9093f7298058d2e8aceba9af7
+Description-en: wxSmith development files (Code::Blocks plugin for RAD GUI editing)
+ Code::Blocks is a cross-platform Integrated Development Environment (IDE).
+ It is based on a self-developed plugin framework allowing unlimited
+ extensibility. Most of its functionality is already provided by plugins.
+ Plugins included in the base package are:
+    * Compiler frontend to many free compilers
+    * Debugger frontend for GDB
+    * Source formatter (based on AStyle)
+    * Wizard to create new C++ classes
+    * Code-completion / symbols-browser (work in progress)
+    * Default MIME handler
+    * Wizard to create new Code::Blocks plugins
+    * To-do list
+    * Extensible wizard based on scripts
+    * Autosave (saves your work in the unfortunate case of a crash)
+ .
+ This package contains the wxSmith development libraries and headers.
+
+Package: libwxsmithlib0
+Description-md5: 0e189ac9dd10b3edc5bd71118f108eeb
+Description-en: wxSmith shared library (Code::Blocks plugin for RAD GUI editing)
+ Code::Blocks is a cross-platform Integrated Development Environment (IDE).
+ It is based on a self-developed plugin framework allowing unlimited
+ extensibility. Most of its functionality is already provided by plugins.
+ Plugins included in the base package are:
+    * Compiler frontend to many free compilers
+    * Debugger frontend for GDB
+    * Source formatter (based on AStyle)
+    * Wizard to create new C++ classes
+    * Code-completion / symbols-browser (work in progress)
+    * Default MIME handler
+    * Wizard to create new Code::Blocks plugins
+    * To-do list
+    * Extensible wizard based on scripts
+    * Autosave (saves your work in the unfortunate case of a crash)
+ .
+ This package contains the wxSmith shared library.
+
+Package: libwxsmithlib0-dev
+Description-md5: 9d445c9313a47e266494998c3080f706
+Description-en: dummy transitional package for wxSmith development files
+ This is a transitional package to migrate to libwxsmithlib-dev.
+ Once no package depends on it, you may safely remove it.
+
 Package: darktable
 Description-md5: e032162292249abbe68076444d6959cc
 Description-en: virtual lighttable and darkroom for photographers
@@ -562,6 +733,143 @@ Description-en: friendly interactive shell (debugging symbols)
  incompatible with other shell languages.
  .
  This package contains gdb debugging symbols for the fish package.
+
+Package: ganeti
+Description-md5: 1cfa82fb400c69ad1e5d141436d47d89
+Description-en: cluster virtualization manager
+ Ganeti is a virtual server cluster management tool built on top of the
+ Xen and KVM virtualization technologies and other free software. It
+ provides an automated environment to manage highly available virtual
+ machine instances.
+ .
+ It is designed to facilitate cluster management of virtual servers using
+ commodity hardware, and to provide fast and simple recovery after physical
+ failures. It can take care of operations such as redundant disk creation
+ and management, operating system installation (in cooperation with
+ OS-specific install scripts), startup, shutdown, and failover of instances
+ between physical systems.
+ .
+ This package installs the complete Ganeti system.
+
+Package: ganeti-2.12
+Description-md5: ede3925a0ce34c3d4c41659ecda3b31e
+Description-en: cluster virtualization manager - Python components
+ Ganeti is a virtual server cluster management tool built on top of the
+ Xen and KVM virtualization technologies and other free software. It
+ provides an automated environment to manage highly available virtual
+ machine instances.
+ .
+ It is designed to facilitate cluster management of virtual servers using
+ commodity hardware, and to provide fast and simple recovery after physical
+ failures. It can take care of operations such as redundant disk creation
+ and management, operating system installation (in cooperation with
+ OS-specific install scripts), startup, shutdown, and failover of instances
+ between physical systems.
+ .
+ This package provides all architecture-independent components of Ganeti 2.12.
+
+Package: ganeti-doc
+Description-md5: 92ce7ffd549c0915273f19d4fb6f7d90
+Description-en: cluster virtualization manager - documentation
+ Ganeti is a virtual server cluster management tool built on top of the
+ Xen and KVM virtualization technologies and other free software. It
+ provides an automated environment to manage highly available virtual
+ machine instances.
+ .
+ It is designed to facilitate cluster management of virtual servers using
+ commodity hardware, and to provide fast and simple recovery after physical
+ failures. It can take care of operations such as redundant disk creation
+ and management, operating system installation (in cooperation with
+ OS-specific install scripts), startup, shutdown, and failover of instances
+ between physical systems.
+ .
+ This package provides the full HTML documentation for Ganeti.
+
+Package: ganeti-haskell-2.12
+Description-md5: 836f10dff9be3bbb5cb626a591e490ee
+Description-en: cluster virtualization manager - Haskell components
+ Ganeti is a virtual server cluster management tool built on top of the
+ Xen and KVM virtualization technologies and other free software. It
+ provides an automated environment to manage highly available virtual
+ machine instances.
+ .
+ It is designed to facilitate cluster management of virtual servers using
+ commodity hardware, and to provide fast and simple recovery after physical
+ failures. It can take care of operations such as redundant disk creation
+ and management, operating system installation (in cooperation with
+ OS-specific install scripts), startup, shutdown, and failover of instances
+ between physical systems.
+ .
+ This package provides the architecture-dependent components of Ganeti 2.12
+ written in Haskell.
+
+Package: ganeti-htools
+Description-md5: d62ec07bf5ac56fe6e2d88b2700046d4
+Description-en: cluster virtualization manager - tools (stand-alone)
+ Ganeti is a virtual server cluster management tool built on top of the
+ Xen and KVM virtualization technologies and other free software. It
+ provides an automated environment to manage highly available virtual
+ machine instances.
+ .
+ This package provides additional tools used for enhanced allocation,
+ maintenance and capacity calculation on Ganeti clusters.
+ .
+ The tools provided are:
+  * hail: advanced instance allocator;
+  * harep: tool for automatically repairing Ganeti clusters;
+  * hbal: automatic cluster balancing tool;
+  * hinfo: print cluster information;
+  * hroller: rolling maintenance/reboot scheduler for Ganeti nodes;
+  * hscan: used to gather cluster files for offline use in hbal/hspace;
+  * hspace: cluster capacity calculator.
+ .
+ This package provides the version intended for stand-alone systems that
+ are not part of a Ganeti cluster.
+
+Package: ganeti-htools-2.12
+Description-md5: 01512279e1f9717883ce51b7e14c4d93
+Description-en: cluster virtualization manager - tools for Ganeti 2.12
+ Ganeti is a virtual server cluster management tool built on top of the
+ Xen and KVM virtualization technologies and other free software. It
+ provides an automated environment to manage highly available virtual
+ machine instances.
+ .
+ This package provides additional tools used for enhanced allocation,
+ maintenance and capacity calculation on Ganeti clusters.
+ .
+ The tools provided are:
+  * hail: advanced instance allocator;
+  * harep: tool for automatically repairing Ganeti clusters;
+  * hbal: automatic cluster balancing tool;
+  * hinfo: print cluster information;
+  * hroller: rolling maintenance/reboot scheduler for Ganeti nodes;
+  * hscan: used to gather cluster files for offline use in hbal/hspace;
+  * hspace: cluster capacity calculator.
+ .
+ This package provides the version intended for use on systems that are part
+ of a Ganeti 2.12 cluster. On stand-alone systems, use ganeti-htools instead.
+
+Package: ganeti2
+Description-md5: c67f2f0930edc3f67c23dfb939c797c4
+Description-en: transitional dummy package
+ This is a transitional dummy package for ganeti. It can safely be removed.
+
+Package: python-ganeti-rapi
+Description-md5: 951cfef86df4cfd4c36dd63f123f2857
+Description-en: cluster virtualization manager - RAPI client library
+ Ganeti is a virtual server cluster management tool built on top of the
+ Xen and KVM virtualization technologies and other free software. It
+ provides an automated environment to manage highly available virtual
+ machine instances.
+ .
+ It is designed to facilitate cluster management of virtual servers using
+ commodity hardware, and to provide fast and simple recovery after physical
+ failures. It can take care of operations such as redundant disk creation
+ and management, operating system installation (in cooperation with
+ OS-specific install scripts), startup, shutdown, and failover of instances
+ between physical systems.
+ .
+ This package provides an RAPI (Remote API) client library for Python.
 
 Package: glance
 Description-md5: da1a093e79a322d6d2780513f4cbf06c
@@ -1016,6 +1324,56 @@ Description-en: Command-line driven interactive plotting program. X-package
  packaged separately so that low-end systems don't need X installed to use
  gnuplot.
 
+Package: golang-dbus-dev
+Description-md5: b8f13fd48b0951af0ad1985ec09e346f
+Description-en: Go client bindings for D-Bus
+ Package "dbus" is a simple library that implements native Go client bindings
+ for the D-Bus message bus system.
+ .
+ This package contains the source.
+
+Package: golang-fsnotify-dev
+Description-md5: 8814fbdd6f7659cf5d837b4373338a0a
+Description-en: File system notifications for Go
+ Package fsnotify provides a platform-independent interface for file system
+ notifications.
+ .
+ This package contains the source.
+
+Package: golang-go-patricia-dev
+Description-md5: 2c3302adb91ab92fe1ec614cea9ac900
+Description-en: golang-go-patricia is a generic patricia trie (also called radix tree).
+ The patricia trie as implemented in this library enables fast visiting of items
+ in some particular ways:
+ .
+  1. visit all items saved in the tree,
+  2. visit all items matching particular prefix (visit subtree), or
+  3. given a string, visit all items matching some prefix of that string.
+ .
+ This package contains the source.
+
+Package: golang-gocapability-dev
+Description-md5: 15dec93cbd6ef3848cdadb1081815c09
+Description-en: Utilities for manipulating POSIX capabilities in Go.
+ Package capability provides utilities for manipulating POSIX capabilities.
+ .
+ This package contains the source.
+
+Package: golang-logrus-dev
+Description-md5: d0bab94cbcdddab9b6e98159c6fceaba
+Description-en: Logrus: a logging library for Go
+ Logrus is a structured logger for Go (golang), completely
+ API compatible with the standard library logger.
+ .
+ This package contains the source.
+
+Package: golang-pty-dev
+Description-md5: 4ab57a3d3d89bf92b014288f52601f5e
+Description-en: Go package for using unix pseudo-terminals
+ Pty is a Go package for using unix pseudo-terminals.
+ .
+ This package contains the source.
+
 Package: golang-sorcix-irc-dev
 Description-md5: 8f2607289eb57e62e36eecb1491d8b6a
 Description-en: generic support for the IRC protocol in Go
@@ -1232,6 +1590,30 @@ Description-en: Django module providing web interaction with OpenStack
  .
  Horizon is a Django module that permits interaction with an OpenStack
  cloud. It can be used to build a dashboard to control an OpenStack cloud.
+
+Package: i3
+Description-md5: f5cb0728a19ad1e0e01b2d7cc6311aa0
+Description-en: metapackage (i3 window manager, screen locker, menu, statusbar)
+ This metapackage installs the i3 window manager (i3-wm), the i3lock screen
+ locker, i3status (for system information) and suckless-tools (for dmenu).
+ These are all the tools you need to use the i3 window manager efficiently.
+
+Package: i3-wm
+Description-md5: 2be7e62f455351435b1e055745d3e81c
+Description-en: improved dynamic tiling window manager
+ Key features of i3 are good documentation, reasonable defaults (changeable in
+ a simple configuration file) and good multi-monitor support. The user
+ interface is designed for power users and emphasizes keyboard usage. i3 uses
+ XCB for asynchronous communication with X11 and aims to be fast and
+ light-weight.
+ .
+ Please be aware i3 is primarily targeted at advanced users and developers.
+
+Package: i3-wm-dbg
+Description-md5: 5f4136360fbbbdabb5e650ce51c69560
+Description-en: Debugging symbols for the i3 window manager
+ Debugging symbols for the i3 window manager. Please install this to produce
+ useful backtraces before creating new tickets.
 
 Package: irssi-plugin-xmpp
 Description-md5: 9f5f35daf3f2cffed19808e2dced9b43
@@ -4185,6 +4567,26 @@ Description-en: kernel module to memory dump (DKMS)
  .
  Kernel source or headers are required to compile these modules.
 
+Package: lintian
+Description-md5: 15a3930c90f4a70018af692850997920
+Description-en: Debian package checker
+ Lintian dissects Debian packages and reports bugs and policy
+ violations. It contains automated checks for many aspects of Debian
+ policy as well as some checks for common errors.
+ .
+ It uses an archive directory, called laboratory, in which it stores
+ information about the packages it examines.  It can keep this
+ information between multiple invocations in order to avoid repeating
+ expensive data-collection operations. This makes it possible to check the
+ complete Debian archive for bugs, in a reasonable time.
+ .
+ This package is useful for all people who want to check Debian
+ packages for compliance with Debian policy. Every Debian maintainer
+ should check packages with this tool before uploading them to the
+ archive.
+ .
+ This version of Lintian is calibrated for policy version 3.9.6.
+
 Package: python-migrate
 Description-md5: 45c37ff5dd0dd2ea0a51c4d3066df46d
 Description-en: Database schema migration for SQLAlchemy
@@ -4239,6 +4641,46 @@ Description-en: Generate Garmin maps from OpenStreetMap data
   - Full address search support
   - Routing support
   - Many options for fine control over the map creation process
+
+Package: mpd
+Description-md5: f318c4a927bba8215d5caa973656c5e7
+Description-en: Music Player Daemon
+ Music Player Daemon (MPD) is a server that allows remote access for
+ playing audio files (Ogg-Vorbis, FLAC, MP3, Wave, and AIFF), streams
+ (Ogg-Vorbis, MP3) and managing playlists.  Gapless playback, buffered
+ output, and crossfading support is also included.  The design focus is
+ on integrating a computer into a stereo system that provides control
+ for music playback over a TCP/IP network.  The goals are to be easy to
+ install and use, to have minimal resource requirements (it has been
+ reported to run fine on a Pentium 75), and to remain stable and
+ flexible.
+ .
+ The daemon is controlled through a client which need not run on the
+ same computer mpd runs on.  The separate client and server design
+ allows users to choose a user interface that best suites their tastes
+ independently of the underlying daemon (this package) which actually
+ plays music.
+
+Package: mpd-dbg
+Description-md5: 833aa17754faffb446b308fd90dd579d
+Description-en: Music Player Daemon debugging symbols
+ Music Player Daemon (MPD) is a server that allows remote access for
+ playing audio files (Ogg-Vorbis, FLAC, MP3, Wave, and AIFF), streams
+ (Ogg-Vorbis, MP3) and managing playlists.  Gapless playback, buffered
+ output, and crossfading support is also included.  The design focus is
+ on integrating a computer into a stereo system that provides control
+ for music playback over a TCP/IP network.  The goals are to be easy to
+ install and use, to have minimal resource requirements (it has been
+ reported to run fine on a Pentium 75), and to remain stable and
+ flexible.
+ .
+ The daemon is controlled through a client which need not run on the
+ same computer mpd runs on.  The separate client and server design
+ allows users to choose a user interface that best suites their tastes
+ independently of the underlying daemon (this package) which actually
+ plays music.
+ .
+ This package contains the debugging symbols.
 
 Package: murano-agent
 Description-md5: 543488a73f608fa6ecbdd3fab557c1c5
@@ -5204,6 +5646,16 @@ Description-en: debugging symbols for PowerDNS recursor
  .
  This package contains debugging symbols for PowerDNS to assist in
  debugging, such as with gdb. It is not required for normal operation.
+
+Package: python-pelican
+Description-md5: dc0d61e22622de92c244a1cd4f14313c
+Description-en: blog aware, static website generator
+ Pelican is a static site generator, written in Python.  It allows you
+ to write your weblog entries directly with your editor of choice in
+ reStructuredText or Markdown, and generates completely static output
+ that is easy to host anywhere.  Pelican includes a simple CLI tool to
+ (re)generate the weblog and it is easy to interface with DVCSes and web
+ hooks.
 
 Package: libalgorithms1
 Description-md5: 3cb24e27a8853e212b935b9ee4a68f65
@@ -6540,6 +6992,42 @@ Description-en: Pure-Python MySQL Driver - Python 3.x
  IronPython and Jython.
  .
  This package contains the Python 3.x module.
+
+Package: python-pysaml2
+Description-md5: 16d0f971779ad9a34c3370d282079952
+Description-en: SAML Version 2 to be used in a WSGI environment - Python 2.x
+ This package provides a Python implementation of SAML Version 2 to be used in
+ a WSGI environment.
+ .
+ From wikipedia: Security Assertion Markup Language 2.0 (SAML 2.0) is a version
+ of the SAML standard for exchanging authentication and authorization data
+ between security domains. SAML 2.0 is an XML-based protocol that uses security
+ tokens containing assertions to pass information about a principal (usually an
+ end user) between a SAML authority, that is, an identity provider, and a SAML
+ consumer, that is, a service provider. SAML 2.0 enables web-based
+ authentication and authorization scenarios including cross-domain single
+ sign-on (SSO), which helps reduce the administrative overhead of distributing
+ multiple authentication tokens to the user.
+ .
+ This package contains the Python 2.x module.
+
+Package: python-pysaml2-doc
+Description-md5: 560a0ed806401665bc7e6f289a294ade
+Description-en: SAML Version 2 to be used in a WSGI environment - doc
+ This package provides a Python implementation of SAML Version 2 to be used in
+ a WSGI environment.
+ .
+ From wikipedia: Security Assertion Markup Language 2.0 (SAML 2.0) is a version
+ of the SAML standard for exchanging authentication and authorization data
+ between security domains. SAML 2.0 is an XML-based protocol that uses security
+ tokens containing assertions to pass information about a principal (usually an
+ end user) between a SAML authority, that is, an identity provider, and a SAML
+ consumer, that is, a service provider. SAML 2.0 enables web-based
+ authentication and authorization scenarios including cross-domain single
+ sign-on (SSO), which helps reduce the administrative overhead of distributing
+ multiple authentication tokens to the user.
+ .
+ This package contains the documentation.
 
 Package: python-requests-mock
 Description-md5: 4b3586d0dd928fe9bacf51a6580555f4
@@ -8015,6 +8503,23 @@ Description-en: Persistent key-value database with network interface (client)
  .
  This package contains the command line client and other tools.
 
+Package: golang-robustirc-bridge-dev
+Description-md5: 1e393c9616469df26553ce7979ee550f
+Description-en: Go packages to connect to RobustIRC
+ These Go packages can be used to write software that directly talks to a
+ RobustIRC network without using a bridge. This code is also used by the
+ robustirc-bridge, so it is reliable and comes with a stable API.
+
+Package: robustirc-bridge
+Description-md5: 7c523959e308d2b13a295e8d7c90af1a
+Description-en: bridge between IRC and RobustIRC
+ The RobustIRC bridge allows you to connect to a RobustIRC network using your
+ regular IRC client (such as irssi, WeeChat, XChat, etc).
+ .
+ It can be used as a SOCKS proxy for IRC clients which support SOCKS proxies,
+ or it can be run for a specific RobustIRC network, in which case it will
+ listen on a port (localhost:6667 by default) and talk IRC.
+
 Package: ruby-mime
 Description-md5: 1864ddeb67d08008fefab0b5fcc2d579
 Description-en: MIME library for Ruby
@@ -8655,6 +9160,26 @@ Description-en: network traffic analyzer - Qt version
  here.
  .
  This package provides the Qt version of wireshark.
+
+Package: xserver-xorg-video-intel
+Description-md5: 4c1c091bee575987f9997018db5db7a4
+Description-en: X.Org X server -- Intel i8xx, i9xx display driver
+ This package provides the driver for the Intel i8xx and i9xx family
+ of chipsets, including i810, i815, i830, i845, i855, i865, i915, i945
+ and i965 series chips.
+ .
+ This package also provides XvMC (XVideo Motion Compensation) drivers
+ for i810/i815 and i9xx and newer chipsets.
+ .
+ This package is built from the X.org xf86-video-intel driver module.
+
+Package: xserver-xorg-video-intel-dbg
+Description-md5: 407ff36ec08d6f79ce154b88e799d94a
+Description-en: X.Org X server -- Intel i8xx, i9xx display driver (debug symbols)
+ This driver provides support for the Intel i8xx and i9xx family of chipsets,
+ including i810, i815, i830, i845, i855, i865, i915, and i945 series chips.
+ .
+ This package provides debugging symbols for this Xorg X driver.
 
 Package: python-yowsup
 Description-md5: 87dd2450a784e0216e7c6054358bb063

@@ -1,3 +1,21 @@
+Package: libquadmath0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 275
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Description: GCC Quad-Precision Math Library
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype. The library is used to provide on such
+ targets the REAL(16) type in the GNU Fortran compiler.
+Homepage: http://gcc.gnu.org/
+
 Package: bind9utils
 Status: install ok installed
 Priority: optional
@@ -29,6 +47,21 @@ Conflicts: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Description: Version of 'host' bundled with BIND 9.X
  This package provides the 'host' program in the form that is bundled with
  the BIND 9.X sources.
+
+Package: libhtml-tagset-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 76
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 3.20-2
+Depends: perl (>= 5.6.0-16)
+Description: Data tables pertaining to HTML
+ HTML-Tagset contains data tables useful in dealing with HTML.  For instance,
+ it provides %HTML::Tagset::emptyElement, which lists all of the HTML elements
+ which cannot have content.  It provides no functions or methods.
+Homepage: http://search.cpan.org/dist/HTML-Tagset/
 
 Package: iputils-ping
 Status: install ok installed
@@ -176,6 +209,35 @@ Description: Vi IMproved - enhanced vi editor - compact version
  (online documentation, plugins, ...).
 Homepage: http://www.vim.org/
 
+Package: dovecot-core
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 6926
+Maintainer: Dovecot Maintainers <jaldhar-dovecot@debian.org>
+Architecture: amd64
+Source: dovecot
+Version: 1:2.2.13-11
+Replaces: dovecot-common (<< 1:2.0.14-2~), mailavenger (<< 0.8.1-4)
+Provides: dovecot-abi-2.2.abiv13, dovecot-common
+Depends: libbz2-1.0, libc6 (>= 2.17), liblzma5 (>= 5.1.1alpha+20120614), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4), libpam-runtime (>= 0.76-13.1), openssl, adduser, ucf (>= 2.0020)
+Suggests: ntp, dovecot-gssapi, dovecot-sieve, dovecot-pgsql, dovecot-mysql, dovecot-sqlite, dovecot-ldap, dovecot-imapd, dovecot-pop3d, dovecot-lmtpd, dovecot-managesieved, dovecot-solr, dovecot-lucene
+Breaks: dovecot-common (<< 1:2.0.14-2~), mailavenger (<< 0.8.1-4)
+Conffiles:
+ /etc/default/dovecot bb2b846b1f7d186ec384f825796994c4
+ /etc/dovecot/README e380f354cae6bd3b63e7f0f41892e9c7
+ /etc/init.d/dovecot 9a8651cfacbab03b6ef22bb6a6dca8fc
+ /etc/pam.d/dovecot 788128882dc95f31f2f979d700603f19
+Description: secure POP3/IMAP server - core files
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot main server and its command line utility.
+Homepage: http://dovecot.org/
+
 Package: libncurses5
 Status: install ok installed
 Priority: required
@@ -221,6 +283,24 @@ Description: Polish man pages
         (e.g. nroff, ascii).
   * 8 = Administration and privileged commands.
 Homepage: https://sourceforge.net/projects/manpages-pl/
+
+Package: libgomp1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 123
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.17)
+Pre-Depends: multiarch-support
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Description: GCC OpenMP (GOMP) support library
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+Homepage: http://gcc.gnu.org/
 
 Package: libjs-jquery
 Status: install ok installed
@@ -301,6 +381,23 @@ Description: PHP class for generating PDF files on-the-fly
   * automatic hyphenation and page break.
 Homepage: http://www.tcpdf.org/
 
+Package: libatomic1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 56
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Description: support library providing __atomic built-in functions
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+Homepage: http://gcc.gnu.org/
+
 Package: libapr1
 Status: install ok installed
 Priority: optional
@@ -345,6 +442,28 @@ Description: X11 Athena Widget library
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libXaw
+
+Package: cpp
+Status: install ok installed
+Priority: optional
+Section: interpreters
+Installed-Size: 65
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: allowed
+Source: gcc-defaults (1.136)
+Version: 4:4.9.2-2
+Depends: cpp-4.9 (>= 4.9.2-1~)
+Suggests: cpp-doc
+Conflicts: cpp-doc (<< 1:2.95.3)
+Description: GNU C preprocessor (cpp)
+ The GNU C preprocessor is a macro processor that is used automatically
+ by the GNU C compiler to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+ .
+ This is a dependency package providing the default GNU C preprocessor.
 
 Package: libxcb-present0
 Status: deinstall ok config-files
@@ -1038,6 +1157,56 @@ Description: XML parsing C library - runtime library
  might find in the XML document (like start tags).
 Homepage: http://expat.sourceforge.net
 
+Package: libmailtools-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 233
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: all
+Version: 2.13-1
+Replaces: mailtools (<= 1.15-1)
+Provides: libmail-perl, mailtools
+Depends: perl, libnet-perl, libtimedate-perl, libnet-smtp-ssl-perl
+Conflicts: mailtools (<= 1.15-1)
+Description: Manipulate email in perl programs
+ This is a set of perl modules which provide an easy interface to
+ manipulating email in an object-oriented fashion.
+Homepage: http://search.cpan.org/dist/MailTools/
+
+Package: php5-fpm
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 8890
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: amd64
+Source: php5
+Version: 5.6.7+dfsg-1
+Depends: libapparmor1 (>= 2.7.0~beta1+bzr1772), libbz2-1.0, libc6 (>= 2.15), libcomerr2 (>= 1.01), libdb5.3, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.9.5), libpcre3 (>= 1:8.35), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.1), libsystemd0, libxml2 (>= 2.9.0), zlib1g (>= 1:1.1.4), init-system-helpers (>= 1.18~), mime-support, php5-common (= 5.6.7+dfsg-1), php5-cli, php5-json, libmagic1, ucf, tzdata
+Suggests: php-pear
+Conffiles:
+ /etc/init.d/php5-fpm 20f57e0d48d21f11ab751a2869c8586f
+ /etc/init/php5-fpm.conf f0061301091846a1dbbc830226f44d90
+ /etc/logrotate.d/php5-fpm c9d721ed5e99b85e1bcac1d5bc3b1728
+ /etc/php5/fpm/php-fpm.conf 69e2a37717fc08d05b75fc24e40f0ea5
+ /etc/php5/fpm/pool.d/www.conf e1940d21c5edc3a3e869ea87bbd556e6
+Description: server-side, HTML-embedded scripting language (FPM-CGI binary)
+ This package provides the Fast Process Manager interpreter that runs
+ as a daemon and receives Fast/CGI requests.  Note that MOST Apache users
+ probably want the libapache2-mod-php5 package.
+ .
+ The following extensions are built in: bcmath bz2 calendar Core ctype date
+ dba dom ereg exif fileinfo filter ftp gettext hash iconv libxml mbstring
+ mhash openssl pcre Phar posix Reflection session shmop SimpleXML soap
+ sockets SPL standard sysvmsg sysvsem sysvshm tokenizer wddx xml xmlreader
+ xmlwriter zip zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
+
 Package: libparted2
 Status: install ok installed
 Priority: optional
@@ -1086,6 +1255,91 @@ Description: pager program similar to more
  types of input, such as .doc or .txt.gz files.
 Homepage: http://www.greenwoodsoftware.com/less/
 
+Package: libunbound2
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 653
+Maintainer: Robert S. Edmonds <edmonds@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: unbound
+Version: 1.4.22-3
+Depends: libc6 (>= 2.15), libssl1.0.0 (>= 1.0.0)
+Pre-Depends: multiarch-support
+Description: library implementing DNS resolution and validation
+ libunbound performs and validates DNS lookups; it can be used to convert
+ hostnames to IP addresses and back and obtain other information from the
+ DNS. Cryptographic validation of results is performed with DNSSEC.
+Homepage: https://www.unbound.net/
+
+Package: libfont-afm-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 120
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.20-1
+Depends: perl (>= 5.6.0-16)
+Description: Font::AFM - Interface to Adobe Font Metrics files
+ This module implements the Font::AFM class. Objects of this class are
+ initialised from an AFM-file and allows you to obtain information
+ about the font and the metrics of the various glyphs in the font.
+ .
+ All measurements in AFM files are given in terms of units equal to
+ 1/1000 of the scale factor of the font being used. To compute actual
+ sizes in a document, these amounts should be multiplied by (scale
+ factor of font)/1000.
+Homepage: http://search.cpan.org/dist/Font-AFM/
+
+Package: dovecot-managesieved
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 727
+Maintainer: Dovecot Maintainers <jaldhar-dovecot@debian.org>
+Architecture: amd64
+Source: dovecot
+Version: 1:2.2.13-11
+Replaces: dovecot-common (<< 1:2.0.14-2~)
+Depends: dovecot-core (= 1:2.2.13-11), dovecot-sieve (= 1:2.2.13-11), libc6 (>= 2.4), libssl1.0.0 (>= 1.0.0), ucf (>= 2.0020)
+Breaks: dovecot-common (<< 1:2.0.14-2~)
+Description: secure POP3/IMAP server - ManageSieve server
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot ManageSieve server.
+Homepage: http://dovecot.org/
+
+Package: make
+Status: install ok installed
+Priority: standard
+Section: devel
+Installed-Size: 1295
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Architecture: amd64
+Source: make-dfsg
+Version: 4.0-8.1
+Replaces: make-guile
+Depends: libc6 (>= 2.17)
+Suggests: make-doc
+Conflicts: make-guile
+Description: utility for directing compilation
+ GNU Make is a utility which controls the generation of executables
+ and other target files of a program from the program's source
+ files. It determines automatically which pieces of a large program
+ need to be (re)created, and issues the commands to (re)create
+ them. Make can be used to organize any task in which targets (files)
+ are to be automatically updated based on input files whenever the
+ corresponding input is newer --- it is not limited to building
+ computer programs. Indeed, Make is a general purpose dependency
+ solver.
+Homepage: http://www.gnu.org/software/make/
+
 Package: liblzma5
 Status: install ok installed
 Priority: required
@@ -1132,6 +1386,23 @@ Description: generic font configuration library - configuration
  .
  This package contains the configuration files and scripts for fontconfig.
 
+Package: libhttp-date-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 56
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.02-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libtimedate-perl
+Breaks: libwww-perl (<< 6.00)
+Description: module of date conversion routines
+ HTTP::Date provides functions that deal the date formats used by the HTTP
+ protocol (and then some more). Only the first two functions, time2str() and
+ str2time(), are exported by default.
+Homepage: http://search.cpan.org/dist/HTTP-Date/
+
 Package: tk8.6
 Status: deinstall ok config-files
 Priority: optional
@@ -1150,6 +1421,24 @@ Description: Tk toolkit for Tcl and X11 v8.6 - windowing shell
  look-and-feel and is implemented using the Tcl scripting language.
  This package contains the windowing Tcl/Tk shell (wish).
 Homepage: http://www.tcl.tk/
+
+Package: libnet-smtp-ssl-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.01-3
+Depends: perl, libio-socket-ssl-perl
+Recommends: libauthen-sasl-perl
+Description: Perl module providing SSL support to Net::SMTP
+ Net::SMTP::SSL implements the same API as Net::SMTP, but uses IO::Socket::SSL
+ for its network operations. Due to the nature of Net::SMTP's new method, it is
+ not overridden to make use of a default port for the SMTPS service. Perhaps
+ future versions will be smart like that. Port 465 is usually what you want,
+ and it's not a pain to specify that.
+Homepage: http://search.cpan.org/dist/Net-SMTP-SSL/
 
 Package: vlan
 Status: install ok installed
@@ -1223,6 +1512,25 @@ Description: low level cryptographic library (public-key cryptos)
  their large integer computations.
 Homepage: http://www.lysator.liu.se/~nisse/nettle/
 
+Package: libhtml-format-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 152
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.11-1
+Depends: perl, libfont-afm-perl, libhtml-tree-perl
+Description: module for transforming HTML into various formats
+ HTML::Formatter is a base class for various formatters, which are modules
+ that traverse an HTML syntax tree and produce various output file formats.
+ There are currently three formatter classes included:
+ .
+  * HTML::FormatText for converting to plain human-readable text
+  * HTML::FormatPS for converting to PostScript
+  * HTML::FormatRTF for converting to Microsoft's Rich Text Format (RTF)
+Homepage: https://metacpan.org/release/HTML-Format/
+
 Package: mysql-server
 Status: install ok installed
 Priority: optional
@@ -1246,6 +1554,28 @@ Description: MySQL database server (metapackage depending on the latest version)
  ease of use.
 Homepage: http://dev.mysql.com/
 
+Package: dovecot-lmtpd
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 608
+Maintainer: Dovecot Maintainers <jaldhar-dovecot@debian.org>
+Architecture: amd64
+Source: dovecot
+Version: 1:2.2.13-11
+Replaces: dovecot-common (<< 1:2.0.14-2~)
+Depends: dovecot-core (= 1:2.2.13-11), libc6 (>= 2.4), ucf (>= 2.0020)
+Breaks: dovecot-common (<< 1:2.0.14-2~)
+Description: secure POP3/IMAP server - LMTP server
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot LMTP server.
+Homepage: http://dovecot.org/
+
 Package: libpam-modules-bin
 Status: install ok installed
 Priority: required
@@ -1262,6 +1592,25 @@ Description: Pluggable Authentication Modules for PAM - helper binaries
  This package contains helper binaries used by the standard set of PAM
  modules in the libpam-modules package.
 Homepage: http://pam.sourceforge.net/
+
+Package: libopendbx1-mysql
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 43
+Maintainer: Debian OpenDBX Maintainers <pkg-libopendbx-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: libopendbx
+Version: 1.4.6-8
+Provides: libopendbx1-backend
+Depends: libopendbx1 (= 1.4.6-8), libc6 (>= 2.14), libmysqlclient18 (>= 5.5.24+dfsg-1), zlib1g (>= 1:1.1.4)
+Description: MySQL backend for OpenDBX
+ OpenDBX provides a simple and lightweight API for interfacing native
+ relational database APIs in a consistent way. By using the OpenDBX API you
+ don't have to adapt your program to the different database APIs by yourself.
+ .
+ This package contains the MySQL backend.
+Homepage: http://www.linuxnetworks.de/doc/index.php/OpenDBX
 
 Package: grep
 Essential: yes
@@ -1717,6 +2066,26 @@ Description: JavaScript's functional programming helper library
  reduce, filter, every, some and indexOf.
 Homepage: http://underscorejs.org/
 
+Package: dovecot-mysql
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 581
+Maintainer: Dovecot Maintainers <jaldhar-dovecot@debian.org>
+Architecture: amd64
+Source: dovecot
+Version: 1:2.2.13-11
+Depends: libc6 (>= 2.4), libmysqlclient18 (>= 5.5.24+dfsg-1), zlib1g (>= 1:1.1.4), dovecot-core (= 1:2.2.13-11)
+Description: secure POP3/IMAP server - MySQL support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides MySQL support for Dovecot.
+Homepage: http://dovecot.org/
+
 Package: e2fslibs
 Status: install ok installed
 Priority: required
@@ -1944,6 +2313,21 @@ Description: MIME files 'mime.types' & 'mailcap', and support programs
  a program determined from the entries in the mime.types and mailcap
  files.
 
+Package: libio-socket-inet6-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 74
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.72-1
+Depends: perl, libsocket6-perl
+Description: object interface for AF_INET6 domain sockets
+ IO::Socket::INET6 provides an object interface to create and use sockets
+ in the AF_INET6 domain. It is built upon the IO::Socket interface and
+ inherits all the methods defined by IO::Socket.
+Homepage: https://metacpan.org/release/IO-Socket-INET6
+
 Package: ipmitool
 Status: install ok installed
 Priority: optional
@@ -1973,6 +2357,60 @@ Description: utility for IPMI control with kernel driver or LAN interface
  information, read and set LAN configuration parameters, and perform
  remote chassis power control.
 Homepage: http://sourceforge.net/projects/ipmitool/
+
+Package: libhttp-cookies-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 76
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.01-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhttp-date-perl, libhttp-message-perl
+Breaks: libwww-perl (<< 6.00)
+Description: HTTP cookie jars
+ This class is for objects that represent a "cookie jar" -- that is, a
+ database of all the HTTP cookies that a given LWP::UserAgent object knows
+ about.
+ .
+ Cookies are a general mechanism which server side connections can use to both
+ store and retrieve information on the client side of the connection. For more
+ information about cookies refer to
+ <URL:http://curl.haxx.se/rfc/cookie_spec.html> and
+ <URL:http://www.cookiecentral.com/>. HTTP::Cookies also implements the new
+ style cookies described in RFC 2965. The two variants of cookies are supposed
+ to be able to coexist happily.
+ .
+ Instances of the class HTTP::Cookies are able to store a collection of
+ Set-Cookie2: and Set-Cookie: headers and are able to use this information to
+ initialize Cookie-headers in HTTP::Request objects. The state of a
+ HTTP::Cookies object can be saved in and restored from files.
+Homepage: https://metacpan.org/release/HTTP-Cookies
+
+Package: libencode-locale-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 59
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.03-1
+Depends: perl
+Description: utility to determine the locale encoding
+ In many applications it's wise to let Perl use Unicode for the strings it
+ processes. Most of the interfaces Perl has to the outside world are still byte
+ based. Programs therefore need to decode byte strings that enter the program
+ from the outside and encode them again on the way out.
+ .
+ The POSIX locale system is used to specify both the language conventions
+ requested by the user and the preferred character set to consume and output.
+ The Encode::Locale module looks up the charset and encoding (called a CODESET
+ in the locale jargon) and arranges for the Encode module to know this encoding
+ under the name "locale". It means bytes obtained from the environment can be
+ converted to Unicode strings by calling Encode::encode(locale => $bytes) and
+ converted back again with Encode::decode(locale => $string).
+Homepage: http://search.cpan.org/dist/Encode-Locale/
 
 Package: libsigc++-2.0-0c2a
 Status: install ok installed
@@ -2138,6 +2576,27 @@ Description: MySQL database client binaries
  innotop and mysqlreport.
 Homepage: http://dev.mysql.com/
 
+Package: curl
+Status: install ok installed
+Priority: optional
+Section: web
+Installed-Size: 325
+Maintainer: Alessandro Ghedini <ghedo@debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 7.38.0-4+deb8u2
+Depends: libc6 (>= 2.17), libcurl3 (= 7.38.0-4+deb8u2), zlib1g (>= 1:1.1.4)
+Description: command line tool for transferring data with URL syntax
+ curl is a command line tool for transferring data with URL syntax, supporting
+ DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3,
+ POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+ .
+ curl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form
+ based upload, proxies, cookies, user+password authentication (Basic, Digest,
+ NTLM, Negotiate, kerberos...), file transfer resume, proxy tunneling and a
+ busload of other useful tricks.
+Homepage: http://curl.haxx.se
+
 Package: libaprutil1-dbd-sqlite3
 Status: install ok installed
 Priority: optional
@@ -2217,6 +2676,61 @@ Description: MySQL module for php5
  open source general-purpose scripting language that is especially suited
  for web development and can be embedded into HTML.
 Homepage: http://www.php.net/
+
+Package: libtimedate-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 96
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.3000-2
+Replaces: timedate
+Provides: timedate
+Depends: perl
+Breaks: timedate
+Description: collection of modules to manipulate date/time information
+ TimeDate is a collection of Perl modules useful for manipulating date and
+ time information. Date::Parse can parse absolute date specifications in a
+ wide variety of input formats and many languages (via Date::Language).
+ .
+ This package also includes Date::Format, which can format dates into strings,
+ as well as Time::Zone, which contains miscellaneous time zone functions.
+Homepage: https://metacpan.org/release/TimeDate
+
+Package: gcc-4.9
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 17634
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4.9.2-10
+Replaces: gccgo-4.9 (<< 4.9.2-10)
+Provides: c-compiler
+Depends: cpp-4.9 (= 4.9.2-10), gcc-4.9-base (= 4.9.2-10), binutils (>= 2.25), libgcc-4.9-dev (= 4.9.2-10), libc6 (>= 2.14), libcloog-isl4 (>= 0.17), libgmp10 (>= 2:5.0.1~), libisl10 (>= 0.10), libmpc3, libmpfr4 (>= 3.1.2), zlib1g (>= 1:1.1.4)
+Recommends: libc6-dev (>= 2.13-5)
+Suggests: gcc-4.9-multilib, gcc-4.9-doc (>= 4.9), gcc-4.9-locales (>= 4.9), libgcc1-dbg (>= 1:4.9.2-10), libgomp1-dbg (>= 4.9.2-10), libitm1-dbg (>= 4.9.2-10), libatomic1-dbg (>= 4.9.2-10), libasan1-dbg (>= 4.9.2-10), liblsan0-dbg (>= 4.9.2-10), libtsan0-dbg (>= 4.9.2-10), libubsan0-dbg (>= 4.9.2-10), libcilkrts5-dbg (>= 4.9.2-10), libquadmath0-dbg (>= 4.9.2-10)
+Description: GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+Homepage: http://gcc.gnu.org/
+
+Package: libnet-ip-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 134
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.26-1
+Depends: perl
+Description: Perl extension for manipulating IPv4/IPv6 addresses
+ Net::IP provides functions to deal with IPv4/IPv6 addresses.
+ The module can be used as a class, allowing the user to instantiate IP
+ objects, which can be single IP addresses, prefixes, or ranges of addresses.
+ There is also a procedural way of accessing most of the functions. Most
+ subroutines can take either IPv4 or IPv6 addresses transparently.
+Homepage: http://search.cpan.org/dist/Net-IP/
 
 Package: isc-dhcp-common
 Status: install ok installed
@@ -2365,6 +2879,26 @@ Description: Berkeley v5.3 Database Libraries [runtime]
  database library.
 Homepage: http://www.oracle.com/technology/software/products/berkeley-db/index.html
 
+Package: libnet-ssleay-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 1012
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: libnet-ssleay-perl (1.65-1)
+Version: 1.65-1+b1
+Depends: perl (>= 5.20.0-4), perlapi-5.20.0, libc6 (>= 2.14), libssl1.0.0 (>= 1.0.1)
+Suggests: libmime-base64-perl
+Description: Perl module for Secure Sockets Layer (SSL)
+ Net::SSLeay is a perl module that allows you to call Secure Sockets Layer
+ (SSL) functions of the SSLeay library directly from your perl scripts. It
+ is useful if you want to program robots that access secure web servers or
+ if you want to build your own applications over SSL encrypted tunnels. If
+ you just want to view web pages on https servers, you do not need this -
+ your web browser already knows to do that.
+Homepage: https://metacpan.org/release/Net-SSLeay
+
 Package: vim
 Status: install ok installed
 Priority: optional
@@ -2388,6 +2922,36 @@ Description: Vi IMproved - enhanced vi editor
  version of Vim.  See the other vim-* packages if you need more
  (or less).
 Homepage: http://www.vim.org/
+
+Package: libcurl3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 586
+Maintainer: Alessandro Ghedini <ghedo@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: curl
+Version: 7.38.0-4+deb8u2
+Depends: libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.2.6), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)
+Pre-Depends: multiarch-support
+Recommends: ca-certificates
+Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
+ libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
+ FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S,
+ RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+ .
+ libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP
+ form based upload, proxies, cookies, user+password authentication (Basic,
+ Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling
+ and more!
+ .
+ libcurl is free, thread-safe, IPv6 compatible, feature rich, well supported,
+ fast, thoroughly documented and is already used by many known, big and
+ successful companies and numerous applications.
+ .
+ SSL support is provided by OpenSSL.
+Homepage: http://curl.haxx.se
 
 Package: fonts-dejavu-core
 Status: install ok installed
@@ -2429,6 +2993,23 @@ Description: Vera font family derivate with additional characters
  computer screens) but can be used in printing as well.
 Homepage: http://dejavu-fonts.org/
 
+Package: libcilkrts5
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 157
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.14), libgcc1 (>= 1:4.8), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Description: Intel Cilk Plus language extensions (runtime)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+Homepage: http://gcc.gnu.org/
+
 Package: apt-utils
 Status: install ok installed
 Priority: important
@@ -2448,6 +3029,24 @@ Description: package management related utility programs
   * apt-ftparchive is used to create Packages and other index files
     needed to publish an archive of debian packages
   * apt-sortpkgs is a Packages/Sources file normalizer.
+
+Package: php5-curl
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 96
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: amd64
+Source: php5
+Version: 5.6.7+dfsg-1
+Depends: libc6 (>= 2.14), libcurl3 (>= 7.18.0), phpapi-20131226, php5-common (= 5.6.7+dfsg-1), ucf
+Description: CURL module for php5
+ CURL is a library for getting files from  FTP, GOPHER, HTTP server.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
 
 Package: libcap2-bin
 Status: install ok installed
@@ -2531,6 +3130,25 @@ Description: compression library - runtime
  zlib is a library implementing the deflate compression method found
  in gzip and PKZIP.  This package includes the shared library.
 Homepage: http://zlib.net/
+
+Package: re2c
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 532
+Maintainer: Robert S. Edmonds <edmonds@debian.org>
+Architecture: amd64
+Version: 0.13.5-1
+Depends: libc6 (>= 2.7-1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.2.1)
+Description: tool for generating fast C-based recognizers
+ re2c is a great tool for writing fast and flexible lexers. Unlike
+ other such tools, re2c concentrates solely on generating efficient
+ code for matching regular expressions. Not only does this singleness
+ make re2c more suitable for a wider variety of applications, it
+ allows us to generate scanners which approach hand-crafted ones in
+ terms of size and speed.
+ .
+Homepage: http://re2c.sourceforge.net/
 
 Package: lvm2
 Status: install ok installed
@@ -2643,6 +3261,37 @@ Breaks: nis (<< 3.17-30)
 Description: utility to set/show the host name or domain name
  This package provides commands which can be used to display the system's
  DNS name, and to display or set its hostname or NIS domain name.
+
+Package: opendkim-tools
+Status: install ok installed
+Priority: extra
+Section: mail
+Installed-Size: 431
+Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Source: opendkim
+Version: 2.9.2-2
+Replaces: opendkim (<< 2.5.2+dfsg-2~)
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.15), libdb5.3, libldap-2.4-2 (>= 2.4.7), liblua5.1-0, libmemcached11, libmemcachedutil2, libopendbx1 (>= 1.4.6), libopendkim9 (>= 2.8.0~beta0), librbl1 (>= 2.7.2), libssl1.0.0 (>= 1.0.0), libunbound2 (>= 1.4.1), libvbr2 (>= 2.7.2)
+Breaks: opendkim (<< 2.5.2+dfsg-2~)
+Description: Set of command line tools for OpenDKIM
+ The OpenDKIM Project is a community effort to develop and maintain a C library
+ for producing DKIM-aware applications and an open source milter for providing
+ DomainKeys Identified Mail (DKIM) service.
+ .
+ This package contains command line tools for the OpenDKIM mail filter
+ (Milter).  The following tools are included:
+   - opendkim-genkey
+   - miltertest
+   - opendkim-testadsp
+   - opendkim-stats
+   - opendkim-genzone
+   - opendkim-spam
+   - opendkim-testkey
+   - opendkim-atpszone
+   - opendkim-convert-keylist
+   - opendkim-testmsg
+Homepage: http://www.opendkim.org/
 
 Package: grub-pc
 Status: install ok installed
@@ -2855,6 +3504,81 @@ Description: library to read and write ELF files
  This library is part of elfutils.
 Homepage: https://fedorahosted.org/elfutils/
 
+Package: libubsan0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 235
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Description: UBSan -- undefined behaviour sanitizer (runtime)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+Homepage: http://gcc.gnu.org/
+
+Package: postfix-mysql
+Status: install ok installed
+Priority: extra
+Section: mail
+Installed-Size: 325
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Source: postfix
+Version: 2.11.3-1
+Depends: libc6 (>= 2.2.5), libmysqlclient18 (>= 5.5.24+dfsg-1), postfix (= 2.11.3-1)
+Description: MySQL map support for Postfix
+ Postfix is Wietse Venema's mail transport agent that started life as an
+ alternative to the widely-used Sendmail program.  Postfix attempts to
+ be fast, easy to administer, and secure, while at the same time being
+ sendmail compatible enough to not upset existing users. Thus, the outside
+ has a sendmail-ish flavor, but the inside is completely different.
+ .
+ This provides support for MySQL maps in Postfix. If you plan to use MySQL
+ maps with Postfix, you need this.
+Homepage: http://www.postfix.org
+
+Package: libtsan0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 768
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.3), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Description: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
+ ThreadSanitizer (Tsan) is a data race detector for C/C++ programs.
+ The Linux and Mac versions are based on Valgrind.
+Homepage: http://gcc.gnu.org/
+
+Package: libopendbx1-sqlite3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 43
+Maintainer: Debian OpenDBX Maintainers <pkg-libopendbx-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: libopendbx
+Version: 1.4.6-8
+Provides: libopendbx1-backend
+Depends: libopendbx1 (= 1.4.6-8), libc6 (>= 2.14), libsqlite3-0 (>= 3.5.9)
+Description: SQLite3 backend for OpenDBX
+ OpenDBX provides a simple and lightweight API for interfacing native
+ relational database APIs in a consistent way. By using the OpenDBX API you
+ don't have to adapt your program to the different database APIs by yourself.
+ .
+ This package contains the SQLite3 backend.
+Homepage: http://www.linuxnetworks.de/doc/index.php/OpenDBX
+
 Package: btrfs-tools
 Status: install ok installed
 Priority: optional
@@ -3002,6 +3726,47 @@ Description: GLib library of C routines
  This package contains the shared libraries.
 Homepage: http://www.gtk.org/
 
+Package: nginx-common
+Status: deinstall ok config-files
+Priority: optional
+Section: httpd
+Installed-Size: 243
+Maintainer: Kartik Mistry <kartik@debian.org>
+Architecture: all
+Source: nginx
+Version: 1.6.2-5
+Config-Version: 1.6.2-5
+Replaces: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Depends: lsb-base (>= 3.2-14), init-system-helpers (>= 1.18~)
+Suggests: fcgiwrap, nginx-doc, ssl-cert
+Breaks: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Conffiles:
+ /etc/default/nginx 596fbc1f5712caaa02e8c799a4e2a01f obsolete
+ /etc/init.d/nginx e6b27849d0ccb634c8e46af22a620389 obsolete
+ /etc/logrotate.d/nginx 4e09a2a41cdc76764d3ae4a927ed05eb obsolete
+ /etc/nginx/fastcgi.conf c53b8ddf4250e742594d24c55e73c0df
+ /etc/nginx/fastcgi_params f597fb54a6fa1c9a9678dd3ae377d385 obsolete
+ /etc/nginx/koi-utf 3e338aca6a53a5420fc791b5ef86f64c obsolete
+ /etc/nginx/koi-win bfa0b80381fed2b1dfcf617b0ba204ec obsolete
+ /etc/nginx/mime.types bd837e7b34f5c9b8d89957d0527f0d44 obsolete
+ /etc/nginx/nginx.conf b4cb316e71612d7500508f235ebba148 obsolete
+ /etc/nginx/proxy_params 2612ba3438c3b7855ea7779a879e6aef
+ /etc/nginx/scgi_params e9fd19c7d1f0cecbd46b3cb041ae19c7 obsolete
+ /etc/nginx/sites-available/default fff057dc16136f8f970eb897380bc6c7
+ /etc/nginx/snippets/fastcgi-php.conf 678c2236edfebe41de06c26fb378e9a0
+ /etc/nginx/snippets/snakeoil.conf 0a8bff8a55d8ec9d002e1b8460d2d64f
+ /etc/nginx/uwsgi_params 2aaaf1e3535752e74d2942db8b3632cb obsolete
+ /etc/nginx/win-utf 0f39cbfca77d4f3bb5d33f009a514c71 obsolete
+ /etc/ufw/applications.d/nginx 3e24def79cf627acc2ab1b1bdfbc645c
+Description: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+Homepage: http://nginx.net
+
 Package: libxss1
 Status: deinstall ok config-files
 Priority: optional
@@ -3112,6 +3877,21 @@ Description: POSIX 1003.1e capabilities (library)
  This package contains the shared library.
 Homepage: http://sites.google.com/site/fullycapable/
 
+Package: libio-html-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 40
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.001-1
+Depends: perl
+Description: open an HTML file with automatic charset detection
+ IO::HTML provides an easy way to open a file containing HTML while
+ automatically determining its encoding.  It uses the HTML5 encoding
+ sniffing algorithm specified in section 8.2.2.1 of the draft standard.
+Homepage: http://search.cpan.org/dist/IO-HTML/
+
 Package: bsdutils
 Essential: yes
 Status: install ok installed
@@ -3195,16 +3975,16 @@ Package: libfuse2
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 366
+Installed-Size: 335
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Architecture: amd64
 Multi-Arch: same
-Source: fuse (2.9.3-15)
-Version: 2.9.3-15+b1
+Source: fuse
+Version: 2.9.3-15+deb8u1
 Depends: libc6 (>= 2.17)
 Pre-Depends: multiarch-support
 Suggests: fuse
-Conflicts: fuse (<< 2.9.3-15+b1)
+Conflicts: fuse (<< 2.9.3-15+deb8u1)
 Description: Filesystem in Userspace (library)
  Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
  export a virtual filesystem to the Linux kernel. It also aims to provide a
@@ -3278,6 +4058,35 @@ Description: easy to use and lightweight logging library
  This package contains the shared library.
 Homepage: http://www.liblogging.org/
 
+Package: liblwp-protocol-https-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 56
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.06-2
+Replaces: libwww-perl (<< 6.02)
+Depends: perl, ca-certificates, libio-socket-ssl-perl (>= 1.54), libnet-http-perl, libwww-perl (>= 6.05-2)
+Suggests: libcrypt-ssleay-perl
+Breaks: libwww-perl (<< 6.02)
+Description: HTTPS driver for LWP::UserAgent
+ The LWP::Protocol::https module provides support for using HTTPS schemed URLs
+ with LWP. LWP::Protocol::https is a plug-in to the LWP protocol handling, so
+ you don't use it directly. Once the module is installed LWP is able to access
+ sites using HTTP over SSL/TLS.
+ .
+ If hostname verification is requested by LWP::UserAgent's ssl_opts, and
+ neither SSL_ca_file nor SSL_ca_path is set, then SSL_ca_file is implied to be
+ the one provided by ca-certificates.
+ .
+ This module used to be bundled with libwww-perl, but it was unbundled in
+ v6.02 in order to be able to declare its dependencies properly for the CPAN
+ tool-chain. Applications that need HTTPS support can just declare their
+ dependency on LWP::Protocol::https and will no longer need to know what
+ underlying modules to install.
+Homepage: https://metacpan.org/release/LWP-Protocol-https
+
 Package: gnupg
 Status: install ok installed
 Priority: important
@@ -3345,6 +4154,45 @@ Description: Internet Domain Name Server
  .
  This package provides the server and related configuration files.
 
+Package: unzip
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 386
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 6.0-16
+Depends: libbz2-1.0, libc6 (>= 2.14)
+Suggests: zip
+Description: De-archiver for .zip files
+ InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+ .
+ This version supports encryption.
+Homepage: http://www.info-zip.org/UnZip.html
+
+Package: linux-libc-dev
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 3336
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: linux
+Version: 3.16.7-ckt9-3~deb8u1
+Replaces: linux-kernel-headers
+Provides: linux-kernel-headers
+Conflicts: linux-kernel-headers
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These
+ headers are used by the installed headers for GNU libc and other system
+ libraries.
+Homepage: https://www.kernel.org/
+
 Package: perl-modules
 Status: install ok installed
 Priority: standard
@@ -3374,6 +4222,44 @@ Description: Core Perl modules
  Other packages should not depend on `perl-modules' directly, they
  should use `perl' (which depends on `perl-modules') instead.
 Homepage: http://dev.perl.org/perl5/
+
+Package: spamassassin
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 3590
+Maintainer: Noah Meyerhans <noahm@debian.org>
+Architecture: all
+Version: 3.4.0-6
+Provides: libmail-spamassassin-perl
+Depends: perl (>= 5.8.0), libhtml-parser-perl (>= 3.43), libsocket6-perl, libsys-hostname-long-perl, libarchive-tar-perl, libwww-perl, libnet-dns-perl (>= 0.34), libnetaddr-ip-perl, perl-modules (>= 5.10) | libio-zlib-perl (>= 1.04), adduser, init-system-helpers (>= 1.18~)
+Recommends: spamc (>= 2.30), sa-compile, libmail-spf-perl, libsys-syslog-perl, gnupg, libio-socket-inet6-perl
+Suggests: razor (>= 2.361-2), libio-socket-ssl-perl, libdbi-perl, pyzor, libcompress-zlib-perl, libmail-dkim-perl
+Conflicts: gotmail (<= 0.8.1-1), spamass-milter (<< 0.2.0-7)
+Conffiles:
+ /etc/cron.daily/spamassassin 78aab07504073c56c6c974365b3b4a27
+ /etc/default/spamassassin c80ea6518beb6f2c4f20f42ab68e4a8c
+ /etc/init.d/spamassassin c6eb1867d029ed5d2a0b2bb1ca4aa658
+ /etc/spamassassin/65_debian.cf 2b1a4b50c7580f7e924cc7ce53dbb882
+ /etc/spamassassin/init.pre 4bec504033006c1dcd22678abe2c692c
+ /etc/spamassassin/local.cf fa4ab07033b1ca700f2ab949d0ce90d0
+ /etc/spamassassin/v310.pre aa1be57835e2f11c2bb6cc5f404c8565
+ /etc/spamassassin/v312.pre 6548a6c4c83f909a3cca3746a8601ad2
+ /etc/spamassassin/v320.pre 0ad5c795a4d0fa8dc5d788b654601ab6
+ /etc/spamassassin/v330.pre 40fb32218509c7f3d00e75033060d082
+ /etc/spamassassin/v340.pre 329b5856a4378bb9364add9cabd949de
+Description: Perl-based spam filter using text analysis
+ SpamAssassin is a very powerful and fully configurable spam filter
+ with numerous features including automatic white-listing, RBL
+ testing, Bayesian analysis, header and body text analysis. It is
+ designed to be called from a user's .procmail or .forward file, but
+ can also be integrated into a Mail Transport Agent (MTA).
+ .
+ Included in this package is a daemonized form of spamassassin (spamd)
+ which communicates with its client (spamc) via TCP, to reduce the
+ overhead of loading perl with each message. To take advantage of
+ this, you must install the spamc package.
+Homepage: http://www.spamassassin.org/
 
 Package: mount
 Essential: yes
@@ -3956,6 +4842,34 @@ Description: simple debconf wrapper for OpenSSL
  It is a simple wrapper for OpenSSL's certificate request utility that
  feeds it with the correct user variables.
 
+Package: libhttp-daemon-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 71
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.01-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhttp-date-perl, libhttp-message-perl, liblwp-mediatypes-perl
+Breaks: libwww-perl (<< 6.00)
+Description: simple http server class
+ Instances of the HTTP::Daemon class are HTTP/1.1 servers that listen on a
+ socket for incoming requests. The HTTP::Daemon is a subclass of
+ IO::Socket::INET, so you can perform socket operations directly on it too.
+ .
+ The accept() method will return when a connection from a client is available.
+ The returned value will be an HTTP::Daemon::ClientConn object which is
+ another IO::Socket::INET subclass. Calling the get_request() method on this
+ object will read data from the client and return an HTTP::Request object. The
+ ClientConn object also provide methods to send back various responses.
+ .
+ This HTTP daemon does not fork(2) for you. Your application, i.e. the user of
+ the HTTP::Daemon is responsible for forking if that is desirable. Also note
+ that the user is responsible for generating responses that conform to the
+ HTTP/1.1 protocol.
+Homepage: http://search.cpan.org/dist/HTTP-Daemon/
+
 Package: libpipeline1
 Status: install ok installed
 Priority: important
@@ -4145,6 +5059,63 @@ Description: Linux Kernel Device Mapper userspace library
  consistent interface (as opposed to through kernel ioctls).
 Homepage: http://sources.redhat.com/lvm2/
 
+Package: libswitch-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 76
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.17-2
+Depends: perl
+Description: switch statement for Perl
+ Switch.pm implements a generalized case mechanism that covers many
+ possible combinations of switch and case values.
+ .
+ This is an obsolete module provided for compatiblity since it is being
+ removed from the core. For perl 5.10 and above the "given/when" builtins
+ are much preferred.
+Homepage: https://metacpan.org/release/Switch
+
+Package: cpp-4.9
+Status: install ok installed
+Priority: optional
+Section: interpreters
+Installed-Size: 16406
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Source: gcc-4.9
+Version: 4.9.2-10
+Replaces: gccgo-4.9 (<< 4.9.2-10)
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.14), libcloog-isl4 (>= 0.17), libgmp10 (>= 2:5.0.1~), libisl10 (>= 0.10), libmpc3, libmpfr4 (>= 3.1.2), zlib1g (>= 1:1.1.4)
+Suggests: gcc-4.9-locales (>= 4.9)
+Description: GNU C preprocessor
+ A macro processor that is used automatically by the GNU C compiler
+ to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+Homepage: http://gcc.gnu.org/
+
+Package: gcc
+Status: install ok installed
+Priority: optional
+Section: devel
+Installed-Size: 42
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Source: gcc-defaults (1.136)
+Version: 4:4.9.2-2
+Provides: c-compiler
+Depends: cpp (>= 4:4.9.2-2), gcc-4.9 (>= 4.9.2-1~)
+Recommends: libc6-dev | libc-dev
+Suggests: gcc-multilib, make, manpages-dev, autoconf, automake, libtool, flex, bison, gdb, gcc-doc
+Conflicts: gcc-doc (<< 1:2.95.3)
+Description: GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+ .
+ This is a dependency package providing the default GNU C compiler.
+
 Package: manpages-it
 Status: install ok installed
 Priority: optional
@@ -4239,6 +5210,22 @@ Description: Config File Handling Library used by BIND
  This package delivers the libisccfg shared library used by BIND's daemons
  and clients to read and write ISC-style configuration files like named.conf
  and rndc.conf.
+
+Package: libnet-dns-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 769
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 0.81-2
+Depends: perl (>= 5.20.1-3), perlapi-5.20.1, libc6 (>= 2.4), libdigest-hmac-perl, libio-socket-inet6-perl, libnet-ip-perl
+Breaks: fpdns (<< 20130404~), libnet-dns-sec-perl (<< 0.19-1~), spamassassin (<< 3.4.0-2~)
+Description: Perform DNS queries from a Perl script
+ Net::DNS is a DNS resolver implemented in Perl supporting IPv6.
+ It allows the  programmer to perform nearly any type of DNS query
+ from a Perl script.
+Homepage: http://www.net-dns.org/
 
 Package: parted
 Status: install ok installed
@@ -4697,6 +5684,52 @@ Description: libkmod shared library
  This library provides an API for insertion, removal, configuration and
  listing of kernel modules.
 
+Package: libio-socket-ssl-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 462
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.002-2
+Depends: libnet-ssleay-perl (>= 1.59), netbase, perl
+Recommends: libnet-libidn-perl | libnet-idn-encode-perl | liburi-perl, perl (>= 5.15.6) | libsocket-perl (>= 1.950) | libsocket6-perl, perl (>= 5.19.8) | libio-socket-ip-perl (>= 0.20) | libio-socket-inet6-perl
+Suggests: ca-certificates
+Description: Perl module implementing object oriented interface to SSL sockets
+ This module is a true drop-in replacement for IO::Socket::INET that
+ uses SSL to encrypt data before it is transferred to a remote server
+ or client.  IO::Socket::SSL supports all the extra features that one
+ needs to write a full-featured SSL client or server application:
+ multiple SSL contexts, cipher selection, certificate verification, and
+ SSL version selection.  As an extra bonus, it works perfectly with
+ mod_perl.
+ .
+ IO::Socket::SSL uses IPv6 if libio-socket-ip-perl (>= 0.20) or
+ libio-socket-inet6-perl is installed.
+Homepage: https://metacpan.org/release/IO-Socket-SSL
+
+Package: dovecot-sieve
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 1405
+Maintainer: Dovecot Maintainers <jaldhar-dovecot@debian.org>
+Architecture: amd64
+Source: dovecot
+Version: 1:2.2.13-11
+Replaces: dovecot-core (<= 1:2.2.13-6)
+Depends: dovecot-core (= 1:2.2.13-11), libc6 (>= 2.14), ucf (>= 2.0020)
+Conflicts: dovecot-core (<= 1:2.2.13-6)
+Description: secure POP3/IMAP server - Sieve filters support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides Sieve filters support for Dovecot.
+Homepage: http://dovecot.org/
+
 Package: libxmuu1
 Status: deinstall ok config-files
 Priority: optional
@@ -4824,6 +5857,52 @@ Description: block device id library
  LABEL.  This allows system administrators to avoid specifying
  filesystems by hard-coded device names, but via a logical naming
  system instead.
+
+Package: nginx
+Status: install ok installed
+Priority: optional
+Section: httpd
+Installed-Size: 1098
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Architecture: amd64
+Version: 1.8.0-1~jessie
+Provides: httpd
+Depends: libc6 (>= 2.14), libpcre3 (>= 1:8.35), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.2.0), lsb-base, adduser
+Conffiles:
+ /etc/default/nginx e2b1ae0f31c6d03d3305ef526b0ba3b5
+ /etc/init.d/nginx 0525b92e368668d1dc07c2ee2e3df0a1
+ /etc/logrotate.d/nginx db861faafc08f38fcce873913ba3459f
+ /etc/nginx/conf.d/default.conf 4dce452bf8dbb01f278ec0ea9ba6cf40
+ /etc/nginx/conf.d/example_ssl.conf 84724f296c7056157d531d6b1215b507
+ /etc/nginx/fastcgi_params f597fb54a6fa1c9a9678dd3ae377d385
+ /etc/nginx/koi-utf 3e338aca6a53a5420fc791b5ef86f64c
+ /etc/nginx/koi-win bfa0b80381fed2b1dfcf617b0ba204ec
+ /etc/nginx/mime.types bd837e7b34f5c9b8d89957d0527f0d44
+ /etc/nginx/nginx.conf f7984934bd6cab883e1f33d5129834bb
+ /etc/nginx/scgi_params e9fd19c7d1f0cecbd46b3cb041ae19c7
+ /etc/nginx/uwsgi_params 2aaaf1e3535752e74d2942db8b3632cb
+ /etc/nginx/win-utf 3749ffe19bedd842eb87e83d544e5ce6
+Description: high performance web server
+ nginx [engine x] is an HTTP and reverse proxy server, as well as
+ a mail proxy server.
+Homepage: http://nginx.org
+
+Package: libhtml-tree-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 516
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 5.03-1
+Depends: perl, libhtml-parser-perl, libhtml-tagset-perl
+Recommends: libhtml-format-perl, libwww-perl
+Description: Perl module to represent and create HTML syntax trees
+ HTML::Tree is a collection of modules that represent, create and extract
+ information from HTML syntax trees.  These modules used to be part of
+ the libwww-perl distribution, but are now unbundled in order to
+ facilitate a separate development track.
+Homepage: https://metacpan.org/release/HTML-Tree/
 
 Package: libterm-readkey-perl
 Status: install ok installed
@@ -5138,6 +6217,23 @@ Description: fast, versatile, remote (and local) file-copying tool
  daemon functionality.
 Homepage: http://rsync.samba.org/
 
+Package: liblsan0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 257
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.3), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Description: LeakSanitizer -- a memory leak detector (runtime)
+ LeakSanitizer (Lsan) is a memory leak detector which is integrated
+ into AddressSanitizer.
+Homepage: http://gcc.gnu.org/
+
 Package: procps
 Status: install ok installed
 Priority: important
@@ -5195,6 +6291,32 @@ Description: X C Binding, sync extension
     machine-parsable protocol descriptions
 Homepage: http://xcb.freedesktop.org
 
+Package: opendkim
+Status: install ok installed
+Priority: extra
+Section: mail
+Installed-Size: 417
+Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Version: 2.9.2-2
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.15), libdb5.3, libldap-2.4-2 (>= 2.4.7), liblua5.1-0, libmemcached11, libmemcachedutil2, libmilter1.0.1 (>= 8.14.1), libopendbx1 (>= 1.4.6), libopendkim9 (>= 2.8.0~beta0), librbl1 (>= 2.7.2), libssl1.0.0 (>= 1.0.0), libunbound2 (>= 1.4.1), libvbr2 (>= 2.7.2), adduser, lsb-base
+Suggests: opendkim-tools
+Conffiles:
+ /etc/default/opendkim 763c14fe445d3b262e7e031bfaa89dac
+ /etc/init.d/opendkim a70a03825fc9da970f45fe9188ef709c
+ /etc/opendkim.conf 5ef9b0500c9520d75587c801152d5ab9
+Description: Milter implementation of DomainKeys Identified Mail
+ The OpenDKIM Project is a community effort to develop and maintain a C library
+ for producing DKIM-aware applications and an open source milter for providing
+ DomainKeys Identified Mail (DKIM) service.
+ .
+ DKIM provides a way for senders to confirm their identity when sending email
+ by adding a cryptographic signature to the headers of the message.
+ .
+ This package contains the OpenDKIM mail filter (Milter) for plugging into
+ Milter-aware MTAs. It implements both signing and verification.
+Homepage: http://www.opendkim.org/
+
 Package: libgssapi-krb5-2
 Status: install ok installed
 Priority: standard
@@ -5223,6 +6345,29 @@ Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
  implementation of GSS-API used by applications and Kerberos clients.
 Homepage: http://web.mit.edu/kerberos/
 
+Package: libxslt1.1
+Status: deinstall ok config-files
+Priority: optional
+Section: libs
+Installed-Size: 459
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: libxslt (1.1.28-2)
+Version: 1.1.28-2+b2
+Config-Version: 1.1.28-2+b2
+Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.6.0), libxml2 (>= 2.9.0)
+Pre-Depends: multiarch-support
+Description: XSLT 1.0 processing library - runtime library
+ XSLT is an XML language for defining transformations of XML files from
+ XML to some other arbitrary format, such as XML, HTML, plain text, etc.
+ using standard XSLT stylesheets. libxslt is a C library which
+ implements XSLT version 1.0.
+ .
+ This package contains the libxslt library used by applications for XSLT
+ transformations.
+Homepage: http://xmlsoft.org/xslt/
+
 Package: ssh
 Status: install ok installed
 Priority: extra
@@ -5239,29 +6384,6 @@ Description: secure shell client and server (metapackage)
  and the OpenSSH server. It provides nothing in and of itself, so you
  may remove it if nothing depends on it.
 Homepage: http://www.openssh.org/
-
-Package: libdevmapper-event1.02.1
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 54
-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Multi-Arch: same
-Source: lvm2 (2.02.111-2.2)
-Version: 2:1.02.90-2.2
-Depends: libc6 (>= 2.15), libdevmapper1.02.1 (>= 2:1.02.90)
-Pre-Depends: multiarch-support
-Description: Linux Kernel Device Mapper event support library
- The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
- Team's implementation of a minimalistic kernel-space driver that handles
- volume management, while keeping knowledge of the underlying device layout
- in user-space.  This makes it useful for not only LVM, but EVMS, software
- raid, and other drivers that create "virtual" block devices.
- .
- This package contains the userspace library to help with event monitoring
- for devmapper devices, in conjunction with the dmevent daemon.
-Homepage: http://sources.redhat.com/lvm2/
 
 Package: perl
 Status: install ok installed
@@ -5294,6 +6416,29 @@ Description: Larry Wall's Practical Extraction and Report Language
  interfaces to C and C++ for custom extension development.
 Homepage: http://dev.perl.org/perl5/
 
+Package: libdevmapper-event1.02.1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 54
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: lvm2 (2.02.111-2.2)
+Version: 2:1.02.90-2.2
+Depends: libc6 (>= 2.15), libdevmapper1.02.1 (>= 2:1.02.90)
+Pre-Depends: multiarch-support
+Description: Linux Kernel Device Mapper event support library
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+ Team's implementation of a minimalistic kernel-space driver that handles
+ volume management, while keeping knowledge of the underlying device layout
+ in user-space.  This makes it useful for not only LVM, but EVMS, software
+ raid, and other drivers that create "virtual" block devices.
+ .
+ This package contains the userspace library to help with event monitoring
+ for devmapper devices, in conjunction with the dmevent daemon.
+Homepage: http://sources.redhat.com/lvm2/
+
 Package: libgpg-error0
 Status: install ok installed
 Priority: standard
@@ -5311,6 +6456,24 @@ Description: library for common error values and messages in GnuPG components
  components.  Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
  pinentry, SmartCard Daemon and possibly more in the future.
 Homepage: http://www.gnupg.org/related_software/libgpg-error/
+
+Package: libsys-hostname-long-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 67
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.4-3
+Depends: perl
+Description: Figure out the long (fully-qualified) hostname
+ This module determines the host full name on multiple operating
+ systems (MacOS, Windows, Unix-like systems; more later.)
+ .
+ The Sys::Hostname class is the best and standard way to get the basic
+ hostname, but that may not be fully qualified.  This module tries to
+ determine the host's fully qualified name.
+Homepage: https://metacpan.org/release/Sys-Hostname-Long
 
 Package: liblvm2cmd2.02
 Status: install ok installed
@@ -5540,6 +6703,32 @@ Description: Multiprecision arithmetic library
  interface.
 Homepage: http://gmplib.org/
 
+Package: libnetaddr-ip-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 270
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: libnetaddr-ip-perl (4.075+dfsg-1)
+Version: 4.075+dfsg-1+b1
+Depends: perl (>= 5.20.0-4), perlapi-5.20.0, libc6 (>= 2.4)
+Recommends: libsocket6-perl
+Description: IP address manipulation module
+ NetAddr::IP provides an object-oriented abstraction on top of IP addresses
+ or IP subnets, that allows for easy manipulations.
+ .
+ The internal representation of all IP objects is in 128 bit IPv6 notation.
+ IPv4 and IPv6 objects may be freely mixed.
+ .
+ The following operations are supported:
+ Basic IP conversion, netmask manipulation, subnet interpretation, bitwise
+ mask generation, full mask generation, subnet manipulation, expansion, and
+ range operations, sub/supernet tests, data type determination, and more
+ complex operations such as expansion of netblocks into arrays of smaller
+ blocks of arbitrary size, and CIDR block aggregation
+Homepage: https://metacpan.org/release/NetAddr-IP
+
 Package: sensible-utils
 Status: install ok installed
 Priority: required
@@ -5600,6 +6789,27 @@ Description: Exported ISC Shared Library
  Internet, and is supported by the Internet Software Consortium, www.isc.org.
  .
  This package delivers the exported libisc shared library.
+
+Package: libopendkim9
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 203
+Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Source: opendkim
+Version: 2.9.2-2
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.14), libdb5.3, libssl1.0.0 (>= 1.0.0)
+Description: Library for signing and verifying DomainKeys Identified Mail signatures
+ The OpenDKIM Project is a community effort to develop and maintain a C library
+ for producing DKIM-aware applications and an open source milter for providing
+ DomainKeys Identified Mail (DKIM) service.
+ .
+ This package provides library for implementing signing and verification of the
+ DomainKeys Identified Mail (DKIM) standard. This library provides support for
+ signing and verifying signatures according to RFC 4871, and supports both
+ DomainKeys signing policy and DKIM ADSP.
+Homepage: http://www.opendkim.org/
 
 Package: libssh2-1
 Status: install ok installed
@@ -5733,6 +6943,23 @@ Description: secure shell (SSH) server, for secure access from remote machines
  purposes.
 Homepage: http://www.openssh.org/
 
+Package: ccze
+Status: install ok installed
+Priority: extra
+Section: utils
+Installed-Size: 220
+Maintainer: Stephen Gran <sgran@debian.org>
+Architecture: amd64
+Version: 0.2.1-2
+Replaces: colorize (<= 0.3.1-2)
+Depends: libc6 (>= 2.6-1), libncurses5 (>= 5.6), libpcre3 (>= 4.5)
+Conffiles:
+ /etc/cczerc b9f50ebb77aa9620df95c8f10aa1d980
+Description: A robust, modular log coloriser
+ CCZE is a robust and modular log coloriser, with plugins for apm,
+ exim, fetchmail, httpd, postfix, procmail, squid, syslog, ulogd,
+ vsftpd, xferlog and more.
+
 Package: libusb-1.0-0
 Status: install ok installed
 Priority: optional
@@ -5752,6 +6979,24 @@ Description: userspace USB programming library
  This package contains what you need to run programs that use this
  library.
 Homepage: http://www.linux-usb.org/
+
+Package: liblwp-mediatypes-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 100
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.02-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl
+Breaks: libwww-perl (<< 6.00)
+Description: module to guess media type for a file or a URL
+ LWP::MediaTypes provides functions for handling media (also known as MIME)
+ types and encodings. The mapping from file extensions to media types is
+ defined by the media.types file. If the ~/.media.types file exists it is used
+ instead. For backwards compatibility it will also look for ~/.mime.types.
+Homepage: http://search.cpan.org/dist/LWP-MediaTypes/
 
 Package: php5
 Status: install ok installed
@@ -5928,6 +7173,28 @@ Description: GNU C Library: Binaries
   * tzselect, zdump, zic: select/dump/compile time zones
 Homepage: http://www.gnu.org/software/libc/libc.html
 
+Package: libmilter1.0.1
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 275
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: sendmail
+Version: 8.14.4-8
+Depends: libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Description: Sendmail Mail Filter API (Milter)
+ The Sendmail Mail Filter API (Milter) is designed to allow third-party
+ programs access to mail messages as they are being processed in order
+ to filter meta-information(headers) and content.
+ .
+ The Debian Sendmail package is built to support libmilter.
+ .
+ This package contains libmilter.so
+Homepage: http://www.sendmail.org
+
 Package: libaio1
 Status: install ok installed
 Priority: optional
@@ -5945,6 +7212,28 @@ Description: Linux kernel AIO access library - shared library
  system calls, important for the performance of databases and other
  advanced applications.
 Homepage: http://www.kernel.org/pub/linux/libs/aio/
+
+Package: libopendmarc2
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 66
+Maintainer: Scott Kitterman <scott@kitterman.com>
+Architecture: amd64
+Source: opendmarc
+Version: 1.3.0+dfsg-1
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.14), libspf2-2
+Description: Library for DMARC validation and reporting
+ Domain-based Message Authentication, Reporting and Conformance (DMARC),
+ builds on the successes of technologies such as DomainKeys Identified Mail
+ (DKIM) and the Sender Policy Framework (SPF) to create an infrastructure that
+ enforces policy on domain names that are visible to end users, and creates a
+ feedback framework for identifying and tracking fraudulent use of domain
+ names in email.
+ .
+ This package provides library for implementing mail validation and reporting
+ for the experimental DMARC standard.
+Homepage: http://www.trusteddomain.org/opendmarc
 
 Package: libsemanage1
 Status: install ok installed
@@ -5977,6 +7266,29 @@ Description: SELinux policy management library
  based on the concepts of Type Enforcement, Role-based Access
  Control, and Multi-level Security.
 Homepage: http://userspace.selinuxproject.org/
+
+Package: mlock
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 82
+Maintainer: Magnus Holmgren <holmgren@debian.org>
+Architecture: amd64
+Source: uw-imap
+Version: 8:2007f~dfsg-4
+Depends: libc6 (>= 2.4)
+Description: mailbox locking program
+ IMAP (Internet Message Access Protocol) is a method of accessing
+ electronic messages kept on a (possibly shared) mail server.
+ .
+ The UW (University of Washington) IMAP toolkit provides the c-client
+ mail-handling library supporting various network transport methods,
+ file system storage formats, and authentication and authorization
+ methods.
+ .
+ This package contains a program to lock mailbox files to avoid
+ corruption.
+Homepage: http://www.washington.edu/imap/
 
 Package: ntpdate
 Status: install ok installed
@@ -6012,6 +7324,22 @@ Description: client for setting system time from NTP servers
  If the full NTP daemon from the package "ntp" is installed, then
  ntpdate is not necessary.
 Homepage: http://support.ntp.org/
+
+Package: libsocket6-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 114
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: libsocket6-perl (0.25-1)
+Version: 0.25-1+b1
+Depends: perl (>= 5.20.0-4), perlapi-5.20.0, libc6 (>= 2.4)
+Description: Perl extensions for IPv6
+ The Socket6 module supports getaddrinfo() and getnameinfo() to intend
+ to enable protocol independent programming. If your environment
+ supports IPv6, IPv6 related defines such as AF_INET6 are included.
+Homepage: https://metacpan.org/release/Socket6
 
 Package: libgl1-mesa-glx
 Status: deinstall ok config-files
@@ -6101,6 +7429,23 @@ Description: low level cryptographic library (symmetric and one-way cryptos)
  asymmetric cryptos reside in a separate library, libhogweed.
 Homepage: http://www.lysator.liu.se/~nisse/nettle/
 
+Package: libapparmor1
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 97
+Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: apparmor
+Version: 2.9.0-3
+Depends: libc6 (>= 2.14)
+Description: changehat AppArmor library
+ This package provides the shared library used for making use of the
+ AppArmor profile and changehat functionality, as well as common log
+ parsing routines.
+Homepage: http://apparmor.net/
+
 Package: iptables
 Status: install ok installed
 Priority: important
@@ -6140,6 +7485,67 @@ Description: OpenLDAP libraries
  These are the run-time libraries for the OpenLDAP (Lightweight Directory
  Access Protocol) servers and clients.
 Homepage: http://www.openldap.org/
+
+Package: librbl1
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 83
+Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Source: opendkim
+Version: 2.9.2-2
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.4)
+Description: Library to support a DKIM based RBL system
+ The OpenDKIM Project is a community effort to develop and maintain a C library
+ for producing DKIM-aware applications and an open source milter for providing
+ DomainKeys Identified Mail (DKIM) service.
+ .
+ This package provides library for implementing OpenDKIM's RBL system.
+Homepage: http://www.opendkim.org/
+
+Package: sa-compile
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 143
+Maintainer: Noah Meyerhans <noahm@debian.org>
+Architecture: all
+Source: spamassassin
+Version: 3.4.0-6
+Depends: spamassassin (>= 3.3.2-8), re2c, gcc, libc6-dev, make
+Conflicts: spamassassin (<= 3.3.2-7)
+Enhances: spamassassin
+Conffiles:
+ /etc/spamassassin/sa-compile.pre 0b88cdc5d5cd3eaf9bf350ee6d96f818
+Description: Tools for compiling SpamAssassin rules into C
+ sa-compile uses "re2c" to compile the site-wide parts of the
+ SpamAssassin ruleset into C code for more efficient processing by
+ spamd or spamassassin.
+Homepage: http://www.spamassassin.org/
+
+Package: liburi-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 229
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.64-1
+Depends: perl, libnet-perl
+Suggests: libwww-perl
+Description: module to manipulate and access URI strings
+ URI is a collection of Perl modules that represent and manipulate Uniform
+ Resource Identifier (URI) references as specified in RFC 2396.
+ .
+ URI objects can be used to access and manipulate the various components
+ that make up these strings.  There are also methods to combine URIs in
+ various ways.
+ .
+ The URI class replaces the URI::URL class that used to be distributed with
+ libwww-perl. This package also includes an emulation of the old URI::URL
+ interface, which implements both the old and the new interface.
+Homepage: https://metacpan.org/release/URI
 
 Package: grub-common
 Status: install ok installed
@@ -6348,6 +7754,30 @@ Description: deb package format runtime library
  from deb packages. This includes the control data and the package
  file content.
 
+Package: libisl10
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 1417
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: isl
+Version: 0.12.2-2
+Depends: libc6 (>= 2.14), libgmp10
+Pre-Depends: multiarch-support
+Breaks: libcloog-isl4 (<< 0.18.1)
+Description: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains the runtime library.
+Homepage: http://freecode.com/projects/isl
+
 Package: libtext-wrapi18n-perl
 Status: install ok installed
 Priority: required
@@ -6395,6 +7825,23 @@ Description: Common files for SELinux policy management libraries
  based on the concepts of Type Enforcement, Role-based Access
  Control, and Multi-level Security.
 Homepage: http://userspace.selinuxproject.org/
+
+Package: libasan1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 713
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.3), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Description: AddressSanitizer -- a fast memory error detector
+ AddressSanitizer (ASan) is a fast memory error detector.  It finds
+ use-after-free and {heap,stack,global}-buffer overflow bugs in C/C++ programs.
+Homepage: http://gcc.gnu.org/
 
 Package: libp11-kit0
 Status: install ok installed
@@ -6451,6 +7898,26 @@ Description: GNU TLS library - OpenSSL wrapper
  .
  This package contains the runtime library of the GnuTLS OpenSSL wrapper.
 Homepage: http://www.gnutls.org/
+
+Package: libopendbx1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 139
+Maintainer: Debian OpenDBX Maintainers <pkg-libopendbx-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: libopendbx
+Version: 1.4.6-8
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Recommends: libopendbx1-sqlite3 | libopendbx1-backend
+Description: Lightweight database access abstraction layer
+ OpenDBX provides a simple and lightweight API for interfacing native
+ relational database APIs in a consistent way. By using the OpenDBX API you
+ don't have to adapt your program to the different database APIs by yourself.
+ .
+ The sqlite3 backend is recommended by default if no other backend is
+ installed with libopendbx1
+Homepage: http://www.linuxnetworks.de/doc/index.php/OpenDBX
 
 Package: libdebconfclient0
 Status: install ok installed
@@ -6656,6 +8123,29 @@ Description: System independent dlopen wrapper for GNU libtool
    * libtool's dlpreopen
 Homepage: http://www.gnu.org/software/libtool/
 
+Package: libhtml-parser-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 207
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Source: libhtml-parser-perl (3.71-1)
+Version: 3.71-1+b3
+Depends: perl (>= 5.20.1-1), perlapi-5.20.1, libc6 (>= 2.4), liburi-perl, libhtml-tagset-perl
+Suggests: libdata-dump-perl
+Enhances: libwww-perl
+Description: collection of modules that parse HTML text documents
+ HTML::Parser is a collection of modules useful for handling HTML documents.
+ These modules used to be part of the libwww-perl distribution, but are now
+ unbundled in order to facilitate a separate development track.
+ .
+ Objects of the HTML::Parser class will recognize markup and separate it from
+ content data. As different kinds of markup are recognized, the corresponding
+ event handler is invoked. The document to be parsed may also be supplied in
+ arbitrary chunks, making on-the-fly parsing of network documents possible.
+Homepage: https://metacpan.org/release/HTML-Parser/
+
 Package: dpkg
 Essential: yes
 Status: install ok installed
@@ -6684,6 +8174,45 @@ Description: Debian package management system
  .
  For Debian package development tools, install dpkg-dev.
 Homepage: https://wiki.debian.org/Teams/Dpkg
+
+Package: libgcc-4.9-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 10148
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Replaces: gccgo-4.9 (<< 4.9.2-10)
+Depends: gcc-4.9-base (= 4.9.2-10), libgcc1 (>= 1:4.9.2-10), libgomp1 (>= 4.9.2-10), libitm1 (>= 4.9.2-10), libatomic1 (>= 4.9.2-10), libasan1 (>= 4.9.2-10), liblsan0 (>= 4.9.2-10), libtsan0 (>= 4.9.2-10), libubsan0 (>= 4.9.2-10), libcilkrts5 (>= 4.9.2-10), libquadmath0 (>= 4.9.2-10)
+Recommends: libc6-dev (>= 2.13-5)
+Description: GCC support library (development files)
+ This package contains the headers and static library files necessary for
+ building C programs which use libgcc, libgomp, libquadmath, libssp or libitm.
+Homepage: http://gcc.gnu.org/
+
+Package: dovecot-imapd
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 975
+Maintainer: Dovecot Maintainers <jaldhar-dovecot@debian.org>
+Architecture: amd64
+Source: dovecot
+Version: 1:2.2.13-11
+Provides: imap-server
+Depends: dovecot-core (= 1:2.2.13-11), libbz2-1.0, libc6 (>= 2.4), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.1.4), ucf (>= 2.0020)
+Description: secure POP3/IMAP server - IMAP daemon
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot IMAP server.
+Homepage: http://dovecot.org/
 
 Package: openssl
 Status: install ok installed
@@ -6745,6 +8274,26 @@ Description: retrieves files from the web
  Wget supports proxy servers; this can lighten the network load,
  speed up retrieval, and provide access behind firewalls.
 Homepage: http://www.gnu.org/software/wget/
+
+Package: libmail-spf-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 334
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: mail-spf-perl
+Version: 2.9.0-3
+Depends: perl, liberror-perl, libnet-dns-perl, libnetaddr-ip-perl, liburi-perl
+Description: Perl implementation of Sender Policy Framework and Sender ID
+ Mail::SPF is an object-oriented Perl implementation of the Sender Policy
+ Framework (SPF) e-mail sender authentication system <http://www.openspf.org>.
+ .
+ It supports both the TXT and SPF RR types as well as both SPFv1 (v=spf1) and
+ Sender ID (spf2.0) records, and it is fully compliant to RFCs 4408 and 4406.
+ (It does not however implement the patented PRA address selection algorithm
+ described in RFC 4407.)
+Homepage: https://metacpan.org/release/Mail-SPF
 
 Package: vim-common
 Status: install ok installed
@@ -6850,6 +8399,25 @@ Description: SQLite 3 shared library
  access without running a separate RDBMS process.
 Homepage: http://www.sqlite.org/
 
+Package: libhtml-form-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 89
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.03-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhtml-parser-perl, libhttp-message-perl, liburi-perl
+Breaks: libwww-perl (<< 6.00)
+Description: module that represents an HTML form element
+ Objects of the HTML::Form class represents a single HTML <form> ... </form>
+ instance. A form consists of a sequence of inputs that usually have names,
+ and which can take on various values. The state of a form can be tweaked and
+ it can then be asked to provide HTTP::Request objects that can be passed to
+ the request() method of LWP::UserAgent.
+Homepage: http://search.cpan.org/dist/HTML-Form/
+
 Package: libice6
 Status: deinstall ok config-files
 Priority: optional
@@ -6895,6 +8463,52 @@ Description: X11 font encoding library
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libfontenc
+
+Package: libdigest-hmac-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 76
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.03+dfsg-1
+Depends: perl
+Description: module for creating standard message integrity checks
+ HMAC is used for message integrity checks between two parties
+ that share a secret key, and works in combination with some other
+ Digest algorithm, usually MD5 or SHA-1.  The HMAC mechanism
+ is described in RFC 2104.
+ .
+ The Digest::HMAC module follow the common Digest:: interface,
+ but the constructor takes the secret key and the name of some
+ other simple Digest:: module as argument.
+Homepage: http://search.cpan.org/dist/Digest-HMAC/
+
+Package: libfile-listing-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 56
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.04-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhttp-date-perl
+Breaks: libwww-perl (<< 6.00)
+Description: module to parse directory listings
+ File::Listing exports a single function called parse_dir(), which can be used
+ to parse directory listings.
+ .
+ The first parameter to parse_dir() is the directory listing to parse. It can
+ be a scalar, a reference to an array of directory lines or a glob
+ representing a filehandle to read the directory listing from.
+ .
+ The second parameter is the time zone to use when parsing time stamps in the
+ listing. If this value is undefined, then the local time zone is assumed.
+ .
+ The third parameter is the type of listing to assume. Currently supported
+ formats are 'unix', 'apache' and 'dosftp'. The default value 'unix'.
+Homepage: http://search.cpan.org/dist/File-Listing/
 
 Package: libxcomposite1
 Status: deinstall ok config-files
@@ -7013,6 +8627,27 @@ Description: module using libc functions for internationalization in Perl
  bindtextdomain(), bind_textdomain_codeset(), ngettext(), dcngettext()
  and dngettext().
 Homepage: https://metacpan.org/release/gettext
+
+Package: libmpfr4
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 789
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: mpfr4
+Version: 3.1.2-2
+Depends: libc6 (>= 2.14), libgmp10
+Pre-Depends: multiarch-support
+Conflicts: libgmp3 (<< 4.1.4-3)
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+Homepage: http://www.mpfr.org/
 
 Package: dmsetup
 Status: install ok installed
@@ -7202,6 +8837,24 @@ Description: File comparison utilities
  update, or "patch", a copy of the file.
 Homepage: http://www.gnu.org/software/diffutils/
 
+Package: libcloog-isl4
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 204
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: cloog (0.18.2-1)
+Version: 0.18.2-1+b2
+Depends: libc6 (>= 2.14), libgmp10, libisl10 (>= 0.11)
+Pre-Depends: multiarch-support
+Description: Chunky Loop Generator (runtime library)
+ CLooG is a software which generates loops for scanning Z-polyhedra.
+ .
+ This package contains the runtime library.
+Homepage: http://www.CLooG.org
+
 Package: libxv1
 Status: deinstall ok config-files
 Priority: optional
@@ -7257,6 +8910,69 @@ Description: on-line manual pager
  maintenance utilities mandb, catman and zsoelim. man-db uses the groff
  suite of programs to format and display the manual pages.
 Homepage: http://man-db.nongnu.org/
+
+Package: libhttp-message-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 206
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.06-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libencode-locale-perl, libhttp-date-perl, libio-html-perl, liblwp-mediatypes-perl, liburi-perl, perl (>= 5.11) | libio-compress-perl
+Breaks: libwww-perl (<< 6.00)
+Description: perl interface to HTTP style messages
+ The HTTP::Headers class encapsulates HTTP-style message headers. The headers
+ consist of attribute-value pairs also called fields, which may be repeated,
+ and which are printed in a particular order. The field names are cases
+ insensitive.
+ .
+ Instances of this class are usually created as member variables of the
+ HTTP::Request and HTTP::Response classes, internal to the library.
+Homepage: https://metacpan.org/release/HTTP-Message/
+
+Package: libspf2-2
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 167
+Maintainer: Magnus Holmgren <holmgren@debian.org>
+Architecture: amd64
+Source: libspf2
+Version: 1.2.10-5
+Replaces: libspf2-0
+Depends: libc6 (>= 2.14)
+Conflicts: libspf2-0
+Description: library for validating mail senders with SPF
+ libspf2 implements the Sender Policy Framework, a part of the SPF/SRS
+ protocol pair. libspf2 is a library which allows email systems such
+ as Sendmail, Postfix, Exim, Zmailer and MS Exchange to check SPF
+ records and make sure that the email is authorized by the domain name
+ that it is coming from. This prevents email forgery, commonly used by
+ spammers, scammers and email viruses/worms.
+Homepage: http://www.libspf2.org/
+
+Package: libnet-http-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 89
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.07-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libio-socket-ip-perl | perl (>= 5.19.8) | libio-socket-inet6-perl, liburi-perl
+Recommends: libio-socket-ssl-perl (>= 1.38)
+Breaks: libwww-perl (<< 6.00)
+Description: module providing low-level HTTP connection client
+ The Net::HTTP class is a low-level HTTP client.  An instance of the
+ Net::HTTP class represents a connection to an HTTP server.  The
+ HTTP protocol is described in RFC 2616.  The Net::HTTP class
+ supports HTTP/1.0 and HTTP/1.1. Net::HTTP is a sub-class of IO::Socket::INET.
+ You can mix its methods with reading and writing from the socket directly.
+ This is not necessarily a good idea, unless you know what you are doing.
+Homepage: https://metacpan.org/release/Net-HTTP
 
 Package: libnfnetlink0
 Status: install ok installed
@@ -7349,6 +9065,31 @@ Description: Locales files for util-linux
  They are needed when you want the programs in util-linux to print their
  messages in other languages than English.
 
+Package: libmpc3
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 128
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: mpclib3
+Version: 1.0.2-1
+Depends: libc6 (>= 2.3), libgmp10, libmpfr4 (>= 3.1.2)
+Pre-Depends: multiarch-support
+Description: multiple precision complex floating-point library
+ MPC is a portable library written in C for arbitrary precision
+ arithmetic on complex numbers providing correct rounding. For the time
+ being, it contains all arithmetic operations over complex numbers, the
+ exponential and the logarithm functions, the trigonometric and
+ hyperbolic functions.
+ .
+ Ultimately, it should implement a multiprecision equivalent of the ISO
+ C99 standard.
+ .
+ It builds upon the GNU MP and the MPFR libraries.
+Homepage: http://www.multiprecision.org/mpc/
+
 Package: insserv
 Status: install ok installed
 Priority: optional
@@ -7399,6 +9140,22 @@ Description: GNU Standard C++ Library v3
  in g++-3.0.
 Homepage: http://gcc.gnu.org/
 
+Package: gcc-4.9-base
+Status: install ok installed
+Priority: required
+Section: libs
+Installed-Size: 218
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Breaks: dehydra (<= 0.9.hg20110609-2), gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)
+Description: GCC, the GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
+Homepage: http://gcc.gnu.org/
+
 Package: libkrb5-3
 Status: install ok installed
 Priority: standard
@@ -7427,21 +9184,24 @@ Description: MIT Kerberos runtime libraries
  used by applications and Kerberos clients.
 Homepage: http://web.mit.edu/kerberos/
 
-Package: gcc-4.9-base
+Package: binutils
 Status: install ok installed
-Priority: required
-Section: libs
-Installed-Size: 218
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Priority: optional
+Section: devel
+Installed-Size: 20566
+Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
-Multi-Arch: same
-Source: gcc-4.9
-Version: 4.9.2-10
-Breaks: dehydra (<= 0.9.hg20110609-2), gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)
-Description: GCC, the GNU Compiler Collection (base package)
- This package contains files common to all languages and libraries
- contained in the GNU Compiler Collection (GCC).
-Homepage: http://gcc.gnu.org/
+Version: 2.25-5
+Replaces: binutils-gold (<< 2.20.51.20100415), binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3), binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3)
+Provides: binutils-gold, elf-binutils
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.2.0)
+Suggests: binutils-doc (>= 2.25-5)
+Breaks: binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3), binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3)
+Conflicts: binutils-gold (<< 2.20.51.20100415), binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3), binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3), elf-binutils, gas, modutils (<< 2.4.19-1)
+Description: GNU assembler, linker and binary utilities
+ The programs in this package are used to assemble, link and manipulate
+ binary and object files.  They may be used in conjunction with a compiler
+ and various libraries to build programs.
 
 Package: libffi6
 Status: install ok installed
@@ -7522,6 +9282,24 @@ Description: Shared library for the Lua interpreter version 5.1
  This package contains runtime libraries.  You shouldn't need to install it
  explicitly.
 Homepage: http://www.lua.org
+
+Package: libc-dev-bin
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 375
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: foreign
+Source: glibc
+Version: 2.19-18
+Replaces: libc0.1-dev, libc0.3-dev, libc6-dev, libc6.1-dev
+Depends: libc6 (>> 2.19), libc6 (<< 2.20)
+Recommends: manpages-dev
+Description: GNU C Library: Development binaries
+ This package contains utility programs related to the GNU C Library
+ development package.
+Homepage: http://www.gnu.org/software/libc/libc.html
 
 Package: libdrm-radeon1
 Status: deinstall ok config-files
@@ -8342,6 +10120,43 @@ Description: German manpages
  which have not been translated yet.
 Homepage: http://manpages-de.alioth.debian.org/
 
+Package: opendmarc
+Status: install ok installed
+Priority: extra
+Section: mail
+Installed-Size: 222
+Maintainer: Scott Kitterman <scott@kitterman.com>
+Architecture: amd64
+Version: 1.3.0+dfsg-1
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.14), libopendmarc2 (>= 1.1.0~beta2), libspf2-2, adduser, lsb-base
+Recommends: libopendbx1, libopendbx1-mysql, perl, libswitch-perl, libdbi-perl, libdbd-mysql-perl, libhttp-message-perl
+Conffiles:
+ /etc/init.d/opendmarc 733266f566567d3de65e07f52e8943e3
+ /etc/default/opendmarc 049a623e4cef1714d5827c41b295d6a4
+ /etc/opendmarc.conf dd639e74c7f13e8879167d26a6b7b637
+Description: Milter implementation of DMARC
+ Domain-based Message Authentication, Reporting and Conformance (DMARC),
+ builds on the successes of technologies such as DomainKeys Identified Mail
+ (DKIM) and the Sender Policy Framework (SPF) to create an infrastructure that
+ enforces policy on domain names that are visible to end users, and creates a
+ feedback framework for identifying and tracking fraudulent use of domain
+ names in email.  It uses OpenDBX as an interface layer to various SQL back
+ ends.
+ .
+ It provides the following new capabilities:
+ .
+ A binding between the domain name seen in the From: field of a message and
+ one or both of the domain names verified by DKIM and SPF;
+ .
+ The capability to request that receivers enforce strict message
+ authentication policy published by the author; and Comprehensive reporting,
+ both forensic and aggregate, regarding suspect messages.
+ .
+ This package contains the OpenDMARC mail filter (Milter) for plugging into
+ Milter-aware MTAs. It implements support for both message reject and DMARC
+ failure reporting.
+Homepage: http://www.trusteddomain.org/opendmarc
+
 Package: ca-certificates
 Status: install ok installed
 Priority: optional
@@ -8385,6 +10200,26 @@ Description: Access control list shared library
  the POSIX 1003.1e draft standard 17 functions for manipulating
  access control lists.
 Homepage: http://savannah.nongnu.org/projects/acl/
+
+Package: manpages-dev
+Status: install ok installed
+Priority: optional
+Section: doc
+Installed-Size: 1919
+Maintainer: Martin Schulze <joey@debian.org>
+Architecture: all
+Source: manpages
+Version: 3.74-1
+Replaces: glibc-doc (<< 2.11.2-3), libaio-dev
+Depends: manpages
+Suggests: man-browser
+Description: Manual pages about using GNU/Linux for development
+ These man pages describe the Linux programming interface, including
+ these two sections:
+  2 = Linux system calls.
+  3 = Library calls (note that a more comprehensive source of information
+      may be found in the glibc-doc and glibc-doc-reference packages).
+Homepage: http://www.kernel.org/doc/man-pages/
 
 Package: openssh-client
 Status: install ok installed
@@ -8572,6 +10407,26 @@ Description: fast, scalable, distributed revision control system (obsolete)
  system if no other package depends on it.
 Homepage: http://git-scm.com/
 
+Package: libc6-dev
+Status: install ok installed
+Priority: optional
+Section: libdevel
+Installed-Size: 11781
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: glibc
+Version: 2.19-18
+Provides: libc-dev
+Depends: libc6 (= 2.19-18), libc-dev-bin (= 2.19-18), linux-libc-dev
+Suggests: glibc-doc, manpages-dev
+Breaks: binutils (<< 2.20.1-1), binutils-gold (<< 2.20.1-11), cmake (<< 2.8.4+dfsg.1-5), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gcc-4.6 (<< 4.6.0-12), libhwloc-dev (<< 1.2-3), libjna-java (<< 3.2.7-4), liblouis-dev (<< 2.3.0-2), liblouisxml-dev (<< 2.4.0-2), make (<< 3.81-8.1), pkg-config (<< 0.26-1)
+Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
+Description: GNU C Library: Development Libraries and Header Files
+ Contains the symlinks, headers, and object files needed to compile
+ and link programs which use the standard C library.
+Homepage: http://www.gnu.org/software/libc/libc.html
+
 Package: libslang2
 Status: install ok installed
 Priority: important
@@ -8676,6 +10531,32 @@ Description: minimalistic Netlink communication library
  the minimalistic Netlink communication library.
 Homepage: http://netfilter.org/projects/libmnl/
 
+Package: libvbr2
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 88
+Maintainer: Mike Markley <mike@markley.org>
+Architecture: amd64
+Source: opendkim
+Version: 2.9.2-2
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.4)
+Description: Library for RFC 5518 Vouch By Reference (VBR)
+ The OpenDKIM Project is a community effort to develop and maintain a C library
+ for producing DKIM-aware applications and an open source milter for providing
+ DomainKeys Identified Mail (DKIM) service.
+ .
+ This package provides library for implementing RFC 5518 Vouch By Reference
+ (VBR), a peer-to-peer domain reputation service protocol based on DKIM signed
+ domains.
+ .
+ Vouch By Reference, or VBR, is a protocol for adding third-party
+ certification to email.  Specifically, VBR permits independent third parties
+ to certify the owner of a domain name that is associated with received mail.
+ VBR may be performed anywhere along the email transit path, by any capable
+ receiving module, either within the handling service or by end-user software.
+Homepage: http://www.opendkim.org/
+
 Package: libapt-pkg4.12
 Status: install ok installed
 Priority: important
@@ -8704,6 +10585,53 @@ Description: package management runtime library
   * providing different transports to retrieve data over cdrom, ftp,
     http, rsh as well as an interface to add more transports like
     https (apt-transport-https) and debtorrent (apt-transport-debtorrent).
+
+Package: spamc
+Status: install ok installed
+Priority: optional
+Section: mail
+Installed-Size: 182
+Maintainer: Noah Meyerhans <noahm@debian.org>
+Architecture: amd64
+Source: spamassassin
+Version: 3.4.0-6
+Depends: libc6 (>= 2.14), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Suggests: spamassassin
+Conflicts: spamassassin (<< 2.30-2)
+Description: Client for SpamAssassin spam filtering daemon
+ spamc is the client to communicate with spamd, the daemonized form of
+ SpamAssassin (see the spamassassin package). It is written in C for
+ maximum speed and minimum loading overhead.
+ .
+ spamc is quite useful for integrating spamassassin into an MTA or
+ into a .procmailrc file because of its speed.
+ .
+ This package is useless unless you have spamassassin installed,
+ either on this machine or another local machine (i.e. a mail server).
+Homepage: http://www.spamassassin.org/
+
+Package: libwww-robotrules-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 80
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.01-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, liburi-perl
+Breaks: libwww-perl (<< 6.00)
+Description: database of robots.txt-derived permissions
+ WWW::RobotRules parses /robots.txt files as specified in "A Standard for
+ Robot Exclusion", at <http://www.robotstxt.org/wc/norobots.html>. Webmasters
+ can use the /robots.txt file to forbid conforming robots from accessing parts
+ of their web site.
+ .
+ The parsed files are kept in a WWW::RobotRules object, and this object
+ provides methods to check if access to a given URL is prohibited. The same
+ WWW::RobotRules object can be used for one or more parsed /robots.txt files
+ on any number of hosts.
+Homepage: http://search.cpan.org/dist/WWW-RobotRules/
 
 Package: libxcb1
 Status: install ok installed
@@ -8847,6 +10775,31 @@ Description: Modular compiler and toolchain technologies, runtime library
  This package contains the LLVM runtime library.
 Homepage: http://www.llvm.org/
 
+Package: libauthen-sasl-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 155
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.1600-1
+Depends: perl
+Suggests: libdigest-hmac-perl, libgssapi-perl
+Description: Authen::SASL - SASL Authentication framework
+ SASL is a generic mechanism for authentication used by several network
+ protocols. Authen::SASL provides an implementation framework that all
+ protocols should be able to share.
+ .
+ The framework allows different implementations of the connection class
+ to be plugged in. At the time of writing there were two such plugins:
+  - Authen::SASL::Perl
+    This module implements several mechanisms and is implemented
+    entirely in Perl.
+  - Authen::SASL::Cyrus
+    This module uses the Cyrus SASL C-library (both version 1 and 2 are
+    supported).
+Homepage: https://metacpan.org/release/Authen-SASL
+
 Package: logrotate
 Status: install ok installed
 Priority: important
@@ -8936,6 +10889,24 @@ Description: fast, scalable, distributed revision control system
  interface, is provided as separate git* packages.
 Homepage: http://git-scm.com/
 
+Package: php5-imap
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 112
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: amd64
+Source: php5
+Version: 5.6.7+dfsg-1
+Depends: libc-client2007e, libc6 (>= 2.14), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), phpapi-20131226, php5-common (= 5.6.7+dfsg-1), ucf
+Description: IMAP module for php5
+ This package provides a module for IMAP functions in PHP scripts.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
+
 Package: libsepol1
 Status: install ok installed
 Priority: required
@@ -8964,6 +10935,24 @@ Description: SELinux library for manipulating binary security policies
  as by programs like load_policy that need to perform specific transformations
  on binary policies such as customizing policy boolean settings.
 Homepage: http://userspace.selinuxproject.org/
+
+Package: libitm1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 162
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Multi-Arch: same
+Source: gcc-4.9
+Version: 4.9.2-10
+Depends: gcc-4.9-base (= 4.9.2-10), libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Description: GNU Transactional Memory Library
+ GNU Transactional Memory Library (libitm) provides transaction support for
+ accesses to the memory of a process, enabling easy-to-use synchronization of
+ accesses to shared memory by several threads.
+Homepage: http://gcc.gnu.org/
 
 Package: libx11-data
 Status: install ok installed
@@ -9080,6 +11069,29 @@ Description: X11 authorisation library
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libXau
+
+Package: libc-client2007e
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 1432
+Maintainer: Magnus Holmgren <holmgren@debian.org>
+Architecture: amd64
+Source: uw-imap
+Version: 8:2007f~dfsg-4
+Depends: libpam-modules, mlock, libc6 (>= 2.15), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0)
+Suggests: uw-mailutils
+Description: c-client library for mail protocols - library files
+ IMAP (Internet Message Access Protocol) is a method of accessing
+ electronic messages kept on a (possibly shared) mail server.
+ .
+ The UW (University of Washington) IMAP toolkit provides the c-client
+ mail-handling library supporting various network transport methods,
+ file system storage formats, and authentication and authorization
+ methods.
+ .
+ This package contains the shared c-client library.
+Homepage: http://www.washington.edu/imap/
 
 Package: libidn11
 Status: install ok installed
@@ -9400,6 +11412,41 @@ Description: Wietse Venema's TCP wrappers library
   - detection of host name spoofing or host address spoofing;
   - booby traps to implement an early-warning system.
 
+Package: postfix
+Status: install ok installed
+Priority: extra
+Section: mail
+Installed-Size: 3568
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Version: 2.11.3-1
+Replaces: mail-transport-agent
+Provides: mail-transport-agent
+Depends: libc6 (>= 2.14), libdb5.3, libsasl2-2, libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.0), debconf (>= 0.5) | debconf-2.0, netbase, adduser (>= 3.48), dpkg (>= 1.8.3), lsb-base (>= 3.0-6), ssl-cert, cpio
+Recommends: python
+Suggests: procmail, postfix-mysql, postfix-pgsql, postfix-ldap, postfix-pcre, sasl2-bin, libsasl2-modules, dovecot-common, resolvconf, postfix-cdb, mail-reader, ufw, postfix-doc
+Conflicts: libnss-db (<< 2.2-3), mail-transport-agent, smail
+Conffiles:
+ /etc/init.d/postfix 5edc6a396492e3c3f39bb4d05932d692
+ /etc/insserv.conf.d/postfix 7fe2d086ff4822fc9fe13adab1090dce
+ /etc/network/if-down.d/postfix 52275dc23864f3bfca412c7558e28fe6
+ /etc/network/if-up.d/postfix fccc53fc4eeeab46941ebcc95a71e766
+ /etc/postfix/post-install 5313a1031ec70f23e945b383a8f83e92
+ /etc/postfix/postfix-files 43d5c3390adda3ee999a080a845205fb
+ /etc/postfix/postfix-script 37471c351d00b12855e810584ad65e77
+ /etc/ppp/ip-down.d/postfix 52275dc23864f3bfca412c7558e28fe6
+ /etc/ppp/ip-up.d/postfix fccc53fc4eeeab46941ebcc95a71e766
+ /etc/resolvconf/update-libc.d/postfix a0548352443659052ed16d4ae7314506
+ /etc/rsyslog.d/postfix.conf d8a09827fff2a22311e4dd4a83e95c83
+ /etc/ufw/applications.d/postfix 5c7e746dc9255e750b8f50460de11a32
+Description: High-performance mail transport agent
+ Postfix is Wietse Venema's mail transport agent that started life as an
+ alternative to the widely-used Sendmail program.  Postfix attempts to
+ be fast, easy to administer, and secure, while at the same time being
+ sendmail compatible enough to not upset existing users. Thus, the outside
+ has a sendmail-ish flavor, but the inside is completely different.
+Homepage: http://www.postfix.org
+
 Package: libicu52
 Status: install ok installed
 Priority: optional
@@ -9417,6 +11464,24 @@ Description: International Components for Unicode
  Unicode and locale support.  This package contains the runtime
  libraries for ICU.
 Homepage: http://www.icu-project.org
+
+Package: libhttp-negotiate-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 76
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.00-2
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhttp-message-perl
+Breaks: libwww-perl (<< 6.00)
+Description: implementation of content negotiation
+ HTTP::Negotiate provides a complete implementation of the HTTP content
+ negotiation algorithm. Content negotiation allows for the selection of a
+ preferred content representation based upon attributes of the negotiable
+ variants and the value of the various Accept* header fields in the request.
+Homepage: http://search.cpan.org/dist/HTTP-Negotiate/
 
 Package: sed
 Essential: yes
@@ -9496,6 +11561,26 @@ Description: disk encryption support - shared library
  .
  This package provides the libcryptsetup shared library.
 Homepage: http://code.google.com/p/cryptsetup/
+
+Package: libwww-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 416
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.08-1
+Depends: perl, ca-certificates, libencode-locale-perl, libfile-listing-perl, libhtml-parser-perl, libhtml-tagset-perl, libhtml-tree-perl, libhttp-cookies-perl, libhttp-date-perl, libhttp-message-perl, libhttp-negotiate-perl, liblwp-mediatypes-perl, liblwp-protocol-https-perl, libnet-http-perl (>= 6.07), liburi-perl, libwww-robotrules-perl, netbase
+Recommends: libhtml-form-perl, libhtml-format-perl, libhttp-daemon-perl, libmailtools-perl
+Suggests: libauthen-ntlm-perl
+Breaks: fusioninventory-agent (<< 2.1.8-2), gsutil (<< 3.1-1), libfrontier-rpc-perl (<< 0.07b4-6), libhttp-daemon-ssl-perl (<< 1.04-3), libhttp-proxy-perl (<< 0.24-2), libhttp-request-ascgi-perl (<< 1.2-2), libhttp-request-params-perl (<< 1.01-6), libjson-rpc-perl (<< 0.96-3), libpoe-perl (<< 2:1.2990-2), librpc-xml-perl (<< 0.74-2), libsoap-lite-perl (<< 0.7.12-3), libwww-mechanize-formfiller-perl (<< 0.10-2), libwww-mechanize-perl (<< 1.66-2), satutils (<= 0.6), tidy-proxy (<< 0.97-4)
+Description: simple and consistent interface to the world-wide web
+ libwww-perl (also known as LWP) is a collection of Perl modules that provide
+ a simple and consistent programming interface (API) to the World-Wide Web.
+ The main focus of the library is to provide classes and functions that allow
+ you to write WWW clients. It also contains general purpose modules, as well
+ as a simple HTTP/1.1-compatible server implementation.
+Homepage: https://metacpan.org/release/libwww-perl
 
 Package: libaprutil1-ldap
 Status: install ok installed

@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/lib
+/usr/lib/opendbx
+/usr/lib/opendbx/libsqlite3backend.so.1.2.0
+/usr/share/doc/libopendbx1-sqlite3
+/usr/lib/opendbx/libsqlite3backend.so
+/usr/lib/opendbx/libsqlite3backend.so.1

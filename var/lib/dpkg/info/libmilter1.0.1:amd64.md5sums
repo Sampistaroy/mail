@@ -1,0 +1,9 @@
+e2715fada3af333b27542e06c17a5c04  usr/lib/x86_64-linux-gnu/libmilter.so.1.0.1
+458699f22eef5a8fd5fb0132e5a9b440  usr/share/bug/libmilter1.0.1/control
+0478e59818b4b595b1ebccf3aa2a4a6f  usr/share/bug/libmilter1.0.1/script
+862218d89f82df0d0858acfd92923e9e  usr/share/doc/libmilter1.0.1/README.gz
+65c77362006819e29e9a9ad60db199de  usr/share/doc/libmilter1.0.1/buildinfo_amd64.gz
+7816710b8212090ec9fcde0325f257e3  usr/share/doc/libmilter1.0.1/changelog.Debian.gz
+83cc9aefb1d9f22e05e2e0b23c4dfdcb  usr/share/doc/libmilter1.0.1/changelog.gz
+8b532ab18ecb860e544a28603ef09f1c  usr/share/doc/libmilter1.0.1/copyright
+72bb11d137d6c7b5303e6f377e68182f  usr/share/lintian/overrides/libmilter1.0.1

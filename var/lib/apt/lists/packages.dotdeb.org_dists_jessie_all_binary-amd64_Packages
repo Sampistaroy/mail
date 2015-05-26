@@ -1,0 +1,462 @@
+Package: nginx
+Priority: optional
+Section: httpd
+Installed-Size: 101
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: all
+Version: 1.8.0-1~dotdeb+8.1
+Depends: nginx-full (>= 1.8.0-1~dotdeb+8.1) | nginx-light (>= 1.8.0-1~dotdeb+8.1) | nginx-extras (>= 1.8.0-1~dotdeb+8.1) | nginx-naxsi (>= 1.8.0-1~dotdeb+8.1), nginx-full (<< 1.8.0-1~dotdeb+8.1.1~) | nginx-light (<< 1.8.0-1~dotdeb+8.1.1~) | nginx-extras (<< 1.8.0-1~dotdeb+8.1.1~) | nginx-naxsi (<< 1.8.0-1~dotdeb+8.1.1~)
+Filename: pool/all/n/nginx/nginx_1.8.0-1~dotdeb+8.1_all.deb
+Size: 73752
+MD5sum: 96d45bdda1eb7a9d0bf9356bf5f1f13d
+SHA1: 0ee60477caf7823445488f2961db1c56f72daaac
+SHA256: 3a78327ab6cfc9c90fb2c67241fe85b257420b5949633e89ffae40605d692d5a
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-full (by default) or
+ nginx-light.
+Homepage: http://nginx.net
+
+Package: nginx-common
+Priority: optional
+Section: httpd
+Installed-Size: 343
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: all
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Replaces: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Depends: lsb-base (>= 3.2-14), init-system-helpers (>= 1.18~), python
+Suggests: fcgiwrap, nginx-doc, ssl-cert
+Breaks: nginx (<< 0.8.54-4), nginx-extras (<< 0.8.54-4), nginx-full (<< 0.8.54-4), nginx-light (<< 0.8.54-4)
+Filename: pool/all/n/nginx/nginx-common_1.8.0-1~dotdeb+8.1_all.deb
+Size: 101602
+MD5sum: fdf8459f6dcbf43df28e1d20f18c3968
+SHA1: a90a7423f2db6c604e41cc1fd678bebc0beeeca8
+SHA256: 3ad0e5dbf38c1c60e2ded2bf8cdadbd55405676f596749d2a7a9eb228825d4d7
+Description: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+Homepage: http://nginx.net
+
+Package: nginx-doc
+Priority: optional
+Section: doc
+Installed-Size: 123
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: all
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Depends: lsb-base (>= 3.2-14)
+Filename: pool/all/n/nginx/nginx-doc_1.8.0-1~dotdeb+8.1_all.deb
+Size: 85354
+MD5sum: 766861aec117db83561393f563c16657
+SHA1: 5f47decc215670aa6fdca3f19d772bc3a2a7fc47
+SHA256: 547f3e51bbce044a63e1234b7b7f75872ed4f1f78283980ce4a6f7c7bd426494
+Description: small, powerful, scalable web/proxy server - documentation
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
+Homepage: http://nginx.net
+
+Package: nginx-extras
+Priority: extra
+Section: httpd
+Installed-Size: 15553
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Provides: httpd, httpd-cgi, nginx
+Depends: nginx-common (= 1.8.0-1~dotdeb+8.1), perl (>= 5.20.2-3), perlapi-5.20.2, libc6 (>= 2.14), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libgd3 (>= 2.1.0~alpha~), libgeoip1, libldap-2.4-2 (>= 2.4.7), libluajit-5.1-2, libossp-uuid16, libpam0g (>= 0.99.7.1), libpcre3 (>= 1:8.35), libperl5.20 (>= 5.20.2), libssl1.0.0 (>= 1.0.1), libstdc++6 (>= 4.6), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.0)
+Suggests: nginx-doc (= 1.8.0-1~dotdeb+8.1)
+Conflicts: nginx-full, nginx-light, nginx-naxsi
+Breaks: nginx (<< 1.4.5-1)
+Filename: pool/all/n/nginx/nginx-extras_1.8.0-1~dotdeb+8.1_amd64.deb
+Size: 3613298
+MD5sum: 5865a626f8d21fefda079ee6302e6db2
+SHA1: adc81cc66c367ccd3472eea4c24ea61f63604f0b
+SHA256: 509d98f180f66130c8d3d35979c25e0a469e530c2d2a376db15921bbf7f84ef7
+Description: nginx web/proxy server (extended version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the standard modules, plus
+ extra features and modules such as the Perl module, which allows the
+ addition of Perl in configuration files.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, FLV, GeoIP,
+ Gunzip, Gzip, Gzip Precompression, Headers, Image Filter, Index, Log, MP4,
+ Embedded Perl, Random Index, Real IP, Secure Link, Spdy, SSI, SSL, Stub
+ Status, Substitution, Upstream, User ID, XSLT.
+ .
+ MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ MODULES ADDED BY DOTDEB : Gunzip, File AIO, Thread pool, X-rid header, Push stream,
+ Naxsi, Auth LDAP, Pinba, PageSpeed, X-rid header, RTMP
+Homepage: http://nginx.net
+
+Package: nginx-extras-dbg
+Priority: extra
+Section: debug
+Installed-Size: 37746
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Depends: nginx-extras (= 1.8.0-1~dotdeb+8.1)
+Conflicts: nginx-full-dbg, nginx-light-dbg, nginx-naxsi-dbg
+Filename: pool/all/n/nginx/nginx-extras-dbg_1.8.0-1~dotdeb+8.1_amd64.deb
+Size: 32857846
+MD5sum: f04b647fd6adbcdde2d92c10d8d4871b
+SHA1: 7c5ffeaaeb2dbc6b4686381d7bb1ed50b88212cb
+SHA256: 996f2772d7c062c3f9f25b7c41fc01b14e307f556543a35ebdd390756ef88f5f
+Description: nginx web/proxy server (extended version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-extras, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+Homepage: http://nginx.net
+
+Package: nginx-full
+Priority: optional
+Section: httpd
+Installed-Size: 1196
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Provides: httpd, httpd-cgi, nginx
+Depends: nginx-common (= 1.8.0-1~dotdeb+8.1), libc6 (>= 2.14), libexpat1 (>= 2.0.1), libgd3 (>= 2.1.0~alpha~), libgeoip1, libossp-uuid16, libpam0g (>= 0.99.7.1), libpcre3 (>= 1:8.35), libssl1.0.0 (>= 1.0.1), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.2.0)
+Suggests: nginx-doc (= 1.8.0-1~dotdeb+8.1)
+Conflicts: nginx-extras, nginx-light, nginx-naxsi
+Breaks: nginx (<< 1.4.5-1)
+Filename: pool/all/n/nginx/nginx-full_1.8.0-1~dotdeb+8.1_amd64.deb
+Size: 476676
+MD5sum: e91d3107025c5ae4c3f698ba27a7b7a2
+SHA1: f3778cc17921b890ba68c0d12d919c8125153426
+SHA256: 6c476e5d00341e4c8516b80f77bd2f0f99762265d863fb568aed6e15804714e7
+Description: nginx web/proxy server (standard version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the complete set of
+ standard modules included (but omitting some of those included in
+ nginx-extras).
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, GeoIP, Gunzip,
+ Gzip, Gzip Precompression, Headers, Image Filter, Index, Log, Real IP, Spdy,
+ SSI, SSL, Stub Status, Substitution, Upstream, User ID, XSLT.
+ .
+ MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ MODULES ADDED BY DOTDEB : Gunzip, File AIO, Thread pool, Secure link, Cache purge, Pinba,
+ X-rid header
+Homepage: http://nginx.net
+
+Package: nginx-full-dbg
+Priority: extra
+Section: debug
+Installed-Size: 3657
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Depends: nginx-full (= 1.8.0-1~dotdeb+8.1)
+Conflicts: nginx-extras-dbg, nginx-light-dbg, nginx-naxsi-dbg
+Filename: pool/all/n/nginx/nginx-full-dbg_1.8.0-1~dotdeb+8.1_amd64.deb
+Size: 3457714
+MD5sum: ea4a19034ee773bbdc1085b5a4e5f2f2
+SHA1: b4ed1e734199839877a75afd11f458807f69bc49
+SHA256: c877a7b04f1077bcdcc8ea0244097ce883cf60e79594ca2c95be332d9d07fb16
+Description: nginx web/proxy server (standard version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-full, to assist in debugging
+ issues that you may find. It should not be required for normal operation.
+Homepage: http://nginx.net
+
+Package: nginx-light
+Priority: extra
+Section: httpd
+Installed-Size: 882
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Provides: httpd, httpd-cgi, nginx
+Depends: nginx-common (= 1.8.0-1~dotdeb+8.1), libc6 (>= 2.14), libossp-uuid16, libpcre3 (>= 1:8.35), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.2.0)
+Suggests: nginx-doc (= 1.8.0-1~dotdeb+8.1)
+Conflicts: nginx-extras, nginx-full, nginx-naxsi
+Breaks: nginx (<< 1.4.5-1)
+Filename: pool/all/n/nginx/nginx-light_1.8.0-1~dotdeb+8.1_amd64.deb
+Size: 370972
+MD5sum: c9a8db410a20dac6636224ecd334d44c
+SHA1: 0ceab93c72a0efa25f2749b11cb0cae1f997163c
+SHA256: 33dda7ab42696f23f1cd81b2868b6c61afb393be1418100526b2ee2979f8dde0
+Description: nginx web/proxy server (basic version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a very light version of nginx with only the
+ minimal set of features and modules.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Empty GIF,
+ FastCGI, Map, Proxy, Rewrite.
+ .
+ OPTIONAL HTTP MODULES: Auth Request, Charset, Gzip, Gzip Precompression,
+ Headers, Index, Log, Real IP, SSL, Stub Status, Upstream.
+ .
+ THIRD PARTY MODULES: Echo.
+ .
+ MODULES ADDED BY DOTDEB : Gunzip, File AIO, Thread pool, Spdy, X-rid header
+Homepage: http://nginx.net
+
+Package: nginx-light-dbg
+Priority: extra
+Section: debug
+Installed-Size: 2620
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Depends: nginx-light (= 1.8.0-1~dotdeb+8.1)
+Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-naxsi-dbg
+Filename: pool/all/n/nginx/nginx-light-dbg_1.8.0-1~dotdeb+8.1_amd64.deb
+Size: 2465106
+MD5sum: 106e2d7b534dffa55309f221718f7f54
+SHA1: 591fe051208f9e40b6d6e0f2c63efc5952c65785
+SHA256: 98134c19b25b583fb336559c7b6f410e96a8a9fd2bd29859cb8b52cc6b7cab22
+Description: nginx web/proxy server (basic version) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-light, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+Homepage: http://nginx.net
+
+Package: nginx-naxsi
+Priority: extra
+Section: httpd
+Installed-Size: 1257
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Provides: httpd, httpd-cgi, nginx
+Depends: nginx-common (= 1.8.0-1~dotdeb+8.1), libc6 (>= 2.14), libgeoip1, libossp-uuid16, libpcre3 (>= 1:8.35), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.2.0)
+Conflicts: nginx-extras, nginx-full, nginx-light
+Breaks: nginx (<< 1.4.5-1), nginx-naxsi-ui (<< 1.4.5-1)
+Filename: pool/all/n/nginx/nginx-naxsi_1.8.0-1~dotdeb+8.1_amd64.deb
+Size: 451532
+MD5sum: ee4d2463d4142ccc41415923df83fbe1
+SHA1: 7e2db17bcf012b277d9c046a6178d93b0b6ef334
+SHA256: 351bca36c555eddaf6b4f5376b470ef53ca2c10811bd7e4ea6b2da279ca48a56
+Description: nginx web/proxy server (version with naxsi)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the basic modules, plus
+ the naxsi Web Application Firewall module.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser,
+ Charset, Core, Empty GIF, FastCGI, Geo, Gzip, Headers, Index,
+ Limit Requests, Limit Zone, Log, Map, Memcached, Proxy, Referer,
+ Rewrite, Split Clients, SSI, Upstream, User ID.
+ .
+ OPTIONAL HTTP MODULES: Auth Request, Debug, IPv6, Real IP, SSL, Stub Status.
+ .
+ THIRD PARTY MODULES: Naxsi, Cache Purge, Upstream Fair.
+ .
+ MODULES ADDED BY DOTDEB : Gunzip, File AIO, Thread pool, Spdy, X-rid header, Naxsi
+Homepage: http://nginx.net
+
+Package: nginx-naxsi-dbg
+Priority: extra
+Section: debug
+Installed-Size: 3186
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: nginx
+Version: 1.8.0-1~dotdeb+8.1
+Depends: nginx-naxsi (= 1.8.0-1~dotdeb+8.1)
+Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-light-dbg
+Filename: pool/all/n/nginx/nginx-naxsi-dbg_1.8.0-1~dotdeb+8.1_amd64.deb
+Size: 3013898
+MD5sum: 4b3f8e1bb15475bc089a541bb45b5ec0
+SHA1: ddd1e72a766b8861894e31c9390a4bd8ad415268
+SHA256: 84d8cf6f29dd0d0714c87c08c58c6fec96761cc76e90507ba31cb629e9212449
+Description: nginx web/proxy server (version with naxsi) - debugging symbols
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides debugging symbols for nginx-naxsi, to assist in
+ debugging issues that you may find. It should not be required for normal
+ operation.
+Homepage: http://nginx.net
+
+Package: redis-sentinel
+Priority: optional
+Section: database
+Installed-Size: 100
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: redis
+Version: 2:3.0.1-1~dotdeb+8.1
+Depends: redis-server (= 2:3.0.1-1~dotdeb+8.1), init-system-helpers (>= 1.18~)
+Filename: pool/all/r/redis/redis-sentinel_3.0.1-1~dotdeb+8.1_amd64.deb
+Size: 13228
+MD5sum: 5e6f2b626cf1d949b21528365f708b37
+SHA1: 146ac03351df429ee47f0072ca529c3a34fc7473
+SHA256: 5daa6cf767fb5464a5e9d18dee4b168230a7551fd804f71f07aacd272ef58fa7
+Description: Persistent key-value database with network interface (monitoring)
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ This package contains the Redis Sentinel monitoring software.
+Homepage: http://redis.io/
+
+Package: redis-sentinel
+Priority: optional
+Section: database
+Installed-Size: 100
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: redis
+Version: 2:3.0.0-1~dotdeb+jessie.1
+Depends: redis-server (= 2:3.0.0-1~dotdeb+jessie.1), init-system-helpers (>= 1.18~)
+Filename: pool/all/r/redis/redis-sentinel_3.0.0-1~dotdeb+jessie.1_amd64.deb
+Size: 13134
+MD5sum: 42356ec961ebc035983fd35f51386df6
+SHA1: 443d9c3edcdfcf0224afafbfbb4583cec6ebdffa
+SHA256: d42cfd9c9b8ea5c52a8d3bb04bef76a6f784d175bcf17b32dfe550ec4c9a9cd2
+Description: Persistent key-value database with network interface (monitoring)
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ This package contains the Redis Sentinel monitoring software.
+Homepage: http://redis.io/
+
+Package: redis-server
+Priority: optional
+Section: database
+Installed-Size: 1223
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: redis
+Version: 2:3.0.1-1~dotdeb+8.1
+Depends: adduser, redis-tools (= 2:3.0.1-1~dotdeb+8.1), init-system-helpers (>= 1.18~), libc6 (>= 2.14)
+Filename: pool/all/r/redis/redis-server_3.0.1-1~dotdeb+8.1_amd64.deb
+Size: 439166
+MD5sum: c0502200ef8a3180aa7817001cf0ef41
+SHA1: 871cef66ce471656022a6f6832fe2dbdd87f4d36
+SHA256: d283fade8ac5db9fda31713945912188866394598c45a1ee564a7feaf77320a0
+Description: Persistent key-value database with network interface
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ The dataset is stored entirely in memory and periodically flushed to disk.
+Homepage: http://redis.io/
+
+Package: redis-server
+Priority: optional
+Section: database
+Installed-Size: 1227
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: redis
+Version: 2:3.0.0-1~dotdeb+jessie.1
+Depends: adduser, redis-tools (= 2:3.0.0-1~dotdeb+jessie.1), init-system-helpers (>= 1.18~), libc6 (>= 2.14)
+Filename: pool/all/r/redis/redis-server_3.0.0-1~dotdeb+jessie.1_amd64.deb
+Size: 439110
+MD5sum: cf24d8bb4b5b0c4fd398d0fd38b2063c
+SHA1: 8e20a38b7f79a2f0831e613a0fbb9304de005885
+SHA256: b7c3a8ff8944dafaa1d1df6a43b39a30b2618e68d18bc687b196e8789d4e5e6d
+Description: Persistent key-value database with network interface
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ The dataset is stored entirely in memory and periodically flushed to disk.
+Homepage: http://redis.io/
+
+Package: redis-tools
+Priority: optional
+Section: database
+Installed-Size: 822
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: redis
+Version: 2:3.0.1-1~dotdeb+8.1
+Replaces: redis-server (<< 2:2.6.16-1)
+Depends: libc6 (>= 2.14)
+Breaks: redis-server (<< 2:2.6.16-1)
+Filename: pool/all/r/redis/redis-tools_3.0.1-1~dotdeb+8.1_amd64.deb
+Size: 193334
+MD5sum: 699dae323ca5cf9d9c810b46e69c0840
+SHA1: 57a359410b42711a4a3dbe313348844167b3ef4f
+SHA256: 5fbd83389e2ac7e1e4eed024b5d7bd3c5a3e48bd873ed6d19758ada5fd339406
+Description: Persistent key-value database with network interface (client)
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ This package contains the command line client and other tools.
+Homepage: http://redis.io/
+
+Package: redis-tools
+Priority: optional
+Section: database
+Installed-Size: 822
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Architecture: amd64
+Source: redis
+Version: 2:3.0.0-1~dotdeb+jessie.1
+Replaces: redis-server (<< 2:2.6.16-1)
+Depends: libc6 (>= 2.14)
+Breaks: redis-server (<< 2:2.6.16-1)
+Filename: pool/all/r/redis/redis-tools_3.0.0-1~dotdeb+jessie.1_amd64.deb
+Size: 193622
+MD5sum: 72846377e11fa59587a8d0130acb3319
+SHA1: 5cd36a154e393f61570f187bb174e98889423434
+SHA256: d6e4f5ecb800e9ebd56114d85a6b273a0ab54a69c255a58be0a32bf3e037085f
+Description: Persistent key-value database with network interface (client)
+ Redis is a key-value database in a similar vein to memcache but the dataset
+ is non-volatile. Redis additionally provides native support for atomically
+ manipulating and querying data structures such as lists and sets.
+ .
+ This package contains the command line client and other tools.
+Homepage: http://redis.io/
+

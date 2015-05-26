@@ -302,6 +302,44 @@ Description-en: Open Source, Distributed, RESTful Search Engine
    - Single document level operations are atomic, consistent, isolated and
      durable.
 
+Package: fuse
+Description-md5: 7c02c670c9296dcdf481f6c060b0083d
+Description-en: Filesystem in Userspace
+ Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
+ export a virtual filesystem to the Linux kernel. It also aims to provide a
+ secure method for non privileged users to create and mount their own filesystem
+ implementations.
+
+Package: fuse-dbg
+Description-md5: 843dcbbdec369720ffbde3d0f0bc50be
+Description-en: Filesystem in Userspace (debug)
+ Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
+ export a virtual filesystem to the Linux kernel. It also aims to provide a
+ secure method for non privileged users to create and mount their own filesystem
+ implementations.
+ .
+ This package contains the debugging symbols.
+
+Package: libfuse-dev
+Description-md5: da11b1a71c864509638e23fbce6723a3
+Description-en: Filesystem in Userspace (development)
+ Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
+ export a virtual filesystem to the Linux kernel. It also aims to provide a
+ secure method for non privileged users to create and mount their own filesystem
+ implementations.
+ .
+ This package contains the development files.
+
+Package: libfuse2
+Description-md5: 2838d8f82765d1fc4d4e07819a7b8d25
+Description-en: Filesystem in Userspace (library)
+ Filesystem in Userspace (FUSE) is a simple interface for userspace programs to
+ export a virtual filesystem to the Linux kernel. It also aims to provide a
+ secure method for non privileged users to create and mount their own filesystem
+ implementations.
+ .
+ This package contains the shared library.
+
 Package: hello
 Description-md5: c4a4aec43084cfb4a44c959b27e3a6d6
 Description-en: example package based on GNU hello
@@ -1116,6 +1154,24 @@ Description-en: Zulu language package for Iceweasel
  with support for modern web application technologies.
  .
  This package contains the localization of Iceweasel in Zulu.
+
+Package: ipsec-tools
+Description-md5: 47ce7806ae074dc9fcef15b402834e1f
+Description-en: IPsec utilities
+ IPsec (Internet Protocol security) offers end-to-end security for
+ network traffic at the IP layer.
+ .
+ This package is a Linux port of the utilities from the KAME IPsec
+ implementation on BSD.
+
+Package: racoon
+Description-md5: cebbc15cc909dfc3b4ae68cc1b03b53e
+Description-en: IPsec Internet Key Exchange daemon
+ IPsec (Internet Protocol security) offers end-to-end security for
+ network traffic at the IP layer.
+ .
+ This package is a Linux port of the IKE server from the KAME IPsec
+ implementation on BSD.
 
 Package: libmodule-signature-perl
 Description-md5: 003b4a0e2accc05cf4a4ef88654a7733
@@ -4809,6 +4865,58 @@ Description-en: MySQL testsuite
  .
  This package includes the MySQL testsuite.
 
+Package: nbd-client
+Description-md5: 50b5081db709f9bc399b8b74366d1d8f
+Description-en: Network Block Device protocol - client
+ Network Block Device (NBD) is a client/server protocol that
+ emulates a block device (such as a hard disk, a floppy, or a CD-ROM)
+ over the network, thus giving the system the ability to swap over the
+ network, or to use raw network disk space for other purposes.
+ .
+ However, writing to one Network Block Device from different clients
+ simultaneously is not recommended, and would probably result in data
+ loss. If you want multiple clients to share a remote resource, use a
+ network file system such as NFS or Coda.
+ .
+ This package provides the client binary for NBD.
+
+Package: nbd-server
+Description-md5: e277eb8c796be1246a3bdf1f441257b9
+Description-en: Network Block Device protocol - server
+ Network Block Device (NBD) is a client/server protocol that
+ emulates a block device (such as a hard disk, a floppy, or a CD-ROM)
+ over the network, thus giving the system the ability to swap over the
+ network, or to use raw network disk space for other purposes.
+ .
+ However, writing to one Network Block Device from different clients
+ simultaneously is not recommended, and would probably result in data
+ loss. If you want multiple clients to share a remote resource, use a
+ network file system such as NFS or Coda.
+ .
+ This package provides the server binary for NBD.
+
+Package: ntfs-3g
+Description-md5: d38b96403238266210560bdd2ee0d28c
+Description-en: read/write NTFS driver for FUSE
+ NTFS-3G uses FUSE (Filesystem in Userspace) to provide support for the NTFS
+ filesystem used by Microsoft Windows.
+
+Package: ntfs-3g-dbg
+Description-md5: 4d27c9bf99072e55f4dbb4647c384b5f
+Description-en: read/write NTFS driver for FUSE (debug)
+ NTFS-3G uses FUSE (Filesystem in Userspace) to provide support for the NTFS
+ filesystem used by Microsoft Windows.
+ .
+ This package contains the debugging symbols.
+
+Package: ntfs-3g-dev
+Description-md5: f17752933720148edc7d3f25b03e9fee
+Description-en: read/write NTFS driver for FUSE (development)
+ NTFS-3G uses FUSE (Filesystem in Userspace) to provide support for the NTFS
+ filesystem used by Microsoft Windows.
+ .
+ This package contains the development files.
+
 Package: icedtea-7-jre-jamvm
 Description-md5: a3b67c2c3683232269f84a02ede3fd4b
 Description-en: Alternative JVM for OpenJDK, using JamVM
@@ -5086,6 +5194,231 @@ Description-en: debugging symbols for PowerDNS recursor
  .
  This package contains debugging symbols for PowerDNS to assist in
  debugging, such as with gdb. It is not required for normal operation.
+
+Package: postgresql-plperl-9.1
+Description-md5: 2b9c7b7b530b4340a6a7d885c6595c99
+Description-en: PL/Perl procedural language for PostgreSQL 9.1
+ PL/Perl enables an SQL developer to write procedural language functions
+ for PostgreSQL 9.1 in Perl.  You need this package if you have any
+ PostgreSQL 9.1 functions that use the languages plperl or plperlu.
+ .
+ PostgreSQL 9.1 is obsolete. This package is only provided for upgrades from
+ 9.1 from Debian 7.x ("Wheezy") and should not be installed otherwise.
+
+Package: libecpg-compat3
+Description-md5: 66ce228306ea5636e1cb757bd540255b
+Description-en: older version of run-time library for ECPG programs
+ The libecpg_compat shared library is used by programs built with ecpg.
+ (Embedded PostgreSQL for C).
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: libecpg-dev
+Description-md5: 5eb928e68d1075508e3d6a4d7fc6f514
+Description-en: development files for ECPG (Embedded PostgreSQL for C)
+ This package contains the necessary files to build ECPG (Embedded
+ PostgreSQL for C) programs.  It includes the development libraries
+ and the preprocessor program ecpg.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+ .
+ Install this package if you want to write C programs with SQL statements
+ embedded in them (rather than run by an external process).
+
+Package: libecpg6
+Description-md5: 51ed6df58b24baddae9952acb91903bd
+Description-en: run-time library for ECPG programs
+ The libecpg shared library is used by programs built with ECPG
+ (Embedded PostgreSQL for C).
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: libpgtypes3
+Description-md5: c940ba91bfefe6f16573eb3f23b555d9
+Description-en: shared library libpgtypes for PostgreSQL 9.4
+ The libpgtypes shared library is used by programs built with ecpg.
+ (Embedded PostgreSQL for C).
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: libpq-dev
+Description-md5: 7f4362b106aae6b219ccc880faa1f04c
+Description-en: header files for libpq5 (PostgreSQL library)
+ Header files and static library for compiling C programs to link
+ with the libpq library in order to communicate with a PostgreSQL
+ database backend.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: libpq5
+Description-md5: 4109d08c168c8058d09c0cc8bf8b18b1
+Description-en: PostgreSQL C client library
+ libpq is a C library that enables user programs to communicate with
+ the PostgreSQL database server.  The server can be on another machine
+ and accessed through TCP/IP.  This version of libpq is compatible
+ with servers from PostgreSQL 8.2 or later.
+ .
+ This package contains the run-time library, needed by packages using
+ libpq.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: postgresql-9.4
+Description-md5: eedbb9b30b9afe086ba4d5dc1c488dac
+Description-en: object-relational SQL database, version 9.4 server
+ PostgreSQL is a fully featured object-relational database management
+ system.  It supports a large part of the SQL standard and is designed
+ to be extensible by users in many aspects.  Some of the features are:
+ ACID transactions, foreign keys, views, sequences, subqueries,
+ triggers, user-defined types and functions, outer joins, multiversion
+ concurrency control.  Graphical user interfaces and bindings for many
+ programming languages are available as well.
+ .
+ This package provides the database server for PostgreSQL 9.4. Servers
+ for other major release versions can be installed simultaneously and
+ are coordinated by the postgresql-common package. A package providing
+ ident-server is needed if you want to authenticate remote connections
+ with identd.
+
+Package: postgresql-9.4-dbg
+Description-md5: 8656086cbf9dcbded4caa55be2c62ba6
+Description-en: debug symbols for postgresql-9.4
+ PostgreSQL is a fully featured object-relational database management
+ system.  It supports a large part of the SQL standard and is designed
+ to be extensible by users in many aspects.  Some of the features are:
+ ACID transactions, foreign keys, views, sequences, subqueries,
+ triggers, user-defined types and functions, outer joins, multiversion
+ concurrency control.  Graphical user interfaces and bindings for many
+ programming languages are available as well.
+ .
+ This package provides detached debugging symbols for PostgreSQL 9.4.
+
+Package: postgresql-client-9.4
+Description-md5: 76b239f86fcb8ac90d5c22782798002c
+Description-en: front-end programs for PostgreSQL 9.4
+ This package contains client and administrative programs for
+ PostgreSQL: these are the interactive terminal client psql and
+ programs for creating and removing users and databases.
+ .
+ This is the client package for PostgreSQL 9.4. If you install
+ PostgreSQL 9.4 on a standalone machine, you need the server package
+ postgresql-9.4, too. On a network, you can install this package on
+ many client machines, while the server package may be installed on
+ only one machine.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: postgresql-contrib-9.4
+Description-md5: 69457d8d72dc39d4893f4794913511ea
+Description-en: additional facilities for PostgreSQL
+ The PostgreSQL contrib package provides several additional features
+ for the PostgreSQL database. This version is built to work with the
+ server package postgresql-9.4.  contrib often serves as a testbed for
+ features before they are adopted into PostgreSQL proper:
+ .
+  adminpack      - File and log manipulation routines, used by pgAdmin
+  btree_gist     - B-Tree indexing using GiST (Generalised Search Tree)
+  chkpass        - An auto-encrypted password datatype
+  cube           - Multidimensional-cube datatype (GiST indexing example)
+  dblink         - Functions to return results from a remote database
+  earthdistance  - Operator for computing the distance (in miles) between
+                   two points on the earth's surface
+  fuzzystrmatch  - Levenshtein, metaphone, and soundex fuzzy string matching
+  hstore         - Store (key, value) pairs
+  intagg         - Integer aggregator/enumerator
+  _int           - Index support for arrays of int4, using GiST (benchmark
+                   needs the libdbd-pg-perl package)
+  isn            - type extensions for ISBN, ISSN, ISMN, EAN13 product numbers
+  lo             - Large Object maintenance
+  ltree          - Tree-like data structures
+  oid2name       - Maps OIDs to table names
+  pageinspect    - Inspection of database pages
+  passwordcheck  - Simple password strength checker
+  pg_buffercache - Real time queries on the shared buffer cache
+  pg_freespacemap- Displays the contents of the free space map (FSM)
+  pg_trgm        - Determine the similarity of text based on trigram matching
+  pg_standby     - Create a warm stand-by server
+  pgbench        - TPC-B like benchmark
+  pgcrypto       - Cryptographic functions
+  pgrowlocks     - A function to return row locking information
+  pgstattuple    - Returns the percentage of dead tuples in a table; this
+                   indicates whether a vacuum is required.
+  postgresql_fdw - foreign data wrapper for PostgreSQL
+  seg            - Confidence-interval datatype (GiST indexing example)
+  sepgsql        - mandatory access control (MAC) based on SELinux
+  spi            - PostgreSQL Server Programming Interface; 4 examples of
+                   its use:
+                   autoinc    - A function for implementing AUTOINCREMENT/
+                                IDENTITY
+                   insert_username - function for inserting user names
+                   moddatetime - Update modification timestamps
+                   refint     - Functions for implementing referential
+                                integrity (foreign keys).  Note that this is
+                                now superseded by built-in referential
+                                integrity.
+                   timetravel - Re-implements in user code the time travel
+                                feature that was removed in 6.3.
+  tablefunc      - examples of functions returning tables
+  uuid-ossp      - UUID generation functions
+  vacuumlo       - Remove orphaned large objects
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: postgresql-doc-9.4
+Description-md5: dd199026c1d6b88ab1c24432d4fe87b9
+Description-en: documentation for the PostgreSQL database management system
+ This package contains all README files, user manual, and examples for
+ PostgreSQL 9.4. The manual is in HTML format.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: postgresql-plperl-9.4
+Description-md5: e9be9f28c9bec6ba68cc64e444ce9cb0
+Description-en: PL/Perl procedural language for PostgreSQL 9.4
+ PL/Perl enables an SQL developer to write procedural language functions
+ for PostgreSQL 9.4 in Perl.  You need this package if you have any
+ PostgreSQL 9.4 functions that use the languages plperl or plperlu.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: postgresql-plpython-9.4
+Description-md5: a7f57d9b860eeab5c2e9a345a4b0c090
+Description-en: PL/Python procedural language for PostgreSQL 9.4
+ PL/Python enables an SQL developer to write procedural language functions
+ for PostgreSQL 9.4 in Python.  You need this package if you have any
+ PostgreSQL 9.4 functions that use the languages plpython or plpythonu.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: postgresql-plpython3-9.4
+Description-md5: 1825f81e2de38e06a579c6e1696fc42b
+Description-en: PL/Python 3 procedural language for PostgreSQL 9.4
+ PL/Python 3 enables an SQL developer to write procedural language functions
+ for PostgreSQL 9.4 in Python 3.  You need this package if you have any
+ PostgreSQL 9.4 functions that use the languages plpython3 or plpython3u.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: postgresql-pltcl-9.4
+Description-md5: 36135680f42fd87bb0ab7c73e7f89156
+Description-en: PL/Tcl procedural language for PostgreSQL 9.4
+ PL/Tcl enables an SQL developer to write procedural language functions
+ for PostgreSQL 9.4 in Tcl.  You need this package if you have any
+ PostgreSQL 9.4 functions that use the languages pltcl or pltclu.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
+Package: postgresql-server-dev-9.4
+Description-md5: 750d6a30756c35825898adac0065d537
+Description-en: development files for PostgreSQL 9.4 server-side programming
+ Header files for compiling SSI code to link into PostgreSQL's backend; for
+ example, for C functions to be called from SQL.
+ .
+ This package also contains the Makefiles necessary for building add-on
+ modules of PostgreSQL, which would otherwise have to be built in the
+ PostgreSQL source-code tree.
+ .
+ PostgreSQL is an object-relational SQL database management system.
 
 Package: pound
 Description-md5: 77665556c0db8f66e545d156693dbbf1

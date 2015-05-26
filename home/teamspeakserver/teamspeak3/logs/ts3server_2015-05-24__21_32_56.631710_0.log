@@ -8,3 +8,4 @@
 2015-05-24 21:33:00.775877|INFO    |FileManager   |   | listening on 0.0.0.0:30033
 2015-05-24 21:33:01.080101|INFO    |CIDRManager   |   | updated query_ip_whitelist ips: 127.0.0.1, 
 2015-05-24 21:33:01.081819|INFO    |Query         |   | listening on 0.0.0.0:10011
+2015-05-26 17:42:56.286209|INFO    |ServerMain    |   | Received signal SIGTERM, shutting down.

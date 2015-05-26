@@ -1,4 +1,4 @@
-root:$6$7zmm0i9K$VfX5.BIMDMePhe2siBP/LVM0TprWS2QvoNWdxhbeKPphRIOVcwwc5ui.NF1ELc610vna7pG2o7gHyrrm7xuV8/:16575:0:99999:7:::
+root:$6$xkTkASPV$ST3JSZwUzVzn7qjqj4nYNcaus6RZlBMibGbB6aLWlg8TSXZoukcvmDru.EdxqwqXJXAK.3LP9Q.1fNk1q9HQq/:16581:0:99999:7:::
 daemon:*:16380:0:99999:7:::
 bin:*:16380:0:99999:7:::
 sys:*:16380:0:99999:7:::
@@ -32,3 +32,12 @@ ftp:*:16578:0:99999:7:::
 croogo:$6$ut0bqn56$w8EprX5XEQje6JmOErIKZ9SXFGC3vJICTQwqDE7OTlG54tcdW5853p1He45h91V5eYXFx.qKegq65Iy6oVi9o0:16579:0:99999:7:::
 teamspeakserver:$6$55wnM2L2$imPU8UJe2FyS.srklJ7gWGWyaMqMYRLee16Y7gNJPb3ViGzCgllpQPzRqReORqEnOsgAFiKwSIQNam3critDY.:16579:0:99999:7:::
 croogomulti:$6$9NaICubV$OV6/2p4ZlYA6sS6ergWeIauIMguol.HtDe3cm9U2hb1zGcL92lCRs52orXoq2jL/0ixWxnfPCLcVZJmh1GAoj.:16580:0:99999:7:::
+cdcasso:$6$KxZmcNqc$rWtau1SWv68CaDzL7K9fxVe0bPzrdqtxNm3f8YJZHX7XicVXKt7/6f/7uCzaEwzP3hO1IOUZE0.0qh3Yksqre0:16580:0:99999:7:::
+nginx:!:16581:0:99999:7:::
+postfix:*:16581:0:99999:7:::
+dovecot:*:16581:0:99999:7:::
+dovenull:*:16581:0:99999:7:::
+vmail:!:16581:0:99999:7:::
+opendkim:*:16581:0:99999:7:::
+opendmarc:*:16581:0:99999:7:::
+debian-spamd:*:16581:0:99999:7:::

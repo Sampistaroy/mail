@@ -958,6 +958,95 @@ Variables:
  dbvendor = MySQL
  pkg = phpmyadmin
 
+Name: postfix/bad_recipient_delimiter
+Template: postfix/bad_recipient_delimiter
+Owners: postfix
+
+Name: postfix/chattr
+Template: postfix/chattr
+Owners: postfix
+
+Name: postfix/destinations
+Template: postfix/destinations
+Value: hostname.assolive.com, ns331245.ip-37-187-121.eu, localhost.ip-37-187-121.eu, localhost
+Owners: postfix
+Flags: set
+
+Name: postfix/kernel_version_warning
+Template: postfix/kernel_version_warning
+Owners: postfix
+
+Name: postfix/mailbox_limit
+Template: postfix/mailbox_limit
+Owners: postfix
+
+Name: postfix/mailname
+Template: postfix/mailname
+Value: hostname.assolive.com
+Owners: postfix
+Flags: seen
+
+Name: postfix/main_mailer_type
+Template: postfix/main_mailer_type
+Value: Internet Site
+Owners: postfix
+Flags: seen
+
+Name: postfix/mydomain_warning
+Template: postfix/mydomain_warning
+Owners: postfix
+
+Name: postfix/mynetworks
+Template: postfix/mynetworks
+Owners: postfix
+
+Name: postfix/not_configured
+Template: postfix/not_configured
+Owners: postfix
+
+Name: postfix/procmail
+Template: postfix/procmail
+Value: false
+Owners: postfix
+
+Name: postfix/protocols
+Template: postfix/protocols
+Value: all
+Owners: postfix
+
+Name: postfix/recipient_delim
+Template: postfix/recipient_delim
+Owners: postfix
+
+Name: postfix/relay_restrictions_warning
+Template: postfix/relay_restrictions_warning
+Owners: postfix
+
+Name: postfix/relayhost
+Template: postfix/relayhost
+Value: 
+Owners: postfix
+
+Name: postfix/retry_upgrade_warning
+Template: postfix/retry_upgrade_warning
+Owners: postfix
+
+Name: postfix/rfc1035_violation
+Template: postfix/rfc1035_violation
+Owners: postfix
+
+Name: postfix/root_address
+Template: postfix/root_address
+Owners: postfix
+
+Name: postfix/sqlite_warning
+Template: postfix/sqlite_warning
+Owners: postfix
+
+Name: postfix/tlsmgr_upgrade_warning
+Template: postfix/tlsmgr_upgrade_warning
+Owners: postfix
+
 Name: shared/proftpd/inetd_or_standalone
 Template: shared/proftpd/inetd_or_standalone
 Value: standalone

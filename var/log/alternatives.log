@@ -15,3 +15,11 @@ update-alternatives 2015-05-25 22:53:18: run with --remove x-terminal-emulator /
 update-alternatives 2015-05-25 22:53:18: link group x-terminal-emulator fully removed
 update-alternatives 2015-05-25 22:53:21: run with --remove libtxc-dxtn-x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libtxc_dxtn_s2tc.so.0
 update-alternatives 2015-05-25 22:53:21: link group libtxc-dxtn-x86_64-linux-gnu fully removed
+update-alternatives 2015-05-26 19:24:45: run with --quiet --install /lib/cpp cpp /usr/bin/cpp 10
+update-alternatives 2015-05-26 19:24:45: link group cpp updated to point to /usr/bin/cpp
+update-alternatives 2015-05-26 19:24:45: run with --quiet --install /usr/bin/cc cc /usr/bin/gcc 20
+update-alternatives 2015-05-26 19:24:45: link group cc updated to point to /usr/bin/gcc
+update-alternatives 2015-05-26 19:24:45: run with --quiet --install /usr/bin/c89 c89 /usr/bin/c89-gcc 20 --slave /usr/share/man/man1/c89.1.gz c89.1.gz /usr/share/man/man1/c89-gcc.1.gz
+update-alternatives 2015-05-26 19:24:45: link group c89 updated to point to /usr/bin/c89-gcc
+update-alternatives 2015-05-26 19:24:45: run with --quiet --install /usr/bin/c99 c99 /usr/bin/c99-gcc 20 --slave /usr/share/man/man1/c99.1.gz c99.1.gz /usr/share/man/man1/c99-gcc.1.gz
+update-alternatives 2015-05-26 19:24:45: link group c99 updated to point to /usr/bin/c99-gcc

@@ -57,3 +57,12 @@ croogo:!::
 teamspeakserver:!::
 croogomulti:!::
 cdcasso:!::
+utempter:!::
+nginx:!::
+postfix:!::
+postdrop:!::
+dovecot:!::
+dovenull:!::
+vmail:!::
+opendkim:!::postfix
+opendmarc:!::postfix

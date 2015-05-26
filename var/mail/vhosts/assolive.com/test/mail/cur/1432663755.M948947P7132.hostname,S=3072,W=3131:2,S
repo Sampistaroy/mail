@@ -1,0 +1,59 @@
+Return-Path: <admin@assolive.com>
+Delivered-To: <test@assolive.com>
+Received: from hostname.assolive.com
+	by hostname.assolive.com (Dovecot) with LMTP id cp62NMu2ZFXcGwAAume3iQ
+	for <test@assolive.com>; Tue, 26 May 2015 20:09:15 +0200
+Received: by hostname.assolive.com (Postfix, from userid 116)
+	id 97A5CC0A64; Tue, 26 May 2015 20:09:15 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=assolive.com; s=mail;
+	t=1432663755; bh=QgJIMkj7bcmiv3bFFw8uU+eTOPQz1gHSN7Nj+L6bx8g=;
+	h=To:From:Subject:Date:From;
+	b=CTeteChdTZtb2G98mlGjbkbPGDI6gqS3/9YWdRWJVuas2ucIkKqWA2RU4JqUu3Kxd
+	 XcIM1TIBPoDUDs6D5AIW1UvxYCFRK773Fh5t5am33sIFy3OHS+/Q7b7Qf6dTz56V9H
+	 XgWTb20onWaKlSRdWKzthN1V9QK8TeL/vp6vfsGaK1ugEfp01tPMFH2+gZHjgrF5bF
+	 66xOsHDlAZtfawXSAz6KvgIbrvgxLS4zZJTB6fa0z6aLNTP0M3gzV5ptXK98xLE+Wm
+	 l2Au1pkPQea6MG/4XGSLz2HL+yvZcIuyzCCkFzFZ2CxKpbwN2Xhh2ZQiwoMheXZqAH
+	 WbSciajSabqqvgJyRGqSkz8Dtwd1JsGJ4pPdna1WOtpUtmgIslmlw5FALKYckqd+nf
+	 rUhl50Wo1iACIpj54vaH7myE8L6y3zOg6IwC0PL6PfD/FKRZQAGWfCDRRR/VAhn2t+
+	 MPYFgFfGkusORGUATVKgV6K35LlKWGxXXcV+xqvLPi+ZFsn0jtFwxr1gUEIBXT6x0b
+	 EbUra0Jy6qpcYpd4RtZtnuyVndoy1AmLWT790esN1Y+TkocxMBcjbH5yLVe3shXUpD
+	 Wt9u+IYgclOGwQhjTxCvKRvBmGqIFl5OpL3GEIsY0a6/V97o99zkxTpryUZlTrya4w
+	 Ayc0Cn434CM1btoIXnXMVuSw=
+X-Spam-Report: 
+	* -100 USER_IN_WHITELIST From: address is in the user's white-list
+	* -1.0 ALL_TRUSTED Passed through trusted hosts only via SMTP
+	*  0.0 T_DKIM_INVALID DKIM-Signature header exists but is not valid
+X-Spam-Status: No, score=-101.0 required=5.0 tests=ALL_TRUSTED,T_DKIM_INVALID,
+	USER_IN_WHITELIST autolearn=ham autolearn_force=no version=3.4.0
+X-Spam-Level: 
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	hostname.assolive.com
+Received: from hostname (localhost.localdomain [127.0.0.1])
+	by hostname.assolive.com (Postfix) with ESMTP id 3A65FC0A56
+	for <test@assolive.com>; Tue, 26 May 2015 20:09:15 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=assolive.com; s=mail;
+	t=1432663755; bh=QgJIMkj7bcmiv3bFFw8uU+eTOPQz1gHSN7Nj+L6bx8g=;
+	h=To:From:Subject:Date:From;
+	b=CTeteChdTZtb2G98mlGjbkbPGDI6gqS3/9YWdRWJVuas2ucIkKqWA2RU4JqUu3Kxd
+	 XcIM1TIBPoDUDs6D5AIW1UvxYCFRK773Fh5t5am33sIFy3OHS+/Q7b7Qf6dTz56V9H
+	 XgWTb20onWaKlSRdWKzthN1V9QK8TeL/vp6vfsGaK1ugEfp01tPMFH2+gZHjgrF5bF
+	 66xOsHDlAZtfawXSAz6KvgIbrvgxLS4zZJTB6fa0z6aLNTP0M3gzV5ptXK98xLE+Wm
+	 l2Au1pkPQea6MG/4XGSLz2HL+yvZcIuyzCCkFzFZ2CxKpbwN2Xhh2ZQiwoMheXZqAH
+	 WbSciajSabqqvgJyRGqSkz8Dtwd1JsGJ4pPdna1WOtpUtmgIslmlw5FALKYckqd+nf
+	 rUhl50Wo1iACIpj54vaH7myE8L6y3zOg6IwC0PL6PfD/FKRZQAGWfCDRRR/VAhn2t+
+	 MPYFgFfGkusORGUATVKgV6K35LlKWGxXXcV+xqvLPi+ZFsn0jtFwxr1gUEIBXT6x0b
+	 EbUra0Jy6qpcYpd4RtZtnuyVndoy1AmLWT790esN1Y+TkocxMBcjbH5yLVe3shXUpD
+	 Wt9u+IYgclOGwQhjTxCvKRvBmGqIFl5OpL3GEIsY0a6/V97o99zkxTpryUZlTrya4w
+	 Ayc0Cn434CM1btoIXnXMVuSw=
+To: test@assolive.com
+From: admin@assolive.com
+Subject: Bienvenue
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Message-Id: <20150526180915.3A65FC0A56@hostname.assolive.com>
+Date: Tue, 26 May 2015 20:09:15 +0200 (CEST)
+
+Hi,
+
+Welcome to your new account.

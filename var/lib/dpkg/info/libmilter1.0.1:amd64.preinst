@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+PACKAGE=libmilter1.0.1;
+
+if [ -L /usr/share/doc/$PACKAGE ]; then
+	# /usr/share/doc/$PACKAGE was a symlink to /usr/share/doc/sendmail
+	rm /usr/share/doc/$PACKAGE
+fi
+if [ -L /usr/share/bug/$PACKAGE ]; then
+	rm /usr/share/bug/$PACKAGE
+fi
+
+

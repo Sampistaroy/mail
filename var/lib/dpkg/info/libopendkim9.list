@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libopendkim9
+/usr/share/doc/libopendkim9/changelog.gz
+/usr/share/doc/libopendkim9/changelog.Debian.gz
+/usr/share/doc/libopendkim9/KNOWNBUGS
+/usr/share/doc/libopendkim9/copyright
+/usr/lib
+/usr/lib/libopendkim.so.9.0.3
+/usr/lib/libopendkim.so.9

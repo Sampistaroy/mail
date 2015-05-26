@@ -1,0 +1,10 @@
+May 26 19:21:40 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=13250 uid=0 code=kill)
+May 26 19:27:24 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=21341 uid=0 code=kill)
+May 26 19:27:25 ns331245 dovecot: ssl-params: Warning: Regenerating /var/lib/dovecot/ssl-parameters.dat for ssl_dh_parameters_length=2048
+May 26 19:27:30 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=21904 uid=0 code=kill)
+May 26 19:27:31 ns331245 dovecot: ssl-params: Warning: Regenerating /var/lib/dovecot/ssl-parameters.dat for ssl_dh_parameters_length=2048
+May 26 19:27:35 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=22135 uid=0 code=kill)
+May 26 19:27:35 ns331245 dovecot: ssl-params: Warning: Regenerating /var/lib/dovecot/ssl-parameters.dat for ssl_dh_parameters_length=2048
+May 26 19:29:27 ns331245 dovecot: master: Warning: Killed with signal 15 (by pid=23869 uid=0 code=kill)
+May 26 19:29:28 ns331245 dovecot: ssl-params: Warning: Regenerating /var/lib/dovecot/ssl-parameters.dat for ssl_dh_parameters_length=2048
+May 26 19:52:37 hostname spamd[4732]: config: created user preferences file: /var/lib/spamassassin/.spamassassin/user_prefs
